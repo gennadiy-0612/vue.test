@@ -1,3 +1,3 @@
 <template>
-  <h1>kkk</h1>
+  <h2>Home</h2>
 </template>

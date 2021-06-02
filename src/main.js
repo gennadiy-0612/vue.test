@@ -10,7 +10,7 @@ Vue.config.productionTip = false
 // 1. Define route components.
 // These can be imported from other files
 const Foo = { template: '<div>foo</div>' }
-const Bar = { template: '<div>fff</div>' }
+const Bar = { template: '<div>bar</div>' }
 
 // 2. Define some routes
 // Each route should map to a component. The "component" can
@@ -21,24 +21,7 @@ const routes = [
   { path: '/foo', component: Foo },
   { path: '/bar', component: Bar }
 ]
-const routes = [
-  {
-    path: '/',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      { path: '', component: () => import('pages/Index.vue') },
-      { path: 'login', name: 'login', component: () => import('pages/Login.vue') },
-      { path: 'profile', name: 'profile', component: () => import('pages/Profile.vue') }
-    ]
-  },
 
-  // Always leave this as last one,
-  // but you can also remove it
-  {
-    path: '*',
-    component: () => import('pages/Error404.vue')
-  }
-]
 // 3. Create the router instance and pass the `routes` option
 // You can pass in additional options here, but let's
 // keep it simple for now.

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
+
+@media (max-width: 1069px) {
+    .width-full {
+        width: 100%;
+    }
+
+    .X {
+        margin: 10px 0 10px auto;
+    }
+
+    .m-top5 {
+        margin-top: 5px;
+    }
+
+    .m-top11 {
+        margin-top: 11px;
+    }
+
+    .m-top14 {
+        margin-top: 14px;
+    }
+
+    .m-top16 {
+        margin-top: 16px;
+    }
+
+    .m-top21 {
+        margin-top: 21px;
+    }
+
+    .m-top27 {
+        margin-top: 27px;
+    }
+
+    .m-top30 {
+        margin-top: 30px;
+    }
+
+    .mt14-mb5 {
+        margin: 14px 0 5px;
+    }
+
+    .m-tb14 {
+        margin: 14px 0;
+    }
+
+    .m-r16 {
+        margin-right: 16px;
+    }
+
+    .mt-mb16 {
+        margin: 16px 0;
+    }
+
+    .mt5-mb10 {
+        margin: 5px 0 10px;
+    }
+
+    .m-16px {
+        margin: 16px;
+    }
+
+    .sizes114x77 {
+        width: 100%;
+        min-width: 114px;
+        min-height: 77px;
+    }
+
+    .p-10 {
+        padding: 10px;
+
+    }
+
+    .flex-two-col {
+        flex: 1 1 50%;
+    }
+
+    .max-w-46-4 {
+        max-width: 46.4%;
+    }
+
+    .E6E6E6 {
+        background-color: #E6E6E6;
+    }
+
+    .Ag-h3-to-1070 {
+        font: normal 600 18px/22px 'Montserrat';
+    }
+
+    .Ag-text12-to-1070 {
+        font: normal 400 12px/18px 'Montserrat';
+    }
+
+    .Ag-text14-to-1070 {
+        font: normal 400 14px/21px 'Montserrat';
+    }
+
+    .Ag-text16-to-1070 {
+        font: normal 400 16px/20px 'Montserrat';
+    }
+
+    .Ag-text18-to-1070 {
+        font: normal 400 18px/22px 'Montserrat';
+    }
+}

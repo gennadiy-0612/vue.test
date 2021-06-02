@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div>
     <X/>
     <Photo msg="Photo"/>

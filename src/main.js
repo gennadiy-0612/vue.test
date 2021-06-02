@@ -11,19 +11,19 @@ Vue.use(VueRouter)
 Vue.config.productionTip = false
 
 const routes = [
-    {path: '/popupbluda', component: PopupBluda},
-    {path: '/popupcombo', component: PopupCombo},
-    {path: '*', component: Error}
+  {path: '/popupbluda', component: PopupBluda},
+  {path: '/popupcombo', component: PopupCombo},
+  {path: '*', component: Error}
 ]
 
 const router = new VueRouter({
-    mode: 'history',
-    hash: false,
-    routes // short for `routes: routes`
+  mode: 'history',
+  hash: false,
+  routes // short for `routes: routes`
 })
 
 const app = new Vue({
-    router
+  router
 }).$mount('#app')
 
 export default app

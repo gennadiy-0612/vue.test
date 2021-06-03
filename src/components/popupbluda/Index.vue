@@ -27,7 +27,7 @@ import AlsoBuy from './AlsoBuy.vue'
 import AlsoItem from './AlsoItem.vue'
 import LoadBar from './LoadBar.vue'
 import OrderMore from './OrderMore.vue'
-import AddToCard from '../addtocard/Index.vue'
+import AddToCard from '../addtocardgreen/Index.vue'
 
 export default {
   name: 'App',

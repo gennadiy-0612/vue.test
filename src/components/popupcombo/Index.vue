@@ -3,13 +3,16 @@
     <X/>
     <Photo msg="Photo"/>
     <Descriptor/>
-    <DescriptionItem/>
-    <DescriptionItem/>
-    <DescriptionItem/>
-    <DescriptionItem/>
+    <div class="p-b5px">
+      <DescriptionItem/>
+      <DescriptionItem/>
+      <DescriptionItem/>
+      <DescriptionItem/>
+    </div>
     <LoadBar/>
     <OrderMore/>
     <AddCard/>
+    <MenuBottom/>
   </div>
 </template>
 <script>
@@ -20,6 +23,7 @@ import DescriptionItem from './DescriptionItem.vue'
 import LoadBar from '../popupbluda/LoadBar.vue'
 import OrderMore from '../popupbluda/OrderMore.vue'
 import AddCard from './AddCard.vue'
+import MenuBottom from '../menubottom/Index.vue'
 
 export default {
   name: 'App',
@@ -30,7 +34,8 @@ export default {
     DescriptionItem,
     OrderMore,
     LoadBar,
-    AddCard
+    AddCard,
+    MenuBottom
   }
 }
 </script>

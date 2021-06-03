@@ -160,6 +160,9 @@ html {
     .p-l7px {
         padding: 0 0 0 7px;
     }
+    .p-b5px{
+        padding-bottom: 5px;
+    }
 
     /*paddings*/
 }

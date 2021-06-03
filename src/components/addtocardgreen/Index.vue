@@ -1,9 +1,9 @@
 <template>
-  <p class="OrderMore-add-to-card Ag-text18-to-1070">Добавить в корзину</p>
+  <p class="OrderMore-add-to-card-green Ag-text18-to-1070">Добавить в корзину</p>
 </template>
 <style scoped>
 @media (max-width: 1069px) {
-  .OrderMore-add-to-card {
+  .OrderMore-add-to-card-green {
     background-color: #009200;
     color: #ffffff;
     text-align: center;
@@ -13,7 +13,7 @@
     transition-duration: .7s;
   }
 
-  .OrderMore-add-to-card:hover {
+  .OrderMore-add-to-card-green:hover {
     color: #009200;
     background-color: #E6E6E6;
   }

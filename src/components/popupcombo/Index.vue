@@ -3,25 +3,34 @@
     <X/>
     <Photo msg="Photo"/>
     <Descriptor/>
+    <DescriptionItem/>
+    <DescriptionItem/>
+    <DescriptionItem/>
+    <DescriptionItem/>
+    <LoadBar/>
+    <OrderMore/>
+    <AddToCard/>
   </div>
 </template>
 <script>
 import X from '../popupbluda/X.vue'
 import Photo from '../popupbluda/Photo.vue'
 import Descriptor from './Descriptor.vue'
+import DescriptionItem from './DescriptionItem.vue'
+import LoadBar from '../popupbluda/LoadBar.vue'
+import OrderMore from '../popupbluda/OrderMore.vue'
+import AddToCard from './AddCard.vue'
 
 export default {
   name: 'App',
   components: {
     X,
     Photo,
-    Descriptor
+    Descriptor,
+    DescriptionItem,
+    OrderMore,
+    LoadBar,
+    AddToCard
   }
 }
 </script>
-
-<style>
-#app {
-  margin: 16px;
-}
-</style>

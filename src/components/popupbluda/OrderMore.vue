@@ -8,8 +8,7 @@
       <p class="Ag-text16-to-1070">Сумма заказа</p>
       <p class="Ag-text16-to-1070 fs22">1 049.-</p>
     </div>
-    <p class="OrderMore-add-to-card Ag-text18-to-1070">
-      Добавить в корзину</p>
+    <AddToCard/>
   </div>
 </template>
 
@@ -19,24 +18,19 @@
     margin: 6px 0 9px;
   }
 
-  .OrderMore-add-to-card {
-    background-color: #009200;
-    color: #ffffff;
-    text-align: center;
-    line-height: 45px;
-    font-weight: 600;
-    transition-property: color, background-color;
-    transition-duration: .7s;
-  }
-
-  .OrderMore-add-to-card:hover {
-    color: #009200;
-    background-color: #E6E6E6;
-  }
-
   .fs22 {
     font-size: 20px;
     letter-spacing: -0.9px;
   }
 }
 </style>
+<script>
+import AddToCard from '../addtocard/Index.vue'
+
+export default {
+  name: 'App',
+  components: {
+    AddToCard
+  }
+}
+</script>

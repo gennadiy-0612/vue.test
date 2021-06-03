@@ -6,6 +6,9 @@ html {
 }
 
 @media (max-width: 1069px) {
+    #app{
+        margin: 16px;
+    }
     .width-full {
         width: 100%;
     }
@@ -65,18 +68,15 @@ html {
     .m-16px {
         margin: 16px;
     }
-.p-tb5{
-    padding: 5px 0;
-}
+
+    .p-tb5 {
+        padding: 5px 0;
+    }
+
     .sizes114x77 {
         width: 100%;
         min-width: 114px;
         min-height: 77px;
-    }
-
-    .p-10 {
-        padding: 10px;
-
     }
 
     .flex-two-col {
@@ -114,10 +114,52 @@ html {
     .Ag-text18-to-1070 {
         font: normal 400 18px/22px 'Montserrat';
     }
-.line-h{
-    line-height: 30px;
-}
+
+    .line-h {
+        line-height: 30px;
+    }
+
     .color7E7E7E {
         color: #7E7E7E;
     }
+
+    .photo86x59px {
+        height: 59px;
+        width: 86px;
+    }
+
+    /*paddings*/
+    .p-10 {
+        padding: 10px;
+    }
+
+    /*paddings*/
+    /*mains*/
+    .m-t-3px {
+        margin-top: -3px;
+    }
+
+    .m-t2px {
+        margin-top: 2px;
+    }
+
+    .m-t10px {
+        margin-top: 10px;
+    }
+
+    .m-t15px {
+        margin-top: 15px;
+    }
+
+    .m-t20px {
+        margin-top: 20px;
+    }
+
+    /*mains*/
+    /*paddings*/
+    .p-l7px {
+        padding: 0 0 0 7px;
+    }
+
+    /*paddings*/
 }

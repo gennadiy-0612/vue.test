@@ -9,7 +9,7 @@
     <DescriptionItem/>
     <LoadBar/>
     <OrderMore/>
-    <AddToCard/>
+    <AddCard/>
   </div>
 </template>
 <script>
@@ -19,7 +19,7 @@ import Descriptor from './Descriptor.vue'
 import DescriptionItem from './DescriptionItem.vue'
 import LoadBar from '../popupbluda/LoadBar.vue'
 import OrderMore from '../popupbluda/OrderMore.vue'
-import AddToCard from './AddCard.vue'
+import AddCard from './AddCard.vue'
 
 export default {
   name: 'App',
@@ -30,7 +30,7 @@ export default {
     DescriptionItem,
     OrderMore,
     LoadBar,
-    AddToCard
+    AddCard
   }
 }
 </script>

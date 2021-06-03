@@ -16,6 +16,7 @@
 
     <LoadBar/>
     <OrderMore/>
+    <AddToCard/>
   </div>
 </template>
 <script>
@@ -26,6 +27,7 @@ import AlsoBuy from './AlsoBuy.vue'
 import AlsoItem from './AlsoItem.vue'
 import LoadBar from './LoadBar.vue'
 import OrderMore from './OrderMore.vue'
+import AddToCard from '../addtocard/Index.vue'
 
 export default {
   name: 'App',
@@ -36,7 +38,8 @@ export default {
     AlsoBuy,
     AlsoItem,
     LoadBar,
-    OrderMore
+    OrderMore,
+    AddToCard
   }
 }
 </script>

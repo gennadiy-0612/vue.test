@@ -8,7 +8,6 @@
       <p class="Ag-text16-to-1070">Сумма заказа</p>
       <p class="Ag-text16-to-1070 fs22">1 049.-</p>
     </div>
-    <AddToCard/>
   </div>
 </template>
 
@@ -24,13 +23,3 @@
   }
 }
 </style>
-<script>
-import AddToCard from '../addtocard/Index.vue'
-
-export default {
-  name: 'App',
-  components: {
-    AddToCard
-  }
-}
-</script>

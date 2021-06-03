@@ -65,7 +65,9 @@ html {
     .m-16px {
         margin: 16px;
     }
-
+.p-tb5{
+    padding: 5px 0;
+}
     .sizes114x77 {
         width: 100%;
         min-width: 114px;
@@ -101,6 +103,10 @@ html {
         font: normal 400 14px/21px 'Montserrat';
     }
 
+    .Ag700 {
+        font-weight: 700;
+    }
+
     .Ag-text16-to-1070 {
         font: normal 400 16px/20px 'Montserrat';
     }
@@ -108,44 +114,10 @@ html {
     .Ag-text18-to-1070 {
         font: normal 400 18px/22px 'Montserrat';
     }
-
-    .hoverInfoGreen:hover {
-        background-image: url("../src/assets/img/infoGreen.svg");
+.line-h{
+    line-height: 30px;
+}
+    .color7E7E7E {
+        color: #7E7E7E;
     }
-
-    .showPopUp {
-        width: 20px;
-        height: 20px;
-        border-radius: 10px;
-        background: url("../src/assets/img/info.svg") center center no-repeat;
-    }
-
-    /* Start of lightbox */
-    /* Закрываем lightbox */
-    .lightbox {
-        display: none;
-    }
-
-    .closePopUp {
-        top: -30px;
-        width: 20px;
-        height: 20px;
-        border-radius: 10px;
-        background: url("../src/assets/img/infoGreen.svg") center center no-repeat;
-    }
-
-    /* Открываем lightbox */
-    .lightbox:target {
-        position: absolute;
-        left: 0;
-        top: 30px;
-        width: 100%;
-        height: 100%;
-        display: block;
-        align-items: center;
-        justify-content: center;
-        background-color: #465500;
-    }
-
-    /* Finish of lightbox */
 }

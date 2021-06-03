@@ -43,9 +43,3 @@ export default {
   }
 }
 </script>
-
-<style>
-#app {
-  margin: 16px;
-}
-</style>

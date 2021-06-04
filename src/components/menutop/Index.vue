@@ -1,6 +1,6 @@
 <template>
   <!-- Simulate a smartphone / tablet -->
-  <div class="mobile-container">
+  <div class="mobile-container" id="#BurgerMenu">
 
     <!-- Top Navigation Menu -->
     <div class="topnav">
@@ -10,12 +10,15 @@
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
       </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="#myLinks" class="icon">
         <i class="fa fa-bars"></i>
       </a>
     </div>
 
-    <div style="padding-left:16px">
+    <div id="topMenuContent" class="topMenuContent">
+      <a class="closeTopMenuContent" href="#BurgerMenu">
+        <X/>
+      </a>
       <h3>Vertical Mobile Navbar</h3>
       <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
       <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
@@ -26,6 +29,14 @@
 </template>
 
 <style>
+.topMenuContent {
+  display: none;
+}
+
+.topMenuContent:target {
+  display: block;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -47,6 +58,10 @@ body {
 
 .topnav #myLinks {
   display: none;
+}
+
+.topnav #myLinks:target {
+  display: block;
 }
 
 .topnav a {
@@ -75,15 +90,13 @@ body {
   color: white;
 }
 </style>
-
 <script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
+import X from '../popupbluda/X.vue'
+
+export default {
+  name: 'App',
+  components: {
+    X
   }
 }
-myFunction()
 </script>

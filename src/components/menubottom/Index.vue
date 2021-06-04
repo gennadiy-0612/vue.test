@@ -4,31 +4,31 @@
       <li class="BottomMenu__item menu">
         <a class="BottomMenu__a menu flex justify-between flex-col" href="#ContentMenuBottom">
           <img src="../../assets/img/menubottom/menubottom.svg">
-          <span class="closeContentMenu__text">Меню</span>
+          <span class="closeContentMenu__text text-center">Меню</span>
         </a>
       </li>
       <li class="BottomMenu__item actions">
-        <a class="BottomMenu__a actions flex justify-between flex-col" href="#">
+        <a class="BottomMenu__a actions flex justify-between flex-col" href="actions">
           <img src="../../assets/img/menubottom/actions.svg">
-          <span class="closeContentMenu__text">Акции</span>
+          <span class="closeContentMenu__text text-center">Акции</span>
         </a>
       </li>
       <li class="BottomMenu__item combo">
         <a class="BottomMenu__a combo flex justify-between flex-col" href="#">
           <img src="../../assets/img/menubottom/combo.svg">
-          <span class="closeContentMenu__text">Комбо</span>
+          <span class="closeContentMenu__text text-center">Комбо</span>
         </a>
       </li>
       <li class="BottomMenu__item login">
         <a class="BottomMenu__a login flex justify-between flex-col" href="#">
           <img src="../../assets/img/menubottom/login.svg">
-          <span class="closeContentMenu__text">Войти</span>
+          <span class="closeContentMenu__text text-center">Войти</span>
         </a>
       </li>
       <li class="BottomMenu__item card">
         <a class="BottomMenu__a card flex justify-between flex-col" href="#">
           <img src="../../assets/img/menubottom/combo.svg">
-          <span class="closeContentMenu__text">Корзина</span>
+          <span class="closeContentMenu__text text-center">Корзина</span>
         </a>
       </li>
     </ul>

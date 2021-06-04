@@ -5,6 +5,8 @@ import PopupBluda from '/src/components/popupbluda/Index.vue'
 import PopupCombo from '/src/components/popupcombo/Index.vue'
 import Events from '/src/components/events/Index.vue'
 import Actions from '/src/components/actions/Index.vue'
+import ComboNabori from '/src/components/combonabori/Index.vue'
+import Card from '/src/components/card/Index.vue'
 import Error from '/src/components/Error404.vue'
 import "tailwindcss/dist/tailwind.min.css"
 import "./index.css"
@@ -18,6 +20,8 @@ const routes = [
     {path: '/', component: Home},
     {path: '/popupbluda', component: PopupBluda},
     {path: '/popupcombo', component: PopupCombo},
+    {path: '/combonabori', component: ComboNabori},
+    {path: '/card', component: Card},
     {path: '/events', component: Events},
     {path: '/actions', component: Actions},
     {path: '*', component: Error}

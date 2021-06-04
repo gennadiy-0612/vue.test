@@ -1,9 +1,8 @@
 <template>
   <div class="Header flex justify-between">
-    <p class="Ag-p-to-1070 address">Ул. Красный Проспект, 101, ТРЦ “Роял Парк”</p>
-    <a href="#myLinks" class="burg-icon flex justify-center">
-      <img class="Header__img" alt="alt" src="../../assets/img/burger.svg">
-    </a></div>
+    <Address/>
+    <BurgMenu/>
+  </div>
 </template>
 
 <style>
@@ -33,3 +32,15 @@
 }
 
 </style>
+<script>
+import BurgMenu from '../burgmenu/Index.vue'
+import Address from '../address/Index.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Address,
+    BurgMenu
+  }
+}
+</script>

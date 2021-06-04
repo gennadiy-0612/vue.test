@@ -21,9 +21,6 @@
   </div>
 </template>
 <style>
-.Events {
-  padding: 33px 16px 80px;
-}
 
 .underHead {
   margin: 30px 0 18px;

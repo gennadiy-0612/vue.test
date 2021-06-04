@@ -6,6 +6,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.Events, .comboNabori {
+    padding: 33px 16px 80px;
+}
+
 @media (max-width: 1069px) {
     .X {
         margin: 10px 0 10px auto;

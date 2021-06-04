@@ -13,3 +13,10 @@
     </div>
   </div>
 </template>
+
+<style>
+.comboSet-img {
+  height: 90px;
+  width: 134px;
+}
+</style>

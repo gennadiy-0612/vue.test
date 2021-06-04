@@ -1,11 +1,11 @@
 <template>
-  <div class="backButton relative">
+  <div class="Ag-back-to-1070 backButton relative">
     Назад
   </div>
 </template>
 <style>
 .backButton{
-  text-indent: 30px;
+  text-indent: 26px;
 }
 .backButton::after{
   content: '';

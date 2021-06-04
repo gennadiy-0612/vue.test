@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '/src/components/home/Index.vue'
 import PopupBluda from '/src/components/popupbluda/Index.vue'
 import PopupCombo from '/src/components/popupcombo/Index.vue'
+import Events from '/src/components/events/Index.vue'
 import Actions from '/src/components/actions/Index.vue'
 import Error from '/src/components/Error404.vue'
 import "tailwindcss/dist/tailwind.min.css"
@@ -17,6 +18,7 @@ const routes = [
     {path: '/', component: Home},
     {path: '/popupbluda', component: PopupBluda},
     {path: '/popupcombo', component: PopupCombo},
+    {path: '/events', component: Events},
     {path: '/actions', component: Actions},
     {path: '*', component: Error}
 ]

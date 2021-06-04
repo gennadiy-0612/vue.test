@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <X/>
+  <div class="m-16px">
+    <a href="/"><X/></a>
     <Photo msg="Photo"/>
     <DescriptionPrice msg="Пепперони"/>
     <AlsoBuy/>

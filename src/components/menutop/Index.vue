@@ -1,102 +1,35 @@
 <template>
-  <!-- Simulate a smartphone / tablet -->
-  <div class="mobile-container" id="#BurgerMenu">
-
-    <!-- Top Navigation Menu -->
-    <div class="topnav">
-      <a href="#home" class="active">Logo</a>
-      <div id="myLinks">
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-      </div>
-      <a href="#myLinks" class="icon">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-
-    <div id="topMenuContent" class="topMenuContent">
-      <a class="closeTopMenuContent" href="#BurgerMenu">
-        <X/>
-      </a>
-      <h3>Vertical Mobile Navbar</h3>
-      <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
-      <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
-    </div>
-
-    <!-- End smartphone / tablet look -->
-  </div>
+  <div class="Header flex justify-between">
+    <p class="Ag-p-to-1070 address">Ул. Красный Проспект, 101, ТРЦ “Роял Парк”</p>
+    <a href="#myLinks" class="burg-icon flex justify-center">
+      <img class="Header__img" alt="alt" src="../../assets/img/burger.svg">
+    </a></div>
 </template>
 
 <style>
-.topMenuContent {
-  display: none;
+.address {
+  width: 200px;
+  margin-top: -3px;
 }
 
-.topMenuContent:target {
-  display: block;
+.burg-icon {
+  width: 27px;
+  margin: 0 0 0 auto;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.mobile-container {
-  max-width: 480px;
-  margin: auto;
-  background-color: #555;
-  height: 500px;
-  color: white;
-  border-radius: 10px;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
-
-.topnav #myLinks {
-  display: none;
-}
-
-.topnav #myLinks:target {
-  display: block;
+.Header__img {
+  width: 27px;
+  height: 18px;
 }
 
 .topnav a {
-  color: white;
+  color: #000000;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
+  width: 50px;
+  margin: 0 0 0 auto;
 }
 
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.active {
-  background-color: #04AA6D;
-  color: white;
-}
 </style>
-<script>
-import X from '../popupbluda/X.vue'
-
-export default {
-  name: 'App',
-  components: {
-    X
-  }
-}
-</script>

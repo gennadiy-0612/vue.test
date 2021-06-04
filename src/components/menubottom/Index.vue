@@ -1,33 +1,33 @@
 <template>
-  <div id="closeContentMenu">
+  <div id="closeContentMenu" class="closeContentMenuBottom fixed bottom-0 w-full left-0 bg-white">
     <ul class="BottomMenu flex justify-between">
       <li class="BottomMenu__item menu">
         <a class="BottomMenu__a menu flex justify-between flex-col" href="#ContentMenuBottom">
-          <img src="../../assets/img/menubottom/menubottom.svg">
+          <img class="closeContentMenu__icon" src="../../assets/img/menubottom/menubottom.svg">
           <span class="closeContentMenu__text text-center">Меню</span>
         </a>
       </li>
       <li class="BottomMenu__item actions">
-        <a class="BottomMenu__a actions flex justify-between flex-col" href="actions">
-          <img src="../../assets/img/menubottom/actions.svg">
+        <a class="BottomMenu__a actions flex justify-between flex-col" href="events">
+          <img class="closeContentMenu__icon" src="../../assets/img/menubottom/actions.svg">
           <span class="closeContentMenu__text text-center">Акции</span>
         </a>
       </li>
       <li class="BottomMenu__item combo">
         <a class="BottomMenu__a combo flex justify-between flex-col" href="#">
-          <img src="../../assets/img/menubottom/combo.svg">
+          <img class="closeContentMenu__icon" src="../../assets/img/menubottom/combo.svg">
           <span class="closeContentMenu__text text-center">Комбо</span>
         </a>
       </li>
       <li class="BottomMenu__item login">
         <a class="BottomMenu__a login flex justify-between flex-col" href="#">
-          <img src="../../assets/img/menubottom/login.svg">
+          <img class="closeContentMenu__icon" src="../../assets/img/menubottom/login.svg">
           <span class="closeContentMenu__text text-center">Войти</span>
         </a>
       </li>
       <li class="BottomMenu__item card">
         <a class="BottomMenu__a card flex justify-between flex-col" href="#">
-          <img src="../../assets/img/menubottom/combo.svg">
+          <img class="closeContentMenu__icon" src="../../assets/img/menubottom/card.svg">
           <span class="closeContentMenu__text text-center">Корзина</span>
         </a>
       </li>
@@ -38,15 +38,16 @@
       </a>
       <router-link to="popupbluda">ПопАпБлюда</router-link>
       <router-link to="popupcombo">ПопАпКомбо</router-link>
-      <router-link to="actions">Акции</router-link>
+      <router-link to="events">Акции</router-link>
       <router-view></router-view>
     </div>
   </div>
 </template>
 
 <style>
-.BottomMenu {
-  background-color: #FFFFFF;
+.closeContentMenuBottom {
+  border-top: 2px solid #7E7E7E;
+  padding: 10px 16px 24px;
 }
 
 .BottomMenu__a {
@@ -77,6 +78,9 @@
 .closeContentMenu__text {
   color: #465500;
   font: normal 600 11px/14px 'Montserrat';
+}
+.closeContentMenu__icon{
+  height: 26px;
 }
 
 </style>

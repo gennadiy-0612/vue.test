@@ -1,6 +1,6 @@
 <template>
   <div>
-    <X/>
+    <a href="/"><X/></a>
     <Photo msg="Photo"/>
     <Descriptor/>
     <div class="p-b5px">

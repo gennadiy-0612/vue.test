@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
 
 @media (max-width: 1069px) {
-    #app{
-        margin: 16px;
-    }
-    .width-full {
-        width: 100%;
-    }
-
     .X {
         margin: 10px 0 10px auto;
+    }
+
+    .address {
+        width: 200px;
     }
 
     .m-top5 {
@@ -91,6 +89,14 @@ html {
         background-color: #E6E6E6;
     }
 
+    .Ag-p-to-1070 {
+        font: normal 700 10px/12px 'Montserrat';
+    }
+
+    .Ag-h2-to-1070 {
+        font: normal 700 23px/28px 'Montserrat';
+    }
+
     .Ag-h3-to-1070 {
         font: normal 600 18px/22px 'Montserrat';
     }
@@ -160,7 +166,8 @@ html {
     .p-l7px {
         padding: 0 0 0 7px;
     }
-    .p-b5px{
+
+    .p-b5px {
         padding-bottom: 5px;
     }
 

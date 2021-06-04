@@ -1,6 +1,6 @@
 <template>
   <div class="ComboSetsBottom">
-    <ComboItem heads="Комбо-набор" descriptionitem="Комбо-набор" price="179" />
+    <ComboItem heads="Комбо-набор" descriptionitem="Колбаса Пепперони, свежие томаты, сыр..." price="179" />
     <ComboItem heads="Папперони" descriptionitem="Колбаса Пепперони,свежие томаты, сыр Моцарелла и соу..." price="179" />
     <ComboItem heads="Папперони" descriptionitem="Колбаса Пепперони,свежие томаты, сыр Моцарелла и соу..." price="179" />
     <ComboItem heads="Папперони" descriptionitem="Колбаса Пепперони,свежие томаты, сыр Моцарелла и соу..." price="179" />

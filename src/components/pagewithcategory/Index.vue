@@ -46,6 +46,10 @@
 }
 .categorySet{
   margin: 1px 0 29px;
+  width: calc(100% + 16px);
+}
+.LoadBar{
+  margin: 28px 0 5px;
 }
 </style>
 <script>

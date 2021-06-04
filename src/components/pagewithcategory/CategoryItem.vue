@@ -16,7 +16,7 @@
 </style>
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'ComboSetButton',
   props: {
     msg: String
   }

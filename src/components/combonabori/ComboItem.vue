@@ -1,5 +1,5 @@
 <template>
-  <div class="DescriptionItem m-t10px flex justify-center">
+  <div class="DescriptionItem m-t10px flex justify-center relative">
     <img class="comboSet-img width-full" src="../../assets/img/photo86x59px.svg">
     <div class="flex flex-col">
       <div class="flex flex-col p-l7px">
@@ -18,6 +18,7 @@
   height: 90px;
   width: 134px;
 }
+
 </style>
 <script>
 export default {

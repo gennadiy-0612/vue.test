@@ -45,14 +45,14 @@
   padding: 0 0 30px;
 }
 .categorySet{
-  margin: 0 0 29px;
+  margin: 1px 0 29px;
 }
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index.vue';
 import BackButton from '../address/Index.vue';
 import CatItem from "./CategoryItem.vue";
-import ComboSetsBottom from "../combonabori/ComboSetsBottom.vue";
+import ComboSetsBottom from "./ComboSetsBottom.vue";
 
 export default {
   name: 'App',

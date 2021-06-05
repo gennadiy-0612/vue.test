@@ -1,15 +1,15 @@
 <template>
-  <div class="mainPage__item">
-    <img v-bind:src="imageicon" alt="alt"/>
-    <p class="mainPage__name">{{name}}</p>
-  </div>
+    <img v-bind:src="image"/>
 </template>
+
 <script>
+import image1 from "../../assets/img/mainpage/paste.svg.svg"
 export default {
-  name: 'MainIcon',
-  props: {
-    imageicon: String,
-    name: String
+  data: function () {
+    return {
+      name: name,
+      image1: image1
+    }
   }
 }
 </script>

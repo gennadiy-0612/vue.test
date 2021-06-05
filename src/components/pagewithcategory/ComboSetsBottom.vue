@@ -14,7 +14,7 @@
 import ComboItem from './ComboItem.vue'
 import MenuBottom from '../menubottom/Index.vue'
 import LoadBar from '../popupbluda/LoadBar.vue'
-import OrderMore from '../popupbluda/OrderMore.vue'
+import OrderMore from '../combonabori/OrderMore.vue'
 
 export default {
   name: 'App',

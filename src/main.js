@@ -4,7 +4,7 @@ import Home from '/src/components/home/Index.vue'
 import PopupBluda from '/src/components/popupbluda/Index.vue'
 import PopupCombo from '/src/components/popupcombo/Index.vue'
 import Events from '/src/components/events/Index.vue'
-import Actions from '/src/components/actions/Index.vue'
+import Main from '/src/components/main/Index.vue'
 import ComboNabori from '/src/components/combonabori/Index.vue'
 import PageWithCategory from '/src/components/pagewithcategory/Index.vue'
 import Card from '/src/components/card/Index.vue'
@@ -25,7 +25,7 @@ const routes = [
     {path: '/pagewithcategory', component: PageWithCategory},
     {path: '/card', component: Card},
     {path: '/events', component: Events},
-    {path: '/actions', component: Actions},
+    {path: '/main', component: Main},
     {path: '*', component: Error}
 ]
 

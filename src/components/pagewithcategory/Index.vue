@@ -1,10 +1,10 @@
 <template>
-  <div class="comboNabori">
+  <div class="comboNabori pageWithCats">
     <div class="Header flex justify-between">
       <BackButton/>
       <BurgMenu/>
     </div>
-    <ol class="flex categorySet swipe overflow-hidden w-full">
+    <ol class="flex categorySet swipe overflow-hidden">
       <li>
         <CatItem msg="Пицца"/>
       </li>
@@ -30,7 +30,7 @@
     <ComboSetsBottom/>
   </div>
 </template>
-<style scoped>
+<style>
 .swipe {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -44,12 +44,26 @@
 .Header {
   padding: 0 0 30px;
 }
-.categorySet{
+
+.categorySet {
   margin: 1px 0 29px;
   width: calc(100% + 16px);
 }
-.LoadBar{
-  margin: 28px 0 5px;
+
+.comboNabori .LoadBar {
+  margin: 24px 0 5px;
+}
+
+.toOrderPrice {
+  align-items: flex-end;
+}
+
+.font-size14px {
+  font-size: 14px;
+}
+
+.commonPrice.fs20 {
+  font-size: 14px;
 }
 </style>
 <script>

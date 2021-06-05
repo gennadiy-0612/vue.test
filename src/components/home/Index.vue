@@ -4,6 +4,7 @@
     <li><a href="/popupcombo">popupcombo</a></li>
     <li><a href="/combonabori">combonabori</a></li>
     <li><a href="/pagewithcategory">pagewithcategory</a></li>
+    <li><a href="/main">main</a></li>
     <li><a href="/events">actions</a></li>
   </ol>
 </template>

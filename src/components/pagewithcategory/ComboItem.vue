@@ -1,5 +1,5 @@
 <template>
-  <div class="DescriptionItem m-t6px flex justify-center relative">
+  <div class="DescriptionItem flex justify-center relative">
     <img class="comboSet-img width-full" src="../../assets/img/photo86x59px.svg">
     <div class="flex flex-col">
       <div class="flex flex-col p-l7px">
@@ -14,9 +14,13 @@
   </div>
 </template>
 <style>
+.DescriptionItem{
+  margin: 0 0 7px;
+}
 .comboSet-img {
   height: 90px;
   width: 134px;
+  margin-top: 0;
 }
 
 .DescriptionItem__h3 {

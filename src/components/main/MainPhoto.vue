@@ -1,9 +1,9 @@
 <template>
-  <img  class="imgIcon"  :src="image"/>
+  <img class="mainPhoto" :src="image" :alt="'main phpto'"/>
 </template>
 
 <script>
-import image from "../../assets/img/mainpage/pizza.svg"
+import image from "../../assets/img/mainpage/main.png"
 
 
 export default {

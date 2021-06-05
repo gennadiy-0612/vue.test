@@ -1,29 +1,30 @@
 <template>
   <div class="mainPage">
     <MenuTop/>
+    <MainPhoto/>
     <div class="flex justify-between flex-wrap">
       <div class="iconsThemes flex flex-col items-center justify-center self-center">
-        <ImgItem v-bind:alt="'Пицца'" v-bind:datasrc="'../../assets/img/mainpage/pizza.svg'"/>
+        <img class="imgIcon" src="../../assets/img/mainpage/pizza.svg" alt="Пицца"/>
         <descitem msg="Пицца"/>
       </div>
       <div class="iconsThemes flex flex-col items-center justify-center self-center">
-        <ImgItem v-bind:alt="'Пасты'" v-bind:datasrc="'../../assets/img/mainpage/paste.svg'"/>
+        <img class="imgIcon" src="../../assets/img/mainpage/paste.svg" alt="Пасты"/>
         <descitem msg="Пасты"/>
       </div>
       <div class="iconsThemes flex flex-col items-center justify-center self-center">
-        <ImgItem v-bind:alt="'Супы'" v-bind:datasrc="'../../assets/img/mainpage/soups.svg'"/>
+        <img class="imgIcon" src="../../assets/img/mainpage/soups.svg" alt="Супы"/>
         <descitem msg="Супы"/>
       </div>
       <div class="iconsThemes flex flex-col items-center justify-center self-center">
-        <ImgItem v-bind:alt="'Горячие блюда'" v-bind:datasrc="'../../assets/img/mainpage/hots.svg'"/>
+        <img class="imgIcon" src="../../assets/img/mainpage/hots.svg" alt="Горячие блюда"/>
         <descitem msg="Горячие блюда"/>
       </div>
       <div class="iconsThemes flex flex-col items-center justify-center self-center">
-        <ImgItem v-bind:alt="'Салаты и закуски'" v-bind:datasrc="'../../assets/img/mainpage/salats.svg'"/>
+        <img class="imgIcon" src="../../assets/img/mainpage/salats.svg" alt="Салаты и закуски"/>
         <descitem msg="Салаты и закуски"/>
       </div>
       <div class="iconsThemes flex flex-col items-center justify-center self-center">
-        <ImgItem v-bind:alt="'Десерты и напитки'" v-bind:datasrc="'../../assets/img/mainpage/drinks.svgg'"/>
+        <img class="imgIcon" src="../../assets/img/mainpage/drinks.svg" alt="Десерты и напитки"/>
         <descitem msg="Десерты и напитки"/>
       </div>
     </div>
@@ -44,16 +45,16 @@
 <script>
 
 import MenuTop from '../menutop/Index.vue'
+import MainPhoto from './MainPhoto.vue'
 import descitem from '../descimg/DescItem.vue'
-import ImgItem from '../descimg/ImageItem.vue'
 import MenuBottom from '../menubottom/Index.vue'
 
 export default {
   name: 'App',
   components: {
     MenuBottom,
+    MainPhoto,
     descitem,
-    ImgItem,
     MenuTop
   }
 }

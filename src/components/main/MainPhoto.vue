@@ -1,5 +1,5 @@
 <template>
-  <img class="mainPhoto" :src="image" :alt="'main phpto'"/>
+  <img class="mainPhoto absolute top-0 left-0" :src="image" :alt="'main phpto'"/>
 </template>
 
 <script>

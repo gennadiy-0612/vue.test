@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.Events, .comboNabori {
+.Events, .comboNabori, .mainFrame {
     padding: 33px 16px 80px;
 }
 

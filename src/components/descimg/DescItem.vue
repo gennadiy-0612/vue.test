@@ -1,13 +1,11 @@
 <template>
-  <p class="mainItem text-center">{{msg}}</p>
+  <div class="desc"><p class="mainItem text-center Ag-text14-to-1070 Ag700 relative">{{ msg }}</p></div>
 </template>
-
 <style>
-.mainItem{
-  max-width: 53%;
+.desc{
+  height: 42px;
 }
 </style>
-
 <script>
 export default {
   name: 'descitem',

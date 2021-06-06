@@ -19,7 +19,7 @@
 }
 </style>
 <script>
-import LiteBoxGreen from '../litboxgreen/Index.vue'
+import LiteBoxGreen from '../litboxgreen/Index'
 
 export default {
   name: 'App',

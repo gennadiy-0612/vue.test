@@ -11,8 +11,8 @@
 }
 </style>
 <script>
-import BurgMenu from '../burgmenu/Index.vue'
-import BackButton from '../backtopbutton/Index.vue'
+import BurgMenu from '../burgmenu/Index'
+import BackButton from '../backtopbutton/Index'
 
 export default {
   name: 'App',

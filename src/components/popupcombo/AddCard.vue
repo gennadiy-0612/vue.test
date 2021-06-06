@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import AddCard from '../addtocardblack/Index.vue'
+import AddCard from '../addtocardblack/Index'
 
 export default {
   name: 'App',

@@ -67,10 +67,10 @@
 }
 </style>
 <script>
-import BurgMenu from '../burgmenu/Index.vue';
-import BackButton from '../address/Index.vue';
-import CatItem from "./CategoryItem.vue";
-import ComboSetsBottom from "./ComboSetsBottom.vue";
+import BurgMenu from '../burgmenu/Index';
+import BackButton from '../address/Index';
+import CatItem from "./CategoryItem";
+import ComboSetsBottom from "./ComboSetsBottom";
 
 export default {
   name: 'App',

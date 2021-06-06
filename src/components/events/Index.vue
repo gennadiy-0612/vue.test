@@ -43,9 +43,9 @@
 </style>
 <script>
 
-import MenuTop from '../menutop/Index.vue'
-import MenuBottom from '../menubottom/Index.vue'
-import Photo from '../popupbluda/Photo.vue'
+import MenuTop from '../menutop/Index'
+import MenuBottom from '../menubottom/Index'
+import Photo from '../popupbluda/Photo'
 
 export default {
   name: 'App',

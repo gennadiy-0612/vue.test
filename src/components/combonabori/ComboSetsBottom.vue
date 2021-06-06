@@ -11,10 +11,10 @@
   </div>
 </template>
 <script>
-import ComboItem from './ComboItem.vue'
-import MenuBottom from '../menubottom/Index.vue'
-import LoadBar from '../popupbluda/LoadBar.vue'
-import OrderMore from './OrderMore.vue'
+import ComboItem from './ComboItem'
+import MenuBottom from '../menubottom/Index'
+import LoadBar from '../popupbluda/LoadBar'
+import OrderMore from './OrderMore'
 
 export default {
   name: 'App',

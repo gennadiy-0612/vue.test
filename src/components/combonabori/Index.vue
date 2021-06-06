@@ -5,8 +5,8 @@
   </div>
 </template>
 <script>
-import ComboSetTop from './ComboSetTop.vue'
-import ComboSetsBottom from './ComboSetsBottom.vue'
+import ComboSetTop from './ComboSetTop'
+import ComboSetsBottom from './ComboSetsBottom'
 
 export default {
   name: 'App',

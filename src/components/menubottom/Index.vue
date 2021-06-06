@@ -85,7 +85,7 @@
 
 </style>
 <script>
-import X from '../popupbluda/X.vue'
+import X from '../popupbluda/X'
 
 export default {
   name: 'App',

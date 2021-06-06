@@ -46,8 +46,8 @@
 }
 </style>
 <script>
-import X from '../popupbluda/X.vue'
-import Poisk from './Poisk.vue'
+import X from '../popupbluda/X'
+import Poisk from './Poisk'
 
 export default {
   name: 'App',

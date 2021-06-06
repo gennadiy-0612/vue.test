@@ -81,9 +81,9 @@
 
 <script>
 
-import MenuTop from '../menutop/Index.vue'
-import descitem from '../descimg/DescItem.vue'
-import MenuBottom from '../menubottom/Index.vue'
+import MenuTop from '../menutop/Index'
+import descitem from '../descimg/DescItem'
+import MenuBottom from '../menubottom/Index'
 
 export default {
   name: 'App',

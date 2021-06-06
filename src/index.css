@@ -235,4 +235,7 @@ html {
     .infoCompText{
         margin: 20px 0 0;
     }
+    .overflow-y-scroll{
+        overflow-y: auto;
+    }
 }

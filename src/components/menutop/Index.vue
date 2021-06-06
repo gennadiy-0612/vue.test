@@ -33,8 +33,8 @@
 
 </style>
 <script>
-import BurgMenu from '../burgmenu/Index.vue'
-import Address from '../address/Index.vue'
+import BurgMenu from '../burgmenu/Index'
+import Address from '../address/Index'
 
 export default {
   name: 'App',

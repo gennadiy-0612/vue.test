@@ -25,14 +25,14 @@
 }
 </style>
 <script>
-import X from './X.vue'
-import Photo from './Photo.vue'
-import DescriptionPrice from './DescriptPrice.vue'
-import AlsoBuy from './AlsoBuy.vue'
-import AlsoItem from './AlsoItem.vue'
-import LoadBar from './LoadBar.vue'
-import OrderMore from './OrderMore.vue'
-import AddToCard from '../addtocardgreen/Index.vue'
+import X from './X'
+import Photo from './Photo'
+import DescriptionPrice from './DescriptPrice'
+import AlsoBuy from './AlsoBuy'
+import AlsoItem from './AlsoItem'
+import LoadBar from './LoadBar'
+import OrderMore from './OrderMore'
+import AddToCard from '../addtocardgreen/Index'
 
 export default {
   name: 'App',

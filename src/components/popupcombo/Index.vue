@@ -21,14 +21,14 @@
 }
 </style>
 <script>
-import X from '../popupbluda/X.vue'
-import Photo from '../popupbluda/Photo.vue'
-import Descriptor from './Descriptor.vue'
-import DescriptionItem from './DescriptionItem.vue'
-import LoadBar from '../popupbluda/LoadBar.vue'
-import OrderMore from '../popupbluda/OrderMore.vue'
-import AddCard from './AddCard.vue'
-import MenuBottom from '../menubottom/Index.vue'
+import X from '../popupbluda/X'
+import Photo from '../popupbluda/Photo'
+import Descriptor from './Descriptor'
+import DescriptionItem from './DescriptionItem'
+import LoadBar from '../popupbluda/LoadBar'
+import OrderMore from '../popupbluda/OrderMore'
+import AddCard from './AddCard'
+import MenuBottom from '../menubottom/Index'
 
 export default {
   name: 'App',

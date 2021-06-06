@@ -8,6 +8,10 @@ import Main from '/src/components/main/Index.vue'
 import ComboNabori from '/src/components/combonabori/Index.vue'
 import PageWithCategory from '/src/components/pagewithcategory/Index.vue'
 import Card from '/src/components/card/Index.vue'
+import Search from '/src/components/poisk/Index.vue'
+import ViborRest from '/src/components/viborrestorana/Index.vue'
+import VkhodOldCode from '/src/components/vkhodoldcode/Index.vue'
+import VkhodNewCode from '/src/components/vkhodnewcode/Index.vue'
 import Error from '/src/components/Error404.vue'
 import "tailwindcss/dist/tailwind.min.css"
 import "./index.css"
@@ -26,6 +30,10 @@ const routes = [
     {path: '/card', component: Card},
     {path: '/events', component: Events},
     {path: '/main', component: Main},
+    {path: '/search', component: Search},
+    {path: '/viborrest', component: ViborRest},
+    {path: '/vkhodoldcode', component: VkhodOldCode},
+    {path: '/vkhodnewcode', component: VkhodNewCode},
     {path: '*', component: Error}
 ]
 

@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-between addToCard-bw items-center">
     <p class="Ag-h3-to-1070">1 110.-</p>
-    <AddCard/>
+    <AddCard msg="Добавить в корзину"/>
   </div>
 </template>
 

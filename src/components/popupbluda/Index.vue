@@ -1,5 +1,5 @@
 <template>
-  <div class="m-16px">
+  <div class="popUpBluda">
     <a href="/"><X/></a>
     <Photo msg="Photo"/>
     <DescriptionPrice msg="Пепперони"/>
@@ -19,6 +19,11 @@
     <AddToCard/>
   </div>
 </template>
+<style>
+.popUpBluda{
+  padding: 6px 16px 16px;
+}
+</style>
 <script>
 import X from './X.vue'
 import Photo from './Photo.vue'

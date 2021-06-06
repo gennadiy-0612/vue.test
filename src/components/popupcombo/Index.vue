@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="popUpCombo">
     <a href="/"><X/></a>
     <Photo msg="Photo"/>
     <Descriptor/>
@@ -15,6 +15,11 @@
     <MenuBottom/>
   </div>
 </template>
+<style>
+.popUpCombo {
+  padding: 6px 16px 100px;
+}
+</style>
 <script>
 import X from '../popupbluda/X.vue'
 import Photo from '../popupbluda/Photo.vue'

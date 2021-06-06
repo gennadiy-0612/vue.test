@@ -1,18 +1,30 @@
 <template>
   <div class="popUpFrame">
     <X/>
-    <HederTwo msg="Вход на сайт"/>
+    <HeaderTwo msg="Вход на сайт"/>
+    <InputPhone/>
+    <InputCode/>
+    <p class="Ag-text14-to-1070 newCode">Получить новый код</p>
   </div>
 </template>
+<style>
+.newCode{
+  color: #8D8D8D;
+}
+</style>
 <script>
-import HederTwo from "../partpage/HederTwo";
 import X from "../popupbluda/X";
+import HeaderTwo from "../partpage/HederTwo";
+import InputPhone from "../partpage/InputPhone";
+import InputCode from "../partpage/InputCode";
 
 export default {
   name: 'App',
   components: {
-    HederTwo,
-    X
+    X,
+    HeaderTwo,
+    InputPhone,
+    InputCode
   }
 }
 </script>

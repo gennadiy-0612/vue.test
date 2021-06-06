@@ -1,18 +1,22 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '/src/components/home/Index.vue'
-import PopupBluda from '/src/components/popupbluda/Index.vue'
-import PopupCombo from '/src/components/popupcombo/Index.vue'
-import Events from '/src/components/events/Index.vue'
-import Main from '/src/components/main/Index.vue'
-import ComboNabori from '/src/components/combonabori/Index.vue'
-import PageWithCategory from '/src/components/pagewithcategory/Index.vue'
-import Card from '/src/components/card/Index.vue'
-import Search from '/src/components/poisk/Index.vue'
-import ViborRest from '/src/components/viborrestorana/Index.vue'
-import VkhodOldCode from '/src/components/vkhodoldcode/Index.vue'
-import VkhodNewCode from '/src/components/vkhodnewcode/Index.vue'
-import Error from '/src/components/Error404.vue'
+import Home from '/src/components/home/Index'
+import PopupBluda from '/src/components/popupbluda/Index'
+import PopupCombo from '/src/components/popupcombo/Index'
+import Events from '/src/components/events/Index'
+import Main from '/src/components/main/Index'
+import ComboNabori from '/src/components/combonabori/Index'
+import PageWithCategory from '/src/components/pagewithcategory/Index'
+import Card from '/src/components/card/Index'
+import Search from '/src/components/poisk/Index'
+import ViborRest from '/src/components/viborrestorana/Index'
+import VkhodOldCode from '/src/components/vkhodoldcode/Index'
+import VkhodNewCode from '/src/components/vkhodnewcode/Index'
+import LkMobDannie from '/src/components/lkmobdannie/Index'
+import InfoCompany from '/src/components/infocompany/Index'
+import InfoUsage from '/src/components/infousage/Index'
+import Contacts from '/src/components/contacts/Index'
+import Error from '/src/components/Error404'
 import "tailwindcss/dist/tailwind.min.css"
 import "./index.css"
 
@@ -33,7 +37,11 @@ const routes = [
     {path: '/search', component: Search},
     {path: '/viborrest', component: ViborRest},
     {path: '/vkhodoldcode', component: VkhodOldCode},
-    {path: '/vkhodnewcode', component: VkhodNewCode},
+    {path: '/lkmobdannie', component: VkhodNewCode},
+    {path: '/infocompany', component: InfoCompany},
+    {path: '/infousage', component: InfoUsage},
+    {path: '/LkMobDannie', component: LkMobDannie},
+    {path: '/contacts', component: Contacts},
     {path: '*', component: Error}
 ]
 

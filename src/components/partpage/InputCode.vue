@@ -1,8 +1,8 @@
 <template>
-  <div class="InputPhone ">
-    <label for="tentacles">Number of tentacles (10-100):</label>
+  <div class="InputPhone">
+    <label class="Ag-text1421-to-1070" for="tentacles">Код из СМС</label>
 
-    <input class="searchButton border-solid border-2 w-full block" type="number" id="tentacles" name="tentacles" min="10" max="100">
+    <input class="searchButton bg-E4E4E4 border-solid border-0 w-full block" type="number" id="tentacles" name="tentacles" min="10" max="100">
     <BlackButton/>
   </div>
 </template>

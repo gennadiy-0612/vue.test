@@ -24,6 +24,18 @@ html {
     background-color: #E4E4E4;
 }
 
+.bg-E4E4E4 {
+    background-color: #E4E4E4;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
 @media (max-width: 1069px) {
     .X {
         margin: 10px 0 10px auto;
@@ -107,6 +119,11 @@ html {
         background-color: #E6E6E6;
     }
 
+    .E4E4E4 {
+        background-color: #E4E4E4;
+
+    }
+
     .Ag-p-to-1070 {
         font: normal 700 10px/12px 'Montserrat';
     }
@@ -115,12 +132,24 @@ html {
         font: normal 700 23px/28px 'Montserrat';
     }
 
+    .Ag6001417 {
+        font: normal 600 14px/16px 'Montserrat';
+    }
+
     .Ag-back-to-1070 {
         font: normal 600 16px/19px 'Montserrat';
     }
 
+    .Ag-text1421-to-1070 {
+        font: normal 700 14px/21px 'Montserrat';
+    }
+
     .Ag-green-to-1070 {
         font: normal 700 16px/22px 'Montserrat';
+        color: #465500;
+    }
+
+    .c-465500 {
         color: #465500;
     }
 
@@ -203,4 +232,7 @@ html {
     }
 
     /*paddings*/
+    .infoCompText{
+        margin: 20px 0 0;
+    }
 }

@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '/src/components/home/Index'
 import PopupBluda from '/src/components/popupbluda/Index'
 import PopupCombo from '/src/components/popupcombo/Index'
 import Events from '/src/components/events/Index'
@@ -31,8 +30,8 @@ Vue.use(VueRouter)
 Vue.config.productionTip = false
 
 const routes = [
-    {path: '', component: Home},
-    {path: '/', component: Home},
+    {path: '', component: Main},
+    {path: '/', component: Main},
     {path: '/popupbluda', component: PopupBluda},
     {path: '/popupcombo', component: PopupCombo},
     {path: '/combonabori', component: ComboNabori},

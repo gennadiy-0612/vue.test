@@ -177,6 +177,10 @@ html {
         font: normal 400 18px/22px 'Montserrat';
     }
 
+    .fw600 {
+        font-weight: 600;
+    }
+
     .line-h {
         line-height: 30px;
     }
@@ -232,10 +236,25 @@ html {
     }
 
     /*paddings*/
-    .infoCompText{
+    .infoCompText {
         margin: 20px 0 0;
     }
-    .overflow-y-scroll{
+
+    .overflow-y-scroll {
         overflow-y: auto;
+    }
+
+    .afterLine {
+        position: relative;
+    }
+
+    .afterLine::after {
+        content: '';
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #0B0B0B;
+        position: absolute;
     }
 }

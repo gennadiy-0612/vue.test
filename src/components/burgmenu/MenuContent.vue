@@ -25,7 +25,7 @@
       <li class="MenuContent__li"><a class="Ag6001417" href="/cardmob">Корзина</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/oformzakaza">Оформление заказа</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/oformzakaza1">Оформление заказа1</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/oformzakaza1">Попап выбор времени</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/popuptime">Попап выбор времени</a></li>
     </ol>
   </div>
 </template>

@@ -9,19 +9,19 @@
     <form action="/action_page.php">
       <div class="itemCity relative">
         <input class="checkIt opacity-0" type="checkbox" id="address1" name="address1" value="Bike">
-        <label class="addressGost" for="address1">Ул. Красный Проспект, 25/1</label>
+        <label class="addressGost Ag-text14-to-1070 fs17px" for="address1">Ул. Красный Проспект, 25/1</label>
       </div>
       <div class="itemCity relative">
         <input class="checkIt opacity-0" type="checkbox" id="address2" name="address2" value="Car">
-        <label class="addressGost" for="address2">Ул. Военная, 5, ТРЦ “Аура”</label>
+        <label class="addressGost Ag-text14-to-1070 fs17px" for="address2">Ул. Военная, 5, ТРЦ “Аура”</label>
       </div>
       <div class="itemCity relative">
         <input class="checkIt opacity-0" type="checkbox" id="address3" name="address3" value="Boat">
-        <label class="addressGost" for="address3">Ул. Красный Проспект, 101, ТРЦ “Роял Парк”</label>
+        <label class="addressGost Ag-text14-to-1070 fs17px" for="address3">Ул. Красный Проспект, 101, ТРЦ “Роял Парк”</label>
       </div>
       <div class="itemCity relative">
         <input class="checkIt opacity-0" type="checkbox" id="address4" name="address4" value="Boat">
-        <label class="addressGost" for="address4">Ул. Гоголя, 13, ТРЦ “Галерея”</label>
+        <label class="addressGost Ag-text14-to-1070 fs17px" for="address4">Ул. Гоголя, 13, ТРЦ “Галерея”</label>
       </div>
     </form>
     <div class=" map object-cover">
@@ -32,40 +32,6 @@
 <style>
 .whatCity {
   margin: 30px 0 15px;
-}
-
-.addressGost {
-  margin-left: 6px;
-}
-
-.checkIt + .addressGost::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  left: 0;
-  height: 13px;
-  width: 13px;
-  border-radius: 50%;
-  border: 1px solid #8D8D8D;
-}
-
-.checkIt:checked + .addressGost::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  left: 3px;
-  height: 7px;
-  width: 7px;
-  border-radius: 50%;
-  background-color: #039305;
-}
-
-.checkIt:checked + .addressGost::after {
-  border: 1px solid #039305;
 }
 
 .itemCity {

@@ -1,5 +1,5 @@
 <template>
-  <div class="comboNabori pageWithCats">
+  <div class="comboNabori">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>

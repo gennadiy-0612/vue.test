@@ -107,6 +107,11 @@ html {
         min-height: 77px;
     }
 
+    .sizes159x78px {
+        width: 159px;
+        height: 78px;
+    }
+
     .flex-two-col {
         flex: 1 1 50%;
     }
@@ -121,7 +126,6 @@ html {
 
     .E4E4E4 {
         background-color: #E4E4E4;
-
     }
 
     .Ag-p-to-1070 {
@@ -130,6 +134,10 @@ html {
 
     .Ag-h2-to-1070 {
         font: normal 700 23px/28px 'Montserrat';
+    }
+
+    .Ag-h22-to-1070 {
+        font: normal 600 18px/22px 'Montserrat';
     }
 
     .Ag6001417 {
@@ -256,5 +264,19 @@ html {
         right: 0;
         background-color: #0B0B0B;
         position: absolute;
+    }
+
+    .swipe {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        overflow-x: scroll;
+    }
+
+    .swipe::-webkit-scrollbar {
+        display: none;
+    }
+
+    .swipe::-webkit-scrollbar {
+        display: none;
     }
 }

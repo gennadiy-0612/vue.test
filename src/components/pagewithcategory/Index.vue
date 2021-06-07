@@ -4,7 +4,7 @@
       <BackButton/>
       <BurgMenu/>
     </div>
-    <ol class="flex categorySet swipe overflow-hidden">
+    <ol class="flex categorySet swipe">
       <li>
         <CatItem msg="Пицца"/>
       </li>
@@ -31,16 +31,6 @@
   </div>
 </template>
 <style>
-.swipe {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  overflow-x: scroll;
-}
-
-.swipe::-webkit-scrollbar {
-  display: none;
-}
-
 .Header {
   padding: 0 0 30px;
 }
@@ -67,8 +57,8 @@
 }
 </style>
 <script>
-import BurgMenu from '../burgmenu/Index';
-import BackButton from '../address/Index';
+import BurgMenu from '../burgmenu/Index'
+import BackButton from '../address/Index'
 import CatItem from "./CategoryItem";
 import ComboSetsBottom from "./ComboSetsBottom";
 

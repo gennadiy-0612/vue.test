@@ -32,7 +32,7 @@
 }
 </style>
 <script>
-import BurgMenu from '../burgmenu/Index';
+import BurgMenu from '../burgmenu/Index'
 import Address from '../address/Index'
 import HeaderTwo from '../partpage/HeaderTwo'
 import MenuBottom from '../menubottom/Index'

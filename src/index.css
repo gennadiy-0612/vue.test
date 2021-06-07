@@ -299,40 +299,4 @@ html {
     .swipe::-webkit-scrollbar {
         display: none;
     }
-    /*ChekBoxes*/
-    .addressGost {
-        margin-left: 6px;
-    }
-
-    .checkIt + .addressGost::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        left: 0;
-        height: 13px;
-        width: 13px;
-        border-radius: 50%;
-        border: 1px solid #8D8D8D;
-    }
-
-    .checkIt:checked + .addressGost::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        left: 3px;
-        height: 7px;
-        width: 7px;
-        border-radius: 50%;
-        background-color: #039305;
-    }
-
-    .checkIt:checked + .addressGost::after {
-        border: 1px solid #039305;
-    }
-
-    /*ChekBoxes*/
 }

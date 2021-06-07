@@ -10,8 +10,16 @@
       <GreyButton msg="Самовывоз"/>
     </div>
     <p class="Ag-text14-to-1070 fs17px">Мой адрес</p>
-    <InputCheck msg="г.  Новосибирск, ул. Улица, дом 123, квартира 45, подъезд 6 , этаж 7"/>
-    <InputCheck msg="Добавить новый адрес"/>
+    <form action="/action_page.php">
+      <div class="itemCity relative flex">
+        <input class="checkIt opacity-0" type="checkbox" id="address1" name="address1" value="Bike">
+        <label class="addressGost flex Ag-text14-to-1070 fs17px block" for="address1">г.  Новосибирск, ул. Улица, дом 123, квартира 45, подъезд 6 , этаж 7</label>
+      </div>
+      <div class="itemCity relative flex">
+        <input class="checkIt opacity-0" type="checkbox" id="address2" name="address2" value="Car">
+        <label class="addressGost flex Ag-text14-to-1070 fs17px block" for="address2">Добавить новый адрес</label>
+      </div>
+    </form>
     <GreenButton msg="Перейти к подтверждению"/>
     <BlackButton msg="Назад в корзину"/>
     <MenuBottom/>
@@ -32,7 +40,6 @@ import HeaderThree from "../partpage/HeaderThree";
 import GreenButton from '../addtocardgreen/Index'
 import GreyButton from '../addtocardgrey/Index'
 import BlackButton from '../addtocardblack/Index'
-import InputCheck from "../partpage/InputCheck";
 import MenuBottom from '../menubottom/Index'
 
 export default {
@@ -44,7 +51,6 @@ export default {
     GreenButton,
     GreyButton,
     BlackButton,
-    InputCheck,
     MenuBottom
   }
 }

@@ -35,8 +35,8 @@
 }
 
 .addressGost {
-  margin-left: 25px;
-
+  margin-left: 5px;
+  line-height: 20px;
 }
 
 .checkIt + .addressGost::after {
@@ -70,7 +70,7 @@
 }
 
 .itemCity {
-  margin: 12px 0;
+  margin: 3px 0 20px;
 }
 
 .map {

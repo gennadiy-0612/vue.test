@@ -185,6 +185,14 @@ html {
         font: normal 400 14px/21px 'Montserrat';
     }
 
+    .line-h17px {
+        line-height: 17px;
+    }
+
+    .fs14px {
+        font-size: 14px;
+    }
+
     .fs17px {
         font-size: 17px;
     }

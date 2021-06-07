@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-center items-center">
-    <h2 class="Ag-text18-to-1070 PopUpHead text-center fw600 afterLine">{{msg}}</h2>
+  <div class="flex justify-center items-center HeadFrame">
+    <h3 class="h3 Ag-text18-to-1070 PopUpHeader PopUpHead text-center fw600">{{msg}}</h3>
   </div>
 </template>
 <style>

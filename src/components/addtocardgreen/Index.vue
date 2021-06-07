@@ -1,5 +1,5 @@
 <template>
-  <p class="OrderMore-add-to-card-green Ag-text18-to-1070">Добавить в корзину</p>
+  <p class="OrderMore-add-to-card-green Ag-text18-to-1070">{{msg}}</p>
 </template>
 <style scoped>
 @media (max-width: 1069px) {
@@ -19,3 +19,11 @@
   }
 }
 </style>
+<script>
+export default {
+  name: 'GreenButton',
+  props: {
+    msg: String
+  }
+}
+</script>

@@ -8,7 +8,7 @@
 </template>
 <script>
 import X from "../popupbluda/X";
-import HederTwo from "../partpage/HederTwo";
+import HederTwo from "../partpage/HeaderTwo";
 import InputPhone from "../partpage/InputPhone";
 import BlackButton from "../addtocardblack/Index";
 

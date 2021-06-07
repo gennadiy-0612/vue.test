@@ -16,11 +16,12 @@ import LkMobDannie2 from '/src/components/lkmobdannie2/Index'
 import InfoCompany from '/src/components/infocompany/Index'
 import InfoUsage from '/src/components/infousage/Index'
 import Contacts from '/src/components/contacts/Index'
-import Card from '/src/components/card/Index'
 import CardMob from '/src/components/cardmob/Index'
 import OffZak from '/src/components/oformzakaza/Index'
 import OffZak1 from '/src/components/oformzakaza1/Index'
 import PopUpTime from '/src/components/popuptime/Index'
+import ChangeAddressShip from '/src/components/popupchangeshippingaddress/Index'
+import ChangeAddressShip1 from '/src/components/popupchangeshippingaddress1/Index'
 import Error from '/src/components/Error404'
 import "tailwindcss/dist/tailwind.min.css"
 import "./index.css"
@@ -48,11 +49,12 @@ const routes = [
     {path: '/infocompany', component: InfoCompany},
     {path: '/infousage', component: InfoUsage},
     {path: '/contacts', component: Contacts},
-    {path: '/card', component: Card},
     {path: '/cardmob', component: CardMob},
     {path: '/oformzakaza', component: OffZak},
     {path: '/oformzakaza1', component: OffZak1},
     {path: '/popuptime', component: PopUpTime},
+    {path: '/popupchangeshippingaddress', component: ChangeAddressShip},
+    {path: '/popupchangeshippingaddress1', component: ChangeAddressShip1},
     {path: '*', component: Error}
 ]
 

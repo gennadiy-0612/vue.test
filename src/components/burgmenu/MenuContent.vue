@@ -26,6 +26,8 @@
       <li class="MenuContent__li"><a class="Ag6001417" href="/oformzakaza">Оформление заказа</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/oformzakaza1">Оформление заказа1</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/popuptime">Попап выбор времени</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/popupchangeshippingaddress">Изменить адрес доставки</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/popupchangeshippingaddress1">Изменить адрес доставки1</a></li>
     </ol>
   </div>
 </template>

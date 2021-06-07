@@ -37,7 +37,7 @@
 <script>
 import BurgMenu from '../burgmenu/Index';
 import Address from '../address/Index'
-import HeaderTwo from '../partpage/HederTwo'
+import HeaderTwo from '../partpage/HeaderTwo'
 import MenuBottom from '../menubottom/Index'
 
 export default {

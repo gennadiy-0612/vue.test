@@ -78,7 +78,7 @@
 }
 </style>
 <script>
-import HederTwo from "../partpage/HederTwo";
+import HederTwo from "../partpage/HeaderTwo";
 import X from "../popupbluda/X";
 
 export default {

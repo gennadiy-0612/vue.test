@@ -14,7 +14,7 @@
 </style>
 <script>
 import X from "../popupbluda/X";
-import HeaderTwo from "../partpage/HederTwo";
+import HeaderTwo from "../partpage/HeaderTwo";
 import InputPhone from "../partpage/InputPhone";
 import InputCode from "../partpage/InputCode";
 

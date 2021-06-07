@@ -4,28 +4,49 @@
       <Address/>
       <BurgMenu/>
     </div>
-    <HeaderThree msg="Попробуйте"/>
-    <div class="SeeIt__all flex swipe">
-      <SeeIt/>
-      <SeeIt/>
-      <SeeIt/>
-      <SeeIt/>
-      <SeeIt/>
-      <SeeIt/>
-      <SeeIt/>
-      <SeeIt/>
-      <SeeIt/>
-      <SeeIt/>
+    <div class="tryIt">
+      <HeaderThree msg="Попробуйте"/>
+      <div class="SeeIt__all flex swipe">
+        <SeeIt/>
+        <SeeIt/>
+        <SeeIt/>
+        <SeeIt/>
+        <SeeIt/>
+        <SeeIt/>
+        <SeeIt/>
+        <SeeIt/>
+        <SeeIt/>
+        <SeeIt/>
+      </div>
+      <div class="tryIt">
+        <HeaderThree msg="Рекомендуем заказать"/>
+        <div class="SeeIt__all flex swipe">
+          <SeeIt/>
+          <SeeIt/>
+          <SeeIt/>
+          <SeeIt/>
+          <SeeIt/>
+          <SeeIt/>
+          <SeeIt/>
+          <SeeIt/>
+          <SeeIt/>
+          <SeeIt/>
+        </div>
+        <div>
+          <h3 class="Ag4001624">Корзина</h3>
+        </div>
+        <MenuBottom/>
+      </div>
     </div>
-    <MenuBottom/>
   </div>
 </template>
 <style>
 .Header {
   padding: 0 0 30px;
 }
-.SeeIt__all{
-  margin: 1px 0 29px;
+
+.SeeIt__all {
+  margin: 16px 0 29px;
   width: calc(100% + 16px);
 }
 </style>

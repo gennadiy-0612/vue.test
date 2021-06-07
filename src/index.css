@@ -105,11 +105,13 @@ html {
         width: 100%;
         min-width: 114px;
         min-height: 77px;
+        max-width: initial;
     }
 
     .sizes159x78px {
         width: 159px;
         height: 78px;
+        max-width: initial;
     }
 
     .flex-two-col {
@@ -142,6 +144,9 @@ html {
 
     .Ag6001417 {
         font: normal 600 14px/16px 'Montserrat';
+    }
+    .Ag4001624 {
+        font: normal 400 16px/24px 'Montserrat';
     }
 
     .Ag-back-to-1070 {

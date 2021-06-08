@@ -53,7 +53,7 @@
 }
 
 .commonPrice.fs20 {
-  font-size: 14px;
+  font-size: 20px;
 }
 </style>
 <script>

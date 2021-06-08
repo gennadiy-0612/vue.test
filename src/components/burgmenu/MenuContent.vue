@@ -12,14 +12,14 @@
       <li class="MenuContent__li"><a class="Ag6001417" href="/pagewithcategory">Страница с категориями</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/combonabori">Комбо-наборы</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/popupbluda">Поп-ап блюда</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/popupcombo">popupcombo</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/card">Шаблон</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/main">main</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/events">actions</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/search">search</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/popupcombo">Поп-ап комбо</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/events">Акции</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie">ЛК Изменить данные</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie1">ЛК Изменить данные 1</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie2">ЛК Изменить данные 2</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/card">Шаблон</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/main">main</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/search">search</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/vkhodnewcode">vkhodnewcode</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/infocompany">Информация о компании</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/infousage">Условия использования</a></li>

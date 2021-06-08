@@ -23,7 +23,7 @@
 <style>
 
 .underHead {
-  margin: 30px 0 18px;
+  margin: 0 0 19px;
 }
 
 .Photo__img {

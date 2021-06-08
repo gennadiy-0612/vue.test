@@ -3,7 +3,7 @@
     <a href="/"><X/></a>
     <Photo msg="Photo"/>
     <Descriptor/>
-    <div class="p-b5px">
+    <div class="DescSet">
       <DescriptionItem/>
       <DescriptionItem/>
       <DescriptionItem/>
@@ -18,6 +18,13 @@
 <style>
 .popUpCombo {
   padding: 6px 16px 100px;
+}
+.popUpCombo .Photo__img{
+  height: 167px;
+  margin-top: 7px;
+}
+.DescSet{
+  margin-bottom: 27px;
 }
 </style>
 <script>

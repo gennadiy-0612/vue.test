@@ -14,9 +14,14 @@
   </div>
 </template>
 <style>
-.DescriptionItem{
+.DescriptionItem {
   margin: 0 0 7px;
 }
+
+.CategoryPage .DescriptionItem::after {
+  bottom: 3px;
+}
+
 .comboSet-img {
   height: 90px;
   width: 134px;
@@ -26,10 +31,12 @@
 .DescriptionItem__h3 {
   margin: 0 0 0;
 }
-.DescriptionItem__p{
+
+.DescriptionItem__p {
   margin: 6px 0 0;
 }
-.DescriptionItem__price{
+
+.DescriptionItem__price {
   margin: 6px 0 0 9px;
 }
 </style>

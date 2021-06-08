@@ -47,7 +47,7 @@
 <style>
 .closeContentMenuBottom {
   border-top: 2px solid #7E7E7E;
-  padding: 10px 16px 24px;
+  padding: 12px 16px 27px;
 }
 
 .BottomMenu__a {

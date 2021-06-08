@@ -1,14 +1,28 @@
 <template>
-  <div class="LogFrame">
-    <X/>
+  <div class="LogFrameGet">
+    <a href="/"><X/></a>
     <HederTwo msg="Вход на сайт"/>
-    <InputPhone/>
+    <div class="oldPhone">
+      <InputPhone/>
+    </div>
     <BlackButton msg="Выслать код"/>
   </div>
 </template>
 <style>
-.LogFrame {
-  padding: 40% 10% 10%;
+.LogFrameGet {
+  padding: 40% 10%;
+}
+
+.oldPhone {
+  margin: 19px 0;
+}
+
+.oldPhone .searchButton {
+  margin: 7px 0 -3px;
+}
+
+.LogFrameGet .switchVision {
+  display: none;
 }
 </style>
 <script>

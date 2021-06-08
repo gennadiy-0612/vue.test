@@ -1,6 +1,6 @@
 <template>
   <div class="poiskTop popUpFrame">
-    <X/>
+    <a href="/"><X/></a>
     <Poisk/>
     <div class="letters flex flex-wrap justify-between">
       <div class="letters__items">

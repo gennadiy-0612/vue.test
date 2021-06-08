@@ -9,11 +9,11 @@
       <li class="MenuContent__li"><a class="Ag6001417" href="/viborrest">Выберите ресторан, где вы хотите сделать заказ</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/poisk">Выберите город</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/main">Главная</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/card">Шаблон</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/popupbluda">popupbluda</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/pagewithcategory">Страница с категориями</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/combonabori">Комбо-наборы</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/popupbluda">Поп-ап блюда</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/popupcombo">popupcombo</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/combonabori">combonabori</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/pagewithcategory">pagewithcategory</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/card">Шаблон</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/main">main</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/events">actions</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/search">search</a></li>

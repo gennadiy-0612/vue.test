@@ -22,6 +22,10 @@
   margin: 0 0 4px;
 }
 
+.comboNabori .DescriptionItem::after {
+  bottom: 8px;
+}
+
 .DescriptionItem__descriptionitem {
   margin: 6px 0 0 2px;
 }

@@ -1,6 +1,8 @@
 <template>
   <div class="popUpBluda">
-    <a href="/"><X/></a>
+    <a href="/">
+      <X/>
+    </a>
     <Photo msg="Photo"/>
     <DescriptionPrice msg="Пепперони"/>
     <AlsoBuy/>
@@ -16,12 +18,16 @@
 
     <LoadBar/>
     <OrderMore/>
-    <AddToCard/>
+    <AddToCard msg="Добавить в корзину"/>
   </div>
 </template>
 <style>
-.popUpBluda{
+.popUpBluda {
   padding: 6px 16px 16px;
+}
+
+.popUpBluda .Photo__img {
+  height: 179px;
 }
 </style>
 <script>

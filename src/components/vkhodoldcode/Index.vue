@@ -1,11 +1,16 @@
 <template>
-  <div class="popUpFrame">
+  <div class="LogFrame">
     <X/>
     <HederTwo msg="Вход на сайт"/>
     <InputPhone/>
     <BlackButton msg="Выслать код"/>
   </div>
 </template>
+<style>
+.LogFrame {
+  padding: 40% 10% 10%;
+}
+</style>
 <script>
 import X from "../popupbluda/X";
 import HederTwo from "../partpage/HeaderTwo";

@@ -64,15 +64,18 @@
 .getNews {
   padding: 14px 0;
 }
- .checkIt + .toChange::after{
-   height: 20px;
-   width: 20px;
- }
-.checkIt:checked + .toChange::before{
+
+.checkIt + .toChange::after {
+  height: 20px;
+  width: 20px;
+}
+
+.checkIt:checked + .toChange::before {
   left: 4px;
   height: 12px;
   width: 12px;
 }
+
 .searchButton::placeholder {
   color: #000000;
 }

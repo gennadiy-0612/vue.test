@@ -1,5 +1,5 @@
 <template>
-  <p class="OrderMore-add-to-card-black Ag-text18-to-1070">{{msg}}</p>
+  <p class="OrderMore-add-to-card-black OrderActCash Ag-text18-to-1070">{{msg}}</p>
 </template>
 <style scoped>
 @media (max-width: 1069px) {

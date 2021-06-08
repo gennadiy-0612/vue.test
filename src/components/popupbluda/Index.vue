@@ -29,6 +29,9 @@
 .popUpBluda .Photo__img {
   height: 179px;
 }
+.popUpBluda .commonPrice{
+  font-size: 20px;
+}
 </style>
 <script>
 import X from './X'

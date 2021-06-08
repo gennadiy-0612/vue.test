@@ -1,7 +1,9 @@
 <template>
-  <div class="Time m-auto h-1/2 absolute left-0 top-0 bottom-0 right-0">
-    <a href="/"><X/></a>
-    <div class="Header__when flex justify-center">
+  <div class="Time  m-auto absolute m-auto overflow-y-scroll left-0 top-0 bottom-0 right-0">
+    <a href="/">
+      <X/>
+    </a>
+    <div class="Header__when afterLine flex justify-center">
       <HeaderPopUp msg="Ближайшее"/>
     </div>
     <Time from="00:00" to="00:30"/>
@@ -15,14 +17,23 @@
   </div>
 </template>
 <style>
-.HHeader__when {
-  padding: 0 0 30px;
+.Header__when {
+  padding: 4px 0 17px;
+}
+
+.Header__when.afterLine::after {
+  bottom: 10px;
+}
+
+.Header__when .afterLine::after {
+  bottom: 10px;
 }
 
 .Time {
   background-color: #F2F2F2;
   padding: 0 16px 16px;
   width: 160px;
+  height: 90%;
 }
 </style>
 <script>

@@ -3,9 +3,9 @@
     <div class="w-full h-full object-cover">
       <img class="w-full h-full" src="../../assets/img/map.png">
     </div>
-    <div class="buttonMap absolute">
+    <a href="/" class="block buttonMap absolute">
       <GreenButton msg="Закрыть"/>
-    </div>
+    </a>
   </div>
 </template>
 <style>

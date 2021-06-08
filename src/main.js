@@ -22,6 +22,10 @@ import OffZak1 from '/src/components/oformzakaza1/Index'
 import PopUpTime from '/src/components/popuptime/Index'
 import ChangeAddressShip from '/src/components/popupchangeshippingaddress/Index'
 import ChangeAddressShip1 from '/src/components/popupchangeshippingaddress1/Index'
+import ChangeAddressShip2 from '/src/components/popupchangeshippingaddress2/Index'
+import ChangeAddressShip3 from '/src/components/popupchangeshippingaddress3/Index'
+import OformSamoVivoza from '/src/components/oformsamovivoza/Index'
+import OformDostavki from '/src/components/oformdostavki/Index'
 import Error from '/src/components/Error404'
 import "tailwindcss/dist/tailwind.min.css"
 import "./index.css"
@@ -55,6 +59,10 @@ const routes = [
     {path: '/popuptime', component: PopUpTime},
     {path: '/popupchangeshippingaddress', component: ChangeAddressShip},
     {path: '/popupchangeshippingaddress1', component: ChangeAddressShip1},
+    {path: '/popupchangeshippingaddress2', component: ChangeAddressShip2},
+    {path: '/popupchangeshippingaddress3', component: ChangeAddressShip3},
+    {path: '/oformsamovivoza', component: OformSamoVivoza},
+    {path: '/oformdostavki', component: OformDostavki},
     {path: '*', component: Error}
 ]
 

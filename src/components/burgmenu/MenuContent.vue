@@ -15,9 +15,9 @@
       <li class="MenuContent__li"><a class="Ag6001417" href="/viborrest">viborrest</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/vkhodoldcode">vkhodoldcode</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/vkhodnewcode">vkhodnewcode</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie">lkmobdannie</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie1">lkmobdannie1</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie2">lkmobdannie2</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie">ЛК Изменить данные</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie1">ЛК Изменить данные 1</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie2">ЛК Изменить данные 2</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/vkhodnewcode">vkhodnewcode</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/infocompany">Информация о компании</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/infousage">Условия использования</a></li>
@@ -28,6 +28,10 @@
       <li class="MenuContent__li"><a class="Ag6001417" href="/popuptime">Попап выбор времени</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/popupchangeshippingaddress">Изменить адрес доставки</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/popupchangeshippingaddress1">Изменить адрес доставки1</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/popupchangeshippingaddress2">Изменить адрес доставки2</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/popupchangeshippingaddress3">Изменить адрес доставки3</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/oformsamovivoza">Оформление самовывоза</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/oformdostavki">Оформление доставки</a></li>
     </ol>
   </div>
 </template>

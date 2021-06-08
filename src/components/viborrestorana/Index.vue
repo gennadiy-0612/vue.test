@@ -24,7 +24,7 @@
         <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address4">Ул. Гоголя, 13, ТРЦ “Галерея”</label>
       </div>
     </form>
-    <div class=" map object-cover">
+    <div class="map object-cover">
       <img class="w-full" src="../../assets/img/map.png">
     </div>
   </div>

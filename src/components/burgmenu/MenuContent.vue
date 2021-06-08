@@ -3,7 +3,12 @@
     <a href="#" class="closeX fixed right-2 z-2 block top-0">
       <X/>
     </a>
-    <ol class="OlContent flex flex-col justify-center text-center absolute bg-white left-0 top-0 w-full h-full z-1 E4E4E4 overflow-y-scroll">
+    <ol class="flex flex-col justify-center text-center absolute bg-white left-0 top-0 w-full h-full z-1 E4E4E4 overflow-y-scroll">
+      <li class="MenuContent__li"><a class="Ag6001417" href="/vkhodoldcode">Вход на сайт</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/vkhodnewcode">Вход на сайт новый</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/viborrest">Выберите ресторан, где вы хотите сделать заказ</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/poisk">Выберите город</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417" href="/main">Главная</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/card">Шаблон</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/popupbluda">popupbluda</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/popupcombo">popupcombo</a></li>
@@ -12,9 +17,6 @@
       <li class="MenuContent__li"><a class="Ag6001417" href="/main">main</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/events">actions</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/search">search</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/viborrest">viborrest</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/vkhodoldcode">vkhodoldcode</a></li>
-      <li class="MenuContent__li"><a class="Ag6001417" href="/vkhodnewcode">vkhodnewcode</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie">ЛК Изменить данные</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie1">ЛК Изменить данные 1</a></li>
       <li class="MenuContent__li"><a class="Ag6001417" href="/lkmobdannie2">ЛК Изменить данные 2</a></li>
@@ -43,9 +45,6 @@
   color: #009200;
   transition-property: color;
   transition-duration: .7s;
-}
-.OlContent{
-  padding: 90px 0 0;
 }
 </style>
 <script>

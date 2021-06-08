@@ -1,14 +1,15 @@
 <template>
   <ol class="flex flex-wrap justify-between afterLine afterLine-PersonData">
-    <a href="#" class="Ag-text14-to-1070 activeOption afterLine block Option changeDataPerson">Личные данные</a>
+    <a href="#" class="Ag-text14-to-1070 activeOption afterLine block Option changeDataPerson relative">Личные данные</a>
     <a href="#"
-       class="Ag-text14-to-1070 block Option afterLine-change">Адреса
+       class="Ag-text14-to-1070 block Option afterLine-change changeDataAddress relative">Адреса
       доставки</a>
   </ol>
 </template>
 <style>
 .afterLine-PersonData.afterLine::after {
   background-color: #E4E4E4;
+  z-index: -1;
 }
 
 .activeOption.afterLine::after {

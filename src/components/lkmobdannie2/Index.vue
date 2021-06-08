@@ -1,29 +1,23 @@
 <template>
-  <div class="comboNabori Order">
+  <div class="comboNabori Order ChangePD">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
     </div>
-    <HeaderThree msg="Оформление заказа"/>
-    <div class="flex oformZakaz">
-      <GreenButton msg="Доставка"/>
-      <GreyButton msg="Самовывоз"/>
+    <ChangePersonalData/>
+    <div class="myAddress ChangePD__address">
+      <p class="Ag-text14-to-1070 fs14px">Мой адрес</p>
+      <div class="itemCity relative flex justify-between ">
+        <p class="Ag-text14-to-1070 line-h17px fs14px block">г. Новосибирск, ул. Улица...</p>
+        <a class="block Option activeOption">Изменить</a>
+      </div>
+      <p class="Ag-text14-to-1070 fs14px">Мой адрес</p>
+      <div class="itemCity relative flex justify-between ">
+        <p class="Ag-text14-to-1070 line-h17px fs14px block">г. Новосибирск, ул. Улица...</p>
+        <a class="block Option activeOption">Сохранить</a>
+      </div>
     </div>
-    <p class="Ag-text14-to-1070 fs14px">Мой адрес</p>
-    <form class="myAddress" action="/action_page.php">
-      <div class="itemCity relative flex">
-        <input class="checkIt opacity-0" type="checkbox" id="address1" name="address1" value="Bike">
-        <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address1">г. Новосибирск, ул.
-          Улица, дом
-          123, квартира 45, подъезд 6 , этаж 7</label>
-      </div>
-      <div class="itemCity relative flex">
-        <input class="checkIt opacity-0" type="checkbox" id="address2" name="address2" value="Car">
-        <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address2">Добавить новый
-          адрес</label>
-      </div>
-    </form>
-    <form class="where">
+    <form class="ChangePD__where">
       <div class="raw flex">
         <input class="searchButton bg-E4E4E4 border-solid border-0 w-full block" placeholder="Город" type="text"
                id="city"
@@ -44,12 +38,14 @@
                id="level" name="level">
       </div>
       <div class="raw flex">
-        <input class="searchButton bg-E4E4E4 Ag-text14-to-1070 border-solid border-0 w-full block" placeholder="Название адреса"
+        <input class="searchButton bg-E4E4E4 Ag-text14-to-1070 border-solid border-0 w-full block"
+               placeholder="Название адреса"
                type="text"
                id="address" name="address">
       </div>
       <div class="raw flex">
-        <input class="searchButton bg-E4E4E4 Ag-text14-to-1070 border-solid border-0 w-full block" placeholder="Комментарий к адресу"
+        <input class="searchButton bg-E4E4E4 Ag-text14-to-1070 border-solid border-0 w-full block"
+               placeholder="Комментарий к адресу"
                type="text" id="detail" name="detail">
       </div>
     </form>
@@ -64,6 +60,39 @@
   padding: 0 0 30px;
 }
 
+.ChangePD__where {
+  margin: 0 0 -5px;
+}
+
+.ChangePD .changeDataAddress.afterLine-change::after {
+  background-color: #465502;
+  content: '';
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  right: 0;
+  bottom: 0;
+}
+.ChangePD .activeOption::after{
+  height: 0;
+}
+.ChangePD .changeDataPerson {
+  font-weight: 400;
+}
+
+.ChangePD .changeDataAddress {
+  font-weight: 700;
+  color: #465502;
+}
+
+.ChangePD .raw {
+  margin: 0 -5px -1px;
+}
+
+.ChangePD .Option {
+  line-height: 17px;
+}
+
 .myAddress {
   margin: 0 0 -18px;
 }
@@ -72,12 +101,20 @@
   margin: 3px 0 21px;
 }
 
-.flex.oformZakaz {
-  margin: 20px 0 30px;
+.ChangePD .afterLine-PersonData {
+  margin: 2px 0 27px;
 }
 
-.oformZakaz .OrderMore-add-to-card-green, .oformZakaz .OrderMore-add-to-card-black {
-  flex: 1 1 50%;
+.ChangePD.Order .itemCity {
+  margin: 2px 0 6px;
+}
+
+.Order .Option.activeOption {
+  line-height: 17px;
+}
+
+.ChangePD__address.myAddress {
+  margin: 0 0 -5px;
 }
 
 .Order .searchButton {
@@ -99,19 +136,6 @@
   margin: 0 -5px;
 }
 
-.choiceTime {
-  margin: 13px 0 30px;
-}
-
-.timeButton {
-  padding: 6px 0;
-  flex: 1 1 40%;
-}
-
-.setTime {
-  flex: 1 1 30%;
-}
-
 .Order__setButtons .OrderMore-add-to-card-black {
   margin: 20px 0 0;
 }
@@ -123,9 +147,7 @@
 <script>
 import BurgMenu from '../burgmenu/Index'
 import Address from '../address/Index'
-import HeaderThree from "../partpage/HeaderThree";
-import GreenButton from '../addtocardgreen/Index'
-import GreyButton from '../addtocardgrey/Index'
+import ChangePersonalData from '../partpage/ChangePersonalData'
 import BlackButton from '../addtocardblack/Index'
 import MenuBottom from '../menubottom/Index'
 
@@ -134,9 +156,7 @@ export default {
   components: {
     BurgMenu,
     Address,
-    HeaderThree,
-    GreenButton,
-    GreyButton,
+    ChangePersonalData,
     BlackButton,
     MenuBottom
   }

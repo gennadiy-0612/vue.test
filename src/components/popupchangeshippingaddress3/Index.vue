@@ -1,17 +1,24 @@
 <template>
-  <div class="popUpFrame popUpFrame3 popUpReady h-full">
-    <div class="map object-cover">
-      <img class="w-full" src="../../assets/img/map.png">
+  <div class="popUpReady h-full">
+    <div class="w-full h-full object-cover">
+      <img class="w-full h-full" src="../../assets/img/map.png">
     </div>
-    <GreenButton msg="Закрыть"/>
+    <div class="buttonMap absolute">
+      <GreenButton msg="Закрыть"/>
+    </div>
   </div>
 </template>
 <style>
 .popUpReady .afterLine::after {
   content: none;
 }
-.popUpFrame3 .OrderMore-add-to-card-green{
+
+.buttonMap {
+  bottom: 16%;
+  left: 5%;
+  right: 5%;
 }
+
 .popUpReady .PopUpHeader {
   width: 200px;
   text-align: center;

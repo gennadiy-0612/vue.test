@@ -4,7 +4,7 @@
       <Address/>
       <BurgMenu/>
     </div>
-    <div class="w-180px">
+    <div class="w-200px">
       <HeaderTwo msg="Условия использования"/>
     </div>
     <div class="infoCompText">
@@ -30,8 +30,8 @@
   padding: 0 0 30px;
 }
 
-.w-180px {
-  width: 180px;
+.w-200px {
+  width: 200px;
 }
 </style>
 <script>

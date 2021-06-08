@@ -72,6 +72,7 @@
   height: 2px;
   right: 0;
   bottom: 0;
+  z-index: 0;
 }
 .ChangePD .activeOption::after{
   height: 0;

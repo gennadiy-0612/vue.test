@@ -30,6 +30,10 @@ html {
     background-color: #E4E4E4;
 }
 
+.bg-465502 {
+    background-color: #465502;
+}
+
 .z-1 {
     z-index: 1;
 }
@@ -189,6 +193,10 @@ html {
         line-height: 17px;
     }
 
+    .line-h21px {
+        line-height: 21px;
+    }
+
     .fs14px {
         font-size: 14px;
     }
@@ -211,6 +219,10 @@ html {
 
     .fw600 {
         font-weight: 600;
+    }
+
+    .fw700 {
+        font-weight: 700;
     }
 
     .sign {
@@ -280,20 +292,6 @@ html {
         overflow-y: auto;
     }
 
-    .afterLine {
-        position: relative;
-    }
-
-    .afterLine::after {
-        content: '';
-        height: 1px;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #0B0B0B;
-        position: absolute;
-    }
-
     .swipe {
         -ms-overflow-style: none;
         scrollbar-width: none;
@@ -306,5 +304,20 @@ html {
 
     .swipe::-webkit-scrollbar {
         display: none;
+    }
+
+    /*.swipe */
+    .afterLine {
+        position: relative;
+    }
+
+    .afterLine::after {
+        content: '';
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #0B0B0B;
+        position: absolute;
     }
 }

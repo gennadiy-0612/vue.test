@@ -52,7 +52,7 @@
       <label class="Ag-text12-to-1070">С какой суммы подготовить сдачу?</label>
       <div class="whatRestDetails flex justify-center items-center">
         <input type="text" id="moneyPart" name="level"
-               class="searchButton moneyRest bg-E4E4E4 border-solid border-0 w-full block">
+               class="searchButton moneyRest bg-E4E4E4 border-solid border-0 w-full block text-center">
         <div class="itemCity relative flex moneyRestIs items-center">
           <input class="checkIt opacity-0" type="checkbox" id="address4" name="address2" value="Car">
           <label class="addressGost flex Ag-text12-to-1070 line-h17px block" for="address4">Без сдачи</label>
@@ -132,9 +132,11 @@
   flex: 1 1 40%;
   margin: 0 0 0 8px;
 }
+
 :checked + .addressGost {
   font-weight: 700;
 }
+
 .OrderGive.Order .moneyRest {
   flex: 1 1 40%;
   margin: 0;

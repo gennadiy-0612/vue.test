@@ -48,6 +48,8 @@
           курьеру</label>
       </div>
     </form>
+
+
     <div class="Order__setButtons">
       <GreenButton msg="Подтвердить заказ на 2000р"/>
       <BlackButton msg="Назад к оформлению заказа"/>

@@ -1,33 +1,39 @@
 <template>
-  <div class="comboNabori Order">
+  <div class="comboNabori Order OrderAct OrderGive">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
     </div>
     <HeaderThree msg="Подтверждение"/>
-    <HeaderThree msg="Заказ на самовывоз"/>
+    <div class="OrderAct-two">
+      <HeaderThree msg="Заказ на самовывоз"/>
+    </div>
     <div class="dataPerson">
-      <div class="dataPerson__line flex justify-between">
+      <div class="OrderAct__line flex justify-between">
         <p class="Ag-text14-to-1070">Имя</p>
         <p class="Ag-text1421-to-1070">Виктор</p>
       </div>
-      <div class="dataPerson__line flex justify-between">
+      <div class="OrderAct__line flex justify-between">
         <p class="Ag-text14-to-1070">Телефон</p>
         <p class="Ag-text1421-to-1070">+79998889778</p>
       </div>
-      <div class="dataPerson__line flex justify-between">
-        <p class="Ag-text14-to-1070">Адрес самовывоза</p>
-        <p class="Ag-text1421-to-1070">Улица Военная, 5, ТРЦ “Аура”</p>
+      <div class="OrderAct__line flex items-center flex-wrap justify-between">
+        <p class="OrderAct__item1 Ag-text14-to-1070">Адрес самовывоза</p>
+        <p class="OrderAct__item2 Ag-text1421-to-1070 text-right">Улица Военная,<br/> 5, ТРЦ “Аура”</p>
       </div>
-      <div class="dataPerson__line flex justify-between">
+      <div class="OrderAct__line flex justify-between">
         <p class="Ag-text14-to-1070">Время самовывоза</p>
         <p class="Ag-text1421-to-1070">Ближайшее</p>
       </div>
     </div>
-    <BlackButton msg="Изменить"/>
+    <div class="OrderActChange">
+      <BlackButton msg="Изменить"/>
+    </div>
     <PromoCode/>
-    <HeaderThree msg="Способ оплаты"/>
-    <form class="myAddress" action="/action_page.php">
+    <div class="PayWay">
+      <HeaderThree msg="Способ оплаты"/>
+    </div>
+    <form class="myAddress OrderActCash" action="/action_page.php">
       <div class="itemCity relative flex">
         <input class="checkIt opacity-0" type="checkbox" id="address1" name="address1" value="Bike">
         <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address1">Картой на сайте</label>
@@ -42,14 +48,14 @@
           курьеру</label>
       </div>
     </form>
-    <div>
-      <label>С какой суммы подготовить сдачу?</label>
-      <div class="flex justify-center">
+    <div class="whatRest">
+      <label class="Ag-text12-to-1070">С какой суммы подготовить сдачу?</label>
+      <div class="whatRestDetails flex justify-center items-center">
         <input type="text" id="moneyPart" name="level"
                class="searchButton moneyRest bg-E4E4E4 border-solid border-0 w-full block">
         <div class="itemCity relative flex moneyRestIs items-center">
           <input class="checkIt opacity-0" type="checkbox" id="address4" name="address2" value="Car">
-          <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address4">Без сдачи</label>
+          <label class="addressGost flex Ag-text12-to-1070 line-h17px block" for="address4">Без сдачи</label>
         </div>
       </div>
     </div>
@@ -65,21 +71,77 @@
   padding: 0 0 30px;
 }
 
+.OrderAct-two {
+  margin: 30px 0 20px;
+}
+
+.OrderAct .h2Papa {
+  margin: 0 0 0;
+}
+
+.OrderAct .Promo__Head {
+  flex: 1 1 56%;
+}
+
+.OrderAct .promoCode.PromoTemplate__item {
+  margin: 0 0 0;
+  padding: 22px;
+  flex: 1 1 60%;
+}
+
+.OrderAct__line {
+  margin: 0 0 11px;
+}
+
+.OrderAct__item1 {
+  flex: 1 1 54%;
+}
+
+.OrderAct__item2 {
+  flex: 1 1 46%;
+}
+
+.Order.OrderAct .itemCity {
+  margin: 0 0 16px;
+}
+
 .myAddress {
   margin: 0 0 -18px;
 }
 
-.Order .itemCity {
-  margin: 3px 0 21px;
+.whatRest {
+  margin: -30px 18px 20px;
 }
-.moneyRest{
-  flex: 1 1 50%;
+
+.PayWay {
+  margin: 30px 0 17px;
 }
-.moneyRestIs{
-  flex: 0 0 40%;
+
+.OrderAct .OrderActCash {
+  margin: 0 0 30px;
 }
-.flex.oformZakaz {
-  margin: 20px 0 30px;
+
+.Order.OrderGive .moneyRest {
+  flex: 1 1 53%;
+  margin: 0;
+  padding: 3px;
+  height: auto;
+}
+
+.OrderAct.OrderGive .moneyRestIs {
+  flex: 1 1 40%;
+  margin: 0 0 0 8px;
+}
+:checked + .addressGost {
+  font-weight: 700;
+}
+.OrderGive.Order .moneyRest {
+  flex: 1 1 40%;
+  margin: 0;
+}
+
+.whatRestDetails {
+  margin: 4px 0 31px;
 }
 
 .oformZakaz .OrderMore-add-to-card-green, .oformZakaz .OrderMore-add-to-card-black {
@@ -93,29 +155,8 @@
   letter-spacing: -0.7px;
 }
 
-.street {
-  flex: 1 1 137%;
-}
-
-.searchButton::placeholder {
-  color: #000000;
-}
-
-.raw {
-  margin: 0 -5px;
-}
-
-.choiceTime {
-  margin: 13px 0 30px;
-}
-
-.timeButton {
-  padding: 6px 0;
-  flex: 1 1 40%;
-}
-
-.setTime {
-  flex: 1 1 30%;
+.OrderActChange {
+  margin: 19px 0 -8px;
 }
 
 .Order__setButtons .OrderMore-add-to-card-black {
@@ -124,6 +165,10 @@
 
 .Order__setButtons {
   padding: 0 0 30px;
+}
+
+.OrderAct .OrderActCash {
+  padding: 0;
 }
 </style>
 <script>

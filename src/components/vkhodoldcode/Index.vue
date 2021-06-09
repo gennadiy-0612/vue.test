@@ -1,16 +1,22 @@
 <template>
-  <div class="LogFrameGet">
-    <a href="/"><X/></a>
-    <HederTwo msg="Вход на сайт"/>
-    <div class="oldPhone">
-      <InputPhone/>
+  <div class="LogFrameGet h-full w-full flex flex-wrap justify-center">
+    <div class="LogFrameGet__item self-center">
+      <a href="/">
+      <X/>
+    </a>
+      <HederTwo msg="Вход на сайт"/>
+      <div class="oldPhone">
+        <InputPhone/>
+      </div>
+      <BlackButton msg="Выслать код"/>
     </div>
-    <BlackButton msg="Выслать код"/>
   </div>
 </template>
 <style>
-.LogFrameGet {
-  padding: 40% 10%;
+.LogFrameGet__item{
+  max-width: 100%;
+  max-height: 54%;
+  min-width: 256px;
 }
 
 .oldPhone {

@@ -1,27 +1,29 @@
 <template>
-  <div class="LogFrameInsert">
-    <a href="/"><X/></a>
-    <HeaderTwo msg="Вход на сайт"/>
-    <InputPhone/>
-    <InputCode/>
-    <p class="Ag-text14-to-1070 fw700 newCode">Получить новый код</p>
+  <div class="LogFrame Insert-full w-full h-full flex flex-wrap justify-center">
+    <div class="LogFrameGet__item self-center">
+      <a href="/">
+        <X/>
+      </a>
+      <HeaderTwo msg="Вход на сайт"/>
+      <InputPhone/>
+      <InputCode/>
+      <p class="Ag-text14-to-1070 fw700 newCode">Получить новый код</p>
+    </div>
   </div>
 </template>
 <style>
-.LogFrameInsert {
-  margin: 34% 10%;
-}
-
-.LogFrameInsert .phoneOpt {
+.Insert-full .phoneOpt {
   margin: 20px 0 5px;
 }
 
-.LogFrameInsert .searchButton {
+.Insert-full .searchButton {
   margin-bottom: 8px;
 }
-.LogFrameInsert .codeSMS{
+
+.Insert-full .codeSMS {
   margin: 5px 0 10px;
 }
+
 .newCode {
   color: #8D8D8D;
 }

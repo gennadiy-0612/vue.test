@@ -4,7 +4,7 @@
     <h2 class="Ag-h2-to-1070 underHead">Акции</h2>
     <Photo/>
     <h3 class="Ag-h3-to-1070 Presents">Подарки именинникам</h3>
-    <div class="PresentsTo">
+    <div class="PresentsTo afterLine">
       <p class="Ag-text14-to-1070">Дарим в День рождения скидку 10% на весь
         заказ! А так же сертификат на пиццу
         в ресторане! Укажите кодовое слово “День
@@ -21,7 +21,10 @@
   </div>
 </template>
 <style>
-
+.PresentsTo.afterLine::after{
+  bottom: -20px;
+  background-color: #E4E4E4;
+}
 .underHead {
   margin: 0 0 19px;
 }

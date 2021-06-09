@@ -16,9 +16,6 @@
   </div>
 </template>
 <style>
-.Contacts{
-  padding-bottom: 100px;
-}
 .Header {
   padding: 0 0 30px;
 }

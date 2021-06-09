@@ -82,7 +82,7 @@
 }
 
 .ContactsItem.afterLine::after {
-  background-color: #7E7E7E;
+  background-color: #E4E4E4;
   bottom: 0;
 }
 </style>

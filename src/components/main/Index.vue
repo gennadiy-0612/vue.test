@@ -1,44 +1,46 @@
 <template>
-  <div class="mainPage">
+  <div class="mainPage h-full">
     <div class="mainBack bg-cover">
       <MenuTop/>
     </div>
-    <div class="flex justify-between flex-wrap mainPage__icons">
-      <div class="iconsThemes flex flex-col items-center justify-between self-center">
-        <div class="descImg flex justify-center items-center">
-          <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/pizza.svg" alt="Пицца"/></a>
+    <div class="CenteringOneItem">
+      <div class="flex justify-between flex-wrap mainPage__icons">
+        <div class="iconsThemes flex flex-col items-center justify-between self-center">
+          <div class="descImg flex justify-center items-center">
+            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/pizza.svg" alt="Пицца"/></a>
+          </div>
+          <descitem msg="Пицца"/>
         </div>
-        <descitem msg="Пицца"/>
-      </div>
-      <div class="iconsThemes flex flex-col items-center justify-between self-center">
-        <div class="descImg flex justify-center items-center">
-          <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/paste.svg" alt="Пасты"/></a>
+        <div class="iconsThemes flex flex-col items-center justify-between self-center">
+          <div class="descImg flex justify-center items-center">
+            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/paste.svg" alt="Пасты"/></a>
+          </div>
+          <descitem msg="Пасты"/>
         </div>
-        <descitem msg="Пасты"/>
-      </div>
-      <div class="iconsThemes flex flex-col items-center justify-between self-center">
-        <div class="descImg flex justify-center items-center">
-          <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/soups.svg" alt="Супы"/></a>
+        <div class="iconsThemes flex flex-col items-center justify-between self-center">
+          <div class="descImg flex justify-center items-center">
+            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/soups.svg" alt="Супы"/></a>
+          </div>
+          <descitem msg="Супы"/>
         </div>
-        <descitem msg="Супы"/>
-      </div>
-      <div class="iconsThemes flex flex-col items-center justify-between self-center">
-        <div class="descImg flex justify-center items-center">
-          <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/hots.svg" alt="Горячие блюда"/></a>
+        <div class="iconsThemes flex flex-col items-center justify-between self-center">
+          <div class="descImg flex justify-center items-center">
+            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/hots.svg" alt="Горячие блюда"/></a>
+          </div>
+          <descitem msg="Горячие блюда"/>
         </div>
-        <descitem msg="Горячие блюда"/>
-      </div>
-      <div class="iconsThemes flex flex-col items-center justify-between self-center">
-        <div class="descImg flex justify-center items-center">
-          <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/salats.svg" alt="Салаты и закуски"/></a>
+        <div class="iconsThemes flex flex-col items-center justify-between self-center">
+          <div class="descImg flex justify-center items-center">
+            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/salats.svg" alt="Салаты и закуски"/></a>
+          </div>
+          <descitem msg="Салаты и закуски"/>
         </div>
-        <descitem msg="Салаты и закуски"/>
-      </div>
-      <div class="iconsThemes flex flex-col items-center justify-between self-center">
-        <div class="descImg flex justify-center items-center">
-          <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/drinks.svg" alt="Десерты и напитки"/></a>
+        <div class="iconsThemes flex flex-col items-center justify-between self-center">
+          <div class="descImg flex justify-center items-center">
+            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/drinks.svg" alt="Десерты и напитки"/></a>
+          </div>
+          <descitem msg="Десерты и напитки"/>
         </div>
-        <descitem msg="Десерты и напитки"/>
       </div>
     </div>
     <MenuBottom/>
@@ -46,9 +48,24 @@
 </template>
 
 <style>
+.mainPage{
+  min-height: 520px;
+}
 .mainBack {
-  height: 30%;
+  height: 40.1%;
   background: url("../../assets/img/mainpage/main.png") center center no-repeat;
+}
+
+.CenteringOneItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 59.9%;
+}
+
+.CenteringOneItem > :first-child {
+  align-self: center;
 }
 
 .mainPage__icons {

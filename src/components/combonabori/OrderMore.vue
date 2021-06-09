@@ -12,10 +12,7 @@
 </template>
 
 <style>
-@media (max-width: 1069px) {
-  .sum {
-    margin: 6px 0 9px;
-  }
+.sum {
+  margin: 6px 0 9px;
 }
-
 </style>

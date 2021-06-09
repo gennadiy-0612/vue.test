@@ -1,5 +1,5 @@
 <template>
-  <div id="closeContentMenu" class="closeContentMenuBottom fixed bottom-0 w-full left-0 bg-white">
+  <div id="closeContentMenu" class="DescHide closeContentMenuBottom fixed bottom-0 w-full left-0 bg-white">
     <ul class="BottomMenu flex justify-between">
       <li class="BottomMenu__item menu">
         <a class="BottomMenu__a menu flex justify-between flex-col" href="#ContentMenuBottom">

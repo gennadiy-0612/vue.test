@@ -4,10 +4,9 @@
   </div>
 </template>
 
-<style scoped>@media (max-width: 1069px) {
-  .AlsoBuy {
-    padding: 0;
-    margin: 0 0 7px;
-  }
+<style scoped>
+.AlsoBuy {
+  padding: 0;
+  margin: 0 0 7px;
 }
 </style>

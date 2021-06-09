@@ -1,6 +1,6 @@
 <template>
-  <div class="BurgerMenu z-1">
-    <a href="#MenuContent" class="burg-icon flex justify-center">
+  <div class="BurgerMenu z-1 h-full">
+    <a href="#MenuContent" class="DescHide burg-icon flex justify-center">
       <div class="Header__img"></div>
     </a>
     <MenuContent/>
@@ -12,7 +12,7 @@
 }
 </style>
 <script>
-import MenuContent from './MenuContent'
+import MenuContent from './CommonMenu'
 
 export default {
   name: 'App',

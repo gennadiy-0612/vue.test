@@ -4,6 +4,15 @@
       <MenuTop/>
     </div>
     <div class="CenteringOneItem">
+      <ul class="AddressesList MobHide">
+        <li>Красный проспект, 25/1</li>
+        <li>Пл. К. Маркса, 7, ТРЦ «Сан-Сити»</li>
+        <li>Ул. Военная, 5, ТРЦ «Аура»</li>
+        <li>Ул. Красный проспект, 101, ТРЦ ...</li>
+        <li>Ул. Кутателадзе, 4/4</li>
+        <li>Ул. Гоголя, 13, ТРЦ “Галерея”</li>
+        <li>Меню доставки</li>
+      </ul>
       <div class="flex justify-between flex-wrap mainPage__icons">
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
@@ -48,9 +57,10 @@
 </template>
 
 <style>
-.mainPage{
+.mainPage {
   min-height: 520px;
 }
+
 .mainBack {
   height: 40.1%;
   background: url("../../assets/img/mainpage/main.png") center center no-repeat;

@@ -12,14 +12,13 @@
 </template>
 
 <style scoped>
-@media (max-width: 1069px) {
-  .sum {
-    margin: 6px 0 9px;
-  }
-
-  .fs20 {
-    font-size: 20px;
-    letter-spacing: -0.9px;
-  }
+.sum {
+  margin: 6px 0 9px;
 }
+
+.fs20 {
+  font-size: 20px;
+  letter-spacing: -0.9px;
+}
+
 </style>

@@ -88,7 +88,7 @@
 
 .map {
   width: calc(100% + 32px);
-  margin: 0 16px 0 -16px;
+  margin: 0 16px -16px -16px;
 }
 </style>
 <script>

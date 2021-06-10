@@ -341,7 +341,7 @@ html {
     }
 
     .ButtonMain {
-        margin: 22px 0 0 8.5%;
+        margin: 22px 0 15px 8.5%;
         width: 300px;
         height: 100px;
         background: url("./assets/img/mainpagedesk/perchini.svg") center center no-repeat;
@@ -377,7 +377,7 @@ html {
     }
 
     .MenuContent__li {
-        padding: 0;
+        padding: 0 0 0 4.6%;
     }
 
     .MenuContent__a {
@@ -394,7 +394,7 @@ html {
         display: flex;
         flex-wrap: wrap;
         flex-direction: initial;
-        padding: 34px 0 0 2.7%;
+        padding: 138px 0 0 2.7%;
     }
 
     .mainPage__icons {
@@ -423,23 +423,34 @@ html {
 
     .logCard {
         flex: 1 1 3.6%;
+        height: 58px;
+        padding: 0 0.7%;
+    }
+
+    .logCard__li {
+        padding: 0 12.5% 0 0;
     }
 
     .logCard__a {
         height: 50px;
         width: 50px;
+    }
+
+    .logCard__a-user {
         background: url("./assets/img/mainpagedesk/user.png") center center no-repeat;
     }
 
     .logCard__a-card {
-        height: 50px;
-        width: 50px;
         background: url("./assets/img/mainpagedesk/card.png") center center no-repeat;
     }
 
-    .logCard__a-user {
-        height: 50px;
-        width: 50px;
-        background: url("./assets/img/mainpagedesk/user.png") center center no-repeat;
+    .logCard__a-number {
+        bottom: -1px;
+        right: 4px;
+        height: 14px;
+        width: 14px;
+        border-radius: 50%;
+        font-size: 10px;
+        line-height: 13px;
     }
 }

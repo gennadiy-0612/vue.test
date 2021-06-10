@@ -1,10 +1,9 @@
 <template>
-  <div id="MenuContent"
-       class="MenuContent h-full CommonMenu hidden flex flex-wrap items-start justify-items-start absolute top-0 left-0 w-full">
-    <a href="#" class="closeX fixed right-2 z-2 block top-0 MenuContent__x">
+  <div id="MenuContent" class="MenuContent h-full CommonMenu hidden flex flex-wrap items-start justify-items-start absolute top-0 left-0 w-full">
+    <a href="#" class="DescHide closeX fixed right-2 z-2 block top-0 MenuContent__x">
       <X/>
     </a>
-    <a class="ButtonMain block MobHide" href="/"></a>
+    <MainLinkLogo/>
     <ol class="MenuContent__ol flex flex-col justify-center text-center bg-white w-full h-full z-1 E4E4E4">
       <li class="MenuContent__li">
         <a class="Ag6001417 MenuContent__a" href="/vkhodoldcode">Меню</a>
@@ -22,14 +21,7 @@
         <a class="Ag6001417 MenuContent__a" href="/vkhodoldcode">Имя пользователя</a>
       </li>
     </ol>
-    <ul class="logCard MobHide">
-      <li class="logCard__li">
-        <a class="logCard__a logCard__a-user" href="#"></a>
-      </li>
-      <li class="logCard__li">
-        <a class="logCard__a logCard__a-card" href="#"></a>
-      </li>
-    </ul>
+    <LogIn/>
   </div>
 </template>
 <style>
@@ -58,11 +50,15 @@
 </style>
 <script>
 import X from '../popupbluda/X'
+import MainLinkLogo from '../burgmenu/MainLinkLogo'
+import LogIn from './LogIn'
 
 export default {
   name: 'App',
   components: {
-    X
+    X,
+    MainLinkLogo,
+    LogIn
   }
 }
 </script>

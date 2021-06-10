@@ -5,14 +5,14 @@
     </div>
     <div class="CenteringOneItem">
       <ul class="AddressesList MobHide">
-        <li>Красный проспект, 25/1</li>
-        <li>Пл. К. Маркса, 7, ТРЦ «Сан-Сити»</li>
-        <li>Ул. Военная, 5, ТРЦ «Аура»</li>
-        <li>Ул. Красный проспект, 101, ТРЦ ...</li>
-        <li>Ул. Кутателадзе, 4/4</li>
-        <li>Ул. Гоголя, 13, ТРЦ “Галерея”</li>
-        <li>Меню доставки</li>
+        <li class="AddressesList__li AddressesList__main">Красный проспект, 25/1</li>
+        <li class="AddressesList__li">Пл. К. Маркса, 7, ТРЦ «Сан-Сити»</li>
+        <li class="AddressesList__li">Ул. Военная, 5, ТРЦ «Аура»</li>
+        <li class="AddressesList__li">Ул. Красный проспект, 101, ТРЦ ...</li>
+        <li class="AddressesList__li">Ул. Кутателадзе, 4/4</li>
+        <li class="AddressesList__li">Ул. Гоголя, 13, ТРЦ “Галерея”</li>
       </ul>
+      <p class="MobHide CarryMenu Ag-text14-to-1070 Ag700 w-full text-center">Меню доставки</p>
       <div class="flex justify-between flex-wrap mainPage__icons">
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
@@ -50,6 +50,16 @@
           </div>
           <DescItem msg="Десерты и напитки"/>
         </div>
+      </div>
+    </div>
+    <div class="MainEat h-full">
+      <div class="MainEat__item MainEat__item-1">
+        <h4 class="MainEat__head">КОМБО-НАБОРЫ</h4>
+        <a class="MainEat__link block" href="#" title="Посмотреть">Посмотреть</a>
+      </div>
+      <div class="MainEat__item MainEat__item-2">
+        <h4 class="MainEat__head MainEat__head-2">АКЦИИ</h4>
+        <a class="MainEat__link MainEat__link-2 block" href="#" title="Посмотреть">Посмотреть</a>
       </div>
     </div>
     <MenuBottom/>

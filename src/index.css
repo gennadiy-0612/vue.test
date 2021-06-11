@@ -341,8 +341,8 @@ html {
     }
 
     .ButtonMain {
-        margin: 1.8% auto 1.6% 6.7%;
-        height: 74px;
+        margin: 3.1vh auto 3vh 6.7vw;
+        height: 7vh;
         background: url("./assets/img/mainpagedesk/perchini.svg") center center no-repeat;
         flex: 2 0 auto;
         background-size: contain;
@@ -384,7 +384,7 @@ html {
 
     .MenuContent__a {
         color: #FFFFFF;
-        font-size: 27px;
+        font-size: 2.5vh;
         font-weight: 400;
         letter-spacing: -0.6px;
     }
@@ -396,7 +396,7 @@ html {
         display: flex;
         flex-wrap: wrap;
         flex-direction: initial;
-        padding: 7.2% 0 0 2.7%;
+        padding: 12.4vh 0 0 2.7vw;
     }
 
     .mainPage__icons {
@@ -411,14 +411,14 @@ html {
         justify-content: space-between;
         width: 98.3%;
         margin-right: auto;
-        padding: 4.5% 0;
+        padding: 1.1vh 0;;
         max-width: 260px;
         min-width: 260px;
     }
 
     .imgIcon {
-        width: 72px;
-        /*max-width: 50%;*/
+        width: 3.8vw;
+        max-width: initial;
     }
 
     .descImg {
@@ -481,7 +481,7 @@ html {
     .CarryMenu {
         font-size: 30px;
         font-weight: 500;
-        margin: 6% auto 3% -1.3%;
+        margin: 0 auto 1.4vh -0.2vw;
     }
 
     .AddressesList {

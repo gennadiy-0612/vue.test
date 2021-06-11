@@ -4,55 +4,57 @@
       <MenuTop/>
     </div>
     <div class="CenteringOneItem">
-      <ul class="AddressesList MobHide">
-        <li class="AddressesList__li AddressesList__main">Красный проспект, 25/1</li>
-        <li class="AddressesList__li">Пл. К. Маркса, 7, ТРЦ «Сан-Сити»</li>
-        <li class="AddressesList__li">Ул. Военная, 5, ТРЦ «Аура»</li>
-        <li class="AddressesList__li">Ул. Красный проспект, 101, ТРЦ ...</li>
-        <li class="AddressesList__li">Ул. Кутателадзе, 4/4</li>
-        <li class="AddressesList__li">Ул. Гоголя, 13, ТРЦ “Галерея”</li>
-      </ul>
-      <p class="MobHide CarryMenu Ag-text14-to-1070 Ag700 w-full text-center">Меню доставки</p>
-      <div class="flex justify-between flex-wrap mainPage__icons">
-        <div class="iconsThemes flex flex-col items-center justify-between self-center">
-          <div class="descImg flex justify-center items-center">
-            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/pizza.svg" alt="Пицца"/></a>
+      <div class="BackLeft h-full">
+        <ul class="AddressesList MobHide">
+          <li class="AddressesList__li AddressesList__main">Красный проспект, 25/1</li>
+          <li class="AddressesList__li">Пл. К. Маркса, 7, ТРЦ «Сан-Сити»</li>
+          <li class="AddressesList__li">Ул. Военная, 5, ТРЦ «Аура»</li>
+          <li class="AddressesList__li">Ул. Красный проспект, 101, ТРЦ ...</li>
+          <li class="AddressesList__li">Ул. Кутателадзе, 4/4</li>
+          <li class="AddressesList__li">Ул. Гоголя, 13, ТРЦ “Галерея”</li>
+        </ul>
+        <p class="MobHide CarryMenu Ag-text14-to-1070 Ag700 w-full text-center">Меню доставки</p>
+        <div class="flex justify-between flex-wrap mainPage__icons">
+          <div class="iconsThemes flex flex-col items-center justify-between self-center">
+            <div class="descImg flex justify-center items-center">
+              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/pizza.svg" alt="Пицца"/></a>
+            </div>
+            <DescItem msg="Пицца"/>
           </div>
-          <DescItem msg="Пицца"/>
-        </div>
-        <div class="iconsThemes flex flex-col items-center justify-between self-center">
-          <div class="descImg flex justify-center items-center">
-            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/paste.svg" alt="Пасты"/></a>
+          <div class="iconsThemes flex flex-col items-center justify-between self-center">
+            <div class="descImg flex justify-center items-center">
+              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/paste.svg" alt="Пасты"/></a>
+            </div>
+            <DescItem msg="Пасты"/>
           </div>
-          <DescItem msg="Пасты"/>
-        </div>
-        <div class="iconsThemes flex flex-col items-center justify-between self-center">
-          <div class="descImg flex justify-center items-center">
-            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/soups.svg" alt="Супы"/></a>
+          <div class="iconsThemes flex flex-col items-center justify-between self-center">
+            <div class="descImg flex justify-center items-center">
+              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/soups.svg" alt="Супы"/></a>
+            </div>
+            <DescItem msg="Супы"/>
           </div>
-          <DescItem msg="Супы"/>
-        </div>
-        <div class="iconsThemes flex flex-col items-center justify-between self-center">
-          <div class="descImg flex justify-center items-center">
-            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/hots.svg" alt="Горячие блюда"/></a>
+          <div class="iconsThemes flex flex-col items-center justify-between self-center">
+            <div class="descImg flex justify-center items-center">
+              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/hots.svg" alt="Горячие блюда"/></a>
+            </div>
+            <DescItem msg="Горячие блюда"/>
           </div>
-          <DescItem msg="Горячие блюда"/>
-        </div>
-        <div class="iconsThemes flex flex-col items-center justify-between self-center">
-          <div class="descImg flex justify-center items-center">
-            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/salats.svg" alt="Салаты и закуски"/></a>
+          <div class="iconsThemes flex flex-col items-center justify-between self-center">
+            <div class="descImg flex justify-center items-center">
+              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/salats.svg" alt="Салаты и закуски"/></a>
+            </div>
+            <DescItem msg="Салаты и закуски"/>
           </div>
-          <DescItem msg="Салаты и закуски"/>
-        </div>
-        <div class="iconsThemes flex flex-col items-center justify-between self-center">
-          <div class="descImg flex justify-center items-center">
-            <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/drinks.svg" alt="Десерты и напитки"/></a>
+          <div class="iconsThemes flex flex-col items-center justify-between self-center">
+            <div class="descImg flex justify-center items-center">
+              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/drinks.svg" alt="Десерты и напитки"/></a>
+            </div>
+            <DescItem msg="Десерты и напитки"/>
           </div>
-          <DescItem msg="Десерты и напитки"/>
         </div>
       </div>
     </div>
-    <div class="MainEat h-full">
+    <div class="MainEat MobHide h-full">
       <div class="MainEat__item MainEat__item-1">
         <h4 class="MainEat__head">КОМБО-НАБОРЫ</h4>
         <a class="MainEat__link block" href="#" title="Посмотреть">Посмотреть</a>

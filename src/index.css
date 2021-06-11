@@ -396,7 +396,8 @@ html {
         display: flex;
         flex-wrap: wrap;
         flex-direction: initial;
-        padding: 12.4vh 0 0 2.7vw;
+        margin: 0 auto 0 0;
+        padding: 12.4vh 3.2% 0 0;
     }
 
     .mainPage__icons {
@@ -533,7 +534,8 @@ html {
         font-weight: 700;
         padding: 0 0 0 6%;
     }
+
     .MainEat__link-2 {
-        padding-left:3%;
+        padding-left: 3%;
     }
 }

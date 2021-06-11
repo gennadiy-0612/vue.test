@@ -38,7 +38,38 @@
       </a>
       <router-link to="popupbluda">ПопАпБлюда</router-link>
       <router-link to="popupcombo">ПопАпКомбо</router-link>
+      <router-link to="events">Акции</router-link> 
+      <router-link to="vkhodoldcode">Вход на сайт</router-link>
+      <router-link to="vkhodnewcode">Вход на сайт новый</router-link>
+      <router-link to="viborrest">Выберите ресторан, где вы хотите
+        сделать заказ</router-link>
+      <router-link to="poisk">Выберите город</router-link>
+      <router-link to="main">Главная</router-link>
+      <router-link to="pagewithcategory">Страница с категориями</router-link>
+      <router-link to="combonabori">Комбо-наборы</router-link>
+      <router-link to="popupbluda">Поп-ап блюда</router-link>
+      <router-link to="popupcombo">Поп-ап комбо</router-link>
       <router-link to="events">Акции</router-link>
+      <router-link to="lkmobdannie">ЛК Изменить данные</router-link>
+      <router-link to="lkmobdannie1">ЛК Изменить данные 1</router-link>
+      <router-link to="lkmobdannie2">ЛК Изменить данные 2</router-link>
+      <router-link to="card">Шаблон</router-link>
+      <router-link to="main">main</router-link>
+      <router-link to="search">search</router-link>
+      <router-link to="vkhodnewcode">vkhodnewcode</router-link>
+      <router-link to="infocompany">Информация о компании</router-link>
+      <router-link to="infousage">Условия использования</router-link>
+      <router-link to="contacts">Контакты</router-link>
+      <router-link to="cardmob">Корзина</router-link>
+      <router-link to="oformzakaza">Оформление заказа</router-link>
+      <router-link to="oformzakaza1">Оформление заказа1</router-link>
+      <router-link to="popuptime">Попап выбор времени</router-link>
+      <router-link to="popupchangeshippingaddress">Изменить адрес доставки</router-link>
+      <router-link to="popupchangeshippingaddress1">Изменить адрес доставки1</router-link>
+      <router-link to="popupchangeshippingaddress2">Изменить адрес доставки2</router-link>
+      <router-link to="popupchangeshippingaddress3">Изменить адрес доставки3</router-link>
+      <router-link to="oformsamovivoza">Оформление самовывоза</router-link>
+      <router-link to="oformdostavki">Оформление доставки</router-link>
       <router-view></router-view>
     </div>
   </div>

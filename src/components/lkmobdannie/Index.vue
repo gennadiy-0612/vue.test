@@ -17,7 +17,7 @@
       <a class="toChange Ag-text12-to-1070" href="#" for="name4">Изменить</a>
     </form>
     <div class="getNews relative flex">
-      <input type="checkbox" id="address1" name="address1" value="Bike" class="checkIt opacity-0">
+      <input type="radio" id="address1" name="address1" value="Bike" class="checkIt opacity-0">
       <label for="address1" class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
         информацию о
         заказе</label>

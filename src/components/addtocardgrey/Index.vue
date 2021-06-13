@@ -1,5 +1,5 @@
 <template>
-  <p class="OrderMore-add-to-card-black Ag-text18-to-1070 E4E4E4">{{ msg }}</p>
+  <button class="OrderMore-add-to-card-black Ag-text18-to-1070 E4E4E4">{{ msg }}</button>
 </template>
 <style scoped>
 .OrderMore-add-to-card-black {

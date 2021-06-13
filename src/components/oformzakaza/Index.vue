@@ -12,13 +12,13 @@
     <p class="Ag-text14-to-1070 fs14px">Мой адрес</p>
     <form class="myAddress" action="/action_page.php">
       <div class="itemCity relative flex">
-        <input class="checkIt opacity-0" type="checkbox" id="address1" name="address1" value="Bike">
+        <input class="checkIt opacity-0" type="radio" id="address1" name="address1" value="Bike">
         <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address1">г. Новосибирск, ул.
           Улица, дом
           123, квартира 45, подъезд 6 , этаж 7</label>
       </div>
       <div class="itemCity relative flex">
-        <input class="checkIt opacity-0" type="checkbox" id="address2" name="address2" value="Car">
+        <input class="checkIt opacity-0" type="radio" id="address2" name="address2" value="Car">
         <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address2">Добавить новый
           адрес</label>
       </div>
@@ -55,7 +55,7 @@
     </form>
     <div class="choiceTime flex flex-wrap justify-between">
       <div class="setTime timeButton Ag-text14-to-1070 line-h17px text-center">Выберите время</div>
-      <div class="nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">Ближайшее</div>
+      <div class="nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center flex justify-center items-center">Ближайшее</div>
     </div>
     <div class="Order__setButtons">
       <GreenButton msg="Перейти к подтверждению"/>

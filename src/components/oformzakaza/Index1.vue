@@ -23,7 +23,7 @@
       </div>
       <div class="OrderAct__line flex justify-between">
         <p class="Ag-text14-to-1070">Время самовывоза</p>
-        <p class="Ag-text1421-to-1070">Ближайшее</p>
+        <p class="Ag-text1421-to-1070 flex justify-center items-center ">Ближайшее</p>
       </div>
     </div>
     <div class="OrderActChange">
@@ -35,15 +35,15 @@
     </div>
     <form class="myAddress OrderActCash" action="/action_page.php">
       <div class="itemCity relative flex">
-        <input class="checkIt opacity-0" type="checkbox" id="address1" name="address1" value="Bike">
+        <input class="checkIt opacity-0" type="radio" id="address1" name="address1" value="Bike">
         <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address1">Картой на сайте</label>
       </div>
       <div class="itemCity relative flex">
-        <input class="checkIt opacity-0" type="checkbox" id="address2" name="address2" value="Car">
+        <input class="checkIt opacity-0" type="radio" id="address2" name="address2" value="Car">
         <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address2">Картой курьеру</label>
       </div>
       <div class="itemCity relative flex">
-        <input class="checkIt opacity-0" type="checkbox" id="address3" name="address2" value="Car">
+        <input class="checkIt opacity-0" type="radio" id="address3" name="address2" value="Car">
         <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address3">Наличными
           курьеру</label>
       </div>

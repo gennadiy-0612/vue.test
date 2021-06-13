@@ -14,7 +14,7 @@
       <span class="Ag-h3-to-1070 whereTake__address">Площадь ленина</span></p>
     <div class="choiceTime flex flex-wrap justify-between">
       <div class="setTime timeButton Ag-text14-to-1070 line-h17px text-center">Выберите время</div>
-      <div class="nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">Ближайшее</div>
+      <div class="flex justify-center items-center nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">Ближайшее</div>
     </div>
     <div class="Order__setButtons">
       <GreenButton msg="Перейти к подтверждению"/>

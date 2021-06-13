@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 html {
@@ -341,7 +344,7 @@ html {
     }
 
     .ButtonMain {
-        margin: 3.1vh auto 3vh 6.7vw;
+        margin: 3.1vh 0 3vh auto;
         height: 7vh;
         background: url("./assets/img/mainpagedesk/perchini.svg") center center no-repeat;
         flex: 2 0 auto;

@@ -3,7 +3,7 @@
     <div class="mainBack bg-no-repeat bg-cover bg-center bg-cover">
       <MenuTop/>
     </div>
-    <div class="CenteringOneItem">
+    <div class="CenteringOneItem flex flex-col justify-center items-center">
       <div class="BackLeft h-full">
         <ul class="AddressesList MobHide">
           <li class="AddressesList__li AddressesList__main">Красный проспект, 25/1</li>
@@ -73,16 +73,16 @@
   min-height: 520px;
 }
 
+.mainPage .Header {
+  padding: 33px 16px 175px;
+}
+
 .mainBack {
   height: 40.1%;
   background-image: url("../../assets/img/mainpage/main.png");
 }
 
 .CenteringOneItem {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 59.9%;
 }
 
@@ -92,10 +92,6 @@
 
 .mainPage__icons {
   padding: 20px 6px 100px;
-}
-
-.mainPage .Header {
-  padding: 33px 16px 175px;
 }
 
 .mainPage .address {

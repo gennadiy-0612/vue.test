@@ -55,12 +55,7 @@
     <MenuBottom/>
   </div>
 </template>
-<style>
-.Header {
-  padding: 0 0 30px;
-}
-
-.ChangePD__where {
+<style>.ChangePD__where {
   margin: 0 0 -5px;
 }
 

@@ -91,11 +91,6 @@
   </div>
 </template>
 <style>
-
-.Header {
-  padding: 0 0 30px;
-}
-
 .SeeIt__all {
   margin: 16px 0 29px;
   width: calc(100% + 16px);

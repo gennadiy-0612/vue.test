@@ -64,12 +64,7 @@
     <MenuBottom/>
   </div>
 </template>
-<style>
-.Header {
-  padding: 0 0 30px;
-}
-
-.myAddress {
+<style>.myAddress {
   margin: 0 0 -18px;
 }
 

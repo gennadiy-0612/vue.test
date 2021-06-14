@@ -57,12 +57,7 @@
     <MenuBottom/>
   </div>
 </template>
-<style>
-.Header {
-  padding: 0 0 30px;
-}
-
-.OrderAct-two {
+<style>.OrderAct-two {
   margin: 30px 0 20px;
 }
 

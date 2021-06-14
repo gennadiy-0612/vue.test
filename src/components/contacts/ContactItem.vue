@@ -25,12 +25,7 @@
     <a class="Ag-text14-to-1070 block" href="tel:8-383-325-35-25">8 (383) 325-35-25</a>
   </div>
 </template>
-<style>
-.Header {
-  padding: 0 0 30px;
-}
-
-.Contacts .ContactsItem {
+<style>.Contacts .ContactsItem {
   padding: 0 0 11px;
   margin: 20px 0 -10px;
 }

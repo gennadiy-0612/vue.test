@@ -25,12 +25,7 @@
     <MenuBottom/>
   </div>
 </template>
-<style>
-.Header {
-  padding: 0 0 30px;
-}
-
-.w-200px {
+<style>.w-200px {
   width: 200px;
 }
 </style>

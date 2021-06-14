@@ -1,6 +1,6 @@
 <template>
   <div class="mainPage h-full">
-    <div class="mainBack bg-cover">
+    <div class="mainBack bg-no-repeat bg-cover bg-center bg-cover">
       <MenuTop/>
     </div>
     <div class="CenteringOneItem">
@@ -75,7 +75,7 @@
 
 .mainBack {
   height: 40.1%;
-  background: url("../../assets/img/mainpage/main.png") center center no-repeat;
+  background-image: url("../../assets/img/mainpage/main.png");
 }
 
 .CenteringOneItem {

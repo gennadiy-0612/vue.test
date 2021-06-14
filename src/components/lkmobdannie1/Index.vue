@@ -28,12 +28,7 @@
     <MenuBottom/>
   </div>
 </template>
-<style>
-.Header {
-  padding: 0 0 30px;
-}
-
-.changeDataSet {
+<style>.changeDataSet {
   margin: 29px -6px 0;
 }
 

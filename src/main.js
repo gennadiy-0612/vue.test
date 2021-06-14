@@ -29,8 +29,8 @@ import OformDostavki from '/src/components/oformdostavki/Index'
 import PoiskGorod from '/src/components/poisk/Index'
 import Error from '/src/components/Error404'
 import TemPlate from '/src/components/template/Index'
-import "tailwindcss/dist/tailwind.min.css"
-import "./index.css"
+import 'tailwindcss/dist/tailwind.min.css'
+import './index.css'
 
 Vue.use(VueRouter)
 

@@ -15,12 +15,7 @@
     <MenuBottom/>
   </div>
 </template>
-<style>
-.Header {
-  padding: 0 0 30px;
-}
-
-.Contacts .HeadFrame {
+<style>.Contacts .HeadFrame {
   justify-content: left;
 }
 

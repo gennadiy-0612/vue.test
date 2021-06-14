@@ -31,10 +31,6 @@
   </div>
 </template>
 <style>
-.Header {
-  padding: 0 0 30px;
-}
-
 .categorySet {
   margin: 1px 0 29px;
   width: calc(100% + 16px);

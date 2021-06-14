@@ -1,5 +1,5 @@
 <template>
-  <div class="BurgerMenu z-1 h-full">
+  <div class="BurgerMenu z-1 h-full xl:w-full">
     <a href="#MenuContent" class="DescHide burg-icon flex justify-center">
       <div class="Header__img"></div>
     </a>

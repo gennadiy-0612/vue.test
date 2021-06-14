@@ -40,9 +40,10 @@
       <router-link to="popupcombo">ПопАпКомбо</router-link>
       <router-link to="events">Акции</router-link> 
       <router-link to="vkhodoldcode">Вход на сайт</router-link>
+      <router-link to="vkhodoldcodedesc">Вход на сайт Desc</router-link>
       <router-link to="vkhodnewcode">Вход на сайт новый</router-link>
-      <router-link to="viborrest">Выберите ресторан, где вы хотите
-        сделать заказ</router-link>
+      <router-link to="vkhodnewcodedesc">Вход на сайт новый Desk</router-link>
+      <router-link to="viborrest">Выберите ресторан, где вы хотите сделать заказ</router-link>
       <router-link to="poisk">Выберите город</router-link>
       <router-link to="main">Главная</router-link>
       <router-link to="pagewithcategory">Страница с категориями</router-link>

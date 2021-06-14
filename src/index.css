@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    line-height: 16px;
 }
 
 .Header {
@@ -344,17 +345,20 @@ html {
         display: none;
     }
 
-    .ButtonMain {
-        margin: 3.1vh 0 3vh auto;
-        height: 7vh;
-        background: url("./assets/img/mainpagedesk/perchini.svg") center center no-repeat;
-        flex: 2 0 auto;
-        background-size: contain;
-    }
-
     .mainPage {
         background: url("./assets/img/mainpage/main.png") center center no-repeat;
         background-size: cover;
+        max-width: 1920px;
+        margin: auto;
+    }
+
+    .ButtonMain {
+        background-image: url("./assets/img/mainpagedesk/perchini.svg");
+        margin: 3.1vh 0 3vh auto;
+        height: 7vh;
+        flex: 4 0 auto;
+        position: relative;
+        right: 2%;
     }
 
     .mainPage .Header {
@@ -378,12 +382,14 @@ html {
         justify-content: flex-end;
         padding: 0;
         width: auto;
-        flex: 1 1 50%;
+        flex: 1 1 57%;
         align-items: center;
+        position: relative;
+        left: 1.7%;
     }
 
     .MenuContent__li {
-        padding: 0 0 0 4.8%;
+        flex: 1 1 auto;
     }
 
     .MenuContent__a {
@@ -394,19 +400,18 @@ html {
     }
 
     .CenteringOneItem {
+        align-items: flex-end;
         width: 26.8%;
-        height: 100%;
-        background-color: rgba(245, 244, 244, 0.44);
-        flex-wrap: wrap;
-        flex-direction: initial;
-        margin: 0 auto 0 0;
-        padding: 12.4vh 3.2% 0 0;
+        margin: -13vh auto 0 0;
+        background-color: #f5f4f4db;
+        padding-top: 7vh;
+        flex-direction: column;
     }
 
     .mainPage__icons {
         flex-direction: column;
         flex-wrap: initial;
-        width: 100%;
+        width: 71%;
         margin-top: -4%;
     }
 
@@ -430,7 +435,6 @@ html {
     }
 
     .desc {
-        height: 42px;
         max-width: 135px;
         display: flex;
         text-align: inherit;
@@ -446,13 +450,13 @@ html {
     }
 
     .logCard {
+        max-width: 160px;
         flex: 1 1 5%;
         height: 58px;
-        padding: 0 0.7%;
     }
 
     .logCard__li {
-        padding: 0 12.5% 0 0;
+        flex: 1 1 auto;
     }
 
     .logCard__a {
@@ -478,18 +482,17 @@ html {
         line-height: 13px;
     }
 
-    .mainPage__icons {
-        width: 55%;
-    }
-
     .CarryMenu {
         font-size: 30px;
         font-weight: 500;
-        margin: 0 auto 1.4vh -0.2vw;
+        margin: 0 auto 1.4vh 1.1vw;
     }
 
     .AddressesList {
-        margin: -1% -10.8% 0 0;
+        margin: 1% 0.6% 13% 0;
+        width: 71%;
+        position: relative;
+        top: 4%;
     }
 
     .AddressesList__li {
@@ -497,18 +500,41 @@ html {
         font-size: 19px;
     }
 
+    .AddressesList__li:nth-child(odd) {
+        background-color: #e9e9e9;
+    }
+
+    .AddressesList__li:nth-child(even) {
+        background-color: #dddddd;
+    }
+
     .AddressesList__main {
         line-height: 32px;
         font-size: 17px;
         letter-spacing: 1.2px;
         margin: 0 0 -4px;
+        background-color: #8D8D8D;
+    }
+
+    .AddressesList__main::after {
+        content: '\25BC';
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        height: 20px;
+        width: 20px;
+    }
+
+    .MainEat {
+        height: 96%;
     }
 
     .MainEat__item {
         background-color: #7E7E7E;
-        width: 980px;
+        width: 51%;
+        height: 58%;
         margin: 7.5% 7%;
-        height: 585px;
     }
 
     .MainEat__item-1 {
@@ -524,12 +550,12 @@ html {
     .MainEat__head {
         font-size: 80px;
         font-weight: 600;
-        padding: 2.4% 0 0 5%;
+        padding: 7.5% 0 7.4% 5%;
         letter-spacing: 4.5px;
     }
 
     .MainEat__head-2 {
-        padding: 13.5% 0 0 2.7%;
+        padding: 18.5% 0 7.4% 2.7%;
     }
 
     .MainEat__link {
@@ -540,5 +566,35 @@ html {
 
     .MainEat__link-2 {
         padding-left: 3%;
+    }
+
+    .BottomASet {
+        max-width: 830px;
+        margin: 2.3% auto 0;
+    }
+
+    .IconSet {
+        max-width: 240px;
+        margin: 2.7% auto 0
+    }
+
+    .foot {
+        padding: 0 0 2%;
+    }
+
+    .LogoBottom {
+        max-width: 200px;
+        margin: auto;
+    }
+
+    .svgLogoBottom {
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1300px) {
+    .MenuContent {
+        max-width: 1680px;
     }
 }

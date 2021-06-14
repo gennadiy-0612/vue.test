@@ -6,7 +6,9 @@
     </a>
     <ol class="MenuContent__ol flex flex-col justify-center text-center bg-white w-full h-full z-1 E4E4E4">
       <li class="MenuContent__li"><a class="Ag6001417 MenuContent__a" href="/vkhodoldcode">Вход на сайт</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417 MenuContent__a" href="/vkhodoldcodedesc">Вход на сайт  Desk</a></li>
       <li class="MenuContent__li"><a class="Ag6001417 MenuContent__a" href="/vkhodnewcode">Вход на сайт новый</a></li>
+      <li class="MenuContent__li"><a class="Ag6001417 MenuContent__a" href="/vkhodnewcodedesc">Вход на сайт новый Desk</a></li>
       <li class="MenuContent__li"><a class="Ag6001417 MenuContent__a" href="/viborrest">Выберите ресторан, где вы хотите
         сделать заказ</a></li>
       <li class="MenuContent__li"><a class="Ag6001417 MenuContent__a" href="/poisk">Выберите город</a></li>

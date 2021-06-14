@@ -9,7 +9,9 @@ import PageWithCategory from '/src/components/pagewithcategory/Index'
 import Search from '/src/components/poisk/Index'
 import ViborRest from '/src/components/viborrestorana/Index'
 import VkhodOldCode from '/src/components/vkhodoldcode/Index'
+import VkhodOldCodeDesc from '/src/components/vkhodoldcodedesk/Index'
 import VkhodNewCode from '/src/components/vkhodnewcode/Index'
+import VkhodNewCodeDesk from '/src/components/vkhodnewcodedesk/Index'
 import LkMobDannie from '/src/components/lkmobdannie/Index'
 import LkMobDannie1 from '/src/components/lkmobdannie1/Index'
 import LkMobDannie2 from '/src/components/lkmobdannie2/Index'
@@ -48,7 +50,9 @@ const routes = [
     {path: '/search', component: Search},
     {path: '/viborrest', component: ViborRest},
     {path: '/vkhodoldcode', component: VkhodOldCode},
+    {path: '/vkhodoldcodedesc', component: VkhodOldCodeDesc},
     {path: '/vkhodnewcode', component: VkhodNewCode},
+    {path: '/vkhodnewcodedesc', component: VkhodNewCodeDesk},
     {path: '/lkmobdannie', component: LkMobDannie},
     {path: '/lkmobdannie1', component: LkMobDannie1},
     {path: '/lkmobdannie2', component: LkMobDannie2},

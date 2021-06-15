@@ -1,34 +1,44 @@
 <template>
-  <div class="popUpFrame choseCity">
-    <a href="/">
-      <X/>
-    </a>
-    <HeaderTwo msg="Выберите ресторан, где вы хотите сделать заказ"/>
-    <div class="whatCity flex flex-wrap justify-between">
-      <h3 class="Ag-h3-to-1070">Новосибирск</h3>
-      <h3 class="Ag-green-to-1070">Сменить город</h3>
-    </div>
-    <form class="addressOfCity" action="/action_page.php">
-      <div class="itemCity relative flex afterLine">
-        <input class="checkIt opacity-0" type="radio" id="address1" name="address1" value="Bike">
-        <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address1">Ул. Красный Проспект, 25/1</label>
+  <div class="DeskMapPage back-05">
+    <div class="DeskTopMap bg-white">
+      <div class="MapDescDesK">
+        <div class="popUpFrame bg-white choseCity">
+          <a href="/">
+            <X/>
+          </a>
+          <HeaderTwo msg="Выберите ресторан, где вы хотите сделать заказ"/>
+          <div class="whatCity whatCityDesk flex flex-wrap justify-between">
+            <h3 class="Ag-h3-to-1070 whatCityDesk__h3 whatCityDesk__h3-act">Новосибирск</h3>
+            <h3 class="Ag-green-to-1070 whatCityDesk__h3">Сменить город</h3>
+          </div>
+          <form class="addressOfCity" action="/action_page.php">
+            <div class="itemCity relative flex afterLine">
+              <input class="checkIt opacity-0" type="radio" id="address1" name="address1" value="Bike">
+              <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address1">Ул. Красный Проспект, 25/1</label>
+            </div>
+            <div class="itemCity relative flex afterLine">
+              <input class="checkIt opacity-0" type="radio" id="address2" name="address2" value="Car">
+              <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address2">Ул. Военная, 5, ТРЦ “Аура”</label>
+            </div>
+            <div class="itemCity relative flex afterLine">
+              <input class="checkIt opacity-0" type="radio" id="address3" name="address3" value="Boat">
+              <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address3">Ул. Красный Проспект, 101, ТРЦ
+                “Роял
+                Парк”</label>
+            </div>
+            <div class="itemCity relative flex afterLine">
+              <input class="checkIt opacity-0" type="radio" id="address4" name="address4" value="Boat">
+              <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address4">Ул. Гоголя, 13, ТРЦ
+                “Галерея”</label>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="itemCity relative flex afterLine">
-        <input class="checkIt opacity-0" type="radio" id="address2" name="address2" value="Car">
-        <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address2">Ул. Военная, 5, ТРЦ “Аура”</label>
+      <div class="MapDesK">
+        <div class="map object-cover">
+          <img class="w-full MAP" src="../../assets/img/map.png">
+        </div>
       </div>
-      <div class="itemCity relative flex afterLine">
-        <input class="checkIt opacity-0" type="radio" id="address3" name="address3" value="Boat">
-        <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address3">Ул. Красный Проспект, 101, ТРЦ “Роял
-          Парк”</label>
-      </div>
-      <div class="itemCity relative flex afterLine">
-        <input class="checkIt opacity-0" type="radio" id="address4" name="address4" value="Boat">
-        <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address4">Ул. Гоголя, 13, ТРЦ “Галерея”</label>
-      </div>
-    </form>
-    <div class="map object-cover">
-      <img class="w-full" src="../../assets/img/map.png">
     </div>
   </div>
 </template>

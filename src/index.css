@@ -601,6 +601,98 @@ html {
         font-size: 2rem;
         width: 100%;
     }
+
+    /*MainPage Finish!*/
+    /*Vibor Rest Page*/
+    .DeskMapPage {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .DeskTopMap {
+        min-width: 1080px;
+        min-height: 610px;
+        display: flex;
+        align-self: center;
+        overflow: hidden;
+    }
+
+    .MapDescDesK {
+        flex: 1 1 50%;
+    }
+
+    .MapDesK {
+        flex: 1 1 50%;
+    }
+
+    .DeskMapPage .h2Papa__h2 {
+        max-width: 380px;
+        font-size: 25px;
+        margin: -13px 0 0 -88px;
+        letter-spacing: -0.8px;
+    }
+
+    .DeskMapPage .whatCityDesk {
+        margin: 22px 0 0;
+        padding: 0 98px 0 20px;
+    }
+
+    .whatCityDesk__h3 {
+        line-height: 24px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .whatCityDesk__h3-act {
+        font-weight: 700;
+    }
+
+    .DeskMapPage .addressOfCity {
+        margin: 0 67px 0 23px;
+    }
+
+    .DeskMapPage .itemCity {
+    }
+
+    .DeskMapPage .afterLine::after {
+        content: none;
+    }
+
+    .DeskMapPage .addressGost {
+        line-height: 27px;
+        font-size: 24px;
+        margin: 0 0 0 46px;
+        padding: 12px 0;
+    }
+
+    .DeskMapPage .map {
+        height: 100%;
+    }
+
+    .MAP {
+        height: 100%;
+    }
+
+    .DeskMapPage .X {
+        display: none;
+    }
+    .DeskMapPage .popUpFrame {
+        padding: 42px 16px 16px;
+    }
+
+    .checkIt:checked + .addressGost::before {
+        height: 14px;
+        width: 14px;
+        left: 4px;
+    }
+
+    .checkIt + .addressGost::after {
+        height: 24px;
+        width: 24px;
+        left: 0;
+    }
 }
 
 @media (min-width: 1300px) {

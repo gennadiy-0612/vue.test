@@ -1,6 +1,6 @@
 <template>
   <div class="Description relative">
-    <a class="showPopUp block absolute right-0" href="#info"></a>
+    <a class="showPopUp block absolute right-0 bg-no-repeat bg-center" href="#info"></a>
     <LiteBoxGreen/>
     <h3 class="Ag-h3-to-1070 m-top14">Пепперони</h3>
     <p class="Ag-text12-to-1070 m-top11">Средняя 30 см, традиционное тесто, 700 г</p>
@@ -15,7 +15,7 @@
   width: 20px;
   height: 20px;
   border-radius: 10px;
-  background: url("../../assets/img/info.svg") center center no-repeat;
+  background: url("../../assets/img/info.svg");
 }
 </style>
 <script>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -678,6 +678,7 @@ html {
     .DeskMapPage .X {
         display: none;
     }
+
     .DeskMapPage .popUpFrame {
         padding: 42px 16px 16px;
     }
@@ -693,6 +694,52 @@ html {
         width: 24px;
         left: 0;
     }
+
+    /*Search page*/
+    .ChoicePopUp .popUpFrame {
+        height: 610px;
+        width: 1080px;
+        overflow-x: hidden;
+        padding: 27px 39px 27px;
+    }
+
+    .ChoicePopUp .letters__items {
+        flex: 1 1 30%;
+    }
+
+    .ChoicePopUp .searchButton {
+        margin: 23px 0 39px;
+        padding: 10px 17px;
+        height: 39px;
+        width: 36%;
+        font-size: 26px;
+    }
+
+    .ChoicePopUp .h3Letter {
+        font-size: 25px;
+        flex: 1 1 5%;
+    }
+
+    .ChoicePopUp .letters__Set {
+        flex: 1 1 70%;
+    }
+
+    .ChoicePopUp .letters__text {
+        font-size: 24px;
+    }
+
+    .ChoicePopUp .letters {
+        padding: 0;
+        justify-content: left;
+        width: 107.2%;
+    }
+
+    .ChoicePopUp .letters__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /*Search page*/
 }
 
 @media (min-width: 1300px) {

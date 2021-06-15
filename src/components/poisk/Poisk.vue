@@ -1,5 +1,5 @@
 <template>
-  <input class="searchButton border-solid border-2 w-full" type="text" placeholder="Поиск">
+  <input class="searchButton border-solid border-2 w-full" type="text" placeholder="Поиск...">
 </template>
 <style>
 .searchButton {
@@ -9,7 +9,7 @@
 .searchButton {
   height: 36px;
   padding: 0 7px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", serif;
   letter-spacing: -1.7px;
 }
 </style>

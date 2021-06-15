@@ -1,10 +1,10 @@
 <template>
-  <img alt="alt" class="X" src="../../assets/img/x.svg">
+  <img alt="alt" class="X my-auto mb-auto" src="../../assets/img/x.svg">
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 .X {
-  margin: auto 10px auto auto;
+  margin-right: 10px;
 }
 </style>

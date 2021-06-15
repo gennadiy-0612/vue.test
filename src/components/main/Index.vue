@@ -149,7 +149,7 @@
   height: 52%;
 }
 
-@media (max-width: 1800px) {
+@media (min-width: 1360px) and (max-width: 1800px) {
   .mainPage .ButtonMain {
     right: auto;
   }

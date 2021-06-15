@@ -5,7 +5,7 @@
         <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
       </div>
       <div>
-        <div class="ttt text-xl font-medium sm:text-white md:text-blue-900 lg:text-gray-400 text-black">ChitChat</div>
+        <div class="ttt text-xl font-medium until-xs:text-pink-500 xs:text-pink-500 md:text-blue-900 lg:text-gray-400 text-black">ChitChat</div>
         <p class="text-gray-500">You have a new message!</p>
       </div>
     </div>
@@ -16,8 +16,7 @@
            alt="Woman's Face">
       <div class="text-center space-y-2 sm:text-left">
         <div class="space-y-0.5">
-          <p class="text-lg text-black font-semibold">
-            Erin Lindford</p>
+          <p class="text-lg text-black font-semibold">Erin Lindford</p>
           <p class="text-gray-500 font-medium">
             Product Engineer
           </p>
@@ -46,8 +45,3 @@
     </div>
   </div>
 </template>
-<style scoped>
-.ttt{
-  color: #039305;
-}
-</style>

@@ -154,10 +154,6 @@
     right: auto;
   }
 
-  .mainPage .AddressesList {
-    margin-top: 26%;
-  }
-
   .mainPage .CenteringOneItem {
     align-items: center;
   }

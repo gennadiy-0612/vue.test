@@ -494,15 +494,16 @@ html {
     }
 
     .AddressesList {
-        margin: 1% 0.6% 13% 0;
-        width: 71%;
+        margin: 3% 5.7% 10% 0;
+        width: 66.8%;
         position: relative;
-        top: 4%;
+        top: 2.8%;
     }
 
     .AddressesList__li {
         line-height: 28px;
         font-size: 19px;
+        padding: 0 0 0 6%;
     }
 
     .AddressesList__li:nth-child(odd) {
@@ -596,7 +597,7 @@ html {
         max-width: 300px;
     }
 
-    .h2Papa__h2{
+    .h2Papa__h2 {
         font-size: 2rem;
         width: 100%;
     }

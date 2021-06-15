@@ -29,10 +29,10 @@
 }
 </style>
 <script>
-import X from "../popupbluda/X";
-import HeaderTwo from "../partpage/HeaderTwo";
-import InputPhone from "../partpage/InputPhone";
-import InputCode from "../partpage/InputCode";
+import X from '../popupbluda/X'
+import HeaderTwo from '../partpage/HeaderTwo'
+import InputPhone from '../partpage/InputPhone'
+import InputCode from '../partpage/InputCode'
 
 export default {
   name: 'App',

@@ -55,8 +55,8 @@
 <script>
 import BurgMenu from '../burgmenu/Index'
 import BackButton from '../address/Index'
-import CatItem from "./CategoryItem";
-import ComboSetsBottom from "./ComboSetsBottom";
+import CatItem from './CategoryItem'
+import ComboSetsBottom from './ComboSetsBottom'
 
 export default {
   name: 'App',

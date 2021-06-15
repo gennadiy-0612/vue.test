@@ -123,7 +123,7 @@
 <script>
 import BurgMenu from '../burgmenu/Index'
 import Address from '../address/Index'
-import HeaderThree from "../partpage/HeaderThree";
+import HeaderThree from '../partpage/HeaderThree'
 import GreenButton from '../addtocardgreen/Index'
 import GreyButton from '../addtocardgrey/Index'
 import BlackButton from '../addtocardblack/Index'

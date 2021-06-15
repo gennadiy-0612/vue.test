@@ -3,6 +3,7 @@
 html {
     scroll-behavior: smooth;
     line-height: 16px;
+    font-size: 16px;
 }
 
 .Header {
@@ -54,6 +55,10 @@ html {
 .TransColor7s, .MenuContent__a {
     transition-duration: .7s;
     transition-property: color;
+}
+
+.back-05 {
+    background-color: #0000007a;
 }
 
 .X {
@@ -590,6 +595,12 @@ html {
     .svgLogoBottom {
         max-width: 300px;
         margin: auto;
+    }
+
+    .h2Papa__h2{
+        font-size: 2rem;
+        text-align: left;
+        width: 100%;
     }
 }
 

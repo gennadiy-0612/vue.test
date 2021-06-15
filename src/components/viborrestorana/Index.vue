@@ -99,8 +99,8 @@
 }
 </style>
 <script>
-import HederTwo from "../partpage/HeaderTwo";
-import X from "../popupbluda/X";
+import HederTwo from '../partpage/HeaderTwo'
+import X from '../popupbluda/X'
 
 export default {
   name: 'App',

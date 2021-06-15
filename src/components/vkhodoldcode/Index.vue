@@ -32,10 +32,10 @@
 }
 </style>
 <script>
-import X from "../popupbluda/X";
-import HederTwo from "../partpage/HeaderTwo";
-import InputPhone from "../partpage/InputPhone";
-import BlackButton from "../addtocardblack/Index";
+import X from '../popupbluda/X'
+import HederTwo from '../partpage/HeaderTwo'
+import InputPhone from '../partpage/InputPhone'
+import BlackButton from '../addtocardblack/Index'
 
 export default {
   name: 'App',

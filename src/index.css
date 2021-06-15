@@ -594,12 +594,10 @@ html {
 
     .svgLogoBottom {
         max-width: 300px;
-        margin: auto;
     }
 
     .h2Papa__h2{
         font-size: 2rem;
-        text-align: left;
         width: 100%;
     }
 }

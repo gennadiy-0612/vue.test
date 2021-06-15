@@ -4,7 +4,7 @@
       <a href="/">
       <X/>
     </a>
-      <HederTwo msg="Вход на сайт"/>
+      <HeaderTwo msg="Вход на сайт"/>
       <div class="oldPhone">
         <InputPhone/>
       </div>
@@ -33,7 +33,7 @@
 </style>
 <script>
 import X from '../popupbluda/X'
-import HederTwo from '../partpage/HeaderTwo'
+import HeaderTwo from '../partpage/HeaderTwo'
 import InputPhone from '../partpage/InputPhone'
 import BlackButton from '../addtocardblack/Index'
 
@@ -41,7 +41,7 @@ export default {
   name: 'App',
   components: {
     X,
-    HederTwo,
+    HeaderTwo,
     InputPhone,
     BlackButton
   }

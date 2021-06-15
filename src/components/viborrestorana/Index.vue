@@ -3,7 +3,7 @@
     <a href="/">
       <X/>
     </a>
-    <HederTwo msg="Выберите ресторан, где вы хотите сделать заказ"/>
+    <HeaderTwo msg="Выберите ресторан, где вы хотите сделать заказ"/>
     <div class="whatCity flex flex-wrap justify-between">
       <h3 class="Ag-h3-to-1070">Новосибирск</h3>
       <h3 class="Ag-green-to-1070">Сменить город</h3>
@@ -99,13 +99,13 @@
 }
 </style>
 <script>
-import HederTwo from '../partpage/HeaderTwo'
+import HeaderTwo from '../partpage/HeaderTwo'
 import X from '../popupbluda/X'
 
 export default {
   name: 'App',
   components: {
-    HederTwo,
+    HeaderTwo,
     X
   }
 }

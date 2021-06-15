@@ -1,3 +1,3 @@
 <template>
-  <a class="ButtonMain block MobHide bg-contain bg-center bg-no-repeat" href="/"></a>
+  <a class="ButtonMain MobHide block MobHide bg-contain bg-center bg-no-repeat" href="/"></a>
 </template>

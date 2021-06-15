@@ -4,7 +4,7 @@
       <div class="mainBack bg-no-repeat bg-cover bg-center">
         <MenuTop/>
       </div>
-      <div class="CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+      <div class="CenteringOneItem h-full flex flex-col justify-center items-center items-start">
         <ul class="AddressesList MobHide">
           <li class="AddressesList__li AddressesList__main leading-8 relative">Красный проспект, 25/1</li>
           <li class="AddressesList__li leading-8">Пл. К. Маркса, 7, ТРЦ «Сан-Сити»</li>
@@ -47,13 +47,13 @@
           </div>
           <div class="iconsThemes flex flex-col items-center justify-between self-center">
             <div class="descImg flex justify-center items-center">
-              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/drinks.svg"
-                               alt="Десерты и напитки"/></a>
+              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/drinks.svg" alt="Десерты и напитки"/></a>
             </div>
             <DescItem msg="Десерты и напитки"/>
           </div>
         </div>
       </div>
+      <MenuBottom/>
     </div>
     <div class="LogFrame LogInDesc Insert-full w-full h-full flex flex-wrap justify-center">
       <div class="LogFrameGet LogFrameGet__itemDesc LogOld back-05 h-full w-full flex flex-wrap justify-center">
@@ -63,7 +63,7 @@
               <X/>
             </div>
           </a>
-          <HederTwo msg="Вход на сайт"/>
+          <HeaderTwo msg="Вход на сайт"/>
           <div class="oldPhone">
             <InputPhone/>
           </div>
@@ -90,9 +90,11 @@
 }
 </style>
 <script>
-
+import MenuTop from '../menutop/Index'
+import DescItem from '../descimg/DescItem'
+import MenuBottom from '../menubottom/Index'
 import X from '../popupbluda/X'
-import HederTwo from '../partpage/HeaderTwo'
+import HeaderTwo from '../partpage/HeaderTwo'
 import InputPhone from '../partpage/InputPhone'
 import BlackButton from '../addtocardblack/Index'
 
@@ -100,10 +102,13 @@ import BlackButton from '../addtocardblack/Index'
 export default {
   name: 'App',
   components: {
+    DescItem,
     X,
-    HederTwo,
+    HeaderTwo,
     InputPhone,
-    BlackButton
+    BlackButton,
+    MenuTop,
+    MenuBottom
   }
 }
 </script>

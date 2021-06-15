@@ -7,5 +7,4 @@
 .X {
   margin: auto 10px auto auto;
 }
-
 </style>

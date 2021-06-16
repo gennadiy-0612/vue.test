@@ -1,9 +1,9 @@
 <template>
   <div class="LogFrameGet h-full w-full flex flex-wrap justify-center">
     <div class="LogFrameGet__item self-center">
-      <a href="/">
+      <router-link to="/">
       <X/>
-    </a>
+      </router-link>
       <HeaderTwo msg="Вход на сайт"/>
       <div class="oldPhone">
         <InputPhone/>

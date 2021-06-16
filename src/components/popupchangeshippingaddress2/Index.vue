@@ -1,8 +1,8 @@
 <template>
   <div class="popUpFrame popUpFrame1 popUpReady">
-    <a href="/">
+    <router-link to="/">
       <X/>
-    </a>
+    </router-link>
     <HeaderPopUp msg="Вы собираетесь изменить адрес доставки"/>
     <div class="popUpFrame__pSet">
       <ParaGraph msg="Позиции добавленные корзину будут удалены."/>

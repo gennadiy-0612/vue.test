@@ -24,7 +24,7 @@
           <p class="Ag-text14-to-1070 fw400 newCode">Получить новый код</p>
         </div>
       </div>
-      <a href="/" class="Ag-text14-to-1070 fw400 closeLog">Закрыть</a>
+      <router-link to="/" class="Ag-text14-to-1070 fw400 closeLog">Закрыть</router-link>
     </div>
   </div>
 </template>

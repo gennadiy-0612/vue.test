@@ -1,61 +1,4 @@
 <template>
-  <div>
-    <div class="mainPage w-full h-full">
-      <div class="mainBack bg-no-repeat bg-cover bg-center">
-        <MenuTop/>
-      </div>
-      <div class="CenteringOneItem h-full flex flex-col justify-center items-center items-start">
-        <ul class="AddressesList MobHide">
-          <li class="AddressesList__li AddressesList__main leading-8 relative">Красный проспект, 25/1</li>
-          <li class="AddressesList__li leading-8">Пл. К. Маркса, 7, ТРЦ «Сан-Сити»</li>
-          <li class="AddressesList__li leading-8">Ул. Военная, 5, ТРЦ «Аура»</li>
-          <li class="AddressesList__li leading-8">Ул. Красный проспект, 101, ТРЦ ...</li>
-          <li class="AddressesList__li leading-8">Ул. Кутателадзе, 4/4</li>
-          <li class="AddressesList__li leading-8">Ул. Гоголя, 13, ТРЦ “Галерея”</li>
-        </ul>
-        <p class="MobHide CarryMenu Ag-text14-to-1070 Ag700 w-full text-center">Меню доставки</p>
-        <div class="flex justify-between flex-wrap mainPage__icons">
-          <div class="iconsThemes flex flex-col items-center justify-between self-center">
-            <div class="descImg flex justify-center items-center">
-              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/pizza.svg" alt="Пицца"/></a>
-            </div>
-            <DescItem msg="Пицца"/>
-          </div>
-          <div class="iconsThemes flex flex-col items-center justify-between self-center">
-            <div class="descImg flex justify-center items-center">
-              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/paste.svg" alt="Пасты"/></a>
-            </div>
-            <DescItem msg="Пасты"/>
-          </div>
-          <div class="iconsThemes flex flex-col items-center justify-between self-center">
-            <div class="descImg flex justify-center items-center">
-              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/soups.svg" alt="Супы"/></a>
-            </div>
-            <DescItem msg="Супы"/>
-          </div>
-          <div class="iconsThemes flex flex-col items-center justify-between self-center">
-            <div class="descImg flex justify-center items-center">
-              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/hots.svg" alt="Горячие блюда"/></a>
-            </div>
-            <DescItem msg="Горячие блюда"/>
-          </div>
-          <div class="iconsThemes flex flex-col items-center justify-between self-center">
-            <div class="descImg flex justify-center items-center">
-              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/salats.svg" alt="Салаты и закуски"/></a>
-            </div>
-            <DescItem msg="Салаты и закуски"/>
-          </div>
-          <div class="iconsThemes flex flex-col items-center justify-between self-center">
-            <div class="descImg flex justify-center items-center">
-              <a href="/"><img class="imgIcon" src="../../assets/img/mainpage/drinks.svg" alt="Десерты и напитки"/></a>
-            </div>
-            <DescItem msg="Десерты и напитки"/>
-          </div>
-        </div>
-      </div>
-      <MenuBottom/>
-    </div>
-
     <div class="LogFrameGet fixed top-0 LogInDesc back-05 h-full w-full flex flex-wrap justify-center">
       <div class="LogFrameGet__item LogFrameGet__itemDesc self-center">
         <div class="h2Papa text-left flex justify-center items-center">
@@ -75,10 +18,9 @@
         <div class="SendCode">
           <BlackButton msg="Выслать код"/>
         </div>
-        <a href="/" class="Ag-text14-to-1070 fw400 closeLog">Закрыть</a>
+        <router-link to="/" class="Ag-text14-to-1070 fw400 closeLog">Закрыть</router-link>
       </div>
     </div>
-  </div>
 </template>
 <style scoped>
 .h2Papa__h2 {
@@ -156,18 +98,12 @@
 }
 </style>
 <script>
-import MenuTop from '../menutop/Index'
-import DescItem from '../descimg/DescItem'
-import MenuBottom from '../menubottom/Index'
 import BlackButton from '../addtocardblack/Index'
 
 
 export default {
   name: 'App',
   components: {
-    DescItem,
-    MenuTop,
-    MenuBottom,
     BlackButton
   }
 }

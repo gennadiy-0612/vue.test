@@ -1,8 +1,8 @@
 <template>
   <div id="MenuContent" class="MenuContent w-full h-full CommonMenu hidden flex flex-wrap items-start justify-items-start absolute xl:static top-0 left-0 xl:m-auto">
-    <a href="#" class="DescHide closeX fixed right-2 z-2 block top-0 MenuContent__x">
+    <router-link to="#" class="DescHide closeX fixed right-2 z-2 block top-0 MenuContent__x">
       <X/>
-    </a>
+    </router-link>>
     <MainLinkLogo/>
     <ol class="MenuContent__ol flex flex-col justify-center text-center bg-white w-full h-full z-1 E4E4E4">
       <li class="MenuContent__li">

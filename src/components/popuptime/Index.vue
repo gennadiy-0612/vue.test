@@ -1,8 +1,8 @@
 <template>
   <div class="Time m-auto absolute m-auto overflow-y-scroll left-0 top-0 bottom-0 right-0">
-    <a href="/">
+    <router-link to="/">
       <X/>
-    </a>
+    </router-link>
     <div class="Header__when afterLine flex justify-center">
       <HeaderPopUp msg="Ближайшее"/>
     </div>

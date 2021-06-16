@@ -1,6 +1,6 @@
 <template>
   <div id="info" class="LightBoxGreen">
-    <a href="#" class="closePopUp block absolute right-0"></a>
+    <router-link to="#" class="closePopUp block absolute right-0"></router-link>
     <p class="Ag-h3-to-1070 text-white">Пепперони</p>
     <p class="Ag-text12-to-1070 color7E7E7E p-tb5">Пищевая ценность на 100 г</p>
       <table class="w-full">

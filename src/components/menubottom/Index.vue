@@ -35,9 +35,9 @@
       </ul>
     </div>
     <div class="ContentMenu DescHide flex-col" id="ContentMenuBottom">
-      <a href="#closeContentMenu" class="closeMenuBottom absolute top-0 right-0 block m-r16">
+      <router-link to="#closeContentMenu" class="closeMenuBottom absolute top-0 right-0 block m-r16">
         <X/>
-      </a>
+      </router-link>
       <router-link to="popupbluda">ПопАпБлюда</router-link>
       <router-link to="popupcombo">ПопАпКомбо</router-link>
       <router-link to="events">Акции</router-link>

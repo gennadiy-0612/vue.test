@@ -1,6 +1,6 @@
 <template>
   <div class="popUpCombo">
-    <a href="/"><X/></a>
+    <router-link to="/"><X/></router-link>
     <Photo msg="Photo"/>
     <Descriptor/>
     <div class="DescSet">

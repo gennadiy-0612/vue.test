@@ -1,8 +1,8 @@
 <template>
   <div class="popUpBluda">
-    <a href="/">
+    <router-link to="/">
       <X/>
-    </a>
+    </router-link>
     <Photo msg="Photo"/>
     <DescriptionPrice msg="Пепперони"/>
     <AlsoBuy/>

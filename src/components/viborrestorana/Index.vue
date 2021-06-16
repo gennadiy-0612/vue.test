@@ -3,9 +3,9 @@
     <div class="DeskTopMap bg-white">
       <div class="MapDescDesK">
         <div class="popUpFrame bg-white choseCity">
-          <a href="/">
+          <router-link to="/">
             <X/>
-          </a>
+          </router-link>
           <HeaderTwo msg="Выберите ресторан, где вы хотите сделать заказ"/>
           <div class="whatCity whatCityDesk flex flex-wrap justify-between">
             <h3 class="Ag-h3-to-1070 whatCityDesk__h3 whatCityDesk__h3-act">Новосибирск</h3>

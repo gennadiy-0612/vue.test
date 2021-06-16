@@ -1,12 +1,12 @@
 <template>
   <ol class="flex flex-wrap justify-between afterLine afterLine-PersonData">
-    <a href="#" class="Ag-text14-to-1070 activeOption afterLine block Option changeDataPerson relative">
+    <router-link to="#" class="Ag-text14-to-1070 activeOption afterLine block Option changeDataPerson relative">
       <div class="DeskLimit">Личные данные</div>
-    </a>
-    <a href="#"
+    </router-link>
+    <router-link to="#"
        class="Ag-text14-to-1070 block Option afterLine-change changeDataAddress relative">
       <div class="DeskLimit">Адреса доставки</div>
-    </a>
+    </router-link>
   </ol>
 </template>
 <style>

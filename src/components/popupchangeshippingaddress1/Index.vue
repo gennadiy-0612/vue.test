@@ -1,6 +1,6 @@
 <template>
   <div class="popUpFrame popUpFrame1 popUpReady">
-    <a href="/"><X/></a>
+    <router-link to="/"><X/></router-link>
     <HeaderPopUp msg="Ваш заказ успешно оплачен!"/>
     <div class="popUpFrame__pSet">
       <ParaGraph msg="Заказ № 000000 Ваш заказ будет доставлен по адресу: г. Новосибирск,"/>

@@ -63,7 +63,7 @@
   margin: 0 0 -5px;
 }
 
-.ChangePD .changeDataAddress.afterLine-change::after {
+.changeDataAddress.afterLine-change::after {
   background-color: #465502;
   content: '';
   width: 100%;

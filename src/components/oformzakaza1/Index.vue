@@ -1,10 +1,14 @@
 <template>
-  <div class="comboNabori Order">
+  <div class="comboNabori Order OrderMove FrameDesk">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
     </div>
+    <div class="OrderMoveAddresses bg-white CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+      <AddressesList/>
+    </div>
     <HeaderThree msg="Оформление заказа"/>
+    <OrderMove/>
     <div class="flex oformZakaz">
       <GreenButton msg="Доставка"/>
       <GreyButton msg="Самовывоз"/>
@@ -14,7 +18,9 @@
       <span class="Ag-h3-to-1070 whereTake__address">Площадь ленина</span></p>
     <div class="choiceTime flex flex-wrap justify-between">
       <div class="setTime timeButton Ag-text14-to-1070 line-h17px text-center">Выберите время</div>
-      <div class="flex justify-center items-center nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">Ближайшее</div>
+      <div class="flex justify-center items-center nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">
+        Ближайшее
+      </div>
     </div>
     <div class="Order__setButtons">
       <GreenButton msg="Перейти к подтверждению"/>
@@ -83,7 +89,9 @@
 <script>
 import BurgMenu from '../burgmenu/Index'
 import Address from '../address/Index'
+import AddressesList from '../partpage/AddressesList'
 import HeaderThree from '../partpage/HeaderThree'
+import OrderMove from '../partpage/OrderMove'
 import GreenButton from '../addtocardgreen/Index'
 import GreyButton from '../addtocardgrey/Index'
 import BlackButton from '../addtocardblack/Index'
@@ -94,7 +102,9 @@ export default {
   components: {
     BurgMenu,
     Address,
+    AddressesList,
     HeaderThree,
+    OrderMove,
     GreenButton,
     GreyButton,
     BlackButton,

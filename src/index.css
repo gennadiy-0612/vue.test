@@ -909,6 +909,25 @@ html {
     }
 
     /*lkmobdannie2 page*/
+    /*oformzakaza1 page*/
+    .OrderMoving {
+        max-width: 950px;
+        margin: auto;
+    }
+
+    .OrderMove .Option {
+        flex: 1 1 32%;
+    }
+
+    .OrderMoveAddresses {
+        float: left;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        background-color: transparent;
+    }
+
+    /*oformzakaza1 page*/
 }
 
 @media (min-width: 1300px) {

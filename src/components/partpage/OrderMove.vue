@@ -1,11 +1,13 @@
 <template>
-  <ol class="flex flex-wrap justify-between afterLine afterLine-PersonData">
+  <ol class="flex flex-wrap justify-between afterLine afterLine-PersonData OrderMoving">
     <a href="#" class="Ag-text14-to-1070 activeOption afterLine block Option changeDataPerson relative">
-      <div class="DeskLimit">Личные данные</div>
+      <div class="DeskLimit">Корзина</div>
     </a>
-    <a href="#"
-       class="Ag-text14-to-1070 block Option afterLine-change changeDataAddress relative">
-      <div class="DeskLimit">Адреса доставки</div>
+    <a href="#" class="Ag-text14-to-1070 block Option afterLine-change changeDataAddress relative">
+      <div class="DeskLimit">Оформление заказа</div>
+    </a>
+    <a href="#" class="Ag-text14-to-1070 block Option afterLine-change changeDataAddress relative">
+      <div class="DeskLimit">Подтверждение</div>
     </a>
   </ol>
 </template>

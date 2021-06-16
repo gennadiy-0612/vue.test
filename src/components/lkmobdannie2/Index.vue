@@ -6,15 +6,19 @@
     </div>
     <ChangePersonalData/>
     <div class="myAddress ChangePD__address">
-      <p class="Ag-text14-to-1070 fs14px">Мой адрес</p>
-      <div class="itemCity relative flex justify-between ">
-        <p class="Ag-text14-to-1070 line-h17px fs14px block">г. Новосибирск, ул. Улица...</p>
-        <a class="block Option activeOption">Изменить</a>
+      <div class="DataItem">
+        <p class="Ag-text14-to-1070 fs14px DataItem__address DataItem-point">Мой адрес</p>
+        <div class="itemCity relative flex justify-between ">
+          <p class="Ag-text14-to-1070 line-h17px fs14px block DataItem__address">г. Новосибирск, ул. Улица...</p>
+          <a class="block Option activeOption DataItem__setting">Изменить</a>
+        </div>
       </div>
-      <p class="Ag-text14-to-1070 fs14px">Мой адрес</p>
-      <div class="itemCity relative flex justify-between ">
-        <p class="Ag-text14-to-1070 line-h17px fs14px block">г. Новосибирск, ул. Улица...</p>
-        <a class="block Option activeOption">Сохранить</a>
+      <div class="DataItem">
+        <p class="Ag-text14-to-1070 fs14px DataItem__address DataItem-point">Мой адрес</p>
+        <div class="itemCity relative flex justify-between ">
+          <p class="Ag-text14-to-1070 line-h17px fs14px block DataItem__address">г. Новосибирск, ул. Улица...</p>
+          <a class="block Option activeOption DataItem__setting">Сохранить</a>
+        </div>
       </div>
     </div>
     <form class="ChangePD__where">
@@ -69,9 +73,11 @@
   bottom: 0;
   z-index: 0;
 }
-.ChangePD .activeOption::after{
+
+.ChangePD .activeOption::after {
   height: 0;
 }
+
 .ChangePD .changeDataPerson {
   font-weight: 400;
 }

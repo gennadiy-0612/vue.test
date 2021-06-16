@@ -1,35 +1,54 @@
 <template>
-  <div class="comboNabori Order ChangePersonData">
+  <div class="comboNabori Order ChangePersonData FrameDesk">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
     </div>
     <ChangePersonalData/>
-    <form action="/" class="relative flex flex-wrap items-center changeDataSet">
-      <input placeholder="Пётр" type="text" id="name1" name="name1" class="searchButton bg-E4E4E4 changeName">
-      <a class="toChange Ag-text12-to-1070" href="#" for="name1">Изменить</a>
-      <input placeholder="+7(xxx) xxx-xx-xx" type="text" id="name2" name="name2"
-             class="searchButton bg-E4E4E4 changeName">
-      <a class="toChange Ag-text12-to-1070" href="#" for="name2">Изменить</a>
-      <input placeholder="Email" type="text" id="name3" name="name3" class="searchButton bg-E4E4E4 changeName">
-      <a class="toChange Ag-text12-to-1070" href="#" for="name3">Изменить</a>
-      <input placeholder="День рождения" type="text" id="name4" name="name4" class="searchButton bg-E4E4E4 changeName">
-      <a class="toChange Ag-text12-to-1070" href="#" for="name4">Изменить</a>
-    </form>
-    <div class="getNews relative flex">
-      <input type="radio" id="address1" name="address1" value="Bike" class="checkIt opacity-0">
-      <label for="address1" class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
-        информацию о
-        заказе</label>
+    <div class="OptionLK">
+      <form action="/" class="relative flex flex-wrap items-center changeDataSet">
+        <div class="optSet">
+          <input placeholder="Пётр" type="text" id="name1" name="name1"
+                 class="searchButton bg-E4E4E4 changeName">
+          <a class="toChange Ag-text12-to-1070" href="#" for="name1">Изменить</a>
+        </div>
+        <div class="optSet">
+          <input placeholder="+7(xxx) xxx-xx-xx" type="text" id="name2" name="name2"
+                 class="searchButton bg-E4E4E4 changeName">
+          <a class="toChange Ag-text12-to-1070" href="#" for="name2">Изменить</a>
+        </div>
+        <div class="optSet">
+          <input placeholder="Email" type="text" id="name3" name="name3"
+                 class="searchButton bg-E4E4E4 changeName">
+          <a class="toChange Ag-text12-to-1070" href="#" for="name3">Изменить</a>
+        </div>
+        <div class="optSet">
+          <input placeholder="День рождения" type="text" id="name4" name="name4"
+                 class="searchButton bg-E4E4E4 changeName">
+          <a class="toChange Ag-text12-to-1070" href="#" for="name4">Изменить</a>
+        </div>
+      </form>
+      <div class="getNews relative flex">
+        <input type="radio" id="address1" name="address1" value="Bike" class="checkIt opacity-0">
+        <label for="address1" class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
+          информацию о заказе</label>
+      </div>
     </div>
     <div class="Order__setButtons">
       <BlackButton msg="Выйти"/>
     </div>
+    <FooterDesk/>
     <MenuBottom/>
   </div>
 </template>
-<style>.changeDataSet {
+<style>
+
+.changeDataSet {
   margin: 29px -6px 0;
+}
+
+.mainBack .LogIcon {
+  fill: #000000;
 }
 
 .changeName {
@@ -82,12 +101,17 @@
 .Order__setButtons .OrderMore-add-to-card-black {
   margin: 20px 0 0;
 }
+
+.Order .foot {
+  margin-top: 20px;
+}
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'
 import Address from '../address/Index'
 import ChangePersonalData from '../partpage/ChangePersonalData'
 import BlackButton from '../addtocardblack/Index'
+import FooterDesk from '../partpage/FooterDesk'
 import MenuBottom from '../menubottom/Index'
 
 export default {
@@ -97,6 +121,7 @@ export default {
     Address,
     ChangePersonalData,
     BlackButton,
+    FooterDesk,
     MenuBottom
   }
 }

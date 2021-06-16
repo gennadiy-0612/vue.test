@@ -836,6 +836,59 @@ html {
     }
 
     /*lkmobdannie page*/
+    /*lkmobdannie2 page*/
+    .DataItem, .ChangePD__where {
+        max-width: 1600px;
+        margin: auto;
+    }
+
+    .ChangePD__address.myAddress {
+        margin: 0 0 28px;
+    }
+
+    .DataItem {
+        padding: 57px 45% 3px 0;
+        margin-top: 0;
+    }
+
+    .ChangePD__where {
+        padding-right: 34%;
+    }
+
+    .DataItem__address {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .ChangePD .Option {
+        margin: 0 0 0;
+    }
+
+    .ChangePD .raw {
+        margin: 10px -12px -12px;
+    }
+
+    .ChangePD .searchButton {
+        height: 40px;
+        font-size: 26px;
+        margin: 0 10px 42px;
+    }
+
+    .ChangePD.Order .itemCity {
+        align-items: flex-end;
+    }
+
+    .DataItem-point {
+        margin: 0 0 0;
+    }
+
+    .ChangePD.Order .DataItem__setting {
+        font-size: 28px;
+        font-weight: 400;
+        padding: 0;
+    }
+
+    /*lkmobdannie2 page*/
 }
 
 @media (min-width: 1300px) {

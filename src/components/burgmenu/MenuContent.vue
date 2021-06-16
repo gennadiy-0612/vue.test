@@ -1,9 +1,9 @@
 <template>
   <div id="MenuContent"
        class="MenuContent hidden flex flex-wrap items-start justify-items-start absolute top-0 left-0 w-full">
-    <router-link to="#" class="closeX fixed right-2 z-2 block top-0 MenuContent__x">
+    <a href="#" class="closeX fixed right-2 z-2 block top-0 MenuContent__x">
       <X/>
-    </router-link>
+    </a>
     <ol class="MenuContent__ol flex flex-col justify-center text-center bg-white w-full h-full z-1 E4E4E4">
       <li class="MenuContent__li"><a class="Ag6001417 MenuContent__a" href="/vkhodoldcode">Вход на сайт</a></li>
       <li class="MenuContent__li"><a class="Ag6001417 MenuContent__a" href="/vkhodoldcodedesc">Вход на сайт  Desk</a></li>

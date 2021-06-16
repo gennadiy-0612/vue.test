@@ -1,8 +1,8 @@
 <template>
   <div class="BurgerMenu z-1 h-full xl:w-full">
-    <router-link to="#MenuContent" class="DescHide burg-icon flex justify-center">
+    <a href="#MenuContent" class="DescHide burg-icon flex justify-center">
       <div class="Header__img"></div>
-    </router-link>>
+    </a>
     <MenuContent/>
   </div>
 </template>

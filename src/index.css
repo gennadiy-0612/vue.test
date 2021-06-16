@@ -726,6 +726,8 @@ html {
 
     .ChoicePopUp .letters__text {
         font-size: 24px;
+        padding: 0 0 22px;
+        margin: -3px 0 0;
     }
 
     .ChoicePopUp .letters {
@@ -737,6 +739,10 @@ html {
     .ChoicePopUp .letters__items {
         display: flex;
         justify-content: space-between;
+    }
+
+    .ChoicePopUp .afterLine::after {
+        content: none;
     }
 
     /*Search page*/

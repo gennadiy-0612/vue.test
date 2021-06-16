@@ -27,11 +27,11 @@
                id="city"
                name="city">
       </div>
-      <div class="raw flex">
-        <input class="searchButton bg-E4E4E4 border-solid border-0 w-full block street" placeholder="Улица" type="text"
+      <div class="raw flex Flat">
+        <input class="Flat__Street searchButton bg-E4E4E4 border-solid border-0 w-full block street" placeholder="Улица" type="text"
                id="street" name="street">
-        <input class="searchButton bg-E4E4E4 border-solid border-0 w-full block" placeholder="Дом" type="text"
-               id="house" name="house">
+        <input class="House searchButton bg-E4E4E4 border-solid border-0 w-full block" placeholder="Дом" type="text"
+               id="Flat__House" name="house">
       </div>
       <div class="raw flex">
         <input class="searchButton bg-E4E4E4 border-solid border-0 w-full block" placeholder="Кв" type="text" id="flat"
@@ -53,7 +53,7 @@
                type="text" id="detail" name="detail">
       </div>
     </form>
-    <div class="Order__setButtons">
+    <div class="Order__setButtons BlackButtonDesk">
       <BlackButton msg="Добавить"/>
     </div>
     <MenuBottom/>
@@ -105,6 +105,8 @@
 
 .ChangePD .afterLine-PersonData {
   margin: 2px 0 27px;
+  align-items: flex-end;
+  justify-content: flex-start;
 }
 
 .ChangePD.Order .itemCity {

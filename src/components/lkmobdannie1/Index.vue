@@ -47,7 +47,7 @@
   margin: 29px -6px 0;
 }
 
-.mainBack .LogIcon {
+.LogIcon {
   fill: #000000;
 }
 

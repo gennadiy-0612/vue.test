@@ -160,10 +160,6 @@
   margin: 20px 0 0;
 }
 
-.Order__setButtons {
-  padding: 0 0 30px;
-}
-
 .OrderAct .OrderActCash {
   padding: 0;
 }

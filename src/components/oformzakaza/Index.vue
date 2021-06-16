@@ -115,10 +115,6 @@
 .Order__setButtons .OrderMore-add-to-card-black {
   margin: 20px 0 0;
 }
-
-.Order__setButtons {
-  padding: 0 0 30px;
-}
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'

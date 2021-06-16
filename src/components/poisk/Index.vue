@@ -1,357 +1,359 @@
 <template>
   <div class="ChoicePopUp h-full w-full flex justify-center items-center back-05">
-    <div class="poiskTop popUpFrame bg-white">
+    <div class="poiskTop popUpFrame bg-white h-full">
       <h2 class="MobHide ChoiceIt">Выберете город, в котором вы хотите сделать заказ</h2>
       <a class="DescHide" href="/">
         <X/>
       </a>
       <Poisk/>
-      <div class="letters flex flex-wrap justify-between relative">
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">А</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Абакан</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Абакан</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Абакан</p>
+      <div class="GradPapa relative">
+        <div class="letters flex flex-wrap justify-between relative">
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">А</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Абакан</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Абакан</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Абакан</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Б</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Балаково</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Балашиха</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Балтийск</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">В</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
+          </div>
+          <div class="letters__items">
+            <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
+            <div class="letters__Set">
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+              <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
+            </div>
           </div>
         </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Б</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Балаково</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Балашиха</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Балтийск</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">В</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="letters__items">
-          <h3 class="Ag-h3-to-1070 h3Letter">Г</h3>
-          <div class="letters__Set">
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-            <p class="Ag-text14-to-1070 letters__text afterLine">Великие луки</p>
-          </div>
-        </div>
-        <div class="absolute z-10 bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white pointer-events-none"></div>
+        <div class="MobHide GradDecor sticky z-10 left-0 right-0 h-32 bg-gradient-to-t from-white pointer-events-none"></div>
       </div>
     </div>
   </div>
@@ -380,6 +382,7 @@
 .letters__text {
   padding: 8px 0 13px;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -400,6 +403,9 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #1c1c1c;
+}
+.GradDecor{
+  bottom: -30px;
 }
 </style>
 <script>

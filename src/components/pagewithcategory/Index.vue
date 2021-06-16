@@ -54,7 +54,7 @@
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'
-import BackButton from '../address/Index'
+import BackButton from  '../partpage/Address'
 import CatItem from './CategoryItem'
 import ComboSetsBottom from './ComboSetsBottom'
 

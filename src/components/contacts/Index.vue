@@ -35,7 +35,7 @@
 import BurgMenu from '../burgmenu/Index'
 import HeaderPopUp from '../partpage/HeaderPopUp'
 import HeadTwo from '../partpage/HeaderTwo'
-import Address from '../address/Index'
+import Address from  '../partpage/Address'
 import ConactItem from './ContactItem'
 import MenuBottom from '../menubottom/Index'
 

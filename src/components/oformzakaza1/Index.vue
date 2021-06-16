@@ -88,7 +88,7 @@
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'
-import Address from '../address/Index'
+import Address from  '../partpage/Address'
 import AddressesList from '../partpage/AddressesList'
 import HeaderThree from '../partpage/HeaderThree'
 import OrderMove from '../partpage/OrderMove'

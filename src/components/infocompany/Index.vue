@@ -28,7 +28,7 @@
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'
-import Address from '../address/Index'
+import Address from  '../partpage/Address'
 import HeaderTwo from '../partpage/HeaderTwo'
 import MenuBottom from '../menubottom/Index'
 

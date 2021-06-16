@@ -118,7 +118,7 @@
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'
-import Address from '../address/Index'
+import Address from  '../partpage/Address'
 import HeaderThree from '../partpage/HeaderThree'
 import GreenButton from '../addtocardgreen/Index'
 import GreyButton from '../addtocardgrey/Index'

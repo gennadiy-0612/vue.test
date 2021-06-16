@@ -28,7 +28,8 @@
                name="city">
       </div>
       <div class="raw flex Flat">
-        <input class="Flat__Street searchButton bg-E4E4E4 border-solid border-0 w-full block street" placeholder="Улица" type="text"
+        <input class="Flat__Street searchButton bg-E4E4E4 border-solid border-0 w-full block street" placeholder="Улица"
+               type="text"
                id="street" name="street">
         <input class="House searchButton bg-E4E4E4 border-solid border-0 w-full block" placeholder="Дом" type="text"
                id="Flat__House" name="house">
@@ -146,7 +147,7 @@
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'
-import Address from '../address/Index'
+import Address from '../partpage/Address'
 import ChangePersonalData from '../partpage/ChangePersonalData'
 import BlackButton from '../addtocardblack/Index'
 import MenuBottom from '../menubottom/Index'

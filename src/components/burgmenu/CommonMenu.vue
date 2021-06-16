@@ -2,23 +2,23 @@
   <div id="MenuContent" class="MenuContent w-full h-full CommonMenu hidden flex flex-wrap items-start justify-items-start absolute xl:static top-0 left-0 xl:m-auto">
     <router-link to="#" class="DescHide closeX fixed right-2 z-2 block top-0 MenuContent__x">
       <X/>
-    </router-link>>
+    </router-link>
     <MainLinkLogo/>
     <ol class="MenuContent__ol flex flex-col justify-center text-center bg-white w-full h-full z-1 E4E4E4">
       <li class="MenuContent__li">
-        <a class="Ag6001417 MenuContent__a" href="/vkhodoldcode">Меню</a>
+        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Меню
+      </router-link>
+      <li class="MenuContent__li">
+      <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Акции</router-link>
       </li>
       <li class="MenuContent__li">
-        <a class="Ag6001417 MenuContent__a" href="/vkhodoldcode">Акции</a>
+        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Доставка и оплата</router-link>
       </li>
       <li class="MenuContent__li">
-        <a class="Ag6001417 MenuContent__a" href="/vkhodoldcode">Доставка и оплата</a>
+        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Контакты</router-link>
       </li>
       <li class="MenuContent__li">
-        <a class="Ag6001417 MenuContent__a" href="/vkhodoldcode">Контакты</a>
-      </li>
-      <li class="MenuContent__li">
-        <a class="Ag6001417 MenuContent__a" href="/vkhodoldcode">Имя пользователя</a>
+        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Имя пользователя</router-link>
       </li>
     </ol>
     <LogIn/>

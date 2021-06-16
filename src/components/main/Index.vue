@@ -4,14 +4,7 @@
       <MenuTop/>
     </div>
     <div class="CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
-      <ul class="AddressesList MobHide">
-        <li class="AddressesList__li AddressesList__main leading-8 relative">Красный проспект, 25/1</li>
-        <li class="AddressesList__li leading-8">Пл. К. Маркса, 7, ТРЦ «Сан-Сити»</li>
-        <li class="AddressesList__li leading-8">Ул. Военная, 5, ТРЦ «Аура»</li>
-        <li class="AddressesList__li leading-8">Ул. Красный проспект, 101, ТРЦ ...</li>
-        <li class="AddressesList__li leading-8">Ул. Кутателадзе, 4/4</li>
-        <li class="AddressesList__li leading-8">Ул. Гоголя, 13, ТРЦ “Галерея”</li>
-      </ul>
+      <AddressesList/>
       <p class="MobHide CarryMenu Ag-text14-to-1070 Ag700 w-full text-center">Меню доставки</p>
       <div class="flex justify-between flex-wrap mainPage__icons">
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
@@ -128,6 +121,7 @@
 
 import MenuTop from '../menutop/Index'
 import DescItem from '../descimg/DescItem'
+import AddressesList from '../partpage/AddressesList'
 import FooterDesk from '../partpage/FooterDesk'
 import MenuBottom from '../menubottom/Index'
 
@@ -136,6 +130,7 @@ export default {
   components: {
     MenuBottom,
     DescItem,
+    AddressesList,
     FooterDesk,
     MenuTop
   }

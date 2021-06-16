@@ -350,6 +350,10 @@ html {
         display: none;
     }
 
+    .FrameDesk {
+        padding: 0 30px;
+    }
+
     .mainPage {
         background: url("./assets/img/mainpage/main.png") center center no-repeat;
         background-size: cover;
@@ -747,7 +751,7 @@ html {
 
     /*Search page*/
     /*lkmobdannie page*/
-    .afterLine-PersonData {
+    .ChangePD .afterLine-PersonData, .afterLine-PersonData {
         max-width: 630px;
         margin: -5px auto 0;
     }
@@ -785,15 +789,10 @@ html {
         padding: 0 0 26px 3px;
     }
 
-    .Order .changeName {
+    .changeName {
         min-width: 450px;
         height: 40px;
-        padding: 0 50px;
-        font-size: 27px;
         line-height: 40px;
-    }
-
-    .Order .toChange {
         padding: 0 0 0 4px;
         font-size: 26px;
     }
@@ -807,7 +806,16 @@ html {
     .getNews {
         align-items: center;
         padding: 0 0 0 20px;
-        margin: 79px 0 0 23px;
+        margin: 79px 0 0 48px;
+    }
+
+    .Order .searchButton {
+        height: 40px;
+        padding: 0 0 0 50px;
+    }
+
+    .Order .toChange {
+        font-size: 26px;
     }
 
     .Order__setButtons {

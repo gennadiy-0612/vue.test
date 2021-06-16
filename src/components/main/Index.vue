@@ -1,5 +1,5 @@
 <template>
-  <div class="mainPage w-full h-full">
+  <div class="mainPage w-full h-full FrameDesk">
     <div class="mainBack bg-no-repeat bg-cover bg-center">
       <MenuTop/>
     </div>

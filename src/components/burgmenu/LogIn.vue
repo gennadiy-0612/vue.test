@@ -1,7 +1,7 @@
 <template>
   <ul class="logCard flex MobHide items-end">
     <li class="logCard__li flex justify-center">
-      <a class="block logCard__a" href="#">
+      <a class="block logCard__a" href="lkmobdannie">
         <svg class="LogIcon" viewBox="-42 0 512 512.002" xmlns="http://www.w3.org/2000/svg">
           <path
               d="m210.351562 246.632812c33.882813 0 63.222657-12.152343 87.195313-36.128906 23.972656-23.972656 36.125-53.304687 36.125-87.191406 0-33.875-12.152344-63.210938-36.128906-87.191406-23.976563-23.96875-53.3125-36.121094-87.191407-36.121094-33.886718 0-63.21875 12.152344-87.191406 36.125s-36.128906 53.308594-36.128906 87.1875c0 33.886719 12.15625 63.222656 36.132812 87.195312 23.976563 23.96875 53.3125 36.125 87.1875 36.125zm0 0"/>
@@ -11,7 +11,7 @@
       </a>
     </li>
     <li class="logCard__li flex justify-center">
-      <a class="block logCard__a relative" href="#">
+      <a class="block logCard__a relative" href="cardmob">
         <svg class="LogIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 589.84 512">
           <g id="Layer_2" data-name="Layer 2">
             <g id="Layer_1-2" data-name="Layer 1">

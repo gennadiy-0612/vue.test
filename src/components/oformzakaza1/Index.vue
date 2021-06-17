@@ -5,7 +5,7 @@
       <BurgMenu/>
     </div>
     <div class="OrderMoveAddresses bg-white CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
-      <AddressesList/>
+      <AddressTime/>
     </div>
     <HeaderThree msg="Оформление заказа"/>
     <OrderMove/>
@@ -89,7 +89,7 @@
 <script>
 import BurgMenu from '../burgmenu/Index'
 import Address from  '../partpage/Address'
-import AddressesList from '../partpage/AddressesList'
+import AddressTime from '../partpage/AddressTime'
 import HeaderThree from '../partpage/HeaderThree'
 import OrderMove from '../partpage/OrderMove'
 import GreenButton from '../addtocardgreen/Index'
@@ -102,7 +102,7 @@ export default {
   components: {
     BurgMenu,
     Address,
-    AddressesList,
+    AddressTime,
     HeaderThree,
     OrderMove,
     GreenButton,

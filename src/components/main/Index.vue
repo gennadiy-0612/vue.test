@@ -9,37 +9,43 @@
       <div class="flex justify-between flex-wrap mainPage__icons">
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/pizza.svg" alt="Пицца"/></router-link>
+            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/pizza.svg" alt="Пицца"/>
+            </router-link>
           </div>
           <DescItem msg="Пицца"/>
         </div>
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/paste.svg" alt="Пасты"/></router-link>
+            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/paste.svg" alt="Пасты"/>
+            </router-link>
           </div>
           <DescItem msg="Пасты"/>
         </div>
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/soups.svg" alt="Супы"/></router-link>
+            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/soups.svg" alt="Супы"/>
+            </router-link>
           </div>
           <DescItem msg="Супы"/>
         </div>
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/hots.svg" alt="Горячие блюда"/></router-link>
+            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/hots.svg" alt="Горячие блюда"/>
+            </router-link>
           </div>
           <DescItem msg="Горячие блюда"/>
         </div>
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/salats.svg" alt="Салаты и закуски"/></router-link>
+            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/salats.svg" alt="Салаты и закуски"/>
+            </router-link>
           </div>
           <DescItem msg="Салаты и закуски"/>
         </div>
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/drinks.svg" alt="Десерты и напитки"/></router-link>
+            <router-link to="/"><img class="imgIcon" src="../../assets/img/mainpage/drinks.svg"
+                                     alt="Десерты и напитки"/></router-link>
           </div>
           <DescItem msg="Десерты и напитки"/>
         </div>
@@ -64,9 +70,11 @@
 .mainPage {
   min-height: 520px;
 }
-.mainBack .LogIcon{
+
+.mainBack .LogIcon {
   fill: #FFFFFF;
 }
+
 .mainPage .Header {
   padding: 33px 16px 175px;
 }
@@ -118,7 +126,6 @@
 </style>
 
 <script>
-
 import MenuTop from '../menutop/Index'
 import DescItem from '../descimg/DescItem'
 import AddressesList from '../partpage/AddressesList'

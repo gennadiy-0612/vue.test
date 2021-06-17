@@ -98,11 +98,11 @@
 
 .ContentMenu:target {
   opacity: 1;
+  display: flex;
   top: 0;
   left: 0;
   right: 0;
   position: absolute;
-  display: flex;
   flex-wrap: wrap;
   align-items: center;
   background-color: #FFFFFF;

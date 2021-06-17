@@ -29,8 +29,8 @@
         </div>
       </form>
       <div class="getNews relative flex">
-        <input type="radio" id="address1" name="address1" value="Bike" class="checkIt opacity-0">
-        <label for="address1" class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
+        <input type="radio" id="GetInfoAboutOrder" name="GetInfoAboutOrder" value="Bike" class="checkIt opacity-0">
+        <label for="GetInfoAboutOrder" class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
           информацию о заказе</label>
       </div>
     </div>
@@ -125,4 +125,26 @@ export default {
     MenuBottom
   }
 }
+
+function shch(Select) {
+  this.takeTag = function () {
+    this.TagEl = document.querySelector(Select);
+    this.TagEl.classList.toggle('showIt');
+    console.log(this);
+    alert('1')
+  };
+  this.addE = function () {
+    this.TagEl.addEventListener('click', this.takeTag.bind(this));
+    console.log(this)
+    alert('2')
+  }
+  this.doIt = function () {
+    window.addEventListener('load', this.addE);
+    console.log(this)
+    alert('3')
+  }
+}
+
+let cardSwithcer = new shch('#GetInfoAboutOrder');
+cardSwithcer.doIt();
 </script>

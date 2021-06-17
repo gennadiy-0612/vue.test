@@ -1,6 +1,6 @@
 <template>
   <div class="LogFrameGet h-full w-full flex flex-wrap justify-center">
-    <div class="LogFrameGet__item self-center">
+    <div class="LogFrameGet__item max-w-full self-center">
       <router-link to="/">
       <X/>
       </router-link>
@@ -14,7 +14,6 @@
 </template>
 <style>
 .LogFrameGet__item{
-  max-width: 100%;
   max-height: 54%;
   min-width: 256px;
 }

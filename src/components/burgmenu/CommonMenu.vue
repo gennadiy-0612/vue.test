@@ -5,21 +5,11 @@
     </router-link>
     <MainLinkLogo/>
     <ol class="MenuContent__ol flex flex-col justify-center text-center bg-white w-full h-full z-1 E4E4E4">
-      <li class="MenuContent__li">
-        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Меню
-      </router-link>
-      <li class="MenuContent__li">
-      <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Акции</router-link>
-      </li>
-      <li class="MenuContent__li">
-        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Доставка и оплата</router-link>
-      </li>
-      <li class="MenuContent__li">
-        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Контакты</router-link>
-      </li>
-      <li class="MenuContent__li">
-        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Имя пользователя</router-link>
-      </li>
+      <li class="MenuContent__li"><router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Меню</router-link><li class="MenuContent__li">
+      <router-link to="/events" class="Ag6001417 MenuContent__a">Акции</router-link></li>
+      <li class="MenuContent__li"><router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Доставка и оплата</router-link></li>
+      <li class="MenuContent__li"><router-link to="/contacts" class="Ag6001417 MenuContent__a">Контакты</router-link></li>
+      <li class="MenuContent__li"><router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Имя пользователя</router-link></li>
     </ol>
     <LogIn/>
   </div>

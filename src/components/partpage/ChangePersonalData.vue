@@ -15,6 +15,7 @@
   z-index: -1;
 }
 
+.showIt.afterLine::after,
 .activeOption.afterLine::after {
   background-color: #465502;
 }
@@ -34,7 +35,7 @@
   color: #2F3D49;
   padding: 0 0 6px;
 }
-
+.Option.showIt,
 .Option.activeOption {
   color: #465502;
   font-weight: 700;

@@ -82,7 +82,7 @@
   border: 1px solid #8D8D8D;
 }
 
-.checkIt:checked + .addressGost::before {
+.showIt + .addressGost::before {
   content: '';
   position: absolute;
   top: 0;
@@ -94,8 +94,11 @@
   border-radius: 50%;
   background-color: #039305;
 }
-
-.checkIt:checked + .addressGost::after {
+.showIt, .showIt::after{
+  transition-duration: .7s;
+  transition-property: all;
+}
+.showIt + .addressGost::after {
   border: 1px solid #039305;
 }
 

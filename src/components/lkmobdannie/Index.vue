@@ -84,7 +84,7 @@
   width: 20px;
 }
 
-.checkIt:checked + .toChange::before {
+.showIt + .toChange::before {
   left: 4px;
   height: 12px;
   width: 12px;
@@ -106,6 +106,7 @@
   margin-top: 20px;
 }
 </style>
+
 <script>
 import BurgMenu from '../burgmenu/Index'
 import Address from '../partpage/Address'
@@ -128,23 +129,17 @@ export default {
 
 function shch(Select) {
   this.takeTag = function () {
-    this.TagEl = document.querySelector(Select);
     this.TagEl.classList.toggle('showIt');
-    console.log(this);
-    alert('1')
+    console.log(this)
   };
   this.addE = function () {
+    this.TagEl = document.querySelector(Select);
     this.TagEl.addEventListener('click', this.takeTag.bind(this));
-    console.log(this)
-    alert('2')
-  }
-  this.doIt = function () {
-    window.addEventListener('load', this.addE);
-    console.log(this)
-    alert('3')
-  }
+  };
 }
 
-let cardSwithcer = new shch('#GetInfoAboutOrder');
-cardSwithcer.doIt();
+if (window.location.pathname === '/lkmobdannie') {
+  let cardSwitcher = new shch('#GetInfoAboutOrder');
+  window.addEventListener('load', cardSwitcher.addE.bind(cardSwitcher));
+}
 </script>

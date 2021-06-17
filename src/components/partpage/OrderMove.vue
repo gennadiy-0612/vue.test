@@ -1,12 +1,13 @@
 <template>
-  <ol class="flex flex-wrap justify-between afterLine afterLine-PersonData OrderMoving">
-    <router-link to="#" class="Ag-text14-to-1070 activeOption afterLine block Option changeDataPerson relative">
+  <ol class="MobHide flex flex-wrap justify-between afterLine afterLine-PersonData OrderMoving">
+    <router-link to="#"
+                 class="MobHide Ag-text14-to-1070 switchOpt1 showIt afterLine block Option changeDataPerson relative">
       <div class="DeskLimit">Корзина</div>
     </router-link>
-    <router-link to="#" class="Ag-text14-to-1070 block Option afterLine-change changeDataAddress relative">
+    <router-link to="#" class="Ag-text14-to-1070 switchOpt2 block Option afterLine-change changeDataAddress relative">
       <div class="DeskLimit">Оформление заказа</div>
     </router-link>
-    <router-link to="#" class="Ag-text14-to-1070 block Option afterLine-change changeDataAddress relative">
+    <router-link to="#" class="Ag-text14-to-1070 switchOpt3 block Option afterLine-change changeDataAddress relative">
       <div class="DeskLimit">Подтверждение</div>
     </router-link>
   </ol>
@@ -17,6 +18,7 @@
   z-index: -1;
 }
 
+.showIt.afterLine::after,
 .activeOption.afterLine::after {
   background-color: #465502;
 }
@@ -37,6 +39,7 @@
   padding: 0 0 6px;
 }
 
+.Option.showIt,
 .Option.activeOption {
   color: #465502;
   font-weight: 700;

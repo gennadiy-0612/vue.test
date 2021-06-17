@@ -84,7 +84,7 @@
   width: 20px;
 }
 
-.checkIt:checked + .toChange::before {
+.showIt + .toChange::before {
   left: 4px;
   height: 12px;
   width: 12px;

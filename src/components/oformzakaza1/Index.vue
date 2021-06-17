@@ -4,10 +4,13 @@
       <Address/>
       <BurgMenu/>
     </div>
-    <div class="OrderMoveAddresses bg-white CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+    <div
+        class="OrderMoveAddresses bg-white CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressTime/>
     </div>
-    <HeaderThree msg="Оформление заказа"/>
+    <div class="OrderMove__head">
+      <HeaderThree msg="Оформление заказа"/>
+    </div>
     <OrderMove/>
     <div class="flex oformZakaz">
       <GreenButton msg="Доставка"/>
@@ -30,7 +33,12 @@
     <MenuBottom/>
   </div>
 </template>
-<style>.myAddress {
+<style>
+.OrderMove__head {
+  margin: 30px 0 0;
+}
+
+.myAddress {
   margin: 0 0 -18px;
 }
 
@@ -88,7 +96,7 @@
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'
-import Address from  '../partpage/Address'
+import Address from '../partpage/Address'
 import AddressTime from '../partpage/AddressTime'
 import HeaderThree from '../partpage/HeaderThree'
 import OrderMove from '../partpage/OrderMove'
@@ -110,5 +118,28 @@ export default {
     BlackButton,
     MenuBottom
   }
+}
+
+function shch(Select, add) {
+  this.takeTag = function () {
+    this.TagElOld = document.querySelector(add).classList.toggle('showIt');
+    this.TagEl.classList.toggle('showIt');
+    this.TagElOld = this.TagEl;
+  };
+  this.addE = function () {
+    this.TagEl = document.querySelector(Select);
+    this.TagEl.addEventListener('click', this.takeTag.bind(this));
+  };
+}
+
+if (window.location.pathname === '/oformzakaza1') {
+  let cardSwitcher = new shch('.switchOpt1', '.showIt');
+  window.addEventListener('load', cardSwitcher.addE.bind(cardSwitcher));
+  let cardSwitcher2 = new shch('.switchOpt2', '.showIt');
+  window.addEventListener('load', cardSwitcher2.addE.bind(cardSwitcher2));
+  let cardSwitcher3 = new shch('.switchOpt3', '.showIt');
+  window.addEventListener('load', cardSwitcher3.addE.bind(cardSwitcher3));
+  let AddressesListMain = new shch('.AddressesList__main', '.showIt');
+  window.addEventListener('load', AddressesListMain.addE.bind(AddressesListMain, '.showIt'));
 }
 </script>

@@ -1,16 +1,15 @@
 "use strict"
-let funcSHCH1 = {
-    element: '#GetInfoAboutOrder',
-    takeTag: function () {
-        let elem = document.querySelector(funcSHCH1.element)
-        elem.classList.toggle('showIt')
-    },
-    adds: function () {
-        document.querySelector(funcSHCH1.element).addEventListener('click', funcSHCH1.takeTag)
-    },
-    LetIsWork: function () {
-        window.addEventListener('load', funcSHCH1.adds)
-    }
-};
-funcSHCH1.element = '#GetInfoAboutOrder';
-funcSHCH1.LetIsWork()
+
+function shch(Select) {
+    this.takeTag = function () {
+        this.TagEl.classList.toggle('showIt');
+        console.log(this)
+    };
+    this.addE = function () {
+        this.TagEl = document.querySelector(Select);
+        this.TagEl.addEventListener('click', this.takeTag.bind(this));
+    };
+}
+
+let cardSwitcher = new shch('#GetInfoAboutOrder');
+window.addEventListener('load', cardSwitcher.addE.bind(cardSwitcher));

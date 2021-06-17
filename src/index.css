@@ -322,6 +322,8 @@ html {
 
 /*.swipe */
 .afterLine {
+    transition-property: color, background-color;
+    transition-duration: .7s;
     position: relative;
 }
 
@@ -697,7 +699,7 @@ html {
         padding: 42px 16px 16px;
     }
 
-    .checkIt:checked + .addressGost::before {
+    .showIt:checked + .addressGost::before {
         height: 14px;
         width: 14px;
         left: 4px;
@@ -779,6 +781,7 @@ html {
         padding: 30px 0 45px;
     }
 
+    .showIt.Option::after,
     .activeOption.afterLine::after {
         height: 7px;
     }

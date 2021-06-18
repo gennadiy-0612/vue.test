@@ -1,10 +1,21 @@
 <template>
-  <div class="comboNabori Order">
+  <div class="comboNabori Order FrameDesk">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
     </div>
-    <HeaderThree msg="Оформление заказа"/>
+    <div
+        class="OrderMoveAddresses bg-white CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+      <AddressTime/>
+    </div>
+    <div class="OrderMove__head">
+      <div class="DescHide">
+        <HeaderThree msg="Оформление заказа"/>
+      </div>
+    </div>
+    <div class="OrderMoveFrame">
+      <OrderMove/>
+    </div>
     <div class="flex oformZakaz">
       <GreenButton msg="Доставка"/>
       <GreyButton msg="Самовывоз"/>
@@ -119,7 +130,9 @@
 <script>
 import BurgMenu from '../burgmenu/Index'
 import Address from  '../partpage/Address'
+import AddressTime from '../partpage/AddressTime'
 import HeaderThree from '../partpage/HeaderThree'
+import OrderMove from '../partpage/OrderMove'
 import GreenButton from '../addtocardgreen/Index'
 import GreyButton from '../addtocardgrey/Index'
 import BlackButton from '../addtocardblack/Index'
@@ -130,7 +143,9 @@ export default {
   components: {
     BurgMenu,
     Address,
+    AddressTime,
     HeaderThree,
+    OrderMove,
     GreenButton,
     GreyButton,
     BlackButton,

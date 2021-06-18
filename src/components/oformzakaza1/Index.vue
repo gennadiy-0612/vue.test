@@ -9,27 +9,65 @@
       <AddressTime/>
     </div>
     <div class="OrderMove__head">
-      <HeaderThree msg="Оформление заказа"/>
+      <div class="DescHide">
+        <HeaderThree msg="Оформление заказа"/>
+      </div>
     </div>
-    <OrderMove/>
+    <div class="OrderMoveFrame">
+      <OrderMove/>
+    </div>
     <div class="flex oformZakaz">
       <GreenButton msg="Доставка"/>
       <GreyButton msg="Самовывоз"/>
     </div>
-    <h3 class="Ag-h3-to-1070 whereTake">Ваш заказ можете забрать по адресу Красный проспект, 25/1</h3>
-    <p class="BackM whereTake__graph">
-      <span class="Ag-h3-to-1070 whereTake__address">Площадь ленина</span></p>
-    <div class="choiceTime flex flex-wrap justify-between">
-      <div class="setTime timeButton Ag-text14-to-1070 line-h17px text-center">Выберите время</div>
-      <div class="flex justify-center items-center nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">
-        Ближайшее
+    <div><h3 class="inline xl:block Ag-h3-to-1070 whereTake">Ваш заказ можете забрать по адресу</h3>
+      <div class="addressPoint">
+        <p class="inline Ag-h3-to-1070 whereTake where-h3 PointFlat">Красный проспект, 25/1</p>
+        <p class="BackM whereTake__graph xl:inline-block">
+          <span class="Ag-h3-to-1070 whereTake__address where-h3">Площадь ленина</span>
+        </p>
       </div>
     </div>
-    <div class="Order__setButtons">
-      <GreenButton msg="Перейти к подтверждению"/>
-      <BlackButton msg="Назад в корзину"/>
+    <div class="choiceTime flex flex-wrap justify-between">
+      <div class="setTime timeButton Ag-text14-to-1070 line-h17px choiceTimeT text-center">Выберите время</div>
+      <div
+          class="choiceTimeT flex justify-center items-center nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">
+        Ближайшее
+        <div class="DescHide oformZakaz1 absolute m-t15px">
+          <div class="Time max-w-max m-auto absolute m-auto overflow-y-scroll left-0 top-0 h-auto right-0">
+            <router-link to="/">
+              <div class="DescHide"><X/></div>
+            </router-link>
+            <div class="Header__when afterLine flex justify-center">
+              <HeaderPopUp msg="Ближайшее"/>
+            </div>
+            <Time from="00:00" to="00:30"/>
+            <Time from="03:00" to="01:00"/>
+            <Time from="01:00" to="01:30"/>
+            <Time from="01:30" to="02:00"/>
+            <Time from="02:00" to="02:30"/>
+            <Time from="02:30" to="03:00"/>
+            <Time from="03:00" to="03:30"/>
+            <Time from="03:30" to="04:30"/>
+          </div>
+        </div>
+      </div>
     </div>
-    <a class="Ag4001624 text-center SeeMap block">Посмотреть на карте</a>
+    <div class="Order__setButtons xl:flex">
+      <div class="DescHide">
+        <GreenButton msg="Перейти к подтверждению"/>
+      </div>
+      <div class="MobHide blackButtonStyled bigButtonStyled BackToCard">
+        <BlackButton msg="Назад в корзину"/>
+      </div>
+      <div class="MobHide greenButtonStyled bigButtonStyled">
+        <GreenButton msg="Далее"/>
+      </div>
+      <div class="MobHide Ag4001624 text-center SeeMap block bigButtonStyled SeeOnMap">
+        <BlackButton msg="Посмотреть на карте"/>
+      </div>
+    </div>
+    <a class="DescHide Ag4001624 text-center SeeMap block">Посмотреть на карте</a>
     <MenuBottom/>
   </div>
 </template>
@@ -66,7 +104,7 @@
 }
 
 .whereTake__graph {
-  margin: 0 0 31px;
+  margin: 13px 0 31px;
 }
 
 .whereTake__address {
@@ -105,6 +143,10 @@ import GreyButton from '../addtocardgrey/Index'
 import BlackButton from '../addtocardblack/Index'
 import MenuBottom from '../menubottom/Index'
 
+import X from '../popupbluda/X'
+import HeaderPopUp from "../partpage/HeaderPopUp"
+import Time from "../popuptime/Time"
+
 export default {
   name: 'App',
   components: {
@@ -116,7 +158,10 @@ export default {
     GreenButton,
     GreyButton,
     BlackButton,
-    MenuBottom
+    MenuBottom,
+    X,
+    HeaderPopUp,
+    Time,
   }
 }
 

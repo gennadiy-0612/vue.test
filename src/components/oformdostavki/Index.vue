@@ -4,9 +4,16 @@
       <Address/>
       <BurgMenu/>
     </div>
+    <div
+        class="OrderMoveAddresses bg-white CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+      <AddressTime/>
+    </div>
     <HeaderThree msg="Подтверждение"/>
+    <div class="OrderMoveFrame">
+      <OrderMove/>
+    </div>
     <div class="OrderAct-two">
-      <HeaderThree msg="Заказ на самовывоз"/>
+      <HeaderThree msg="Заказ на доставку"/>
     </div>
     <div class="dataPerson">
       <div class="OrderAct__line flex justify-between">
@@ -68,10 +75,6 @@
 </template>
 <style>.OrderAct-two {
   margin: 30px 0 20px;
-}
-
-.OrderAct .h2Papa {
-  margin: 0 0 0;
 }
 
 .OrderAct .Promo__Head {
@@ -166,8 +169,10 @@
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'
-import Address from  '../partpage/Address'
+import Address from '../partpage/Address'
+import AddressTime from '../partpage/AddressTime'
 import HeaderThree from "../partpage/HeaderThree"
+import OrderMove from '../partpage/OrderMove'
 import PromoCode from '../partpage/PromoCode'
 import GreenButton from '../addtocardgreen/Index'
 import BlackButton from '../addtocardblack/Index'
@@ -178,7 +183,9 @@ export default {
   components: {
     BurgMenu,
     Address,
+    AddressTime,
     HeaderThree,
+    OrderMove,
     PromoCode,
     GreenButton,
     BlackButton,

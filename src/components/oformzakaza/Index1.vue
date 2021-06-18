@@ -62,10 +62,6 @@
   margin: 30px 0 20px;
 }
 
-.OrderAct .h2Papa {
-  margin: 0 0 0;
-}
-
 .OrderAct .Promo__Head {
   flex: 1 1 56%;
 }

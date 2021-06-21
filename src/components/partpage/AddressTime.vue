@@ -16,7 +16,7 @@
 }
 
 .AddressesList__main ~ .AddressesList__li {
-  /*opacity: 0;*/
+  opacity: 0;
 }
 
 .AddressesList__main.showIt ~ .AddressesList__li {
@@ -30,6 +30,8 @@
 .AddressesList__li.showIt::after {
   transform: rotate(180deg);
 }
+
+
 </style>
 <script>
 // let funcSHCH = {

@@ -1,5 +1,5 @@
 <template>
-  <div class="comboNabori Order OrderAct">
+  <div class="comboNabori oformsamovivoza Order OrderAct">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
@@ -105,7 +105,8 @@
   margin: 0 0 30px;
 }
 
-.oformZakaz .OrderMore-add-to-card-green, .oformZakaz .OrderMore-add-to-card-black {
+.oformZakaz .OrderMore-add-to-card-green,
+.oformZakaz .OrderMore-add-to-card-black {
   flex: 1 1 50%;
 }
 
@@ -152,5 +153,27 @@ export default {
     BlackButton,
     MenuBottom
   }
+}
+
+
+function shch(Select, add) {
+  this.takeTag = function () {
+    this.TagEl.classList.toggle(add);
+  };
+  this.addE = function () {
+    this.TagEl = document.querySelector(Select);
+    this.TagEl.addEventListener('click', this.takeTag.bind(this));
+  };
+}
+
+if (window.location.pathname === '/oformsamovivoza') {
+  let cardSwitcher = new shch('.switchOpt1', 'showIt');
+  window.addEventListener('load', cardSwitcher.addE.bind(cardSwitcher));
+  let cardSwitcher2 = new shch('.switchOpt2', 'showIt');
+  window.addEventListener('load', cardSwitcher2.addE.bind(cardSwitcher2));
+  let cardSwitcher3 = new shch('.switchOpt3', 'showIt');
+  window.addEventListener('load', cardSwitcher3.addE.bind(cardSwitcher3));
+  let AddressesListMain = new shch('.AddressesList__main', 'showIt');
+  window.addEventListener('load', AddressesListMain.addE.bind(AddressesListMain));
 }
 </script>

@@ -13,7 +13,6 @@
     <Time from="02:00" to="02:30"/>
     <Time from="02:30" to="03:00"/>
     <Time from="03:00" to="03:30"/>
-    <Time from="03:30" to="04:30"/>
   </div>
 </template>
 <style>

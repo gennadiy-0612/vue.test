@@ -533,6 +533,11 @@ html {
         background-color: #8D8D8D;
     }
 
+    .TimeShow {
+        position: relative;
+    }
+
+    .TimeShow::after,
     .AddressesList__main::after {
         content: '\25BC';
         position: absolute;
@@ -1130,11 +1135,130 @@ html {
     }
 
     .oformZakaz1 {
-        display: block;
-        margin: -3% 0 0 16.2%;
+        margin: -18% 0 0 96.2%;
+    }
+
+    .oformZakaz1 .Time {
+        max-width: initial;
+        width: 230px;
+        padding: 10px 27px;
+    }
+
+    .timeRow {
+        padding: 0 11px 14px;
+    }
+
+    .Header__when.afterLine::after {
+        bottom: 6px;
+    }
+
+    .timeRow::after {
+        bottom: 7px;
+    }
+
+    .h3-oformZakaz1 {
+        font-size: 25px;
+    }
+
+    .p-oformZakaz1 {
+        line-height: 31px;
+        font-size: 24px;
+    }
+
+    .p-oformZakaz1.afterLine::after {
+        bottom: 6px;
+    }
+
+    .oformZakaz1 {
+        visibility: collapse;
+    }
+
+    .showIt .oformZakaz1 {
+        visibility: initial;
+    }
+
+    .TimeShow::after {
+        right: 25px;
+        transform: rotate(-90deg);
+        font-size: 26px;
+    }
+
+    .TimeShow.showIt::after {
+        transform: rotate(0deg);
+    }
+
+    .TwoDots {
+        display: inline-block;
+        margin-right: -41%;
     }
 
     /*oformzakaza1 page*/
+    /*oformzakaza page*/
+    .OrderForms {
+        max-width: 950px;
+        margin: 60px auto 0;
+    }
+
+    .oformzakaza .itemCity {
+        margin: 10px 0 39px;
+    }
+
+    .oformzakaza .addressGost {
+        font-size: 25px;
+        line-height: 25px;
+        margin-left: 3.4%;
+    }
+
+    .oformzakaza .myAddress {
+        margin: 0;
+    }
+
+    .MyAddress {
+        font-size: 25px;
+        margin: 0 0 0 5.2%;
+    }
+
+    .oformzakaza .raw {
+        margin: 31px -5px 0;
+    }
+
+    .oformzakaza .choiceTime {
+        margin: 38px auto 0 0;
+        max-width: 624px;
+    }
+
+    .oformzakaza .searchButton {
+        font-size: 25px;
+    }
+
+    .setTime, .nearTime {
+        max-width: 300px;
+    }
+
+    .oformzakaza .timeButton {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .oformzakaza .Order__setButtons {
+        margin-top: 120px;
+        margin-bottom: 115px;
+    }
+
+    .oformzakaza .Order__setButtons button {
+       max-width: 400px;
+    }
+
+    .oformZakaza .Order__setButtons button {
+        max-width: 400px;
+    }
+
+    /*oformzakaza page*/
+    /*oformsamovivoza page*/
+    element.style {
+        font-size: 25px;
+    }
+    /*oformsamovivoza page*/
 }
 
 @media (min-width: 1300px) {
@@ -1146,7 +1270,7 @@ html {
 @media (min-width: 950px) {
 
     .AddressesList {
-        width: 85%;
+        width: 82%;
     }
 
     .mainItem {

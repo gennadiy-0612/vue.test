@@ -29,14 +29,17 @@
       </div>
     </div>
     <div class="choiceTime flex flex-wrap justify-between">
-      <div class="setTime timeButton Ag-text14-to-1070 line-h17px choiceTimeT text-center">Выберите время</div>
+      <div class="setTime timeButton Ag-text14-to-1070 line-h17px choiceTimeT text-center">Выберите время <span
+          class="MobHide TwoDots">:</span></div>
       <div
-          class="choiceTimeT flex justify-center items-center nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">
+          class="choiceTimeT TimeShow w-full flex justify-center items-center nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">
         Ближайшее
-        <div class="DescHide oformZakaz1 absolute m-t15px">
+        <div class="MobHide oformZakaz1 absolute m-t15px">
           <div class="Time max-w-max m-auto absolute m-auto overflow-y-scroll left-0 top-0 h-auto right-0">
             <router-link to="/">
-              <div class="DescHide"><X/></div>
+              <div class="DescHide">
+                <X/>
+              </div>
             </router-link>
             <div class="Header__when afterLine flex justify-center">
               <HeaderPopUp msg="Ближайшее"/>
@@ -48,7 +51,6 @@
             <Time from="02:00" to="02:30"/>
             <Time from="02:30" to="03:00"/>
             <Time from="03:00" to="03:30"/>
-            <Time from="03:30" to="04:30"/>
           </div>
         </div>
       </div>
@@ -121,7 +123,7 @@
 }
 
 .setTime {
-  flex: 1 1 30%;
+  flex: 1 1 36%;
 }
 
 .Order__setButtons .OrderMore-add-to-card-black {
@@ -167,9 +169,7 @@ export default {
 
 function shch(Select, add) {
   this.takeTag = function () {
-    this.TagElOld = document.querySelector(add).classList.toggle('showIt');
-    this.TagEl.classList.toggle('showIt');
-    this.TagElOld = this.TagEl;
+    this.TagEl.classList.toggle(add);
   };
   this.addE = function () {
     this.TagEl = document.querySelector(Select);
@@ -177,14 +177,16 @@ function shch(Select, add) {
   };
 }
 
-if (window.location.pathname === '/oformzakaza1') {
-  let cardSwitcher = new shch('.switchOpt1', '.showIt');
+if (window.location.pathname === '/oformzakaza' || window.location.pathname === '/oformzakaza1') {
+  let cardSwitcher = new shch('.switchOpt1', 'showIt');
   window.addEventListener('load', cardSwitcher.addE.bind(cardSwitcher));
-  let cardSwitcher2 = new shch('.switchOpt2', '.showIt');
+  let cardSwitcher2 = new shch('.switchOpt2', 'showIt');
   window.addEventListener('load', cardSwitcher2.addE.bind(cardSwitcher2));
-  let cardSwitcher3 = new shch('.switchOpt3', '.showIt');
+  let cardSwitcher3 = new shch('.switchOpt3', 'showIt');
   window.addEventListener('load', cardSwitcher3.addE.bind(cardSwitcher3));
-  let AddressesListMain = new shch('.AddressesList__main', '.showIt');
-  window.addEventListener('load', AddressesListMain.addE.bind(AddressesListMain, '.showIt'));
+  let AddressesListMain = new shch('.AddressesList__main', 'showIt');
+  window.addEventListener('load', AddressesListMain.addE.bind(AddressesListMain));
+  let TimeShow = new shch('.TimeShow', 'showIt');
+  window.addEventListener('load', TimeShow.addE.bind(TimeShow));
 }
 </script>

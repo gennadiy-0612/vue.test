@@ -30,7 +30,7 @@
       </form>
       <div class="getNews relative flex">
         <input type="radio" id="address1" name="address1" value="Bike" class="checkIt opacity-0">
-        <label for="address1" class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
+        <label for="address1" id="GetInfoAboutOrder" class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
           информацию о заказе</label>
       </div>
     </div>
@@ -108,7 +108,7 @@
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'
-import Address from  '../partpage/Address'
+import Address from '../partpage/Address'
 import ChangePersonalData from '../partpage/ChangePersonalData'
 import BlackButton from '../addtocardblack/Index'
 import FooterDesk from '../partpage/FooterDesk'
@@ -124,5 +124,21 @@ export default {
     FooterDesk,
     MenuBottom
   }
+}
+
+function shch(Select) {
+  this.takeTag = function () {
+    this.TagEl.classList.toggle('showIt');
+    console.log(this)
+  };
+  this.addE = function () {
+    this.TagEl = document.querySelector(Select);
+    this.TagEl.addEventListener('click', this.takeTag.bind(this));
+  };
+}
+
+if (window.location.pathname === '/lkmobdannie1') {
+  let cardSwitcher1 = new shch('#GetInfoAboutOrder');
+  window.addEventListener('load', cardSwitcher1.addE.bind(cardSwitcher1));
 }
 </script>

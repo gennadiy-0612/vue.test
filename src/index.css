@@ -1523,7 +1523,13 @@ html {
         line-height: 41px;
     }
 
-    .popUpReady {
+    .popUpReady .OrderMore-add-to-card-green {
+        max-width: 277px;
+        margin: 14px auto 0;
+        display: block;
+        font-size: 25px;
+        line-height: 41px;
+        background-color: #465500;
     }
 
     /*popUpReadyDesk page*/

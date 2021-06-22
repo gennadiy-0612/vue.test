@@ -1004,12 +1004,12 @@ html {
 
     .OrderMoveAddresses {
         float: left;
-        margin: -50px 0 0;
+        margin: -47px 0 0;
         height: auto;
         background-color: transparent;
         max-width: 455px;
         padding: 0 0 0 2%;
-        min-height: 260px;
+        min-height: 250px;
     }
 
     .Order .oformZakaz {
@@ -1192,6 +1192,11 @@ html {
         margin-right: -41%;
     }
 
+    .oformZakSam {
+        max-width: 1600px;
+        margin: auto;
+    }
+
     /*oformzakaza1 page*/
     /*oformzakaza page*/
     .OrderForms {
@@ -1246,7 +1251,7 @@ html {
     }
 
     .oformzakaza .Order__setButtons button {
-       max-width: 400px;
+        max-width: 400px;
     }
 
     .oformZakaza .Order__setButtons button {
@@ -1255,9 +1260,142 @@ html {
 
     /*oformzakaza page*/
     /*oformsamovivoza page*/
-    element.style {
+    .oformsamovivoza .DeskH2 {
         font-size: 25px;
     }
+
+    .oformsamovivoza .OrderAct-two {
+        margin-top: 0;
+    }
+
+    .oformsamovivoza .DeskH2 {
+        margin-top: 0;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .oformsamovivoza .OrderMoving {
+        margin: 28px 0 70px;
+    }
+
+    .CenterContent__right {
+        flex: 1 1 50%;
+        max-width: 45.2%;
+    }
+
+    .CenterContent__left {
+        flex: 1 1 50%;
+        max-width: 21.4%;
+        top: -28px;
+        left: 35px;
+    }
+
+    .OrderAllPrice__h2,
+    .OrderAllPrice__sumName,
+    .OrderAllPrice__sumDigit {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .OrderAllPrice__sumDigit {
+        min-width: 24%;
+    }
+
+    .OrderAllPrice__li {
+        margin: 18px 0;
+    }
+
+    .OrderAllPrice__p {
+        line-height: 20px;
+        font-size: 27px;
+        max-width: 230px;
+        font-weight: 500;
+    }
+
+    .OrderAllPrice__count {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 18px;
+        min-width: 16%;
+    }
+
+    .OrderAllPrice__h2 {
+        line-height: 30px;
+        margin-bottom: 41px;
+    }
+
+    .OrderAllPrice__h2:after {
+        bottom: -17%;
+    }
+
+    .OrderAllPrice__sum {
+        margin: 99px 0 0;
+    }
+
+    .OrderAllPrice__sum::after {
+        bottom: 250%;
+    }
+
+    .OrderAct__data {
+        min-width: 55%;
+    }
+
+    .dataPerson {
+        padding: 12px 0;
+    }
+
+    .OrderAct__line {
+        padding: 23px 0;
+    }
+
+    .oformsamovivoza__Oreder {
+        font-size: 25px;
+    }
+
+    .oformsamovivoza .OrderAct__item1 {
+        max-width: 40%;
+    }
+
+    .oformZakSam__set {
+        max-width: 560px;
+        margin-top: 17px;
+    }
+
+    .oformZakSam__button {
+        font-size: 25px;
+    }
+
+    .PromoDetail {
+        max-width: fit-content;
+        margin: 27px 0 0;
+    }
+
+    .OrderActChange {
+        margin: 3px 0 0;
+    }
+
+    .oformsamovivoza .OrderMore-add-to-card-black {
+        max-width: 218px;
+        line-height: 40px;
+        font-size: 25px;
+    }
+
+    .oformsamovivoza .Promo__Head,
+    .oformsamovivoza .addressGost,
+    .oformsamovivoza .promoCode {
+        font-size: 25px;
+        padding: 8px 0 8px 35px;
+    }
+
+    .oformsamovivoza .PromoTemplate {
+        margin: 0 0 57px;
+    }
+
+    .oformsamovivoza .PayWay .h2Papa {
+        margin: 0 0 0;
+        padding: 8px 0;
+    }
+
     /*oformsamovivoza page*/
 }
 

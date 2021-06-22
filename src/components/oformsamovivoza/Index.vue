@@ -1,64 +1,100 @@
 <template>
-  <div class="comboNabori oformsamovivoza Order OrderAct">
+  <div class="comboNabori oformsamovivoza Order OrderAct FrameDesk">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
     </div>
-    <div class="OrderMoveAddresses bg-white CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+    <div
+        class="OrderMoveAddresses bg-white CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressTime/>
     </div>
-    <HeaderThree msg="Подтверждение"/>
+    <div class="DescHide">
+      <HeaderThree msg="Подтверждение"/>
+    </div>
     <div class="OrderMoveFrame">
       <OrderMove/>
     </div>
-    <div class="OrderAct-two">
-      <HeaderThree msg="Заказ на самовывоз"/>
-    </div>
-    <div class="dataPerson">
-      <div class="OrderAct__line flex justify-between">
-        <p class="Ag-text14-to-1070">Имя</p>
-        <p class="Ag-text1421-to-1070">Виктор</p>
+    <div class="oformZakSam">
+      <div class="CenterContent xl:flex xl:justify-between">
+        <div class="CenterContent__right">
+          <div class="OrderAct-two">
+            <HeaderThree msg="Заказ на самовывоз"/>
+          </div>
+          <div class="dataPerson">
+            <div class="OrderAct__line flex justify-between">
+              <p class="Ag-text14-to-1070 oformsamovivoza__Oreder">Имя</p>
+              <p class="Ag-text1421-to-1070 OrderAct__data oformsamovivoza__Oreder">Виктор</p>
+            </div>
+            <div class="OrderAct__line flex justify-between">
+              <p class="Ag-text14-to-1070 oformsamovivoza__Oreder">Телефон</p>
+              <p class="Ag-text1421-to-1070 OrderAct__data oformsamovivoza__Oreder">+79998889778</p>
+            </div>
+            <div class="OrderAct__line flex items-center flex-wrap justify-between">
+              <p class="OrderAct__item1 Ag-text14-to-1070 oformsamovivoza__Oreder">Адрес самовывоза</p>
+              <p class="OrderAct__item2 Ag-text1421-to-1070 text-right OrderAct__data oformsamovivoza__Oreder">Улица
+                Военная,<br
+                    class="DescHide"/> 5, ТРЦ “Аура”</p>
+            </div>
+            <div class="OrderAct__line flex justify-between oformZakSam__set">
+              <p class="Ag-text14-to-1070 oformZakSam__button">Время самовывоза</p>
+              <p class="Ag-text1421-to-1070 flex justify-center items-center OrderAct__data oformZakSam__button">
+                Ближайшее</p>
+            </div>
+          </div>
+          <div class="OrderActChange ">
+            <BlackButton msg="Изменить"/>
+          </div>
+        </div>
+        <ol class="OrderAllPrice MobHide CenterContent__left relative">
+          <li class="OrderAllPrice__li OrderAllPrice__h2 afterLine relative">Мой заказ</li>
+          <li class="OrderAllPrice__li flex justify-between"><p class="OrderAllPrice__p">Пицца Пепперони</p>
+            <p class="OrderAllPrice__count">1</p>
+          </li>
+          <li class="OrderAllPrice__li flex justify-between"><p class="OrderAllPrice__p">Пицца Филадельфия</p>
+            <p class="OrderAllPrice__count">2</p>
+          </li>
+          <li class="OrderAllPrice__li flex justify-between"><p class="OrderAllPrice__p">Стейк из курицы</p>
+            <p class="OrderAllPrice__count">3</p>
+          </li>
+          <li class="OrderAllPrice__li flex justify-between"><p class="OrderAllPrice__p">Пицца с лососем</p>
+            <p class="OrderAllPrice__count">4</p>
+          </li>
+          <li class="OrderAllPrice__li flex justify-between"><p class="OrderAllPrice__p">Пицца Филадельфия</p>
+            <p class="OrderAllPrice__count">5</p>
+          </li>
+          <li class="OrderAllPrice__li OrderAllPrice__sum flex justify-between afterLine relative"><p
+              class="OrderAllPrice__sumName"> Итого:</p>
+            <p class="OrderAllPrice__sumDigit"> 679,-</p>
+          </li>
+        </ol>
       </div>
-      <div class="OrderAct__line flex justify-between">
-        <p class="Ag-text14-to-1070">Телефон</p>
-        <p class="Ag-text1421-to-1070">+79998889778</p>
+      <div class="PromoDetail">
+        <PromoCode/>
+        <div class="PayWay">
+          <HeaderThree msg="Способ оплаты"/>
+        </div>
+        <form class="myAddress OrderActCash" action="/action_page.php">
+          <div class="itemCity relative flex">
+            <input class="checkIt opacity-0" type="radio" id="address1" name="address1" value="Bike">
+            <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address1">Картой на
+              сайте</label>
+          </div>
+          <div class="itemCity relative flex">
+            <input class="checkIt opacity-0" type="radio" id="address2" name="address2" value="Car">
+            <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address2">Картой
+              курьеру</label>
+          </div>
+          <div class="itemCity relative flex">
+            <input class="checkIt opacity-0" type="radio" id="address3" name="address2" value="Car">
+            <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address3">Наличными
+              курьеру</label>
+          </div>
+        </form>
+        <div class="Order__setButtons">
+          <GreenButton msg="Подтвердить заказ на 2000р"/>
+          <BlackButton msg="Назад к оформлению заказа"/>
+        </div>
       </div>
-      <div class="OrderAct__line flex items-center flex-wrap justify-between">
-        <p class="OrderAct__item1 Ag-text14-to-1070">Адрес самовывоза</p>
-        <p class="OrderAct__item2 Ag-text1421-to-1070 text-right">Улица Военная,<br/> 5, ТРЦ “Аура”</p>
-      </div>
-      <div class="OrderAct__line flex justify-between">
-        <p class="Ag-text14-to-1070">Время самовывоза</p>
-        <p class="Ag-text1421-to-1070 flex justify-center items-center ">Ближайшее</p>
-      </div>
-    </div>
-    <div class="OrderActChange">
-      <BlackButton msg="Изменить"/>
-    </div>
-    <PromoCode/>
-    <div class="PayWay">
-      <HeaderThree msg="Способ оплаты"/>
-    </div>
-    <form class="myAddress OrderActCash" action="/action_page.php">
-      <div class="itemCity relative flex">
-        <input class="checkIt opacity-0" type="radio" id="address1" name="address1" value="Bike">
-        <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address1">Картой на сайте</label>
-      </div>
-      <div class="itemCity relative flex">
-        <input class="checkIt opacity-0" type="radio" id="address2" name="address2" value="Car">
-        <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address2">Картой курьеру</label>
-      </div>
-      <div class="itemCity relative flex">
-        <input class="checkIt opacity-0" type="radio" id="address3" name="address2" value="Car">
-        <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address3">Наличными
-          курьеру</label>
-      </div>
-    </form>
-
-
-    <div class="Order__setButtons">
-      <GreenButton msg="Подтвердить заказ на 2000р"/>
-      <BlackButton msg="Назад к оформлению заказа"/>
     </div>
     <MenuBottom/>
   </div>

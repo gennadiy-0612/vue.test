@@ -32,8 +32,7 @@
             <div class="OrderAct__line flex items-center flex-wrap justify-between">
               <p class="OrderAct__item1 Ag-text14-to-1070 oformsamovivoza__Oreder">Адрес самовывоза</p>
               <p class="OrderAct__item2 Ag-text1421-to-1070 text-right OrderAct__data oformsamovivoza__Oreder">Улица
-                Военная,<br
-                    class="DescHide"/> 5, ТРЦ “Аура”</p>
+                Военная,<br class="DescHide"/> 5, ТРЦ “Аура”</p>
             </div>
             <div class="OrderAct__line flex justify-between oformZakSam__set">
               <p class="Ag-text14-to-1070 oformZakSam__button">Время самовывоза</p>
@@ -41,7 +40,7 @@
                 Ближайшее</p>
             </div>
           </div>
-          <div class="OrderActChange ">
+          <div class="OrderActChange">
             <BlackButton msg="Изменить"/>
           </div>
         </div>
@@ -90,12 +89,17 @@
               курьеру</label>
           </div>
         </form>
-        <div class="Order__setButtons">
+        <div class="Order__setButtons DescHide">
           <GreenButton msg="Подтвердить заказ на 2000р"/>
           <BlackButton msg="Назад к оформлению заказа"/>
         </div>
+        <div class="Order__setButtons MobHide">
+          <BlackButton msg="Назад в корзину"/>
+          <GreenButton msg="Оформить заказ"/>
+        </div>
       </div>
     </div>
+    <FooterDesk/>
     <MenuBottom/>
   </div>
 </template>
@@ -174,6 +178,7 @@ import OrderMove from '../partpage/OrderMove'
 import PromoCode from '../partpage/PromoCode'
 import GreenButton from '../addtocardgreen/Index'
 import BlackButton from '../addtocardblack/Index'
+import FooterDesk from '../partpage/FooterDesk'
 import MenuBottom from '../menubottom/Index'
 
 export default {
@@ -187,6 +192,7 @@ export default {
     PromoCode,
     GreenButton,
     BlackButton,
+    FooterDesk,
     MenuBottom
   }
 }

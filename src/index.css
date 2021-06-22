@@ -356,9 +356,6 @@ html {
 }
 
 @media (min-width: 1280px) {
-    .DescHide {
-        display: none;
-    }
 
     .FrameDesk {
         padding: 0 30px;
@@ -1366,8 +1363,9 @@ html {
     }
 
     .PromoDetail {
-        max-width: fit-content;
+        max-width: 450px;
         margin: 27px 0 0;
+        min-width: 507px;
     }
 
     .OrderActChange {
@@ -1384,11 +1382,11 @@ html {
     .oformsamovivoza .addressGost,
     .oformsamovivoza .promoCode {
         font-size: 25px;
-        padding: 8px 0 8px 35px;
+        padding: 9px 0 9px 35px;
     }
 
     .oformsamovivoza .PromoTemplate {
-        margin: 0 0 57px;
+        margin: 32px 0 47px;
     }
 
     .oformsamovivoza .PayWay .h2Papa {
@@ -1396,7 +1394,139 @@ html {
         padding: 8px 0;
     }
 
+    .OrderAct .promoCode.PromoTemplate__item {
+        padding: 0;
+        font-size: 26px;
+        line-height: 26px;
+        min-width: 300px;
+        margin-top: 6px;
+        height: 37px;
+    }
+
+    .oformsamovivoza .Promo__Head {
+        padding: 0;
+        font-size: 33px;
+        line-height: 33px;
+    }
+
+    .oformsamovivoza .myAddress {
+        padding: 11px 0 0;
+    }
+
+    .oformsamovivoza .Order__setButtons {
+        max-width: 700px;
+        margin: 50px 0 0;
+        display: flex;
+        min-width: 612px;
+    }
+
+    .oformsamovivoza .Order__setButtons .OrderMore-add-to-card-green,
+    .oformsamovivoza .Order__setButtons .OrderMore-add-to-card-black {
+        font-size: 24px;
+        font-weight: 500;
+        padding: 0;
+    }
+
+    .oformsamovivoza .Order__setButtons .OrderMore-add-to-card-black {
+        max-width: 45%;
+    }
+
+    .oformsamovivoza .Order__setButtons .OrderMore-add-to-card-green {
+        background-color: #009200;
+        color: #ffffff;
+        max-width: 39.3%;
+    }
+
+    .oformsamovivoza .foot {
+        margin-top: 300px;
+    }
+
     /*oformsamovivoza page*/
+    /*oformdostavki page*/
+    .whatRest {
+        display: flex;
+        margin: -11px 0 -20px;
+        min-width: 1000px;
+    }
+
+    .whatRest__how {
+        font-size: 26px;
+        max-width: 353px;
+        padding: 0 0 0 50px;
+        line-height: 31px;
+    }
+
+    .whatRestDetails {
+        min-width: 516px;
+        margin-top: 9px;
+    }
+
+    .oformdostavki .moneyRest {
+        min-width: 300px;
+        line-height: 35px;
+    }
+
+    .oformdostavki .moneyRestIs {
+        margin: 0 0 0 30px;
+    }
+
+    .oformdostavki .foot {
+        margin-top: 170px;
+    }
+
+    /*oformdostavki page*/
+    /*popUpReadyDesk page*/
+    .popUpReadyDesk {
+        max-width: 500px;
+        max-height: 400px;
+    }
+
+    .popUpReady {
+        background-color: #00000078;
+    }
+
+    .popUpFrame {
+        min-width: 700px;
+        min-height: 400px;
+        background-color: #FFFFFF;
+        padding: 46px 66px 0;
+    }
+
+    .popUpReady .PopUpHeader {
+        width: auto;
+        font-size: 33px;
+    }
+
+    .Ph3-oformZakaz1 {
+        font-size: 24px;
+        margin: 45px 0 0;
+    }
+
+    .popUpFrame__pSet > :first-child .PopUpHead {
+        font-size: 30px;
+        max-width: 550px;
+        line-height: 36px;
+        font-weight: 300;
+        margin: 38px 0 10px;
+    }
+
+    .details .PopUpHead {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 300;
+    }
+
+    .OrderMore-add-to-card-green {
+        max-width: 276px;
+        margin: 14px auto 0;
+        display: block;
+        line-height: 41px;
+    }
+
+    .popUpReady {
+    }
+
+    /*popUpReadyDesk page*/
 }
 
 @media (min-width: 1300px) {
@@ -1443,4 +1573,9 @@ html {
     .mainPage .imgIcon {
         margin-left: 0;
     }
+}
+
+.DescHide,
+.oformsamovivoza .DescHide {
+    display: none;
 }

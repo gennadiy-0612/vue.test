@@ -1,15 +1,21 @@
 <template>
-  <div class="popUpFrame popUpReady">
-    <a href="/"><X/></a>
-    <HeaderPopUp msg="Ваш заказ успешно оплачен!"/>
-    <div class="popUpFrame__pSet">
-      <ParaGraph msg="Заказ № 000000 Вы можете забрать заказ по адресу: ул."/>
-      <div class="details">
-        <ParaGraph msg="Красный проспект, 25/1."/>
-        <ParaGraph msg="Заказ будет готов в 15:30."/>
+  <div class="popUpReady flex justify-center items-center h-full w-full">
+    <div class="popUpFrame">
+      <a href="/">
+        <div class="DescHide">
+          <X/>
+        </div>
+      </a>
+      <HeaderPopUp msg="Ваш заказ успешно оплачен!"/>
+      <div class="popUpFrame__pSet">
+        <ParaGraph msg="Заказ № 000000 Вы можете забрать заказ по адресу: ул."/>
+        <div class="details">
+          <ParaGraph msg="Красный проспект, 25/1."/>
+          <ParaGraph msg="Заказ будет готов в 15:30."/>
+        </div>
       </div>
+      <GreenButton msg="Готово"/>
     </div>
-    <GreenButton msg="Готово"/>
   </div>
 </template>
 <style>

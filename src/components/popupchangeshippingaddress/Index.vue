@@ -1,11 +1,11 @@
 <template>
-  <div class="popUpReady flex justify-center items-center h-full w-full">
-    <div class="popUpFrame">
-      <a href="/">
-        <div class="DescHide">
+  <div class="popUpFrame popUpReady flex justify-center items-center h-full w-full">
+    <div class="popUpFrameInner">
+      <div class="DescHide">
+        <router-link to="/">
           <X/>
-        </div>
-      </a>
+        </router-link>
+      </div>
       <HeaderPopUp msg="Ваш заказ успешно оплачен!"/>
       <div class="popUpFrame__pSet">
         <ParaGraph msg="Заказ № 000000 Вы можете забрать заказ по адресу: ул."/>

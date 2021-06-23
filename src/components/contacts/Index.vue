@@ -4,18 +4,33 @@
       <Address/>
       <BurgMenu/>
     </div>
-    <HeadTwo msg="Контакты"/>
+    <div class="DescHide">
+      <HeadTwo msg="Контакты"/>
+    </div>
     <div class="HeadSet">
       <HeaderPopUp msg="Новосибирск"/>
     </div>
-    <ConactItem head3="Первомайский сквер" street="Площадь Ленина" house="Ул. Красный проспект, 25/1"/>
-    <ConactItem head3="ТРЦ “Аура”" street="Площадь Ленина" house="Ул. Военная, 5"/>
-    <ConactItem head3="ТРЦ “Галерея”" street="Красный проспект" house="Ул. Гоголя, 13"/>
-    <ConactItem head3="ТРЦ “Роял Парк”" street="Площадь Ленина" house="Ул. Красный проспект, 25/1"/>
-    <MenuBottom/>
+    <ul class="MobHide ContactList">
+      <li class="ContactList__Item">
+        <p class="ContactList__h1">Телефон</p>
+        <p class="ContactList__link">8 800 383-55-51</p>
+      </li>
+      <li class="ContactList__Item">
+        <p class="ContactList__h1">Вопросы и предложения</p>
+        <p class="ContactList__link">feedback@perchini.com</p>
+      </li>
+    </ul>
+    <div class="DeskContactSet xl:flex xl:justify-between xl:flex-wrap">
+      <ConactItem head3="Первомайский сквер" street="Площадь Ленина" house="Ул. Красный проспект, 25/1"/>
+      <ConactItem head3="ТРЦ “Аура”" street="Площадь Ленина" house="Ул. Военная, 5"/>
+      <ConactItem head3="ТРЦ “Галерея”" street="Красный проспект" house="Ул. Гоголя, 13"/>
+      <ConactItem head3="ТРЦ “Роял Парк”" street="Площадь Ленина" house="Ул. Красный проспект, 25/1"/>
+      <MenuBottom/>
+    </div>
   </div>
 </template>
-<style>.Contacts .HeadFrame {
+<style>
+.Contacts .HeadFrame {
   justify-content: left;
 }
 
@@ -35,7 +50,7 @@
 import BurgMenu from '../burgmenu/Index'
 import HeaderPopUp from '../partpage/HeaderPopUp'
 import HeadTwo from '../partpage/HeaderTwo'
-import Address from  '../partpage/Address'
+import Address from '../partpage/Address'
 import ConactItem from './ContactItem'
 import MenuBottom from '../menubottom/Index'
 

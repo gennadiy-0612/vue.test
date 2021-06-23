@@ -1485,8 +1485,8 @@ html {
         background-color: #00000078;
     }
 
-    .popUpFrame {
-        min-width: 700px;
+    .popUpFrameInner {
+        max-width: 700px;
         min-height: 400px;
         background-color: #FFFFFF;
         padding: 46px 66px 0;
@@ -1495,6 +1495,7 @@ html {
     .popUpReady .PopUpHeader {
         width: auto;
         font-size: 33px;
+        line-height: 33px;
     }
 
     .Ph3-oformZakaz1 {
@@ -1533,6 +1534,131 @@ html {
     }
 
     /*popUpReadyDesk page*/
+    /*popUpFrame1 page*/
+    .popUpFrame1 {
+        padding: 0;
+    }
+
+    /*popUpFrame1 page*/
+    /*popUpFrame2 page*/
+    .DeskButtonsSet {
+        margin: 0;
+    }
+
+    .popUpFrame2 .DeskButtonsSet button {
+        margin: 0;
+        line-height: 40px;
+        max-width: 42.6%;
+        font-size: 24px;
+    }
+
+    .popUpFrame2 .PopUpHeader {
+        text-align: left;
+        line-height: 38px;
+        margin-top: -8px;
+    }
+
+    .popUpFrame2 .popUpFrame__pSet .PopUpHead {
+        font-size: 25px;
+        text-align: left;
+        max-width: 435px;
+        margin: 28px auto 43px 0;
+        line-height: 25px;
+    }
+
+    /*popUpFrame2 page*/
+    .DescHide,
+    .oformsamovivoza .DescHide {
+        display: none;
+    }
+
+    /*popUpFrame2 page*/
+    .Contacts {
+        max-width: 1640px;
+        margin: auto;
+    }
+
+    .ContactsItem {
+        flex: 1 1 32%;
+        max-width: 403px;
+    }
+
+    .DeskContactSet {
+        margin: 60px 20px 0;
+    }
+
+    .ContactList {
+        margin: -56px 0 0 auto;
+        max-width: 420px;
+    }
+
+    .ContactList__Item {
+        margin: 0 0 41px;
+    }
+
+    .ContactList__h1 {
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+
+    .ContactList__link {
+        font-size: 30px;
+        line-height: 37px;
+        font-weight: 700;
+    }
+
+    .Contacts .HeadSet {
+        margin: 53px 0 0;
+    }
+
+    .Contacts .ContactsItem {
+        padding: 0 0 11px;
+        margin: 20px 0 61px;
+    }
+
+    .Contacts .ContactsItem .h3 {
+        font-size: 30px;
+        padding: 0 0 30px;
+        letter-spacing: 1.3px;
+    }
+
+    .BackM__p {
+        font-size: 27px;
+        line-height: 37px;
+    }
+
+    .BackM__p-locate {
+        top: 9px;
+        left: 26px;
+        letter-spacing: 0.3px;
+    }
+
+    .BackM__p-left {
+        right: 46px;
+        top: 30px;
+    }
+
+    .TimeTable__p {
+        font-size: 25px;
+        line-height: 23px;
+    }
+
+    .BackM::after {
+        top: -27px;
+        left: 0;
+    }
+
+    .TimeTableSet {
+        max-width: 294px;
+        margin: 54px 0 0;
+    }
+
+    .TimeTableSet__phone {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 38px 0 0;
+    }
 }
 
 @media (min-width: 1300px) {
@@ -1579,9 +1705,4 @@ html {
     .mainPage .imgIcon {
         margin-left: 0;
     }
-}
-
-.DescHide,
-.oformsamovivoza .DescHide {
-    display: none;
 }

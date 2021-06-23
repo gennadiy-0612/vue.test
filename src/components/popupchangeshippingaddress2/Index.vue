@@ -1,13 +1,23 @@
 <template>
-  <div class="popUpFrame popUpFrame1 popUpReady">
-    <router-link to="/">
-      <X/>
-    </router-link>
-    <HeaderPopUp msg="Вы собираетесь изменить адрес доставки"/>
-    <div class="popUpFrame__pSet">
-      <ParaGraph msg="Позиции добавленные корзину будут удалены."/>
+  <div class="popUpFrame popUpFrame1 popUpFrame2 popUpReady flex justify-center items-center h-full w-full">
+    <div class="popUpFrameInner">
+      <div class="DescHide">
+        <router-link to="/">
+          <X/>
+        </router-link>
+      </div>
+      <HeaderPopUp msg="Вы собираетесь изменить адрес доставки"/>
+      <div class="popUpFrame__pSet">
+        <ParaGraph msg="Позиции добавленные корзину будут удалены."/>
+      </div>
+      <div class="DescHide">
+        <GreenButton msg="Готово"/>
+      </div>
+      <div class="DeskButtonsSet MobHide flex justify-between">
+        <GreenButton msg="Продолжить"/>
+        <BlackButton msg="Отменить"/>
+      </div>
     </div>
-    <GreenButton msg="Готово"/>
   </div>
 </template>
 <style>
@@ -37,6 +47,7 @@
 <script>
 import X from '../popupbluda/X'
 import GreenButton from '../addtocardgreen/Index'
+import BlackButton from '../addtocardblack/Index'
 import HeaderPopUp from '../partpage/HeaderPopUp'
 import ParaGraph from '../partpage/ParaGraph'
 
@@ -45,6 +56,7 @@ export default {
   components: {
     X,
     GreenButton,
+    BlackButton,
     HeaderPopUp,
     ParaGraph
   }

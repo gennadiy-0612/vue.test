@@ -1,28 +1,28 @@
 <template>
   <div class="ContactsItem afterLine">
     <div class="flex justify-center items-center HeadFrame">
-      <h3 class="h3 Ag-text18-to-1070 PopUpHeader PopUpHead text-center fw600 ContactsItem__head">{{head3}}</h3>
+      <h3 class="h3 Ag-text18-to-1070 PopUpHeader PopUpHead text-center fw600 ContactsItem__head">{{ head3 }}</h3>
     </div>
     <p class="BackM">
-      <span>{{street}}</span>
+      <span class="BackM__p BackM__p-locate xl:relative">{{ street }}</span>
       <br/>
-      <span>{{house}}</span>
+      <span class="BackM__p BackM__p-left xl:relative">{{ house }}</span>
     </p>
     <div class="TimeTableSet flex flex-wrap flex-col">
       <div class="TimeTable flex justify-between">
-        <p class="Ag-text14-to-1070">Пн - Чт</p>
-        <p class="Ag-text14-to-1070">10.00 - 01.00</p>
+        <p class="Ag-text14-to-1070 TimeTable__p">Пн - Чт</p>
+        <p class="Ag-text14-to-1070 TimeTable__p">10.00 - 01.00</p>
       </div>
       <div class="TimeTable flex justify-between">
-        <p class="Ag-text14-to-1070">Пт - Сб</p>
-        <p class="Ag-text14-to-1070">10.00 - 02.00</p>
+        <p class="Ag-text14-to-1070 TimeTable__p">Пт - Сб</p>
+        <p class="Ag-text14-to-1070 TimeTable__p">10.00 - 02.00</p>
       </div>
       <div class="TimeTable flex justify-between">
-        <p class="Ag-text14-to-1070">Вс</p>
-        <p class="Ag-text14-to-1070">10.00 - 02.00</p>
+        <p class="Ag-text14-to-1070 TimeTable__p">Вс</p>
+        <p class="Ag-text14-to-1070 TimeTable__p">10.00 - 02.00</p>
       </div>
     </div>
-    <a class="Ag-text14-to-1070 block" href="tel:8-383-325-35-25">8 (383) 325-35-25</a>
+    <a class="Ag-text14-to-1070 block TimeTableSet__phone" href="tel:8-383-325-35-25">8 (383) 325-35-25</a>
   </div>
 </template>
 <style>.Contacts .ContactsItem {
@@ -87,8 +87,8 @@ export default {
   name: 'ContactItem',
   props: {
     head3: String,
-    street:String,
-    house:String,
+    street: String,
+    house: String,
   }
 }
 </script>

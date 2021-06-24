@@ -57,7 +57,9 @@
         <a class="MainEat__link block" href="#" title="Посмотреть">Посмотреть</a>
       </div>
       <div class="MainEat__item MainEat__item-2">
-        <h4 class="MainEat__head MainEat__head-2">АКЦИИ</h4>
+        <h4 class="MainEat__head MainEat__head-2">
+          <router-link to="/events">АКЦИИ</router-link>
+        </h4>
         <a class="MainEat__link MainEat__link-2 block" href="#" title="Посмотреть">Посмотреть</a>
       </div>
     </div>

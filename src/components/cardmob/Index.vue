@@ -1,8 +1,15 @@
 <template>
-  <div class="comboNabori CardPage">
+  <div class="comboNabori CardPage FrameDesk">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
+    </div>
+    <div
+        class="OrderMoveAddresses bg-white CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+      <AddressTime/>
+    </div>
+    <div class="OrderMoveFrame">
+      <OrderMove/>
     </div>
     <div class="tryIt">
       <HeaderThree msg="Попробуйте"/>
@@ -18,45 +25,70 @@
         <SeeIt/>
         <SeeIt/>
       </div>
-      <div class="tryIt">
-        <h3 class="Ag-h3-to-1070 Card__title">Корзина</h3>
-        <div class="Card_description">
+      <div class="tryIt tryIt-second">
+        <h3 class="Ag-h3-to-1070 Card__title DescHide">Корзина</h3>
+        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between">
           <Photo/>
-          <p class="Ag6001624 Card__item">Стейк из свиннины</p>
-          <p class="Ag-text12-to-1070">С запеченым картофелем</p>
+          <div class="tryIt-second__descriptor">
+            <p class="Ag6001624 Card__item">Стейк из свиннины</p>
+            <p class="Ag-text12-to-1070 Card__detail">С запеченым картофелем</p>
+          </div>
           <div class="flex justify-between SetControl afterLine">
-            <p class="Ag-text1421-to-1070">600р</p>
+            <p class="Ag-text1421-to-1070 SetControl__price">600р</p>
             <div class="control flex justify-between">
               <p class="countEat Ag-text14-to-1070 sign">-</p>
-              <p class="countEat Ag-text14-to-1070">1 шт</p>
+              <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img src="../../assets/img/trashbin.svg">
+            <img class="CardImg" src="../../assets/img/trashbin.svg">
           </div>
         </div>
-        <div class="Card_description">
+        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between">
           <Photo/>
-          <p class="Ag6001624 Card__item">Стейк из свиннины</p>
-          <p class="Ag-text12-to-1070">С запеченым картофелем</p>
+          <div class="tryIt-second__descriptor">
+            <p class="Ag6001624 Card__item">Стейк из свиннины</p>
+            <p class="Ag-text12-to-1070 Card__detail">С запеченым картофелем</p>
+          </div>
           <div class="flex justify-between SetControl afterLine">
-            <p class="Ag-text1421-to-1070">600р</p>
+            <p class="Ag-text1421-to-1070 SetControl__price">600р</p>
             <div class="control flex justify-between">
               <p class="countEat Ag-text14-to-1070 sign">-</p>
-              <p class="countEat Ag-text14-to-1070">1 шт</p>
+              <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img src="../../assets/img/trashbin.svg">
+            <img class="CardImg" src="../../assets/img/trashbin.svg">
+          </div>
+        </div>
+        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between MobHide">
+          <Photo/>
+          <div class="tryIt-second__descriptor">
+            <p class="Ag6001624 Card__item">Стейк из свиннины</p>
+            <p class="Ag-text12-to-1070 Card__detail">С запеченым картофелем</p>
+          </div>
+          <div class="flex justify-between SetControl afterLine">
+            <p class="Ag-text1421-to-1070 SetControl__price">600р</p>
+            <div class="control flex justify-between">
+              <p class="countEat Ag-text14-to-1070 sign">-</p>
+              <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
+              <p class="countEat Ag-text14-to-1070 sign">+</p>
+            </div>
+            <img class="CardImg" src="../../assets/img/trashbin.svg">
           </div>
         </div>
         <div class="recommend">
           <h3 class="recommend__head Ag-text18-to-1070 fw600">Ваш подарок к заказу</h3>
+          <div class="YoursPresent flex flex-wrap">
           <Photo/>
-          <p class="Ag6001624 Card__add">Пицца с лососем</p>
-          <p class="Ag-text14-to-1070">Со сливочным сыром и ломтиками слабосоленого лосося</p>
-          <p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
-          <div class="Card__load flex items-center">
-            <LoadBar/>
-            <p class="Ag4001624 fw600 LoadPrice">301.-</p></div>
+            <div class="WhatAndHow">
+              <p class="Ag6001624 Card__add">Пицца с лососем</p>
+              <p class="Ag-text14-to-1070 CardWith">Со сливочным сыром и ломтиками слабосоленого лосося</p>
+            </div>
+            <div class="Card__more-discount"><p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
+              <div class="Card__load flex items-center">
+                <LoadBar/>
+                <p class="Ag4001624 fw600 LoadPrice">301.-</p></div>
+            </div>
+          </div>
         </div>
         <HeaderThree msg="Рекомендуем заказать"/>
         <div class="SeeIt__all flex swipe">
@@ -166,6 +198,8 @@
 <script>
 import BurgMenu from '../burgmenu/Index'
 import Address from '../partpage/Address'
+import AddressTime from '../partpage/AddressTime'
+import OrderMove from '../partpage/OrderMove'
 import HeaderThree from '../partpage/HeaderThree'
 import SeeIt from './SeeIt'
 import Photo from '../popupbluda/Photo'
@@ -178,6 +212,8 @@ export default {
   components: {
     BurgMenu,
     Address,
+    AddressTime,
+    OrderMove,
     HeaderThree,
     SeeIt,
     Photo,

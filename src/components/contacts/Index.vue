@@ -20,11 +20,16 @@
         <p class="ContactList__link">feedback@perchini.com</p>
       </li>
     </ul>
-    <div class="DeskContactSet xl:flex xl:justify-between xl:flex-wrap">
-      <ConactItem head3="Первомайский сквер" street="Площадь Ленина" house="Ул. Красный проспект, 25/1"/>
-      <ConactItem head3="ТРЦ “Аура”" street="Площадь Ленина" house="Ул. Военная, 5"/>
-      <ConactItem head3="ТРЦ “Галерея”" street="Красный проспект" house="Ул. Гоголя, 13"/>
-      <ConactItem head3="ТРЦ “Роял Парк”" street="Площадь Ленина" house="Ул. Красный проспект, 25/1"/>
+    <div class="overflow-hidden">
+      <div class="DeskContactSet xl:flex xl:justify-between xl:flex-wrap">
+        <ConactItem head3="Первомайский сквер" street="Площадь Ленина" house="Ул. Красный проспект, 25/1"/>
+        <ConactItem head3="ТРЦ “Аура”" street="Площадь Ленина" house="Ул. Военная, 5"/>
+        <ConactItem head3="ТРЦ “Галерея”" street="Красный проспект" house="Ул. Гоголя, 13"/>
+        <ConactItem head3="ТРЦ “Роял Парк”" street="Площадь Ленина" house="Ул. Красный проспект, 25/1"/>
+        <ConactItem head3="ТРЦ “Роял Парк”" street="Площадь Ленина" house="Ул. Красный проспект, 25/1"/>
+        <ConactItem head3="ТРЦ “Роял Парк”" street="Площадь Ленина" house="Ул. Красный проспект, 25/1"/>
+      </div>
+      <FooterDesk/>
       <MenuBottom/>
     </div>
   </div>
@@ -40,6 +45,7 @@
 
 .Contacts .h2Papa {
   justify-content: flex-start;
+  margin-top: 30px;
 }
 
 .Contacts .h3 {
@@ -52,6 +58,7 @@ import HeaderPopUp from '../partpage/HeaderPopUp'
 import HeadTwo from '../partpage/HeaderTwo'
 import Address from '../partpage/Address'
 import ConactItem from './ContactItem'
+import FooterDesk from '../partpage/FooterDesk'
 import MenuBottom from '../menubottom/Index'
 
 export default {
@@ -62,6 +69,7 @@ export default {
     HeaderPopUp,
     HeadTwo,
     ConactItem,
+    FooterDesk,
     MenuBottom
   }
 }

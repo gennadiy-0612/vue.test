@@ -356,9 +356,10 @@ html {
 }
 
 @media (min-width: 1280px) {
-
     .FrameDesk {
         padding: 0 30px;
+        max-width: 1640px;
+        margin: auto;
     }
 
     .mainPage {
@@ -594,7 +595,7 @@ html {
 
     .BottomASet {
         max-width: 830px;
-        margin: 2.3% auto 0;
+        margin: 50px auto 47px;
     }
 
     .IconSet {
@@ -604,6 +605,8 @@ html {
 
     .foot {
         padding: 0 0 2%;
+        margin: auto;
+        min-width: 950px;
     }
 
     .LogoBottom {
@@ -1573,6 +1576,7 @@ html {
     }
 
     /*popUpFrame2 page*/
+    /*Contacts page*/
     .Contacts {
         max-width: 1640px;
         margin: auto;
@@ -1580,11 +1584,10 @@ html {
 
     .ContactsItem {
         flex: 1 1 32%;
-        max-width: 403px;
     }
 
     .DeskContactSet {
-        margin: 60px 20px 0;
+        margin: 20px -10.9% 0 1.2%;
     }
 
     .ContactList {
@@ -1636,7 +1639,7 @@ html {
 
     .BackM__p-left {
         right: 46px;
-        top: 30px;
+        top: 27px;
     }
 
     .TimeTable__p {
@@ -1659,6 +1662,236 @@ html {
         line-height: 24px;
         margin: 38px 0 0;
     }
+
+    .ContactsItem.afterLine::after {
+        content: none;
+    }
+
+    /*Contacts page*/
+    /*Events__set*/
+    .EventsName {
+        margin: 203px 0 0;
+        font-size: 32px;
+    }
+
+    .Events__set {
+        margin: 0 -9px 50px;
+    }
+
+    .Events__item {
+        flex: 1 1 50%;
+        max-width: 44.6%;
+        margin: 0 0 20px;
+    }
+
+    .Events__item .Photo {
+        justify-content: flex-start;
+        margin: 54px 0 36px;
+    }
+
+    .Events .Photo__img {
+        width: 710px;
+        height: 334px;
+    }
+
+    .Presents {
+        font-size: 32px;
+        max-width: 490px;
+        line-height: 37px;
+    }
+
+    .PresentsTo {
+        margin: 3px 0 0;
+    }
+
+    .PresentsTo::after {
+        content: none;
+    }
+
+    .PresentsP {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .PresentsPSmall {
+        font-size: 22px;
+        line-height: 25px;
+        margin: -1px 0 0;
+    }
+
+    .SeeMore {
+        margin: 40px 0 0;
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    .PresentsLi {
+        list-style-type: auto;
+        list-style-position: inside;
+    }
+
+    .CardPage .AddressesList {
+        width: 100%;
+    }
+
+    .tryIt {
+        margin-top: 210px;
+    }
+
+    .tryIt-second {
+        margin: 50px 0 0;
+    }
+
+    .CardPage .DeskH2 {
+        font-size: 32px;
+    }
+
+    .SeeIt__all {
+        margin: 55px 0 0;
+    }
+
+    .SeeItItems {
+        margin: 0 4.9% 0 0;
+    }
+
+    .SeeItItems__img {
+        width: 180px;
+        height: 120px;
+        margin: 0 0 20px 0;
+    }
+
+    .SeeIt__all {
+        margin: 35px 0 0;
+        padding: 20px 5% 0;
+    }
+
+    .SeeItItems__description {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .SeeItItems__price {
+        font-size: 21px;
+        line-height: 40px;
+        font-weight: 400;
+    }
+
+    .Card_description {
+        padding: 32px 0;
+    }
+
+    .CardPage .tryIt-second .Photo {
+        flex: 1 1 19%;
+        justify-content: flex-start;
+        max-width: 19%;
+    }
+
+    .Photo__img {
+        height: 187px;
+        width: 284px;
+    }
+
+    .CardPage .Card__item {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .Card__detail {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .tryIt-second__descriptor {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 57px 0;
+        flex: 1 1 20%;
+    }
+
+    .SetControl {
+        flex: 1 1 20%;
+        align-items: center;
+    }
+
+    .SetControl__price {
+        font-size: 32px;
+        order: 2;
+        margin-top: 30px;
+    }
+
+    .CardPage .control {
+        order: 1;
+        margin: 31px 0 0 50px;
+    }
+
+    .countEat {
+        font-size: 35px;
+    }
+
+    .CardImg {
+        order: 3;
+        width: 27px;
+        margin: 30px -40px 0 0;
+    }
+
+    .recommend {
+        margin: 30px 0 97px;
+    }
+
+    .recommend__head {
+        font-size: 33px;
+        margin: 60px 0 20px;
+    }
+
+    .CardPage .recommend .Photo {
+        flex: 1 1 1%;
+    }
+
+    .Card__add {
+        font-size: 34px;
+        margin: 70px 0 0 23.2%;
+    }
+
+    .CardWith {
+        margin: 10px 0 0 22.9%;
+        font-size: 27px;
+        max-width: 548px;
+        line-height: 28px;
+    }
+
+    .WhatAndHow {
+        flex: 3 1 1%;
+    }
+
+    .Card__more-discount {
+        flex: 2 1 1%;
+    }
+
+    .Card__more {
+        font-size: 35px;
+        line-height: 36px;
+        max-width: 420px;
+        margin: 9px 0 0 auto;
+    }
+
+    .Card__load {
+        max-width: 430px;
+        margin: 7px -14px 0 auto;;
+    }
+
+    .LoadPrice {
+        font-size: 32px;
+        position: relative;
+        left: 2.4%;
+    }
+
+    .Card__load .LoadBar {
+        border-right-width: 71px;
+    }
+
+    /*Events__set*/
 }
 
 @media (min-width: 1300px) {

@@ -1,5 +1,5 @@
 <template>
-  <div class="Ag-back-to-1070 backButton relative">
+  <div class="Ag-back-to-1070 backButton relative DescHide">
     Назад
   </div>
 </template>

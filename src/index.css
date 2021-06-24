@@ -1994,6 +1994,30 @@ html {
     }
 
     /*Swipe arrows*/
+    /*.comboNabori */
+    .mainEat {
+        margin-top: 10px;
+    }
+
+    /*.comboNabori */
+    .InfoGraphics {
+        flex: 1 1 11%;
+    }
+
+    .comboNabori .ComboSetsBottom {
+        flex: 1 1 50%;
+        background-color: #2F3D49;
+    }
+
+    .comboNabori .OrderAllPrice {
+        flex: 1 1 25%;
+        left: 0;
+        top: 0
+    }
+
+    .comboNabori .DescriptionItem::after {
+        content: none;
+    }
 }
 
 @media (min-width: 1300px) {

@@ -103,9 +103,11 @@
           <SeeIt/>
           <SeeIt/>
         </div>
-        <h3 class="Ag-h3-to-1070">Введите промокод:</h3>
-        <input class="promoCode searchButton bg-E4E4E4 text-center border-solid w-full block" type="number"
-               id="tentacles" name="tentacles" min="10" max="100" placeholder="ПЕРЧИНИ">
+        <div class="PromoAct xl:flex">
+          <h3 class="Ag-h3-to-1070 InputPromo">Введите промокод:</h3>
+          <input class="promoCode searchButton bg-E4E4E4 text-center border-solid w-full block" type="number"
+                 id="tentacles" name="tentacles" min="10" max="100" placeholder="ПЕРЧИНИ">
+        </div>
         <div class="Card__all">
           <div class="Card__line flex justify-end text-right">
             <p class="Ag-h3-to-1070">ИТОГО</p>
@@ -219,7 +221,28 @@ export default {
     Photo,
     LoadBar,
     GreenButton,
-    MenuBottom
+    MenuBottom,
   }
+}
+
+function shch(Select, add) {
+  this.takeTag = function () {
+    this.TagEl.classList.toggle(add);
+  };
+  this.addE = function () {
+    this.TagEl = document.querySelector(Select);
+    this.TagEl.addEventListener('click', this.takeTag.bind(this));
+  };
+}
+
+if (window.location.pathname === '/cardmob') {
+  let AddressesList__main = new shch('.AddressesList__main', 'showIt');
+  window.addEventListener('load', AddressesList__main.addE.bind(AddressesList__main));
+  let cardSwitcher11 = new shch('.switchOpt1', 'showIt');
+  window.addEventListener('load', cardSwitcher11.addE.bind(cardSwitcher11));
+  let cardSwitcher12 = new shch('.switchOpt2', 'showIt');
+  window.addEventListener('load', cardSwitcher12.addE.bind(cardSwitcher12));
+  let cardSwitcher13 = new shch('.switchOpt3', 'showIt');
+  window.addEventListener('load', cardSwitcher13.addE.bind(cardSwitcher13));
 }
 </script>

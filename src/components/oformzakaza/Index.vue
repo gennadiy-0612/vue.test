@@ -165,7 +165,6 @@ export default {
   }
 }
 
-
 function shch(Select, add) {
   this.takeTag = function () {
     this.TagEl.classList.toggle(add);

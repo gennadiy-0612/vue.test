@@ -3,7 +3,7 @@
     <div class="mainBack bg-no-repeat bg-cover bg-center">
       <MenuTop/>
     </div>
-    <div class="CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+    <div class="CenteringOneItem xl:items-center xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressesList/>
       <p class="MobHide CarryMenu Ag-text14-to-1070 Ag700 w-full text-center">Меню доставки</p>
       <div class="flex justify-between flex-wrap mainPage__icons">
@@ -114,10 +114,6 @@
 @media (min-width: 1360px) and (max-width: 1800px) {
   .mainPage .ButtonMain {
     right: auto;
-  }
-
-  .mainPage .CenteringOneItem {
-    align-items: center;
   }
 
   .mainPage .imgIcon {

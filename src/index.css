@@ -1795,19 +1795,14 @@ html {
 
     .CardPage .Card__item {
         font-size: 32px;
-        text-align: center;
     }
 
     .Card__detail {
         font-size: 25px;
         line-height: 30px;
-        text-align: center;
     }
 
     .tryIt-second__descriptor {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
         margin: 57px 0;
         flex: 1 1 20%;
     }

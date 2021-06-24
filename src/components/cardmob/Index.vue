@@ -13,7 +13,7 @@
     </div>
     <div class="tryIt">
       <HeaderThree msg="Попробуйте"/>
-      <div class="SeeIt__all flex swipe xl:relative">
+      <div class="SeeIt__all flex swipe afterLine xl:relative">
         <div class="arrow arrow-right MobHide absolute right-0"></div>
         <SeeIt/>
         <SeeIt/>
@@ -29,7 +29,7 @@
       </div>
       <div class="tryIt tryIt-second">
         <h3 class="Ag-h3-to-1070 Card__title DescHide">Корзина</h3>
-        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between">
+        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between xl:relative">
           <Photo/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
@@ -42,10 +42,10 @@
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img alt="alt" class="CardImg order-3" src="../../assets/img/trashbin.svg">
+            <img alt="alt" class="CardImg xl:relative order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
-        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between">
+        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between xl:relative">
           <Photo/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
@@ -58,10 +58,10 @@
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img alt="alt" class="CardImg order-3" src="../../assets/img/trashbin.svg">
+            <img alt="alt" class="CardImg xl:relative order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
-        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between MobHide">
+        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between xl:relative MobHide">
           <Photo/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
@@ -74,10 +74,10 @@
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img alt="alt" class="CardImg order-3" src="../../assets/img/trashbin.svg">
+            <img alt="alt" class="CardImg xl:relative order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
-        <div class="recommend">
+        <div class="recommend afterLine">
           <h3 class="recommend__head Ag-text18-to-1070 fw600">Ваш подарок к заказу</h3>
           <div class="YoursPresent flex flex-wrap">
             <Photo/>
@@ -162,7 +162,7 @@
 }
 
 .recommend {
-  margin: 30px 0 0;
+  margin: 20px 0 117px;
 }
 
 .recommend__head {

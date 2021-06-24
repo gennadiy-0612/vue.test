@@ -1960,6 +1960,10 @@ html {
         margin: 0 0 30px;
     }
 
+    .CardPage .swipe {
+        overflow: hidden;
+    }
+
     .Card__line2 {
         margin: 0 0 -10px;
     }

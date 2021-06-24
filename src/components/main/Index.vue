@@ -9,7 +9,7 @@
       <div class="flex justify-between flex-wrap mainPage__icons">
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/">border: solid black;
+            <router-link to="/">
 <img class="imgIcon" src="../../assets/img/mainpage/pizza.svg" alt="Пицца"/>
             </router-link>
           </div>
@@ -17,7 +17,7 @@
         </div>
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/">border: solid black;
+            <router-link to="/">
 <img class="imgIcon" src="../../assets/img/mainpage/paste.svg" alt="Пасты"/>
             </router-link>
           </div>
@@ -25,7 +25,7 @@
         </div>
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/">border: solid black;
+            <router-link to="/">
 <img class="imgIcon" src="../../assets/img/mainpage/soups.svg" alt="Супы"/>
             </router-link>
           </div>
@@ -33,7 +33,7 @@
         </div>
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/">border: solid black;
+            <router-link to="/">
 <img class="imgIcon" src="../../assets/img/mainpage/hots.svg" alt="Горячие блюда"/>
             </router-link>
           </div>
@@ -41,7 +41,7 @@
         </div>
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/">border: solid black;
+            <router-link to="/">
 <img class="imgIcon" src="../../assets/img/mainpage/salats.svg" alt="Салаты и закуски"/>
             </router-link>
           </div>
@@ -49,7 +49,7 @@
         </div>
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
-            <router-link to="/">border: solid black;
+            <router-link to="/">
 <img class="imgIcon" src="../../assets/img/mainpage/drinks.svg"
                                      alt="Десерты и напитки"/></router-link>
           </div>

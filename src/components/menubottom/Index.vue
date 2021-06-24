@@ -16,7 +16,6 @@
         </li>
         <li class="BottomMenu__item combo">
           <a class="BottomMenu__a combo flex justify-between flex-col" href="#">
-            border: solid black;
             <img alt="alt" class="closeContentMenu__icon" src="../../assets/img/menubottom/combo.svg">
             <span class="closeContentMenu__text text-center local">Комбо</span>
           </a>

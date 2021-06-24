@@ -10,14 +10,14 @@
         <p class="Ag-text14-to-1070 fs14px DataItem__address DataItem-point">Мой адрес</p>
         <div class="itemCity relative flex justify-between ">
           <p class="Ag-text14-to-1070 line-h17px fs14px block DataItem__address">г. Новосибирск, ул. Улица...</p>
-          <a class="block Option activeOption DataItem__setting">Изменить</a>
+          <a class="block Option activeOption DataItem__setting text-center">Изменить</a>
         </div>
       </div>
       <div class="DataItem">
         <p class="Ag-text14-to-1070 fs14px DataItem__address DataItem-point">Мой адрес</p>
         <div class="itemCity relative flex justify-between ">
           <p class="Ag-text14-to-1070 line-h17px fs14px block DataItem__address">г. Новосибирск, ул. Улица...</p>
-          <a class="block Option activeOption DataItem__setting">Сохранить</a>
+          <a class="block Option activeOption DataItem__setting text-center">Сохранить</a>
         </div>
       </div>
     </div>

@@ -31,48 +31,48 @@
           <Photo/>
           <div class="tryIt-second__descriptor">
             <p class="Ag6001624 Card__item">Стейк из свиннины</p>
-            <p class="Ag-text12-to-1070 Card__detail">С запеченым картофелем</p>
+            <p class="Ag-text12-to-1070 Card__detail text-center">С запеченым картофелем</p>
           </div>
-          <div class="flex justify-between SetControl afterLine">
-            <p class="Ag-text1421-to-1070 SetControl__price">600р</p>
-            <div class="control flex justify-between">
+          <div class="flex justify-between SetControl afterLine items-center">
+            <p class="Ag-text1421-to-1070 SetControl__price order-2">600р</p>
+            <div class="control flex justify-between order-1">
               <p class="countEat Ag-text14-to-1070 sign">-</p>
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img class="CardImg" src="../../assets/img/trashbin.svg">
+            <img class="CardImg order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
         <div class="Card_description xl:flex xl:flex-wrap xl:justify-between">
           <Photo/>
           <div class="tryIt-second__descriptor">
             <p class="Ag6001624 Card__item">Стейк из свиннины</p>
-            <p class="Ag-text12-to-1070 Card__detail">С запеченым картофелем</p>
+            <p class="Ag-text12-to-1070 Card__detail text-center">С запеченым картофелем</p>
           </div>
-          <div class="flex justify-between SetControl afterLine">
-            <p class="Ag-text1421-to-1070 SetControl__price">600р</p>
-            <div class="control flex justify-between">
+          <div class="flex justify-between SetControl afterLine items-center">
+            <p class="Ag-text1421-to-1070 SetControl__price order-2">600р</p>
+            <div class="control flex justify-between order-1">
               <p class="countEat Ag-text14-to-1070 sign">-</p>
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img class="CardImg" src="../../assets/img/trashbin.svg">
+            <img class="CardImg order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
         <div class="Card_description xl:flex xl:flex-wrap xl:justify-between MobHide">
           <Photo/>
           <div class="tryIt-second__descriptor">
             <p class="Ag6001624 Card__item">Стейк из свиннины</p>
-            <p class="Ag-text12-to-1070 Card__detail">С запеченым картофелем</p>
+            <p class="Ag-text12-to-1070 Card__detail text-center">С запеченым картофелем</p>
           </div>
-          <div class="flex justify-between SetControl afterLine">
-            <p class="Ag-text1421-to-1070 SetControl__price">600р</p>
-            <div class="control flex justify-between">
+          <div class="flex justify-between SetControl afterLine items-center">
+            <p class="Ag-text1421-to-1070 SetControl__price order-2">600р</p>
+            <div class="control flex justify-between order-1">
               <p class="countEat Ag-text14-to-1070 sign">-</p>
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img class="CardImg" src="../../assets/img/trashbin.svg">
+            <img class="CardImg order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
         <div class="recommend">
@@ -86,7 +86,7 @@
             <div class="Card__more-discount"><p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
               <div class="Card__load flex items-center">
                 <LoadBar/>
-                <p class="Ag4001624 fw600 LoadPrice">301.-</p></div>
+                <p class="Ag4001624 fw600 LoadPrice relative">301.-</p></div>
             </div>
           </div>
         </div>

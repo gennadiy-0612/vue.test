@@ -795,6 +795,7 @@ html {
         height: 7px;
     }
 
+    .CardPage .Option,
     .Order .Option,
     .Order .Option.activeOption {
         line-height: 31px;
@@ -988,6 +989,7 @@ html {
         margin: 0;
     }
 
+    .Card .Option,
     .Order .Option {
         flex: 1 1 32%;
     }
@@ -1812,17 +1814,14 @@ html {
 
     .SetControl {
         flex: 1 1 20%;
-        align-items: center;
     }
 
     .SetControl__price {
         font-size: 32px;
-        order: 2;
         margin-top: 30px;
     }
 
     .CardPage .control {
-        order: 1;
         margin: 31px 0 0 50px;
     }
 
@@ -1831,7 +1830,6 @@ html {
     }
 
     .CardImg {
-        order: 3;
         width: 27px;
         margin: 30px -40px 0 0;
     }
@@ -1883,7 +1881,6 @@ html {
 
     .LoadPrice {
         font-size: 32px;
-        position: relative;
         left: 2.4%;
     }
 

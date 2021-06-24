@@ -1,16 +1,15 @@
 <template>
-  <ol class="MobHide flex flex-wrap justify-between afterLine afterLine-PersonData OrderMoving">
-    <router-link to="#"
-                 class="MobHide Ag-text14-to-1070 switchOpt1 showIt afterLine block Option changeDataPerson relative">
-      <div class="DeskLimit">Корзина</div>
+  <div class="MobHide flex flex-wrap justify-between afterLine afterLine-PersonData OrderMoving">
+    <router-link to="#" class="MobHide Ag-text14-to-1070 switchOpt1 showIt afterLine block Option changeDataPerson relative">
+      <span class="DeskLimit bloc text-centerk">Корзина</span>
     </router-link>
     <router-link to="#" class="Ag-text14-to-1070 switchOpt2 block Option afterLine-change changeDataAddress relative">
-      <div class="DeskLimit">Оформление заказа</div>
+      <span class="DeskLimit block text-center">Оформление заказа</span>
     </router-link>
     <router-link to="#" class="Ag-text14-to-1070 switchOpt3 block Option afterLine-change changeDataAddress relative">
-      <div class="DeskLimit">Подтверждение</div>
+      <span class="DeskLimit block text-center">Подтверждение</span>
     </router-link>
-  </ol>
+  </div>
 </template>
 <style>
 .afterLine-PersonData.afterLine::after {

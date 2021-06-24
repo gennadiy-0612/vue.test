@@ -2006,11 +2006,10 @@ html {
 
     .comboNabori .ComboSetsBottom {
         flex: 1 1 50%;
-        background-color: #2F3D49;
     }
 
     .comboNabori .OrderAllPrice {
-        flex: 1 1 25%;
+        flex: 1 1 12%;
         left: 0;
         top: 0
     }

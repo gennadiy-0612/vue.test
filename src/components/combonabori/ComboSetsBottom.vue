@@ -1,5 +1,5 @@
 <template>
-  <div class="ComboSetsBottom">
+  <div class="ComboSetsBottom xl:flex xl:flex-wrap">
     <ComboItem heads="Комбо-набор" descriptionitem="Колбаса Пепперони, свежие томаты, сыр..." price="610" />
     <ComboItem heads="Папперони" descriptionitem="Колбаса Пепперони, свежие томаты, сыр..." price="610" />
     <ComboItem heads="Папперони" descriptionitem="Колбаса Пепперони, свежие томаты, сыр..." price="610" />

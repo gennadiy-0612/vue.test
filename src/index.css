@@ -1886,9 +1886,13 @@ html {
         border-right-width: 71px;
     }
 
+    .CompleteIt {
+        margin: 50px 0 137px 1%;
+    }
+
     .PromoAct {
         max-width: 40.2%;
-        margin: 50px 0 0 1%;
+        flex: 1 1 1%;
     }
 
     .InputPromo {
@@ -1906,7 +1910,71 @@ html {
         font-size: 25px;
     }
 
+    .Card__all {
+        margin: 8px 3px 19px 0;
+    }
+
+    .CompleteIt__all {
+        font-size: 35px;
+    }
+
+    .CompleteIt__all-digit {
+        font-size: 28px;
+    }
+
+    .CompleteIt__discount {
+        font-size: 25px;
+    }
+
+    .CompleteIt__discount-digit {
+        font-size: 25px;
+    }
+
+    .OrderMore-add-to-card-gree {
+        font-size: 28px;
+    }
+
+    .CompleteIt__do {
+        flex: 1 1 1%;
+        max-width: 330px;
+    }
+
+    .OrderMore-add-to-card-green {
+        font-size: 28px;
+        min-width: 320px;
+        padding: 3px 0;
+    }
+
+    .Card__line {
+        margin: 0 0 30px;
+    }
+
+    .Card__line2 {
+        margin: 0 0 -10px;
+    }
+
     /*Events__set*/
+    /*Swipe arrows*/
+    .arrow {
+        border: solid black;
+        border-width: 0 4px 5px 0;
+        padding: 15px;
+        margin-top: 64px;
+    }
+
+    .arrow-right {
+        right: 20px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .arrow-left {
+        left: 20px;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    /*Swipe arrows*/
 }
 
 @media (min-width: 1300px) {

@@ -36,7 +36,7 @@
       </div>
       <div class="MapDesK">
         <div class="map object-cover">
-          <img class="w-full MAP" src="../../assets/img/map.png">
+<img alt="alt"  class="w-full MAP" src="../../assets/img/map.png">
         </div>
       </div>
     </div>

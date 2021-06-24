@@ -2,7 +2,7 @@
   <div>
     <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
       <div class="flex-shrink-0">
-        <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
+<img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
       </div>
       <div>
         <div class="ttt text-xl font-medium until-xs:text-pink-500 xs:text-pink-500 md:text-blue-900 lg:text-gray-400 text-black">ChitChat</div>
@@ -12,7 +12,7 @@
     <br/>
     <div
         class="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-      <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0" src="/img/erin-lindford.jpg"
+<img class="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0" src="/img/erin-lindford.jpg"
            alt="Woman's Face">
       <div class="text-center space-y-2 sm:text-left">
         <div class="space-y-0.5">
@@ -32,7 +32,7 @@
     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
       <div class="md:flex">
         <div class="md:flex-shrink-0">
-          <img class="h-48 w-full object-cover md:w-48" src="/img/store.jpg" alt="Man looking at item at a store">
+<img class="h-48 w-full object-cover md:w-48" src="/img/store.jpg" alt="Man looking at item at a store">
         </div>
         <div class="p-8">
           <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>

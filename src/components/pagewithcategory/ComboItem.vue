@@ -1,6 +1,6 @@
 <template>
   <div class="DescriptionItem flex justify-center relative">
-    <img class="comboSet-img width-full" src="../../assets/img/photo86x59px.svg">
+    <img alt="alt" class="comboSet-img width-full" src="../../assets/img/photo86x59px.svg">
     <div class="flex flex-col">
       <div class="flex flex-col p-l7px">
         <h3 class="Ag-h3-to-1070 DescriptionItem__h3">{{ heads }}</h3>
@@ -8,7 +8,7 @@
       </div>
       <div class="flex justify-between mt5-mb10">
         <h3 class="Ag-text14-to-1070 DescriptionItem__price">{{ price }}.-</h3>
-        <img src="../../assets/img/alsobuy.svg"/>
+        <img alt="alt" src="../../assets/img/alsobuy.svg"/>
       </div>
     </div>
   </div>

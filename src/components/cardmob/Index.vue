@@ -13,7 +13,8 @@
     </div>
     <div class="tryIt">
       <HeaderThree msg="Попробуйте"/>
-      <div class="SeeIt__all flex swipe">
+      <div class="SeeIt__all flex swipe xl:relative">
+        <div class="arrow arrow-right MobHide absolute right-0"></div>
         <SeeIt/>
         <SeeIt/>
         <SeeIt/>
@@ -24,6 +25,7 @@
         <SeeIt/>
         <SeeIt/>
         <SeeIt/>
+        <div class="arrow arrow-left MobHide absolute"></div>
       </div>
       <div class="tryIt tryIt-second">
         <h3 class="Ag-h3-to-1070 Card__title DescHide">Корзина</h3>
@@ -40,7 +42,7 @@
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img class="CardImg order-3" src="../../assets/img/trashbin.svg">
+            <img alt="alt" class="CardImg order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
         <div class="Card_description xl:flex xl:flex-wrap xl:justify-between">
@@ -56,7 +58,7 @@
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img class="CardImg order-3" src="../../assets/img/trashbin.svg">
+            <img alt="alt" class="CardImg order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
         <div class="Card_description xl:flex xl:flex-wrap xl:justify-between MobHide">
@@ -72,7 +74,7 @@
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img class="CardImg order-3" src="../../assets/img/trashbin.svg">
+            <img alt="alt" class="CardImg order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
         <div class="recommend">
@@ -91,7 +93,8 @@
           </div>
         </div>
         <HeaderThree msg="Рекомендуем заказать"/>
-        <div class="SeeIt__all flex swipe">
+        <div class="SeeIt__all flex swipe xl:relative">
+          <div class="arrow arrow-left MobHide absolute"></div>
           <SeeIt/>
           <SeeIt/>
           <SeeIt/>
@@ -102,23 +105,29 @@
           <SeeIt/>
           <SeeIt/>
           <SeeIt/>
+          <div class="arrow arrow-right MobHide absolute right-0"></div>
         </div>
-        <div class="PromoAct xl:flex">
-          <h3 class="Ag-h3-to-1070 InputPromo">Введите промокод:</h3>
-          <input class="promoCode searchButton bg-E4E4E4 text-center border-solid w-full block" type="number"
-                 id="tentacles" name="tentacles" min="10" max="100" placeholder="ПЕРЧИНИ">
-        </div>
-        <div class="Card__all">
-          <div class="Card__line flex justify-end text-right">
-            <p class="Ag-h3-to-1070">ИТОГО</p>
-            <p class="Ag-h3-to-1070 Digit">3400p</p>
+        <div class="CompleteIt xl:flex xl:flex-wrap xl:justify-between">
+          <div class="PromoAct xl:flex">
+            <h3 class="Ag-h3-to-1070 InputPromo">Введите промокод:</h3>
+            <input class="promoCode searchButton bg-E4E4E4 text-center border-solid w-full block" type="number"
+                   id="tentacles" name="tentacles" min="10" max="100" placeholder="ПЕРЧИНИ">
           </div>
-          <div class="Card__line flex justify-end text-right">
-            <p class="Ag-h3-to-1070">Скидка</p>
-            <p class="Ag-h3-to-1070 Digit">10%</p>
+          <div class="CompleteIt__do xl:flex xl:flex-wrap flex-col">
+            <div class="Card__all">
+              <div class="Card__line flex justify-end text-right">
+                <p class="Ag-h3-to-1070 CompleteIt__all">ИТОГО</p>
+                <p class="Ag-h3-to-1070 Digit CompleteIt__all-digit">3400p</p>
+              </div>
+              <div class="Card__line Card__line2 flex justify-end text-right">
+                <p class="Ag-h3-to-1070 CompleteIt__discount">Скидка</p>
+                <p class="Ag-h3-to-1070 Digit CompleteIt__discount-digit">10%</p>
+              </div>
+            </div>
+            <GreenButton msg="Оформить заказ"/>
           </div>
         </div>
-        <GreenButton msg="Оформить заказ"/>
+        <FooterDesk/>
         <MenuBottom/>
       </div>
     </div>
@@ -207,6 +216,7 @@ import SeeIt from './SeeIt'
 import Photo from '../popupbluda/Photo'
 import LoadBar from '../popupbluda/LoadBar'
 import GreenButton from '../addtocardgreen/Index'
+import FooterDesk from '../partpage/FooterDesk'
 import MenuBottom from '../menubottom/Index'
 
 export default {
@@ -221,6 +231,7 @@ export default {
     Photo,
     LoadBar,
     GreenButton,
+    FooterDesk,
     MenuBottom,
   }
 }

@@ -4,31 +4,32 @@
       <ul class="BottomMenu flex justify-between">
         <li class="BottomMenu__item menu">
           <a class="BottomMenu__a menu flex justify-between flex-col" href="#ContentMenuBottom">
-            <img class="closeContentMenu__icon" src="../../assets/img/menubottom/menubottom.svg">
+            <img alt="alt" class="closeContentMenu__icon" src="../../assets/img/menubottom/menubottom.svg">
             <span class="closeContentMenu__text text-center block">Меню</span>
           </a>
         </li>
         <li class="BottomMenu__item actions">
           <a class="BottomMenu__a actions flex justify-between flex-col" href="events">
-            <img class="closeContentMenu__icon" src="../../assets/img/menubottom/actions.svg">
+            <img alt="alt" class="closeContentMenu__icon" src="../../assets/img/menubottom/actions.svg">
             <span class="closeContentMenu__text text-center block">Акции</span>
           </a>
         </li>
         <li class="BottomMenu__item combo">
           <a class="BottomMenu__a combo flex justify-between flex-col" href="#">
-            <img class="closeContentMenu__icon" src="../../assets/img/menubottom/combo.svg">
+            border: solid black;
+            <img alt="alt" class="closeContentMenu__icon" src="../../assets/img/menubottom/combo.svg">
             <span class="closeContentMenu__text text-center local">Комбо</span>
           </a>
         </li>
         <li class="BottomMenu__item login">
           <a class="BottomMenu__a login flex justify-between flex-col" href="#">
-            <img class="closeContentMenu__icon" src="../../assets/img/menubottom/login.svg">
+            <img alt="alt" class="closeContentMenu__icon" src="../../assets/img/menubottom/login.svg">
             <span class="closeContentMenu__text text-center block">Войти</span>
           </a>
         </li>
         <li class="BottomMenu__item card">
           <a class="BottomMenu__a card flex justify-between flex-col" href="#">
-            <img class="closeContentMenu__icon" src="../../assets/img/menubottom/card.svg">
+            <img alt="alt" class="closeContentMenu__icon" src="../../assets/img/menubottom/card.svg">
             <span class="closeContentMenu__text text-center block">Корзина</span>
           </a>
         </li>

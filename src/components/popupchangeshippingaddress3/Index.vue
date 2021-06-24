@@ -1,7 +1,7 @@
 <template>
   <div class="popUpReady h-full">
     <div class="w-full h-full object-cover">
-      <img class="w-full h-full" src="../../assets/img/map.png">
+<img alt="alt"  class="w-full h-full" src="../../assets/img/map.png">
     </div>
     <router-link to="/" class="block buttonMap absolute">
       <GreenButton msg="Закрыть"/>

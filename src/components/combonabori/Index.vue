@@ -3,7 +3,6 @@
     <ComboSetTop/>
     <div
         class="OrderMoveAddresses bg-white CenteringOneItem MobHide xl:h-full flex flex-col justify-center items-center xl:items-start">
-
     </div>
     <div class="mainEat xl:flex xl:flex-wrap">
       <div class="MobHide InfoGraphics">
@@ -14,10 +13,18 @@
       <div class="comboNabori__detail">
         <MyOrder/>
         <AddToCardGreen msg="Оформить заказ"/>
-        <div class="Card__more-discount"><p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
-          <div class="Card__load flex items-center">
-            <LoadBar/>
-            <p class="Ag4001624 fw600 LoadPrice relative">301.-</p></div>
+        <div class="ComboAdd">
+          <div class="Card__more-discount">
+            <p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
+            <div class="Card__load flex items-center">
+              <LoadBar/>
+              <p class="Ag4001624 fw600 LoadPrice relative">301.-</p>
+            </div>
+          </div>
+          <div class="vision">
+            <img class="PresentPizza" alt="alt" src="../../assets/img/photo86x59px.svg">
+            <p class="PresentText text-center">Пицца Вулкан в подаок!</p>
+          </div>
         </div>
       </div>
     </div>

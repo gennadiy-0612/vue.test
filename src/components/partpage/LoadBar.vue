@@ -1,5 +1,5 @@
 <template>
-  <div class="LoadBar width-full m-top27 relate"></div>
+  <div class="LoadBar width-full m-top27 relate LoadBarComboNabori"></div>
 </template>
 
 <style scoped>

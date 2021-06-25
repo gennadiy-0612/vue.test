@@ -355,7 +355,46 @@ html {
     }
 }
 
+@media (min-width: 950px) {
+    .mainItem {
+        font-size: 2.8vh;
+        line-height: 2.8vh;
+    }
+
+    .mainPage__icons {
+        margin: 0;
+        width: 85%;
+        padding: 0;
+    }
+
+    .iconsThemes {
+        padding: .2vh;
+        max-width: initial;
+    }
+
+    .descImg {
+        height: 70%;
+        flex: 1 1 20%;
+    }
+
+    .desc {
+        display: flex;
+        flex: 1 1 80%;
+        max-width: initial;
+        padding-left: 1vw;
+        height: 100%;
+    }
+
+    .mainPage .imgIcon {
+        margin-left: 0;
+    }
+}
+
 @media (min-width: 1280px) {
+    .DeskTopAfterLine {
+        position: relative;
+    }
+
     .CardPage .Card_description::after,
     .DeskTopAfterLine::after {
         content: '';
@@ -397,12 +436,6 @@ html {
     .mainBack {
         background-image: none;
         height: auto;
-    }
-
-    .CommonMenu {
-        display: flex;
-        height: auto;
-        align-items: center;
     }
 
     .MenuContent__ol {
@@ -540,6 +573,10 @@ html {
         letter-spacing: 1.2px;
         margin: 0 0 -4px;
         background-color: #8D8D8D;
+    }
+
+    .AddressesList__phone {
+        padding-right: 0;
     }
 
     .TimeShow {
@@ -2005,11 +2042,29 @@ html {
 
     /*Swipe arrows*/
     /*.comboNabori */
+    .ComboPage__icons {
+        width: 100%;
+    }
+
+    .CommonMenu {
+        display: flex;
+        height: auto;
+        align-items: center;
+    }
+
     .mainEat {
         margin-top: 10px;
     }
 
-    /*.comboNabori */
+    .AddressLCombo {
+        top: -.7%;
+    }
+
+    .mainItemCombo {
+        font-size: 2.3vh;
+        font-weight: 700;
+    }
+
     .InfoGraphics {
         flex: 1 1 11%;
     }
@@ -2023,7 +2078,7 @@ html {
         padding: 6px 0 0 1%;
     }
 
-    .comboNabori .CenterContent__left {
+    .ComboPage .CenterContent__left {
         left: 0;
         top: 0;
         padding: 0;
@@ -2147,10 +2202,123 @@ html {
         display: none;
     }
 
-    .comboNabori .LoadBarComboNabori {
+    .ComboPage .LoadBar {
         display: none;
     }
 
+    /*.comboNabori */
+    /*popupBludoDesktop*/
+    .CardInfoBack {
+        background-color: #0000007d;
+    }
+
+    .CardInfoDeskTop {
+        width: 1080px;
+        height: 610px;
+    }
+
+    .CardInfo__head {
+        margin: 30px 0 20px 40px;
+        font-size: 27px;
+        letter-spacing: .4px;
+        font-weight: 600;
+    }
+
+    .CardInfo__para {
+        margin: 0 0 0 40px;
+        max-width: 367px;
+        font-size: 19px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+
+    .CardInfo {
+        min-width: 540px;
+    }
+
+    .CardInfo__descriptor {
+        padding: 25px 0 0 40px;
+        max-width: 490px;
+    }
+
+    .CardInfo__text {
+        font-size: 21px;
+        line-height: 20px;
+        margin: 0 8px 0 0;
+    }
+
+    .BLudoPrice {
+        margin: 28px 40px 0;
+        max-width: 366px;
+    }
+
+    .BLudoPrice__digit {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .GoOut {
+        font-size: 21px;
+        line-height: 6px;
+        height: 30px;
+        padding: 0 26px 0;
+        font-weight: 600;
+    }
+
+    .closeLog-popup {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #8D8D8D;
+        position: absolute;
+        bottom: 30px;
+        left: 40px;
+    }
+
+    .propagate {
+        margin: 90px 0 0 40px;
+        font-size: 27px;
+    }
+
+    .CardInfoAssort {
+        margin: 31px 0 0 40px;
+        width: 200%;
+        overflow: hidden;
+    }
+
+    .CardInfoAssort__li {
+        width: 280px;
+        height: 100px;
+        background-color: #C5C5C5;
+        padding: 7px 0 0 20px;
+        margin-right: 20px;
+    }
+
+    .CardInfoAssort__img {
+        width: 86px;
+        height: 80px;
+        object-fit: cover;
+    }
+
+    .CardInfoAssort__description {
+        padding: 0 0 0 8px;
+        max-width: 196px;
+    }
+
+    .CardInfoAssort__head {
+        font-size: 21px;
+        line-height: 21px;
+    }
+
+    .CardInfoAssort__price {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 21px;
+        margin-top:14px;
+    }
+
+    /*popupBludoDesktop*/
 }
 
 @media (min-width: 1300px) {
@@ -2159,37 +2327,8 @@ html {
     }
 }
 
-@media (min-width: 950px) {
-    .mainItem {
-        font-size: 2.8vh;
-        line-height: 2.8vh;
-    }
 
-    .mainPage__icons {
-        margin: 0;
-        width: 85%;
-        padding: 0;
-    }
-
-    .iconsThemes {
-        padding: .2vh;
-        max-width: initial;
-    }
-
-    .descImg {
-        height: 70%;
-        flex: 1 1 20%;
-    }
-
-    .desc {
-        display: flex;
-        flex: 1 1 80%;
-        max-width: initial;
-        padding-left: 1vw;
-        height: 100%;
-    }
-
-    .mainPage .imgIcon {
-        margin-left: 0;
-    }
+.CardInfoDeskTop {
+    top: 310px;
+    position: fixed;
 }

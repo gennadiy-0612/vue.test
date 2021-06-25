@@ -19,6 +19,7 @@
     <LoadBar/>
     <OrderMore/>
     <AddToCard msg="Добавить в корзину"/>
+    <DeskTopPopUp/>
   </div>
 </template>
 <style>
@@ -39,9 +40,10 @@ import Photo from './Photo'
 import DescriptionPrice from './DescriptPrice'
 import AlsoBuy from './AlsoBuy'
 import AlsoItem from './AlsoItem'
-import LoadBar from './LoadBar'
+import LoadBar from '../partpage/LoadBar'
 import OrderMore from './OrderMore'
 import AddToCard from '../addtocardgreen/Index'
+import DeskTopPopUp from './DeskTopPopUp'
 
 export default {
   name: 'App',
@@ -53,7 +55,8 @@ export default {
     AlsoItem,
     LoadBar,
     OrderMore,
-    AddToCard
+    AddToCard,
+    DeskTopPopUp
   }
 }
 </script>

@@ -13,7 +13,7 @@
 <script>
 import ComboItem from './ComboItem'
 import MenuBottom from '../menubottom/Index'
-import LoadBar from '../popupbluda/LoadBar'
+import LoadBar from '../partpage/LoadBar'
 import OrderMore from '../combonabori/OrderMore'
 
 export default {

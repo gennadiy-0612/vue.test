@@ -1,5 +1,5 @@
 <template>
-  <div class="comboNabori FrameDesk">
+  <div class="comboNabori ComboPage FrameDesk">
     <ComboSetTop/>
     <div
         class="OrderMoveAddresses bg-white CenteringOneItem MobHide xl:h-full flex flex-col justify-center items-center xl:items-start">

@@ -1,5 +1,5 @@
 <template>
-  <div class="comboNabori ComboPage FrameDesk">
+  <div class="comboNabori comboNaboriLeft FrameDesk">
     <ComboSetTop/>
     <div
         class="OrderMoveAddresses bg-white CenteringOneItem MobHide xl:h-full flex flex-col justify-center items-center xl:items-start">
@@ -21,7 +21,7 @@
               <p class="Ag4001624 fw600 LoadPrice relative">301.-</p>
             </div>
           </div>
-          <div class="vision">
+          <div class="MobHide vision">
             <img class="PresentPizza" alt="alt" src="../../assets/img/photo86x59px.svg">
             <p class="PresentText text-center">Пицца Вулкан в подаок!</p>
           </div>

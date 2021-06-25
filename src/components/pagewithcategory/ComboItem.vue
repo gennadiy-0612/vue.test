@@ -1,5 +1,5 @@
 <template>
-  <div class="DescriptionItem flex justify-center relative">
+  <div class="DescriptionItem flex justify-center relative xl:flex xl:flex-col">
     <img alt="alt" class="comboSet-img width-full" src="../../assets/img/photo86x59px.svg">
     <div class="flex flex-col">
       <div class="flex flex-col p-l7px">
@@ -8,7 +8,8 @@
       </div>
       <div class="flex justify-between mt5-mb10">
         <h3 class="Ag-text14-to-1070 DescriptionItem__price">{{ price }}.-</h3>
-        <img alt="alt" src="../../assets/img/alsobuy.svg"/>
+        <button class="MobHide ComboNabButton OrderMore-add-to-card-black OrderActCash bg-black text-white Ag-text18-to-1070 w-full text-center"> Добавить в корзину </button>
+        <img class="DescHide" alt="alt" src="../../assets/img/alsobuy.svg"/>
       </div>
     </div>
   </div>

@@ -11,7 +11,15 @@
         <EatMenu/>
       </div>
       <ComboSetsBottom/>
-      <MyOrder/>
+      <div class="comboNabori__detail">
+        <MyOrder/>
+        <AddToCardGreen msg="Оформить заказ"/>
+        <div class="Card__more-discount"><p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
+          <div class="Card__load flex items-center">
+            <LoadBar/>
+            <p class="Ag4001624 fw600 LoadPrice relative">301.-</p></div>
+        </div>
+      </div>
     </div>
     <FooterDesk/>
   </div>
@@ -20,8 +28,10 @@
 import ComboSetTop from './ComboSetTop'
 import AddreesTime from '../partpage/AddressTime'
 import EatMenu from '../partpage/EatMenu'
+import AddToCardGreen from '../addtocardgreen/Index'
 import ComboSetsBottom from './ComboSetsBottom'
 import MyOrder from '../partpage/MyOrder'
+import LoadBar from '../partpage/LoadBar'
 import FooterDesk from '../partpage/FooterDesk'
 
 export default {
@@ -29,9 +39,11 @@ export default {
   components: {
     ComboSetTop,
     AddreesTime,
+    AddToCardGreen,
     EatMenu,
     ComboSetsBottom,
     MyOrder,
+    LoadBar,
     FooterDesk,
   }
 }

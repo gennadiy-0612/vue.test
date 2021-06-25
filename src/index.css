@@ -327,7 +327,6 @@ html {
     position: relative;
 }
 
-.CardPage .Card_description::after,
 .afterLine::after {
     content: '';
     height: 1px;
@@ -357,6 +356,17 @@ html {
 }
 
 @media (min-width: 1280px) {
+    .CardPage .Card_description::after,
+    .DeskTopAfterLine::after {
+        content: '';
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #0B0B0B;
+        position: absolute;
+    }
+
     .FrameDesk {
         padding: 0 30px;
         max-width: 1700px;
@@ -2008,14 +2018,75 @@ html {
         flex: 1 1 50%;
     }
 
-    .comboNabori .OrderAllPrice {
+    .comboNabori .comboNabori__detail {
         flex: 1 1 12%;
+        padding: 6px 0 0 1%;
+    }
+
+    .comboNabori .CenterContent__left {
         left: 0;
-        top: 0
+        top: 0;
+        padding: 0;
+        max-width: initial;
+        margin-bottom: 23px;
+    }
+
+    .OrderAllPrice__plus {
+        font-size: 25px;
+    }
+
+    .OrderAllPrice__minus {
+        margin: 0 5px 0 -18px;
+        font-size: 47px;
+        line-height: 7px;
+    }
+
+    .comboNabori .OrderAllPrice__sum {
+        margin: 150px 0 0;
+    }
+
+    .comboNabori .DescriptionItem {
+        flex: 1 1 50%;
     }
 
     .comboNabori .DescriptionItem::after {
         content: none;
+    }
+
+    .comboNabori .comboSet-img {
+        height: 310px;
+        width: 461px;
+        margin: 20px 0 0 20px;
+        object-fit: cover;
+    }
+
+    .comboNabori .DescriptionItem__head1 {
+        font-size: 25px;
+        margin: 20px 0 0 10px;
+    }
+
+    .comboNabori .DescriptionItem__p {
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 600;
+        margin: 20px 0 0 10px;
+    }
+
+    .comboNabori__price {
+        margin: 0 0 50px;
+    }
+
+    .comboNabori .DescriptionItem__head3 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0 0 0 10px;
+        top: 0;
+    }
+
+    .ComboNabButton {
+        max-width: 220px;
+        font-weight: 600;
+        line-height: 30px;
     }
 }
 

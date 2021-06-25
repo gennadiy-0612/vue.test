@@ -29,52 +29,52 @@
       </div>
       <div class="tryIt tryIt-second">
         <h3 class="Ag-h3-to-1070 Card__title DescHide">Корзина</h3>
-        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between xl:relative">
+        <div class="DeskTopAfterLine xl:flex xl:flex-wrap xl:justify-between xl:relative">
           <Photo/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
             <p class="Ag-text12-to-1070 Card__detail text-center">С запеченым картофелем</p>
           </div>
           <div class="flex justify-between SetControl afterLine items-center">
-            <p class="Ag-text1421-to-1070 SetControl__price order-2">600р</p>
-            <div class="control flex justify-between order-1">
+            <p class="Ag-text1421-to-1070 SetControl__price xl:order-2">600р</p>
+            <div class="control flex justify-between xl:order-1">
               <p class="countEat Ag-text14-to-1070 sign">-</p>
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img alt="alt" class="CardImg xl:relative order-3" src="../../assets/img/trashbin.svg">
+            <img alt="alt" class="CardImg xl:relative xl:order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
-        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between xl:relative">
+        <div class="DeskTopAfterLine xl:flex xl:flex-wrap xl:justify-between xl:relative">
           <Photo/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
             <p class="Ag-text12-to-1070 Card__detail text-center">С запеченым картофелем</p>
           </div>
           <div class="flex justify-between SetControl afterLine items-center">
-            <p class="Ag-text1421-to-1070 SetControl__price order-2">600р</p>
-            <div class="control flex justify-between order-1">
+            <p class="Ag-text1421-to-1070 SetControl__price xl:order-2">600р</p>
+            <div class="control flex justify-between xl:order-1">
               <p class="countEat Ag-text14-to-1070 sign">-</p>
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img alt="alt" class="CardImg xl:relative order-3" src="../../assets/img/trashbin.svg">
+            <img alt="alt" class="CardImg xl:relative xl:order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
-        <div class="Card_description xl:flex xl:flex-wrap xl:justify-between xl:relative MobHide">
+        <div class="DeskTopAfterLine xl:flex xl:flex-wrap xl:justify-between xl:relative MobHide">
           <Photo/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
             <p class="Ag-text12-to-1070 Card__detail text-center">С запеченым картофелем</p>
           </div>
           <div class="flex justify-between SetControl afterLine items-center">
-            <p class="Ag-text1421-to-1070 SetControl__price order-2">600р</p>
-            <div class="control flex justify-between order-1">
+            <p class="Ag-text1421-to-1070 SetControl__price xl:order-2">600р</p>
+            <div class="control flex justify-between xl:order-1">
               <p class="countEat Ag-text14-to-1070 sign">-</p>
               <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
-            <img alt="alt" class="CardImg xl:relative order-3" src="../../assets/img/trashbin.svg">
+            <img alt="alt" class="CardImg xl:relative xl:order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
         <div class="recommend afterLine">

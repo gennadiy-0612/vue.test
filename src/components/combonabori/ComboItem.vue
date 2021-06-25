@@ -1,14 +1,18 @@
 <template>
-  <div class="DescriptionItem comboNabori__all m-t10px combo flex justify-center relative">
+  <div class="DescriptionItem comboNabori__all m-t10px combo flex xl:flex-col justify-center relative">
     <img alt="alt" class="comboSet-img width-full" src="../../assets/img/photo86x59px.svg">
     <div class="flex flex-col">
       <div class="flex flex-col p-l7px">
-        <h3 class="Ag-h3-to-1070 m-t-3px">{{ heads }}</h3>
-        <p class="Ag-text12-to-1070 m-t6px DescriptionItem__descriptionitem">{{ descriptionitem }}</p>
+        <h3 class="Ag-h3-to-1070 m-t-3px DescriptionItem__head1">{{ heads }}</h3>
+        <p class="Ag-text12-to-1070 m-t6px DescriptionItem__p">{{ descriptionitem }}</p>
       </div>
-      <div class="flex justify-between mt5-mb10 comboNabori__price">
-        <h3 class="Ag-h3-to-1070 t100-14 relative">{{ price }}.-</h3>
-        <img alt="alt" src="../../assets/img/alsobuy.svg"/>
+      <div class="flex justify-between mt5-mb10 comboNabori__price xl:flex">
+        <h3 class="Ag-h3-to-1070 DescriptionItem__head3 t100-14 relative">{{ price }}.-</h3>
+        <img class="DescHide" alt="alt" src="../../assets/img/alsobuy.svg"/>
+        <button
+            class="MobHide ComboNabButton OrderMore-add-to-card-black OrderActCash bg-black text-white Ag-text18-to-1070 w-full text-center">
+          Добавить в корзину
+        </button>
       </div>
     </div>
   </div>
@@ -26,7 +30,7 @@
   bottom: 8px;
 }
 
-.DescriptionItem__descriptionitem {
+.DescriptionItem__p {
   margin: 6px 0 0 2px;
 }
 

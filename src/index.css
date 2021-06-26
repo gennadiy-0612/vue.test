@@ -2169,6 +2169,7 @@ html {
         object-fit: cover;
     }
 
+    .CatsPage .DescriptionItem__h3,
     .comboNabori .DescriptionItem__head1 {
         font-size: 25px;
         margin: 20px 0 0 10px;
@@ -2185,6 +2186,7 @@ html {
         margin: 0 0 50px;
     }
 
+    .CatsPage .DescriptionItem__price,
     .comboNabori .DescriptionItem__head3 {
         font-size: 24px;
         font-weight: 600;
@@ -2315,10 +2317,21 @@ html {
         font-size: 24px;
         font-weight: 700;
         line-height: 21px;
-        margin-top:14px;
+        margin-top: 14px;
     }
 
     /*popupBludoDesktop*/
+    /*popupBludoDesktop2*/
+    .CardPop, CardPop2 {
+        visibility: visible;
+    }
+
+    .hideIt {
+        visibility: hidden;
+    }
+
+    /*popupBludoDesktop2*/
+
 }
 
 @media (min-width: 1300px) {
@@ -2330,5 +2343,4 @@ html {
 
 .CardInfoDeskTop {
     top: 310px;
-    position: fixed;
 }

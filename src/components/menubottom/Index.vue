@@ -38,8 +38,6 @@
       <a href="#closeContentMenu" class="closeMenuBottom absolute top-0 right-0 block m-r16">
         <X/>
       </a>
-      <router-link to="popupbluda">ПопАпБлюда</router-link>
-      <router-link to="popupcombo">ПопАпКомбо</router-link>
       <router-link to="events">Акции</router-link>
       <router-link to="vkhodoldcode">Вход на сайт</router-link>
       <router-link to="vkhodoldcodedesc">Вход на сайт Desc</router-link>

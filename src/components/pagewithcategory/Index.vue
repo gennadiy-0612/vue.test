@@ -35,7 +35,7 @@
         <AddreesTime/>
         <EatMenu/>
       </div>
-    <ComboSetsBottom/>
+      <ComboSetsBottom/>
       <div class="comboNabori__detail">
         <MyOrder/>
         <AddToCardGreen msg="Оформить заказ"/>
@@ -55,6 +55,8 @@
       </div>
     </div>
     <FooterDesk/>
+    <DeskTopPopUp/>
+    <DeskTopPopUp2/>
   </div>
 </template>
 <style>
@@ -90,6 +92,8 @@ import EatMenu from "@/components/partpage/EatMenu";
 import MyOrder from "@/components/partpage/MyOrder";
 import LoadBar from "@/components/partpage/LoadBar";
 import FooterDesk from "@/components/partpage/FooterDesk";
+import DeskTopPopUp from "@/components/pagewithcategory/DeskTopPopUp";
+import DeskTopPopUp2 from "@/components/pagewithcategory/DeskTopPopUp2";
 
 export default {
   name: 'App',
@@ -103,13 +107,18 @@ export default {
     AddreesTime,
     AddToCardGreen,
     EatMenu,
-    ComboSetsBottom
+    ComboSetsBottom,
+    DeskTopPopUp,
+    DeskTopPopUp2
   }
 }
 
-function shch(Select, add) {
+function shch(Select, add, whoIsClosed) {
   this.takeTag = function () {
-    this.TagEl.classList.toggle(add);
+    if (whoIsClosed) document.querySelector(whoIsClosed).classList.toggle(add);
+    else {
+      this.TagEl.classList.toggle(add);
+    }
   };
   this.addE = function () {
     this.TagEl = document.querySelector(Select);
@@ -117,8 +126,16 @@ function shch(Select, add) {
   };
 }
 
-if (window.location.pathname === '/combonabori' || window.location.pathname === '/') {
+if (window.location.pathname === '/pagewithcategory' || window.location.pathname === '/') {
   let AddressesList__main = new shch('.AddressesList__main', 'showIt');
   window.addEventListener('load', AddressesList__main.addE.bind(AddressesList__main));
+  let closeLog = new shch('.Pop', 'hideIt', '.CardPop');
+  window.addEventListener('load', closeLog.addE.bind(closeLog));
+  let closeLog2 = new shch('.Pop2', 'hideIt', '.CardPop2');
+  window.addEventListener('load', closeLog2.addE.bind(closeLog2));
+  let showEat = new shch('.DescriptionItem', 'hideIt', '.CardPop');
+  window.addEventListener('load', showEat.addE.bind(showEat));
+  let showEat1 = new shch('.DescriptionItem:nth-child(2)', 'hideIt', '.CardPop2');
+  window.addEventListener('load', showEat1.addE.bind(showEat1));
 }
 </script>

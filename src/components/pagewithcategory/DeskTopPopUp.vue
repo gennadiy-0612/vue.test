@@ -1,6 +1,6 @@
 <template>
-  <div class="MobHide CardInfoBack fixed bottom-0 left-0 top-0 bottom-0 h-full w-full flex justify-center items-center">
-    <div class="CardInfoBanner CardInfoDeskTop bg-white flex">
+  <div class="CardPop MobHide CardInfoBack fixed bottom-0 left-0 top-0 bottom-0 h-full w-full flex justify-center items-center">
+    <div class="CardInfoBanner CardInfoDeskTop fixed bg-white flex">
       <div class="CardInfo">
         <h3 class="CardInfo__head">Пицца Филадельфия</h3>
         <p class="CardInfo__para">Нежная пицца со сливочным сыром и ломтиками слабосоленого лосося, с сыром Моцарелла,
@@ -55,8 +55,7 @@
             </div>
           </div>
         </div>
-        <router-link to="#" class="closeLog-popup Ag-text14-to-1070 fw400 closeLog router-link-active">Закрыть
-        </router-link>
+        <router-link to="#" class="Pop closeLog-popup Ag-text14-to-1070 fw400 closeLog router-link-active">Закрыть</router-link>
       </div>
       <img alt="alt" class="object-cover" src="../../assets/img/Photo.svg">
     </div>

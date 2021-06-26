@@ -1,6 +1,6 @@
 <template>
   <div class="DescriptionItem flex justify-center relative xl:flex xl:flex-col">
-    <img alt="alt" class="comboSet-img width-full" src="../../assets/img/photo86x59px.svg">
+    <router-link to="#"><img alt="alt" class="comboSet-img width-full" src="../../assets/img/photo86x59px.svg"></router-link>
     <div class="flex flex-col">
       <div class="flex flex-col p-l7px">
         <h3 class="Ag-h3-to-1070 DescriptionItem__h3">{{ heads }}</h3>

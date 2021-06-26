@@ -9,10 +9,6 @@
       <div class="flex justify-between mt5-mb10 comboNabori__price xl:flex">
         <h3 class="Ag-h3-to-1070 DescriptionItem__head3 t100-14 relative">{{ price }}.-</h3>
         <img class="DescHide" alt="alt" src="../../assets/img/alsobuy.svg"/>
-        <button
-            class="MobHide ComboNabButton OrderMore-add-to-card-black OrderActCash bg-black text-white Ag-text18-to-1070 w-full text-center">
-          Добавить в корзину
-        </button>
       </div>
     </div>
   </div>

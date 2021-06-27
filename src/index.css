@@ -1660,8 +1660,15 @@ html {
     /*popUpFrame2 page*/
     /*Contacts page*/
     .Contacts {
-        max-width: 1640px;
+        max-width: 1740px;
         margin: auto;
+        padding: 0 30px;
+    }
+
+    .Contacts__h3 .h3 {
+        margin: 14px 0 0 40px;
+        font-size: 32px;
+        font-weight: 600;
     }
 
     .ContactsItem {
@@ -1669,11 +1676,11 @@ html {
     }
 
     .DeskContactSet {
-        margin: 20px -10.9% 0 1.2%;
+        margin: 20px -9.4% 0 2.4%;
     }
 
     .ContactList {
-        margin: -56px 0 0 auto;
+        margin: -29px 1.3% 0 auto;
         max-width: 420px;
     }
 

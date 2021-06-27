@@ -8,7 +8,7 @@
       <HeadTwo msg="Контакты"/>
     </div>
     <div class="HeadSet">
-      <HeaderPopUp msg="Новосибирск"/>
+      <HeaderPopUp class="Contacts__h3" msg="Новосибирск"/>
     </div>
     <ul class="MobHide ContactList">
       <li class="ContactList__Item">
@@ -46,10 +46,6 @@
 .Contacts .h2Papa {
   justify-content: flex-start;
   margin-top: 30px;
-}
-
-.Contacts .h3 {
-  margin: 0 0 30px;
 }
 </style>
 <script>

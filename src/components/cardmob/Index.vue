@@ -29,11 +29,11 @@
       </div>
       <div class="tryIt tryIt-second">
         <h3 class="Ag-h3-to-1070 Card__title DescHide">Корзина</h3>
-        <div class="DeskTopAfterLine xl:flex xl:flex-wrap xl:justify-between xl:relative">
-          <Photo/>
+        <div class="DeskTopAfterLine CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative">
+          <Photo class="CardPage__photo"/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
-            <p class="Ag-text12-to-1070 Card__detail text-center">С запеченым картофелем</p>
+            <p class="Ag-text12-to-1070 Card__detail xl:text-center">С запеченым картофелем</p>
           </div>
           <div class="flex justify-between SetControl afterLine items-center">
             <p class="Ag-text1421-to-1070 SetControl__price xl:order-2">600р</p>
@@ -45,11 +45,11 @@
             <img alt="alt" class="CardImg xl:relative xl:order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
-        <div class="DeskTopAfterLine xl:flex xl:flex-wrap xl:justify-between xl:relative">
-          <Photo/>
+        <div class="DeskTopAfterLine CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative">
+          <Photo class="CardPage__photo"/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
-            <p class="Ag-text12-to-1070 Card__detail text-center">С запеченым картофелем</p>
+            <p class="Ag-text12-to-1070 Card__detail xl:text-center">С запеченым картофелем</p>
           </div>
           <div class="flex justify-between SetControl afterLine items-center">
             <p class="Ag-text1421-to-1070 SetControl__price xl:order-2">600р</p>
@@ -61,11 +61,11 @@
             <img alt="alt" class="CardImg xl:relative xl:order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
-        <div class="DeskTopAfterLine xl:flex xl:flex-wrap xl:justify-between xl:relative MobHide">
-          <Photo/>
+        <div class="DeskTopAfterLine CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative MobHide">
+          <Photo class="CardPage__photo"/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
-            <p class="Ag-text12-to-1070 Card__detail text-center">С запеченым картофелем</p>
+            <p class="Ag-text12-to-1070 Card__detail xl:text-center">С запеченым картофелем</p>
           </div>
           <div class="flex justify-between SetControl afterLine items-center">
             <p class="Ag-text1421-to-1070 SetControl__price xl:order-2">600р</p>
@@ -77,10 +77,10 @@
             <img alt="alt" class="CardImg xl:relative xl:order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
-        <div class="recommend afterLine">
+        <div class="recommend CardPage__recommend afterLine">
           <h3 class="recommend__head Ag-text18-to-1070 fw600">Ваш подарок к заказу</h3>
           <div class="YoursPresent flex flex-wrap">
-            <Photo/>
+            <Photo class="CardPage__photo"/>
             <div class="WhatAndHow">
               <p class="Ag6001624 Card__add">Пицца с лососем</p>
               <p class="Ag-text14-to-1070 CardWith">Со сливочным сыром и ломтиками слабосоленого лосося</p>

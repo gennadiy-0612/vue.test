@@ -383,6 +383,23 @@ html {
     margin: 20px 0 -12px;
 }
 
+.SetControl__price {
+    font-size: 16px;
+}
+
+/*Combo*/
+.recommend {
+    margin: 28px 0 0;
+}
+
+.InputPromo {
+    margin-bottom: 16px;
+}
+
+.promoCode {
+    padding: 26px 0;
+}
+
 @media (max-width: 1279px) {
     .MobHide {
         display: none;
@@ -1091,7 +1108,7 @@ html {
     }
 
     .OrderMoveFrame {
-        margin-top: 28px;
+        margin-top: 48px;
     }
 
     .Order .oformZakaz {
@@ -1868,15 +1885,22 @@ html {
         font-weight: 400;
     }
 
+    .CardPage__choice {
+        margin: 0 0 68px 18px;
+    }
+
+    .CardPage__choice::after {
+        bottom: -37px;
+    }
+
     .Card_description {
         padding: 32px 0 47px;
     }
 
-    .CardPage .tryIt-second .Photo {
+    .CardPage__photo {
         flex: 1 1 19%;
         justify-content: flex-start;
         max-width: 19%;
-        padding: 0 0 0 20px;
     }
 
     .Photo__img {
@@ -1925,17 +1949,21 @@ html {
         top: 6px;
     }
 
-    .recommend {
-        margin: 20px 0 97px;
+    .CardPage__recommend {
+        margin: 82px 0 100px 20px;
     }
 
     .recommend__head {
         font-size: 33px;
-        margin: 0 0 20px 20px;
+        margin: 0 0 20px 0;
     }
 
     .CardPage .recommend .Photo {
         flex: 1 1 1%;
+    }
+
+    .CardPage_disc {
+
     }
 
     .Card__add {

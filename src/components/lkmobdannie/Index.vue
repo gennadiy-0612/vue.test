@@ -83,7 +83,7 @@
   height: 20px;
   width: 20px;
 }
-.
+
 .showIt + .toChange::before {
   left: 4px;
   height: 12px;

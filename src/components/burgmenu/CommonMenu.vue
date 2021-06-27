@@ -20,7 +20,7 @@
 }
 
 .MenuContent__ol {
-  padding: 31px 16px;;
+  padding: 31px 16px;
 }
 
 .MenuContent:target {

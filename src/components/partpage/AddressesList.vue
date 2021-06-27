@@ -1,5 +1,5 @@
 <template>
-  <ul class="AddressesList MobHide">
+  <ul class="AddressesList">
     <li class="AddressesList__li AddressesList__main leading-8 relative">Красный проспект, 25/1</li>
     <li class="AddressesList__li leading-8">Пл. К. Маркса, 7, ТРЦ «Сан-Сити»</li>
     <li class="AddressesList__li leading-8">Ул. Военная, 5, ТРЦ «Аура»</li>

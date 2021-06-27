@@ -100,7 +100,7 @@
   top: 0;
   left: 0;
   right: 0;
-  position: absolute;
+  position: fixed;
   flex-wrap: wrap;
   align-items: center;
   background-color: #FFFFFF;

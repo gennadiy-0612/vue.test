@@ -260,6 +260,10 @@ html {
     width: 86px;
 }
 
+.w-200px {
+    width: 200px;
+}
+
 /*paddings*/
 .p-10 {
     padding: 10px;
@@ -345,6 +349,27 @@ html {
     padding: 30px 0 0;
 }
 
+.infousageHdiv {
+    margin: 30px 0 0;
+}
+
+.searchButton {
+    border-color: #8D8D8D;
+    height: 38px;
+    padding: 0 7px;
+    font-family: "Montserrat", serif;
+    letter-spacing: -1.7px;
+    margin-top: -2px;
+}
+
+.mainPage__icons {
+    margin-top: -14vh;
+}
+
+.ComboSetsBottom {
+    padding-top: 28px;
+}
+
 @media (max-width: 1279px) {
     .MobHide {
         display: none;
@@ -355,44 +380,15 @@ html {
     }
 }
 
-@media (min-width: 950px) {
-    .mainItem {
-        font-size: 2.8vh;
-        line-height: 2.8vh;
-    }
-
-    .mainPage__icons {
-        margin: 0;
-        width: 85%;
-        padding: 0;
-    }
-
-    .iconsThemes {
-        padding: .2vh;
-        max-width: initial;
-    }
-
-    .descImg {
-        height: 70%;
-        flex: 1 1 20%;
-    }
-
-    .desc {
-        display: flex;
-        flex: 1 1 80%;
-        max-width: initial;
-        padding-left: 1vw;
-        height: 100%;
-    }
-
-    .mainPage .imgIcon {
-        margin-left: 0;
-    }
-}
-
 @media (min-width: 1280px) {
     .DeskTopAfterLine {
         position: relative;
+    }
+
+    .ButtonMain__logo {
+        height: 8.1vh;
+        width: 15.9vw;
+        margin: 1.6vh 0 1.1vh 1.1vw;
     }
 
     .CardPage .Card_description::after,
@@ -420,15 +416,6 @@ html {
         min-height: 768px;
     }
 
-    .ButtonMain {
-        background-image: url("./assets/img/mainpagedesk/perchini.svg");
-        margin: 3.1vh 0 3vh auto;
-        height: 7vh;
-        flex: 4 0 auto;
-        position: relative;
-        right: 2.7%;
-    }
-
     .mainPage .Header {
         padding: 0;
     }
@@ -438,16 +425,20 @@ html {
         height: auto;
     }
 
+    .MenuContent {
+        max-width: 1680px;
+        padding: 1vh 20px 0;
+    }
+
     .MenuContent__ol {
         background-color: transparent;
         flex-direction: row;
         justify-content: flex-end;
-        padding: 0;
         width: auto;
         flex: 1 1 57%;
         align-items: center;
         position: relative;
-        left: 1.7%;
+        margin: 0 -1.3vw 0 5.9vw;
     }
 
     .MenuContent__li {
@@ -474,23 +465,6 @@ html {
         flex-direction: column;
     }
 
-    .mainPage__icons {
-        flex-direction: column;
-        flex-wrap: initial;
-        width: 71%;
-        margin-top: -4%;
-    }
-
-    .iconsThemes {
-        flex-direction: row;
-        justify-content: space-between;
-        width: 98.3%;
-        margin-right: auto;
-        padding: 1.1vh 0;;
-        max-width: 260px;
-        min-width: 260px;
-    }
-
     .imgIcon {
         width: 3.8vw;
         max-width: initial;
@@ -500,23 +474,16 @@ html {
         height: 100%;
     }
 
-    .desc {
-        max-width: 135px;
-        display: flex;
-        text-align: inherit;
-        width: 100%;
-        align-items: center;
-    }
-
     .mainItem {
         font-size: 25px;
         font-weight: 500;
         text-align: initial;
         line-height: 31px;
+        max-width: 138px;
     }
 
     .logCard {
-        max-width: 160px;
+        max-width: 124px;
         flex: 1 1 5%;
         height: 58px;
     }
@@ -526,8 +493,8 @@ html {
     }
 
     .logCard__a {
-        height: 50px;
-        width: 50px;
+        height: 44px;
+        width: 40px;
     }
 
     .logCard__a-number {
@@ -543,7 +510,9 @@ html {
     .CarryMenu {
         font-size: 30px;
         font-weight: 500;
-        margin: 0 auto 1.4vh 1.1vw;
+        margin: -0.8vh auto 3.7vh 0;
+        letter-spacing: -0.5px;
+        text-indent: 2vw;
     }
 
     .AddressesList {
@@ -553,10 +522,20 @@ html {
         margin: 0;
     }
 
+    .mainPage__addresses {
+        padding: 0 1.5vw 0 7.5vw;
+        top: 0;
+        margin: 1.3vh 0 2.9vh;
+    }
+
     .AddressesList__li {
         line-height: 28px;
         font-size: 19px;
         padding: 0 0 0 6%;
+    }
+
+    .mainPage__addresses li {
+        line-height: 28px;
     }
 
     .AddressesList__li:nth-child(odd) {
@@ -575,8 +554,44 @@ html {
         background-color: #8D8D8D;
     }
 
+    .mainPage__addresses .AddressesList__main {
+        margin-bottom: -5px;
+    }
+
     .AddressesList__phone {
         padding-right: 0;
+    }
+
+    .mainPage__icons {
+        flex-direction: column;
+        flex-wrap: initial;
+        width: 100%;
+        margin-top: -6%;
+        padding-left: 31.7%;
+    }
+
+    .iconsThemes {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 98.3%;
+        margin-right: auto;
+        padding: 1.45vh 0;
+        max-width: 300px;
+    }
+
+    .descImg {
+        height: 70%;
+        flex: 1 1 20%;
+    }
+
+    .desc {
+        display: flex;
+        flex: 1 1 80%;
+        padding-left: 2.6vw;
+        height: 100%;
+        text-align: inherit;
+        width: 100%;
+        align-items: center;
     }
 
     .TimeShow {
@@ -605,9 +620,9 @@ html {
 
     .MainEat__item {
         background-color: #7E7E7E;
-        width: 51%;
+        width: 52%;
         height: 58%;
-        margin: 7.5% 7%;
+        margin: 6.5% 6%;
     }
 
     .MainEat__item-1 {
@@ -621,7 +636,7 @@ html {
     }
 
     .MainEat__head {
-        font-size: 80px;
+        font-size: 4.15vw;
         font-weight: 600;
         padding: 7.5% 0 7.4% 5%;
         letter-spacing: 4.5px;
@@ -632,13 +647,13 @@ html {
     }
 
     .MainEat__link {
-        font-size: 33px;
+        font-size: 1.85vw;
         font-weight: 700;
-        padding: 0 0 0 6%;
+        padding: 0 0 0 5.2%;
     }
 
     .MainEat__link-2 {
-        padding-left: 3%;
+        padding: 1% 0 0 1.5%;
     }
 
     .BottomASet {
@@ -723,10 +738,11 @@ html {
     }
 
     .DeskMapPage .addressOfCity {
-        margin: 0 67px 0 23px;
+        margin: 0 23px;
     }
 
     .DeskMapPage .itemCity {
+        margin: 18px 0 19px;
     }
 
     .DeskMapPage .afterLine::after {
@@ -762,7 +778,7 @@ html {
         left: 4px;
     }
 
-    .checkIt + .addressGost::after {
+    .checkIt + label::after {
         height: 24px;
         width: 24px;
         left: 0;
@@ -1723,12 +1739,13 @@ html {
     /*Contacts page*/
     /*Events__set*/
     .EventsName {
-        margin: 203px 0 0;
+        margin: 213px 0 0 20px;
         font-size: 32px;
     }
 
     .Events__set {
-        margin: 0 -9px 50px;
+        margin-bottom: 50px;
+        padding: 0 20px;
     }
 
     .Events__item {
@@ -1739,7 +1756,7 @@ html {
 
     .Events__item .Photo {
         justify-content: flex-start;
-        margin: 54px 0 36px;
+        margin: 59px 0 36px;
     }
 
     .Events .Photo__img {
@@ -2057,7 +2074,7 @@ html {
     }
 
     .AddressLCombo {
-        top: -.7%;
+        margin-top: 1.3vh;
     }
 
     .mainItemCombo {
@@ -2212,6 +2229,7 @@ html {
     /*popupBludoDesktop*/
     .CardInfoBack {
         background-color: #0000007d;
+        z-index: 1;
     }
 
     .CardInfoDeskTop {
@@ -2278,6 +2296,10 @@ html {
         left: 40px;
     }
 
+    .poiskClose {
+        left: 0;
+    }
+
     .propagate {
         margin: 90px 0 0 40px;
         font-size: 27px;
@@ -2331,16 +2353,135 @@ html {
     }
 
     /*popupBludoDesktop2*/
-
-}
-
-@media (min-width: 1300px) {
-    .MenuContent {
-        max-width: 1680px;
+    /*popUpComboDesk*/
+    .popUpComboDesk {
+        background-color: #8c8c8c;
     }
+
+    .popUpComboDesk .DescSet {
+        height: 70%;
+        overflow-y: auto;
+        margin-top: -11px;
+    }
+
+    .popUpComboDesk__inner {
+        width: 1080px;
+        height: 610px;
+    }
+
+    .popUpCombo .Photo__img {
+        height: 100%;
+        min-width: 100%;
+        margin: 0;
+    }
+
+    .popUpComboDesk .Photo {
+        min-width: 550px;
+    }
+
+    .popUpComboDesk__info {
+        padding: 20px;
+    }
+
+    .popUpComboDesk .popUpComboDesk__info {
+        max-width: 530px;
+        position: relative;
+        padding: 0;
+    }
+
+    .popUpComboDesk .DescriptorH3 {
+        font-size: 24px;
+        margin: 28px 0 0 39px;
+    }
+
+    .popUpComboDesk .DescH3 {
+        font-size: 24px;
+        margin: 7px 0 0 12px;
+    }
+
+    .popUpComboDesk .DescriptorP {
+        font-size: 20px;
+        margin: 17px 0 0 40px;
+    }
+
+    .popUpComboDesk .DescP {
+        margin: 20px 0 0 11px;
+        font-size: 19px;
+    }
+
+    .popUpComboDesk .photo86x59px {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin: 8px 0 32px 40px;
+    }
+
+    .popUpComboDesk .AddCard {
+        position: absolute;
+        bottom: 0;
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 21%;
+        align-items: start;
+        padding: 22px 127px 0 40px;
+    }
+
+    .popUpComboDesk .AddCard__P {
+        flex: 1 1 50%;
+        font-size: 23px;
+    }
+
+    .popUpComboDesk .OrderMore-add-to-card-black {
+        height: 26px;
+        font-size: 20px;
+        line-height: 26px;
+        padding: 0;
+    }
+
+    .ClosePopUp {
+        padding: 0 0 30px 40px;
+        font-size: 27px;
+        line-height: 27px;
+        color: #989898;
+    }
+
+    .popUpComboDesk .DescriptionItem::after {
+        content: none;
+    }
+
+    /*popUpComboDesk*/
+    /*infousageHdiv*/
+    .infousageHdiv {
+        margin: 68px auto 45px;
+        max-width: 1600px;
+        padding: 0 20px;
+        width: auto;
+    }
+
+    .infousage__Frame {
+        padding: 0 20px 7px;
+        max-width: 1640px;
+        margin: auto;
+    }
+
+    .infousageP {
+        font-size: 26px;
+        line-height: 31px;
+        margin: 0 0 32px;
+    }
+
+    /*infousageHdiv*/
 }
 
+@media (min-width: 1280px) and (max-width: 1800px) {
+    .mainPage__addresses {
+        padding: 0;
+        margin: 3.6vh 0 0;
+    }
 
-.CardInfoDeskTop {
-    top: 310px;
+    .mainPage__icons {
+        padding-left: 0;
+        width: 90%;
+    }
 }

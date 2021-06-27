@@ -123,4 +123,19 @@ export default {
     Photo
   }
 }
+
+function shch(Select, add) {
+  this.takeTag = function () {
+    this.TagEl.classList.toggle(add);
+  };
+  this.addE = function () {
+    this.TagEl = document.querySelector(Select);
+    this.TagEl.addEventListener('click', this.takeTag.bind(this));
+  };
+}
+
+if (window.location.pathname === '/events') {
+  let cardSwitcherE = new shch('.AddressesList__main', 'showIt');
+  window.addEventListener('load', cardSwitcherE.addE.bind(cardSwitcherE));
+}
 </script>

@@ -36,7 +36,7 @@
       </div>
       <div class="MapDesK">
         <div class="map object-cover">
-<img alt="alt"  class="w-full MAP" src="../../assets/img/map.png">
+          <img alt="alt" class="w-full MAP" src="../../assets/img/map.png">
         </div>
       </div>
     </div>
@@ -56,10 +56,6 @@
   margin: 18px 0 26px;
 }
 
-.choseCity .addressOfCity {
-  margin: 0 0 43px;
-}
-
 .choseCity .addressGost {
   font-size: 14px;
 }
@@ -69,7 +65,7 @@
   line-height: 20px;
 }
 
-.checkIt + .addressGost::after {
+.checkIt + label::after {
   content: '';
   position: absolute;
   top: 0;
@@ -82,7 +78,7 @@
   border: 1px solid #8D8D8D;
 }
 
-.showIt + .addressGost::before {
+.showIt + label::before {
   content: '';
   position: absolute;
   top: 0;
@@ -94,10 +90,12 @@
   border-radius: 50%;
   background-color: #039305;
 }
-.showIt, .showIt::after{
+
+.showIt, .showIt::after {
   transition-duration: .7s;
   transition-property: all;
 }
+
 .showIt + .addressGost::after {
   border: 1px solid #039305;
 }
@@ -121,5 +119,28 @@ export default {
     HeaderTwo,
     X
   }
+}
+
+function shch(Select, add) {
+  this.takeTag = function () {
+    this.TagEl.classList.toggle(add);
+  };
+  this.addE = function () {
+    this.TagEl = document.querySelector(Select);
+    this.TagEl.addEventListener('click', this.takeTag.bind(this));
+  };
+}
+
+if (window.location.pathname === '/viborrest') {
+  let cardSwitcherE = new shch('.AddressesList__main', 'showIt');
+  window.addEventListener('load', cardSwitcherE.addE.bind(cardSwitcherE));
+  let cardSwitcher1 = new shch('#address1', 'showIt');
+  window.addEventListener('load', cardSwitcher1.addE.bind(cardSwitcher1));
+  let cardSwitcher2 = new shch('#address2', 'showIt');
+  window.addEventListener('load', cardSwitcher2.addE.bind(cardSwitcher2));
+  let cardSwitcher3 = new shch('#address3', 'showIt');
+  window.addEventListener('load', cardSwitcher3.addE.bind(cardSwitcher3));
+  let cardSwitcher4 = new shch('#address4', 'showIt');
+  window.addEventListener('load', cardSwitcher4.addE.bind(cardSwitcher4));
 }
 </script>

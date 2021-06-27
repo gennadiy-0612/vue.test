@@ -25,11 +25,7 @@
     <a class="Ag-text14-to-1070 block TimeTableSet__phone" href="tel:8-383-325-35-25">8 (383) 325-35-25</a>
   </div>
 </template>
-<style>.Contacts .ContactsItem {
-  padding: 0 0 11px;
-  margin: 20px 0 -10px;
-}
-
+<style>
 .Contacts .ContactsItem .h3 {
   margin: 0;
   padding: 0 0 10px;

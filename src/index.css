@@ -370,6 +370,19 @@ html {
     padding-top: 28px;
 }
 
+.showIt .MenuContent {
+    display: flex;
+}
+
+.closeX ~ .MenuContent {
+    display: none;
+}
+
+.Contacts .ContactsItem {
+    padding: 0 0 11px;
+    margin: 20px 0 -12px;
+}
+
 @media (max-width: 1279px) {
     .MobHide {
         display: none;

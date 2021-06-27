@@ -126,7 +126,7 @@ function shch(Select, add, whoIsClosed) {
   };
 }
 
-if (window.location.pathname === '/pagewithcategory' || window.location.pathname === '/') {
+if (window.location.pathname === '/pagewithcategory') {
   let AddressesList__main = new shch('.AddressesList__main', 'showIt');
   window.addEventListener('load', AddressesList__main.addE.bind(AddressesList__main));
   let closeLog = new shch('.Pop', 'hideIt', '.CardPop');

@@ -131,4 +131,22 @@ export default {
     MenuTop
   }
 }
+
+function shch(Select, add, whoIsClosed) {
+  this.takeTag = function () {
+    if (whoIsClosed) document.querySelector(whoIsClosed).classList.toggle(add);
+    else {
+      this.TagEl.classList.toggle(add);
+    }
+  };
+  this.addE = function () {
+    this.TagEl = document.querySelector(Select);
+    this.TagEl.addEventListener('click', this.takeTag.bind(this));
+  };
+}
+
+let AddressesList__main = new shch('.BurgerMenu', 'showIt');
+window.addEventListener('load', AddressesList__main.addE.bind(AddressesList__main));
+let closeX = new shch('.closeX', 'showIt');
+window.addEventListener('load', closeX.addE.bind(closeX));
 </script>

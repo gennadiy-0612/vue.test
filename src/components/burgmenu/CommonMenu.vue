@@ -23,10 +23,6 @@
   padding: 31px 16px;
 }
 
-.MenuContent:target {
-  display: flex;
-}
-
 .MenuContent__li a:hover {
   color: #009200;
   transition-property: color;

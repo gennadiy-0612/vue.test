@@ -33,21 +33,3 @@
 
 
 </style>
-<script>
-// let funcSHCH = {
-//   el: '.AddressesList__main',
-//   say: function () {
-//     let elem = document.querySelector(funcSHCH.el)
-//     elem.classList.toggle('showIt')
-//   },
-//   adds: function () {
-//     document.querySelector(funcSHCH.el).addEventListener('click', funcSHCH.say)
-//   },
-//   LetIsWork: function (elId) {
-//     funcSHCH.el = elId;
-//     window.addEventListener('load', funcSHCH.adds)
-//   }
-// };
-// funcSHCH.LetIsWork('.AddressesList__main')
-
-</script>

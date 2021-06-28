@@ -56,7 +56,7 @@
     </form>
     <div class="ButtonFrame">
       <BlackButton class="lkmobdannie__setButtons lkm2B BlackButtonDesk" msg="Добавить"/>
-    <MenuBottom/>
+      <MenuBottom/>
     </div>
     <FooterDesk/>
   </div>
@@ -65,7 +65,7 @@
   margin: 0 0 -5px;
 }
 
-.changeDataAddress.afterLine-change::after {
+.changeDataAddress.activeOption::after {
   background-color: #465502;
   content: '';
   width: 100%;

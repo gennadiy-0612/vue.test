@@ -931,7 +931,7 @@ html {
     .OptionLK {
         display: flex;
         max-width: 1600px;
-        margin: 18px auto 0;
+        margin: 18px auto 30px;
     }
 
     .optSet {
@@ -1139,7 +1139,7 @@ html {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0 0 43px;
+        padding: 7px 0 29px;
     }
 
     .Order .OrderMore-add-to-card-green {
@@ -1165,10 +1165,16 @@ html {
         margin-top: 48px;
     }
 
-    .Order .oformZakaz {
+    .oformZakaz {
         justify-content: space-around;
         max-width: 850px;
         margin: 70px 0 auto;
+    }
+
+    .ofZak1 {
+        max-width: 704px;
+        margin: 65px auto 0;
+        padding: 0 4.2% 0 0;
     }
 
     .oformZakaz .OrderMore-add-to-card-green,
@@ -1178,8 +1184,12 @@ html {
         font-size: 22px;
     }
 
-    .Order .whereTake {
-        margin: 50px auto 30px;
+    .ofZak1 .ofZak1_green {
+        margin: 0;
+    }
+
+    .whereTake {
+        margin: 47px auto 30px;
         font-size: 23px;
         text-align: center;
     }
@@ -1206,7 +1216,7 @@ html {
         padding: 0 0 0 3.5%;
     }
 
-    .Order .where-h3 {
+    .where-h3 {
         font-size: 29px;
         letter-spacing: .8px;
     }
@@ -1215,8 +1225,8 @@ html {
         left: -10px;
     }
 
-    .Order .PointFlat {
-        margin-right: 6.6%;
+    .PointFlat {
+        margin-right: 7.3%;
     }
 
     .choiceTime {
@@ -1810,6 +1820,11 @@ html {
     .BackM::after {
         top: -27px;
         left: 0;
+    }
+
+    .whereTake__graph::after {
+        top: 0;
+        left: -10px;
     }
 
     .TimeTableSet {

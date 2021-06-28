@@ -15,8 +15,8 @@
     <div class="OrderMoveFrame">
       <OrderMove/>
     </div>
-    <div class="flex oformZakaz">
-      <GreenButton msg="Доставка"/>
+    <div class="flex oformZakaz ofZak1 xl:items-center">
+      <GreenButton class="ofZak1_green" msg="Доставка"/>
       <GreyButton msg="Самовывоз"/>
     </div>
     <div><h3 class="inline xl:block Ag-h3-to-1070 whereTake">Ваш заказ можете забрать по адресу</h3>
@@ -58,7 +58,7 @@
       <div class="DescHide">
         <GreenButton msg="Перейти к подтверждению"/>
       </div>
-      <div class="MobHide blackButtonStyled bigButtonStyled BackToCard">
+      <div class="blackButtonStyled bigButtonStyled BackToCard">
         <BlackButton msg="Назад в корзину"/>
       </div>
       <div class="MobHide greenButtonStyled bigButtonStyled">
@@ -70,6 +70,7 @@
     </div>
     <a class="DescHide Ag4001624 text-center SeeMap block">Посмотреть на карте</a>
     <MenuBottom/>
+    <FooterDesk/>
   </div>
 </template>
 <style>
@@ -85,7 +86,7 @@
   margin: 3px 0 21px;
 }
 
-.flex.oformZakaz {
+.oformZakaz {
   margin: 20px 0 30px;
 }
 
@@ -147,6 +148,7 @@ import MenuBottom from '../menubottom/Index'
 import X from '../popupbluda/X'
 import HeaderPopUp from "../partpage/HeaderPopUp"
 import Time from "../popuptime/Time"
+import FooterDesk from '../partpage/FooterDesk'
 
 export default {
   name: 'App',
@@ -163,6 +165,7 @@ export default {
     X,
     HeaderPopUp,
     Time,
+    FooterDesk
   }
 }
 

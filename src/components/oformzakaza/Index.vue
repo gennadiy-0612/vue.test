@@ -5,7 +5,7 @@
       <BurgMenu/>
     </div>
     <div
-        class="OrderMoveAddresses bg-white CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+        class="OrderMoveAddresses MobHide OMAddZak bg-white CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressTime/>
     </div>
     <div class="OrderMove__head">
@@ -16,8 +16,8 @@
     <div class="OrderMoveFrame">
       <OrderMove/>
     </div>
-    <div class="flex oformZakaz">
-      <GreenButton msg="Доставка"/>
+    <div class="flex oformZakaz ofZak1">
+      <GreenButton class="ofZak1_green" msg="Доставка"/>
       <GreyButton msg="Самовывоз"/>
     </div>
     <div class="OrderForms">
@@ -85,7 +85,8 @@
     <MenuBottom/>
   </div>
 </template>
-<style>.myAddress {
+<style>
+.myAddress {
   margin: 0 0 -18px;
 }
 
@@ -93,7 +94,7 @@
   margin: 3px 0 21px;
 }
 
-.flex.oformZakaz {
+.oformZakaz {
   margin: 20px 0 30px;
 }
 

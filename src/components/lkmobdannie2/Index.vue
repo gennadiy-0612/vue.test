@@ -4,7 +4,7 @@
       <Address/>
       <BurgMenu/>
     </div>
-    <ChangePersonalData/>
+    <ChangePersonalData class="lkmobdannie2"/>
     <div class="myAddress ChangePD__address">
       <div class="DataItem">
         <p class="Ag-text14-to-1070 fs14px DataItem__address DataItem-point">Мой адрес</p>
@@ -54,10 +54,11 @@
                type="text" id="detail" name="detail">
       </div>
     </form>
-    <div class="Order__setButtons BlackButtonDesk">
-      <BlackButton msg="Добавить"/>
-    </div>
+    <div class="ButtonFrame">
+      <BlackButton class="lkmobdannie__setButtons lkm2B BlackButtonDesk" msg="Добавить"/>
     <MenuBottom/>
+    </div>
+    <FooterDesk/>
   </div>
 </template>
 <style>.ChangePD__where {
@@ -104,12 +105,6 @@
   margin: 3px 0 21px;
 }
 
-.ChangePD .afterLine-PersonData {
-  margin: 2px 0 27px;
-  align-items: flex-end;
-  justify-content: flex-start;
-}
-
 .ChangePD.Order .itemCity {
   margin: 2px 0 6px;
 }
@@ -151,6 +146,7 @@ import Address from '../partpage/Address'
 import ChangePersonalData from '../partpage/ChangePersonalData'
 import BlackButton from '../addtocardblack/Index'
 import MenuBottom from '../menubottom/Index'
+import FooterDesk from '../partpage/FooterDesk'
 
 export default {
   name: 'App',
@@ -159,7 +155,8 @@ export default {
     Address,
     ChangePersonalData,
     BlackButton,
-    MenuBottom
+    MenuBottom,
+    FooterDesk
   }
 }
 </script>

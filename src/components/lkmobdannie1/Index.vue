@@ -4,7 +4,7 @@
       <Address/>
       <BurgMenu/>
     </div>
-    <ChangePersonalData/>
+    <ChangePersonalData class="lkmobdannie1"/>
     <div class="OptionLK">
       <form action="/" class="relative flex flex-wrap items-center changeDataSet">
         <div class="optSet">
@@ -30,13 +30,12 @@
       </form>
       <div class="getNews relative flex">
         <input type="radio" id="address1" name="address1" value="Bike" class="checkIt opacity-0">
-        <label for="address1" id="GetInfoAboutOrder" class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
+        <label for="address1" id="GetInfoAboutOrder"
+               class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
           информацию о заказе</label>
       </div>
     </div>
-    <div class="Order__setButtons">
-      <BlackButton msg="Выйти"/>
-    </div>
+    <BlackButton class="lkmobdannie__setButtons" msg="Выйти"/>
     <FooterDesk/>
     <MenuBottom/>
   </div>

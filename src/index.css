@@ -411,7 +411,9 @@ html {
     padding: 26px 0;
 }
 
-.lkmobdannie {
+.lkmobdannie,
+.lkmobdannie1,
+.lkmobdannie2 {
     margin-top: 30px;
 }
 
@@ -881,7 +883,9 @@ html {
 
     /*Search page*/
     /*lkmobdannie page*/
-    .lkmobdannie {
+    .lkmobdannie,
+    .lkmobdannie1,
+    .lkmobdannie2 {
         max-width: 630px;
         margin: 42px auto 0;
     }
@@ -981,18 +985,44 @@ html {
 
     /*lkmobdannie page*/
     /*lkmobdannie2 page*/
-    .DataItem, .ChangePD__where {
-        max-width: 1600px;
+    .DataItem,
+    .ChangePD__where {
+        max-width: 1660px;
         margin: auto;
+        padding: 0 30px;
+    }
+
+    .DataItem {
+        padding: 57px 45% 3px 30px;
+    }
+
+    .ButtonFrame {
+        max-width: 1640px;
+        margin: auto;
+        padding: 0 20px;
+    }
+
+    .BlackButtonDesk {
+        width: auto;
+    }
+
+    .ButtonFrame {
+        margin: 10px auto 180px;
+        max-width: 1630px;
+    }
+
+    .BlackButtonDesk.lkm2B {
+        line-height: 28px;
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+    .lkmob2ChangePD .House {
+        max-width: 300px;
     }
 
     .ChangePD__address.myAddress {
         margin: 0 0 28px;
-    }
-
-    .DataItem {
-        padding: 57px 45% 3px 0;
-        margin-top: 0;
     }
 
     .ChangePD__where {

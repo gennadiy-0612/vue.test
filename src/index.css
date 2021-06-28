@@ -412,9 +412,18 @@ html {
 }
 
 .lkmobdannie,
-.lkmobdannie1,
-.lkmobdannie2 {
+.lkmobdannie1 {
     margin-top: 30px;
+}
+
+.ButtonFrame {
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+
+.lkmobdannie2 {
+    margin-top: 35px;
+    margin-bottom: 24px;
 }
 
 @media (max-width: 1279px) {
@@ -989,7 +998,7 @@ html {
     .ChangePD__where {
         max-width: 1660px;
         margin: auto;
-        padding: 0 30px;
+        padding: 0 35.5% 0 30px;
     }
 
     .DataItem {
@@ -1023,10 +1032,6 @@ html {
 
     .ChangePD__address.myAddress {
         margin: 0 0 28px;
-    }
-
-    .ChangePD__where {
-        padding-right: 34%;
     }
 
     .DataItem__address {

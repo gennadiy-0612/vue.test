@@ -9,7 +9,7 @@
     <ComboItem heads="Папперони" descriptionitem="Колбаса Пепперони, свежие томаты, сыр..." price="610" />
     <ComboItem heads="Папперони" descriptionitem="Колбаса Пепперони, свежие томаты, сыр..." price="610" />
     <LoadBar/>
-    <OrderMore/>
+    <OrderMore class="comboNabori__LoadBar"/>
     <MenuBottom/>
   </div>
 </template>

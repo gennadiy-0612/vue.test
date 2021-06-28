@@ -4,7 +4,7 @@
       <Address/>
       <BurgMenu/>
     </div>
-    <ChangePersonalData/>
+    <ChangePersonalData class="lkmobdannie"/>
     <div class="OptionLK">
       <form action="/" class="relative flex flex-wrap items-center changeDataSet">
         <div class="optSet">
@@ -34,9 +34,7 @@
           информацию о заказе</label>
       </div>
     </div>
-    <div class="Order__setButtons">
-      <BlackButton msg="Выйти"/>
-    </div>
+      <BlackButton class="lkmobdannie__setButtons" msg="Выйти"/>
     <FooterDesk/>
     <MenuBottom/>
   </div>
@@ -59,7 +57,8 @@
   margin: 3px 0 21px;
 }
 
-.oformZakaz .OrderMore-add-to-card-green, .oformZakaz .OrderMore-add-to-card-black {
+.oformZakaz .OrderMore-add-to-card-green,
+.oformZakaz .OrderMore-add-to-card-black {
   flex: 1 1 50%;
 }
 

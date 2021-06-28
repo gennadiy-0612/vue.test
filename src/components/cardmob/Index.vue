@@ -85,10 +85,11 @@
               <p class="Ag6001624 Card__add">Пицца с лососем</p>
               <p class="Ag-text14-to-1070 CardWith">Со сливочным сыром и ломтиками слабосоленого лосося</p>
             </div>
-            <div class="Card__more-discount"><p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
+            <div class="CardPage-discount">
+              <p class="Ag6001624 CardPage__more">Закажи еще и заберите подарок</p>
               <div class="Card__load flex items-center">
-                <LoadBar/>
-                <p class="Ag4001624 fw600 LoadPrice relative">301.-</p></div>
+                <LoadBar class="CardPage__load"/>
+                <p class="Ag4001624 fw600 Card__LoadPrice relative">301.-</p></div>
             </div>
           </div>
         </div>
@@ -116,7 +117,7 @@
           <div class="CompleteIt__do xl:flex xl:flex-wrap flex-col">
             <div class="Card__all">
               <div class="Card__line flex justify-end text-right">
-                <p class="Ag-h3-to-1070 CompleteIt__all">ИТОГО</p>
+                <p class="Ag-h3-to-1070 CompleteIt__all uppercase ">Итого</p>
                 <p class="Ag-h3-to-1070 Digit CompleteIt__all-digit">3400p</p>
               </div>
               <div class="Card__line Card__line2 flex justify-end text-right">
@@ -134,11 +135,6 @@
   </div>
 </template>
 <style>
-.SeeIt__all {
-  margin: 16px 0 29px;
-  width: calc(100% + 16px);
-}
-
 .countEat {
   color: #333333;
 }
@@ -175,16 +171,6 @@
 
 .Card__more {
   margin-top: 20px;
-}
-
-.Card__load {
-  margin: 15px 0 30px;
-}
-
-.Card__load .LoadBar {
-  height: 46px;
-  flex: 1 1 auto;
-  margin: 0 13px 0 0;
 }
 
 .promoCode {

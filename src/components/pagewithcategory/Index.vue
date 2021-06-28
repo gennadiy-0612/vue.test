@@ -42,7 +42,7 @@
         <div class="ComboAdd">
           <div class="Card__more-discount">
             <p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
-            <div class="Card__load flex items-center">
+            <div class="CatsPage-Load flex items-center">
               <LoadBar/>
               <p class="Ag4001624 fw600 LoadPrice relative">301.-</p>
             </div>
@@ -65,7 +65,7 @@
   width: calc(100% + 16px);
 }
 
-.comboNabori .LoadBar {
+.comboNabori__LoadBar {
   margin: 24px 0 5px;
 }
 

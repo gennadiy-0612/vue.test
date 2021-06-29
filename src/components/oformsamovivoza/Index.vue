@@ -1,5 +1,5 @@
 <template>
-  <div class="comboNabori oformsamovivoza Order OrderAct FrameDesk">
+  <div class="comboNabori oformsamovivoza Order OrderAct FrameDesk FrameMob">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>

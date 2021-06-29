@@ -30,6 +30,10 @@ html {
     padding: 16px;
 }
 
+.FrameMob {
+    padding: 35px 16px 70px;
+}
+
 .DescriptionItem::after {
     position: absolute;
     bottom: -6px;

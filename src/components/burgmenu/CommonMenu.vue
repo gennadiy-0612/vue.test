@@ -5,20 +5,20 @@
       <X/>
     </router-link>
     <MainLinkLogo/>
-    <ol class="MenuContent__ol flex flex-col justify-center text-center bg-white w-full h-full z-1 E4E4E4">
-      <li class="MenuContent__li">
-        <router-link to="#" class="Ag6001417 MenuContent__a MenuContentJS">Меню</router-link>
-      <li class="MenuContent__li">
-        <router-link to="/events" class="Ag6001417 MenuContent__a">Акции</router-link>
+    <ol class="MenuContent__ol relative flex items-center justify-end flex-row justify-end justify-center text-center w-full h-full z-1">
+      <li class="MenuContent__li flex-auto">
+        <router-link to="#" class="Ag6001417 MenuContent__a text-white text-white MenuContentJS">Меню</router-link>
+      <li class="MenuContent__li flex-auto">
+        <router-link to="/events" class="Ag6001417 MenuContent__a text-white">Акции</router-link>
       </li>
-      <li class="MenuContent__li">
-        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Доставка и оплата</router-link>
+      <li class="MenuContent__li flex-auto">
+        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a text-white">Доставка и оплата</router-link>
       </li>
-      <li class="MenuContent__li">
-        <router-link to="/contacts" class="Ag6001417 MenuContent__a">Контакты</router-link>
+      <li class="MenuContent__li flex-auto">
+        <router-link to="/contacts" class="Ag6001417 MenuContent__a text-white">Контакты</router-link>
       </li>
-      <li class="MenuContent__li">
-        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a">Имя пользователя</router-link>
+      <li class="MenuContent__li flex-auto">
+        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a text-white">Имя пользователя</router-link>
       </li>
     </ol>
     <LogIn/>

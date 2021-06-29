@@ -31,7 +31,7 @@ html {
 }
 
 .FrameMob {
-    padding: 35px 16px 70px;
+    padding: 35px 16px 90px;
 }
 
 .DescriptionItem::after {
@@ -134,7 +134,6 @@ html {
 }
 
 .sizes114x77 {
-    width: 100%;
     min-width: 114px;
     min-height: 77px;
     max-width: initial;
@@ -497,10 +496,10 @@ html {
 }
 
 .LoadBar {
-    height: 6px;
+    height: 47px;
     background: #009200;
-    border-right: solid 200px #C4C4C4;
-    margin: 27px 0 4px;
+    border-right: solid 50px #C4C4C4;
+    width: 100%;
 }
 
 .MenuContent__li {
@@ -519,14 +518,6 @@ html {
     width: 50%;
 }
 
-.lkmPage .DLLeft {
-    text-align: left;
-}
-
-.lkmPage .DLRight {
-    text-align: right;
-}
-
 .DescriptionItem {
     padding: 0 0 7px;
     margin: 0;
@@ -543,14 +534,14 @@ html {
 }
 
 @media (min-width: 1280px) {
-    .DeskTopAfterLine {
-        position: relative;
-    }
-
     .ButtonMain__logo {
         height: 8.1vh;
         width: 15.9vw;
         margin: 1.6vh 0 1.1vh 1.1vw;
+    }
+
+    .DeskTopAfterLine {
+        position: relative;
     }
 
     .CardPage .Card_description::after,
@@ -593,29 +584,18 @@ html {
     }
 
     .MenuContent__ol {
-        background-color: transparent;
-        flex-direction: row;
-        justify-content: flex-end;
-        width: auto;
         flex: 1 1 57%;
-        align-items: center;
-        position: relative;
         margin: 0 -1.3vw 0 5.9vw;
     }
 
-    .MenuContent__li {
-        flex: 1 1 auto;
-    }
-
     .mainPage .MenuContent__a {
-        color: #FFFFFF;
+        line-height: 37px;
     }
 
     .MenuContent__a {
         font-size: 2.5vh;
         font-weight: 400;
         letter-spacing: -0.6px;
-        color: #000000;
     }
 
     .CenteringOneItem {
@@ -776,6 +756,7 @@ html {
         display: flex;
         align-items: center;
         justify-content: center;
+        transform: rotate(0);
     }
 
     .MainEat {

@@ -14,7 +14,7 @@
 </template>
 <style>
 .AddressesList__li {
-  transition-property: opacity;
+  transition-property: opacity, transform;
   transition-duration: .7s;
 }
 

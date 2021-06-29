@@ -1,11 +1,11 @@
 <template>
   <ol class="flex flex-wrap justify-between afterLine afterLine-PersonData">
     <router-link to="#" class="Ag-text14-to-1070 activeOption afterLine block Option changeDataPerson relative">
-      <div class="DeskLimit DLLeft text-center">Личные данные</div>
+      <div class="DeskLimit xl:text-center">Личные данные</div>
     </router-link>
     <router-link to="#"
        class="Ag-text14-to-1070 block Option afterLine-change changeDataAddress relative">
-      <div class="DeskLimit DLRight text-center">Адреса доставки</div>
+      <div class="DeskLimit text-right xl:text-center">Адреса доставки</div>
     </router-link>
   </ol>
 </template>

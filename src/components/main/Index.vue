@@ -149,4 +149,7 @@ let AddressesList__main = new shch('.BurgerMenu', 'showIt');
 window.addEventListener('load', AddressesList__main.addE.bind(AddressesList__main));
 let closeX = new shch('.closeX', 'showIt');
 window.addEventListener('load', closeX.addE.bind(closeX));
+
+let AddressesList__mainDesk = new shch('.AddressesList__main', 'showIt');
+window.addEventListener('load', AddressesList__mainDesk.addE.bind(AddressesList__mainDesk));
 </script>

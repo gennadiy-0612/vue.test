@@ -1,5 +1,5 @@
 <template>
-  <div class="Contacts">
+  <div class="Contacts FrameMob">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>

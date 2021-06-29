@@ -7,7 +7,7 @@
       <HeaderTwo msg="Вход на сайт"/>
       <InputPhone/>
       <InputCode/>
-      <p class="Ag-text14-to-1070 fw700 newCode">Получить новый код</p>
+      <p class="Ag-text14-to-1070 font-bold newCode">Получить новый код</p>
     </div>
   </div>
 </template>

@@ -7,7 +7,7 @@
         </div>
         <div class="InputPhone">
           <div class="phoneOpt flex flex-wrap justify-between">
-            <label for="phone" class="Ag-text1421-to-1070 fw400 text-2xl PhoneNumber">Номер телефона</label>
+            <label for="phone" class="Ag-text1421-to-1070 font-normal text-2xl PhoneNumber">Номер телефона</label>
             <div class="ChangePhone flex justify-between">
               <div>
                 <input placeholder="+7" type="tel" id="phone" name="phone" class="searchButton bg-E4E4E4 w-full">
@@ -18,7 +18,7 @@
         <div class="SendCode">
           <BlackButton msg="Выслать код"/>
         </div>
-        <router-link to="/" class="Ag-text14-to-1070 fw400 closeLog">Закрыть</router-link>
+        <router-link to="/" class="Ag-text14-to-1070 font-normal closeLog">Закрыть</router-link>
       </div>
     </div>
 </template>

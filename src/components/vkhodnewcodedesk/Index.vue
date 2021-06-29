@@ -7,11 +7,11 @@
       </div>
       <div class="InputPhone">
         <div class="phoneOpt flex flex-wrap justify-between">
-          <label for="phone" class="Ag-text1421-to-1070 fw400 text-2xl PhoneNumber">Номер телефона</label>
-          <div class="ChangePhone flex justify-between">
+          <label for="phone" class="Ag-text1421-to-1070 font-normal text-2xl PhoneNumber">Номер телефона</label>
+          <div class="ChangePhone xl:font-normal flex justify-between">
             <div>
               <input placeholder="+7" type="tel" id="phone" name="phone" class="searchButton bg-E4E4E4 w-full">
-              <p class="Ag-text14-to-1070 fw400 ChangePhone">Изменить</p>
+              <p class="Ag-text14-to-1070 font-normal ChangePhone">Изменить</p>
             </div>
           </div>
         </div>
@@ -21,10 +21,10 @@
         <div class="GetPhone">
           <input type="number" id="tentacles" name="tentacles" min="10" max="100"
                  class="searchButton codeSMS bg-E4E4E4 border-solid border-0 w-full block">
-          <p class="Ag-text14-to-1070 fw400 newCode">Получить новый код</p>
+          <p class="Ag-text14-to-1070 font-normal newCode">Получить новый код</p>
         </div>
       </div>
-      <router-link to="/" class="Ag-text14-to-1070 fw400 closeLog">Закрыть</router-link>
+      <router-link to="/" class="Ag-text14-to-1070 font-normal closeLog">Закрыть</router-link>
     </div>
   </div>
 </template>

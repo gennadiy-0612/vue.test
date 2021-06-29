@@ -1,7 +1,7 @@
 <template>
   <div class="ContactsItem afterLine">
     <div class="flex justify-center items-center HeadFrame">
-      <h3 class="h3 Ag-text18-to-1070 PopUpHeader PopUpHead text-center fw600 ContactsItem__head">{{ head3 }}</h3>
+      <h3 class="h3 Ag-text18-to-1070 PopUpHeader PopUpHead text-center font-semibold ContactsItem__head">{{ head3 }}</h3>
     </div>
     <p class="BackM">
       <span class="BackM__p BackM__p-locate xl:relative">{{ street }}</span>

@@ -78,7 +78,7 @@
           </div>
         </div>
         <div class="recommend CardPage__recommend afterLine">
-          <h3 class="recommend__head Ag-text18-to-1070 fw600">Ваш подарок к заказу</h3>
+          <h3 class="recommend__head Ag-text18-to-1070 font-semibold">Ваш подарок к заказу</h3>
           <div class="YoursPresent flex flex-wrap">
             <Photo class="CardPage__photo"/>
             <div class="WhatAndHow">
@@ -89,7 +89,7 @@
               <p class="Ag6001624 CardPage__more">Закажи еще и заберите подарок</p>
               <div class="Card__load flex items-center">
                 <LoadBar class="CardPage__load"/>
-                <p class="Ag4001624 fw600 Card__LoadPrice relative">301.-</p></div>
+                <p class="Ag4001624 font-semibold Card__LoadPrice relative">301.-</p></div>
             </div>
           </div>
         </div>

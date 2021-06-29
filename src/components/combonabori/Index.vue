@@ -45,7 +45,7 @@
             <p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
             <div class="CatsPage-Load flex items-center">
               <LoadBar/>
-              <p class="Ag4001624 fw600 LoadPrice relative">301.-</p>
+              <p class="Ag4001624 font-semibold LoadPrice relative">301.-</p>
             </div>
           </div>
           <div class="MobHide vision">

@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center HeadFrame">
-    <h3 class="h3 h3-oformZakaz1 Ag-text18-to-1070 PopUpHeader PopUpHead text-center fw600">{{ msg }}</h3>
+    <h3 class="h3 h3-oformZakaz1 Ag-text18-to-1070 PopUpHeader PopUpHead text-center font-semibold">{{ msg }}</h3>
   </div>
 </template>
 <style>

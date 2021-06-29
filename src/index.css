@@ -393,7 +393,7 @@ html {
 }
 
 .CatsPage .ComboSetsBottom {
-    padding-top: 13px;
+    padding-top: 0;
 }
 
 .showIt .MenuContent {
@@ -501,6 +501,31 @@ html {
 
 .MenuContent__li {
     list-style-type: none;
+}
+
+.OptionLK .addressGost {
+    margin-left: 12px;
+}
+
+.lkmPage .lkmobdannie__setButtons {
+    margin: 19px auto;
+}
+
+.lkmPage .Option {
+    width: 50%;
+}
+
+.lkmPage .DLLeft {
+    text-align: left;
+}
+
+.lkmPage .DLRight {
+    text-align: right;
+}
+
+.DescriptionItem {
+    padding: 0 0 7px;
+    margin: 0;
 }
 
 @media (max-width: 1279px) {
@@ -991,20 +1016,12 @@ html {
         margin: 42px auto 0;
     }
 
-    .OptionLK .addressGost {
-        margin-left: 12px;
+    .lkmPage .DeskLimit {
+        text-align: center;
     }
 
     .ChangePersonData.Order .lkmobdannie__setButtons {
         margin: 100px 0 30px 20px;
-    }
-
-    .lkmPage .lkmobdannie__setButtons {
-        margin: 19px auto;
-    }
-
-    .lkmPage .Option.activeOption {
-        flex: 1 1 50%;
     }
 
     .DeskLimit {
@@ -2480,9 +2497,9 @@ html {
     }
 
     .comboNabori .comboSet-img {
-        height: 310px;
-        width: 461px;
-        margin: 20px 0 0 20px;
+        height: 92.7%;
+        width: 95.7%;
+        margin: 20px 0 0px 20px;
         object-fit: cover;
     }
 
@@ -2787,6 +2804,19 @@ html {
         margin: 0 0 32px;
     }
 
+    .menuJs {
+        display: flex;
+        opacity: 1;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        width: 100%;
+        background-color: #535353;
+        align-items: center;
+        height: 100%;
+        padding: 20px 0;
+    }
+
     /*infousageHdiv*/
 }
 
@@ -2803,6 +2833,7 @@ html {
     }
 
     .AddressesList__main::after {
-        top: .4vh;
+        top: auto;
+        bottom: 3px;
     }
 }

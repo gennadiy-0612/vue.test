@@ -1,5 +1,5 @@
 <template>
-  <div class="comboNabori infousageFrameDesk">
+  <div class="infousageFrameDesk">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>

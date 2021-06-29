@@ -1,5 +1,5 @@
 <template>
-  <div class="comboNabori Contacts">
+  <div class="Contacts">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>

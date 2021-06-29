@@ -66,11 +66,6 @@
   flex: 1 1 56%;
 }
 
-.OrderAct .promoCode.PromoTemplate__item {
-  margin: 0 0 0;
-  padding: 22px;
-  flex: 1 1 60%;
-}
 
 .OrderAct__line {
   margin: 0 0 11px;
@@ -84,20 +79,12 @@
   flex: 1 1 46%;
 }
 
-.Order.OrderAct .itemCity {
-  margin: 0 0 16px;
-}
-
 .myAddress {
   margin: 0 0 -18px;
 }
 
 .PayWay {
   margin: 30px 0 17px;
-}
-
-.OrderAct .OrderActCash {
-  margin: 0 0 30px;
 }
 
 .oformZakaz .OrderMore-add-to-card-green, .oformZakaz .OrderMore-add-to-card-black {
@@ -113,10 +100,6 @@
 
 .OrderActChange {
   margin: 19px 0 -8px;
-}
-
-.OrderAct .OrderActCash {
-  padding: 0;
 }
 </style>
 <script>

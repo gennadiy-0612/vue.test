@@ -97,10 +97,6 @@
   margin: 0 -5px;
 }
 
-.Order__setButtons .OrderMore-add-to-card-black {
-  margin: 20px 0 0;
-}
-
 .Order .foot {
   margin-top: 20px;
 }

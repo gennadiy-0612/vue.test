@@ -1,6 +1,6 @@
 <template>
   <div class="comboNabori oformzakaza Order FrameDesk">
-    <div class="Header flex justify-between">
+    <div class="Header HeadOfZak flex justify-between">
       <Address/>
       <BurgMenu/>
     </div>
@@ -69,16 +69,17 @@
                  type="text" id="detail" name="detail">
         </div>
       </form>
-      <div class="choiceTime flex flex-wrap justify-between">
+      <div class="HeadOfZak-choiceTime flex flex-wrap justify-between">
         <div class="setTime timeButton Ag-text14-to-1070 line-h17px text-center">Выберите время</div>
         <div
             class="nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center flex justify-center items-center">
           Ближайшее
         </div>
       </div>
-      <div class="Order__setButtons">
-        <GreenButton msg="Перейти к подтверждению"/>
+      <div class="Order__setButtons HeadOfZak-OtherSB xl:flex">
+        <GreenButton class="DescHide" msg="Перейти к подтверждению"/>
         <BlackButton msg="Назад в корзину"/>
+        <GreenButton class="MobHide greenButtonStyle" msg="Далее"/>
       </div>
     </div>
     <FooterDesk/>
@@ -132,10 +133,6 @@
 
 .setTime {
   flex: 1 1 30%;
-}
-
-.Order__setButtons .OrderMore-add-to-card-black {
-  margin: 20px 0 0;
 }
 </style>
 <script>

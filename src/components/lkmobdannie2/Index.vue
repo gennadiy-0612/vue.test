@@ -135,10 +135,6 @@
 .raw {
   margin: 0 -5px;
 }
-
-.Order__setButtons .OrderMore-add-to-card-black {
-  margin: 20px 0 0;
-}
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'

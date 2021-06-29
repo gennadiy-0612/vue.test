@@ -115,10 +115,6 @@
   margin: 19px 0 -8px;
 }
 
-.Order__setButtons .OrderMore-add-to-card-black {
-  margin: 20px 0 0;
-}
-
 .OrderAct .OrderActCash {
   padding: 0;
 }

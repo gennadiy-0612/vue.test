@@ -1,5 +1,5 @@
 <template>
-  <div class="comboNabori Order OrderMove FrameDesk">
+  <div class="comboNabori Order OrderMove FrameDesk oformzakaza">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
@@ -55,14 +55,12 @@
       </div>
     </div>
     <div class="Order__setButtons xl:flex">
-      <div class="DescHide">
-        <GreenButton msg="Перейти к подтверждению"/>
-      </div>
+        <GreenButton class="DescHide" msg="Перейти к подтверждению"/>
       <div class="blackButtonStyled bigButtonStyled BackToCard">
         <BlackButton msg="Назад в корзину"/>
       </div>
       <div class="MobHide greenButtonStyled bigButtonStyled">
-        <GreenButton msg="Далее"/>
+        <GreenButton class="greenButtonStyle" msg="Далее"/>
       </div>
       <div class="MobHide Ag4001624 text-center SeeMap block bigButtonStyled SeeOnMap">
         <BlackButton msg="Посмотреть на карте"/>
@@ -124,10 +122,6 @@
 
 .setTime {
   flex: 1 1 36%;
-}
-
-.Order__setButtons .OrderMore-add-to-card-black {
-  margin: 20px 0 0;
 }
 
 .SeeMap {

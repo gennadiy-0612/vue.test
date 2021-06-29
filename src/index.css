@@ -967,15 +967,6 @@ html {
         font-size: 26px;
     }
 
-    .Order__setButtons {
-        max-width: 1000px;
-    }
-
-    .Order__setButtons {
-        max-width: 1600px;
-        margin: auto;
-    }
-
     .ChangePersonData .OrderMore-add-to-card-black {
         margin: 100px 0 0 0;
         max-width: 110px;
@@ -1081,6 +1072,10 @@ html {
 
     /*lkmobdannie2 page*/
     /*oformzakaza1 page*/
+    .HeadOfZak {
+        margin: 0 -20px;
+    }
+
     .OrderMoving {
         max-width: 950px;
         margin-right: auto;
@@ -1247,6 +1242,10 @@ html {
         align-items: center;
     }
 
+    .HeadOfZak-OtherSB {
+        margin: 122px 32% 110px 0;
+    }
+
     .bigButtonStyled > :first-child {
         font-size: 25px;
         margin: 0;
@@ -1257,8 +1256,11 @@ html {
         color: #ffffff;
         margin: 0;
     }
+    .Order__setButtons .OrderMore-add-to-card-black {
+        margin: 20px 0 0;
+    }
 
-    .greenButtonStyled > :first-child {
+    .greenButtonStyled {
         background-color: #009200;
         color: #ffffff;
     }
@@ -1390,8 +1392,9 @@ html {
         margin: 31px -5px 0;
     }
 
-    .oformzakaza .choiceTime {
-        margin: 38px auto 0 0;
+
+    .HeadOfZak-choiceTime {
+        margin: 38px 34% 0 auto;
         max-width: 624px;
     }
 
@@ -1406,11 +1409,6 @@ html {
     .oformzakaza .timeButton {
         font-size: 25px;
         line-height: 25px;
-    }
-
-    .oformzakaza .Order__setButtons {
-        margin-top: 120px;
-        margin-bottom: 115px;
     }
 
     .oformzakaza .Order__setButtons button {

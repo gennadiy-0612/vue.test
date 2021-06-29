@@ -34,7 +34,7 @@
         </li>
       </ul>
     </div>
-    <div class="ContentMenu DescHide flex-col" id="ContentMenuBottom">
+    <ol class="ContentMenu DescHide flex-col" id="ContentMenuBottom">
       <a href="#closeContentMenu" class="closeMenuBottom absolute top-0 right-0 block m-r16">
         <X/>
       </a>
@@ -72,7 +72,7 @@
       <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/infousage">Условия использования</router-link></li>
 
       <router-view></router-view>
-    </div>
+    </ol>
   </div>
 </template>
 

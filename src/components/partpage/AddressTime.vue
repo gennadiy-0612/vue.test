@@ -26,7 +26,7 @@
   opacity: 1;
 }
 
-.CatsPage .AddressesList {
+.AddressesList {
   padding-right: 0;
 }
 

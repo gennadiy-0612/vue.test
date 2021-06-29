@@ -18,7 +18,7 @@
   margin: 10px 0 19px;
 }
 
-.comboNabori .DescriptionItem::after {
+.DescriptionItem::after {
   bottom: 8px;
 }
 

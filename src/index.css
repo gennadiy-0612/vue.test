@@ -392,7 +392,7 @@ html {
     padding-top: 28px;
 }
 
-.CatsPage .ComboSetsBottom {
+.ComboSetsBottom {
     padding-top: 0;
 }
 
@@ -476,15 +476,15 @@ html {
     margin: 30px 0;
 }
 
-.CatsPage .comboSet-img {
+.comboSet-img {
     width: 240px;
 }
 
-.CatsPage .AddsIMG {
+.AddsIMG {
     margin-top: -6px;
 }
 
-.CatsPage .DescriptionItem::after {
+.DescriptionItem::after {
     bottom: 3px;
 }
 
@@ -533,7 +533,7 @@ html {
         display: none;
     }
 
-    .Events, .comboNabori {
+    .Events {
         padding: 33px 16px 80px;
     }
 }
@@ -2299,7 +2299,7 @@ html {
     }
 
     /*Swipe arrows*/
-    /*.CatsPage */
+    /**/
     .hit {
         margin: 20px 0 0 20px;
         width: 80px;
@@ -2314,12 +2314,12 @@ html {
         display: block;
     }
 
-    .CatsPage .CommonMenu {
+    .CommonMenu {
         padding-left: 0;
         padding-right: 0;
     }
 
-    .CatsPage .CenterContent__left {
+    .CenterContent__left {
         margin-top: 3.2vh;
     }
 
@@ -2327,33 +2327,33 @@ html {
         width: 100%;
     }
 
-    .CatsPage .AddressLCombo {
+    .AddressLCombo {
         margin-top: -5.2vh;
     }
 
-    .CatsPage .ComboPage__icons {
+    .ComboPage__icons {
         padding: 0;
         margin: 6vh 0 0;
     }
 
-    .CatsPage .iconsThemes {
+    .iconsThemes {
         width: 100%;
         margin-right: 0;
         max-width: 100%;
         padding: 1.6vh 0;
     }
 
-    .CatsPage .desc {
+    .desc {
         flex: 0 0 auto;
         padding: 0;
     }
 
-    .CatsPage .imgIcon {
+    .imgIcon {
         width: 2vw;
         margin: 1vh 2vw 1vh 1vh;
     }
 
-    .CatsPage .mainItemCombo {
+    .mainItemCombo {
         width: 9vw;
         max-width: initial;
     }
@@ -2407,16 +2407,16 @@ html {
         max-width: 325px;
     }
 
-    .comboNabori .ComboSetsBottom {
+    .ComboSetsBottom {
         flex: 1 1 50%;
     }
 
-    .comboNabori .comboNabori__detail {
+    .comboNabori__detail {
         flex: 1 1 12%;
         padding: 6px 0 0 1%;
     }
 
-    .ComboPage .CenterContent__left {
+    .CenterContent__left {
         left: 0;
         top: 0;
         padding: 0;
@@ -2424,20 +2424,20 @@ html {
         margin-bottom: 23px;
     }
 
-    .comboNabori .ComboAdd {
+    .ComboAdd {
         margin: 25px 0.3% 0;
         padding: 11px 3.8% 0;
         border: 1px solid #000000;
     }
 
-    .CatsPage-Load {
+    .ComboPage-Load {
         max-width: 410px;
         margin: 6px -10px 0 3px;
         align-items: center;
         height: 35px;
     }
 
-    .comboNabori .Card__more {
+    .Card__more {
         font-size: 17px;
         line-height: 17px;
         max-width: 420px;
@@ -2449,7 +2449,7 @@ html {
         max-width: 74%;
     }
 
-    .comboNabori .Card__more-discount {
+    .Card__more-discount {
         left: 0;
     }
 
@@ -2470,7 +2470,7 @@ html {
         line-height: 14px;
     }
 
-    .comboNabori .OrderMore-add-to-card-green {
+    .OrderMore-add-to-card-green {
         letter-spacing: 1.2px;
     }
 
@@ -2484,49 +2484,49 @@ html {
         line-height: 1px;
     }
 
-    .comboNabori .OrderAllPrice__sum {
+    .OrderAllPrice__sum {
         margin: 150px 0 0;
     }
 
-    .comboNabori .DescriptionItem {
+    .DescriptionItem {
         flex: 1 1 50%;
     }
 
-    .comboNabori .DescriptionItem::after {
+    .DescriptionItem::after {
         content: none;
     }
 
-    .comboNabori .comboSet-img {
+    .comboSet-img {
         height: 92.7%;
         width: 95.7%;
-        margin: 20px 0 0px 20px;
+        margin: 20px 0 0 20px;
         object-fit: cover;
     }
 
-    .CatsPage .DescriptionItem__h3,
-    .comboNabori .DescriptionItem__head1 {
+    .DescriptionItem__h3,
+    .DescriptionItem__head1 {
         font-size: 25px;
         margin: 20px 0 0 10px;
     }
 
-    .comboNabori .DescriptionItem__p {
+    .DescriptionItem__p {
         font-size: 15px;
         line-height: 15px;
         font-weight: 600;
         margin: 20px 0 0 10px;
     }
 
-    .CatsPage .DescriptionItem__p {
+    .DescriptionItem__p {
         line-height: 20px;
         font-size: 17px;
     }
 
-    .CatsPage .ComboNabButton {
+    .ComboNabButton {
         margin-bottom: 0;
         min-width: 230px;
     }
 
-    .CatsPage .DescriptionItemInfo {
+    .DescriptionItemInfo {
         max-width: 393px;
         padding-left: 0.5vw;
         margin: 19px 0 -4px;
@@ -2536,8 +2536,8 @@ html {
         margin: 0 0 50px;
     }
 
-    .CatsPage .DescriptionItem__price,
-    .comboNabori .DescriptionItem__head3 {
+    .DescriptionItem__price,
+    .DescriptionItem__head3 {
         font-size: 24px;
         font-weight: 600;
         margin: 0 0 0 10px;
@@ -2550,15 +2550,14 @@ html {
         line-height: 30px;
     }
 
-    .comboNabori .OrderMoreComboNabori {
+    .OrderMoreComboNabori {
         display: none;
     }
 
-    .ComboPage .LoadBar {
+    .LoadBar {
         display: none;
     }
 
-    /*.comboNabori */
     /*popupBludoDesktop*/
     .CardInfoBack {
         background-color: #0000007d;

@@ -36,7 +36,7 @@
         <EatMenu/>
       </div>
       <ComboSetsBottom/>
-      <div class="comboNabori__detail">
+      <div class="MobHide comboNabori__detail">
         <MyOrder/>
         <AddToCardGreen msg="Оформить заказ"/>
         <div class="ComboAdd">

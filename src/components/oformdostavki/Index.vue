@@ -100,7 +100,7 @@
             </div>
           </div>
         </div>
-        <div class="Order__setButtons DescHide">
+        <div class="Order__setButtons DescHide flex flex-col xl:flex-row justify-between xl:items-center">
           <GreenButton msg="Подтвердить заказ на 2000р"/>
           <BlackButton msg="Назад к оформлению заказа"/>
         </div>
@@ -122,11 +122,6 @@
   flex: 1 1 56%;
 }
 
-.OrderAct .promoCode.PromoTemplate__item {
-  margin: 0 0 0;
-  padding: 22px;
-  flex: 1 1 60%;
-}
 
 .OrderAct__line {
   margin: 0 0 11px;
@@ -140,31 +135,24 @@
   flex: 1 1 46%;
 }
 
-.Order.OrderAct .itemCity {
-  margin: 0 0 16px;
-}
-
 .myAddress {
   margin: 0 0 -18px;
 }
 
 .whatRest {
-  margin: -30px 18px 20px;
+  margin: -25px 18px 20px;
 }
 
 .PayWay {
   margin: 30px 0 17px;
 }
 
-.OrderAct .OrderActCash {
-  margin: 0 0 30px;
-}
-
 .Order.OrderGive .moneyRest {
-  flex: 1 1 53%;
+  flex: 1 1 42%;
   margin: 0;
-  padding: 3px;
+  padding: 6px 3px;
   height: auto;
+  min-width: 128px;
 }
 
 .OrderAct.OrderGive .moneyRestIs {
@@ -174,11 +162,6 @@
 
 .showIt + .addressGost {
   font-weight: 700;
-}
-
-.OrderGive.Order .moneyRest {
-  flex: 1 1 40%;
-  margin: 0;
 }
 
 .whatRestDetails {
@@ -198,10 +181,6 @@
 
 .OrderActChange {
   margin: 19px 0 -8px;
-}
-
-.OrderAct .OrderActCash {
-  padding: 0;
 }
 </style>
 <script>

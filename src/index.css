@@ -353,7 +353,21 @@ html {
 }
 
 .Order__setButtons {
-    padding: 0 0 30px;
+    margin: 30px 0;
+    min-height: 110px;
+}
+
+.HeadOfZak-choiceTime {
+    margin: 10px auto;
+}
+
+.OrderActCash {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.oformdostavki .BackToOrder {
+    padding: 0;
 }
 
 .OrderMoveAddresses {
@@ -424,6 +438,37 @@ html {
 .lkmobdannie2 {
     margin-top: 35px;
     margin-bottom: 24px;
+}
+
+.choiceTime {
+    max-width: 600px;
+    margin: 13px auto 10px;
+}
+
+.PromoTemplate {
+    margin: 27px 0 0;
+}
+
+.Order.OrderAct .itemCity {
+    margin: 0 0 14px;
+}
+
+.Order.OrderAct .moneyRestIs {
+    margin: 0 0 0 10px;
+}
+
+.OrderAct .promoCode.PromoTemplate__item {
+    margin: 0 0 0;
+    padding: 23px 12px;
+    flex: 1 1 60%;
+}
+
+.addressGost {
+    margin: 0 0 0 5px;
+}
+
+.Order__setButtons .BackToOrder {
+    padding: 0;
 }
 
 @media (max-width: 1279px) {
@@ -1244,6 +1289,7 @@ html {
 
     .HeadOfZak-OtherSB {
         margin: 122px 41% 110px 0;
+        min-height: 50px;
     }
 
     .bigButtonStyled > :first-child {
@@ -1420,7 +1466,7 @@ html {
         font-size: 22px;
     }
 
-    .HeadOfZak-OtherSB1 button.greenButtonStyled ,
+    .HeadOfZak-OtherSB1 button.greenButtonStyled,
     .HeadOfZak-OtherSB button.greenButtonStyled {
         max-width: 170px;
         font-size: 22px;

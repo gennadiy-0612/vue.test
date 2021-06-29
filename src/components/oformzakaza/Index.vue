@@ -76,7 +76,7 @@
           Ближайшее
         </div>
       </div>
-      <div class="Order__setButtons HeadOfZak-OtherSB xl:flex">
+      <div class="Order__setButtons HeadOfZak-OtherSB flex flex-col xl:flex-row justify-between xl:items-center">
         <GreenButton class="DescHide" msg="Перейти к подтверждению"/>
         <BlackButton class="oformzakaza-backToCard" msg="Назад в корзину"/>
         <GreenButton class="MobHide greenButtonStyled" msg="Далее"/>
@@ -120,10 +120,6 @@
 
 .raw {
   margin: 0 -5px;
-}
-
-.choiceTime {
-  margin: 13px 0 30px;
 }
 
 .timeButton {

@@ -54,7 +54,7 @@
         </div>
       </div>
     </div>
-    <div class="Order__setButtons xl:flex">
+    <div class="Order__setButtons flex flex-col xl:flex-row justify-between xl:items-center">
         <GreenButton class="DescHide" msg="Перейти к подтверждению"/>
       <div class="blackButtonStyled bigButtonStyled BackToCard">
         <BlackButton msg="Назад в корзину"/>
@@ -111,9 +111,6 @@
   margin-left: 6px;
 }
 
-.choiceTime {
-  margin: 13px 0 30px;
-}
 
 .timeButton {
   padding: 6px 0;

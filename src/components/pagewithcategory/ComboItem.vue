@@ -1,7 +1,8 @@
 <template>
-  <div class="DescriptionItem flex justify-center relative xl:flex xl:flex-col">
+  <div class="DescriptionItem flex relative justify-center relative xl:flex xl:flex-col">
+    <p class="hit absolute left-0 right-0 text-center text-white">Хит</p>
     <router-link to="#"><img alt="alt" class="comboSet-img width-full" src="../../assets/img/photo86x59px.svg"></router-link>
-    <div class="flex flex-col h-full">
+    <div class="flex flex-col h-full justify-between">
       <div class="flex flex-col p-l7px">
         <h3 class="Ag-h3-to-1070 DescriptionItem__h3">{{ heads }}</h3>
         <p class="Ag-text12-to-1070 DescriptionItem__p">{{ descriptionitem }}</p>

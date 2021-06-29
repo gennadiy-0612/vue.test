@@ -499,6 +499,10 @@ html {
     margin: 27px 0 4px;
 }
 
+.MenuContent__li {
+    list-style-type: none;
+}
+
 @media (max-width: 1279px) {
     .MobHide {
         display: none;
@@ -592,6 +596,7 @@ html {
         background-color: #f5f4f4db;
         padding-top: 7vh;
         flex-direction: column;
+        height: 99.2vh;
     }
 
     .imgIcon {
@@ -604,10 +609,10 @@ html {
     }
 
     .mainItem {
-        font-size: 25px;
+        font-size: 2.3vh;
         font-weight: 500;
         text-align: initial;
-        line-height: 31px;
+        line-height: 2.8vh;
         max-width: 138px;
     }
 
@@ -654,7 +659,7 @@ html {
     .mainPage__addresses {
         padding: 0 1.5vw 0 7.5vw;
         top: 0;
-        margin: 1.3vh 0 2.9vh;
+        margin: -0.3vh 0 3.1vh;
     }
 
     .AddressesList__li {
@@ -663,8 +668,9 @@ html {
         padding: 0 0 0 6%;
     }
 
-    .mainPage__addresses li {
-        line-height: 28px;
+    .mainPage .AddressesList__li {
+        line-height: 1.5vw;
+        font-size: 1.5vh;
     }
 
     .AddressesList__li:nth-child(odd) {
@@ -985,8 +991,20 @@ html {
         margin: 42px auto 0;
     }
 
+    .OptionLK .addressGost {
+        margin-left: 12px;
+    }
+
     .ChangePersonData.Order .lkmobdannie__setButtons {
         margin: 100px 0 30px 20px;
+    }
+
+    .lkmPage .lkmobdannie__setButtons {
+        margin: 19px auto;
+    }
+
+    .lkmPage .Option.activeOption {
+        flex: 1 1 50%;
     }
 
     .DeskLimit {
@@ -1173,9 +1191,12 @@ html {
         line-height: 33px;
     }
 
-    .AddressesList__li:nth-child(2n+1),
+    .AddressesList__li:nth-child(2n+1) {
+        background-color: rgba(255, 255, 255, 0.18);
+    }
+
     .AddressesList__li:nth-child(2n) {
-        background-color: transparent;
+        background-color: rgba(121, 121, 121, 0.13);
     }
 
     .AddressesList__li:nth-child(1) {
@@ -2262,6 +2283,20 @@ html {
 
     /*Swipe arrows*/
     /*.CatsPage */
+    .hit {
+        margin: 20px 0 0 20px;
+        width: 80px;
+        background-color: #d41a1a;
+        padding: 10px 0;
+        font-size: 24px;
+        font-style: italic;
+        display: none;
+    }
+
+    :first-child > .hit {
+        display: block;
+    }
+
     .CatsPage .CommonMenu {
         padding-left: 0;
         padding-right: 0;
@@ -2758,11 +2793,16 @@ html {
 @media (min-width: 1280px) and (max-width: 1800px) {
     .mainPage__addresses {
         padding: 0;
-        margin: 3.6vh 0 0;
+        margin: 5.6vh 0;
     }
 
     .mainPage__icons {
         padding-left: 0;
-        width: 90%;
+        width: 50%;
+        margin: 0 auto auto;
+    }
+
+    .AddressesList__main::after {
+        top: .4vh;
     }
 }

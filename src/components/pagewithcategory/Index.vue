@@ -112,7 +112,6 @@ export default {
     DeskTopPopUp2
   }
 }
-
 function shch(Select, add, whoIsClosed) {
   this.takeTag = function () {
     if (whoIsClosed) document.querySelector(whoIsClosed).classList.toggle(add);
@@ -125,7 +124,6 @@ function shch(Select, add, whoIsClosed) {
     this.TagEl.addEventListener('click', this.takeTag.bind(this));
   };
 }
-
 if (window.location.pathname === '/pagewithcategory') {
   let AddressesList__main = new shch('.AddressesList__main', 'showIt');
   window.addEventListener('load', AddressesList__main.addE.bind(AddressesList__main));

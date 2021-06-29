@@ -59,8 +59,8 @@
       <div class="blackButtonStyled bigButtonStyled BackToCard">
         <BlackButton msg="Назад в корзину"/>
       </div>
-      <div class="MobHide greenButtonStyled bigButtonStyled">
-        <GreenButton class="greenButtonStyle" msg="Далее"/>
+      <div class="MobHide HeadOfZak-OtherSB1 greenButtonStyled bigButtonStyled">
+        <GreenButton class="greenButtonStyled" msg="Далее"/>
       </div>
       <div class="MobHide Ag4001624 text-center SeeMap block bigButtonStyled SeeOnMap">
         <BlackButton msg="Посмотреть на карте"/>

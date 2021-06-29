@@ -78,8 +78,8 @@
       </div>
       <div class="Order__setButtons HeadOfZak-OtherSB xl:flex">
         <GreenButton class="DescHide" msg="Перейти к подтверждению"/>
-        <BlackButton msg="Назад в корзину"/>
-        <GreenButton class="MobHide greenButtonStyle" msg="Далее"/>
+        <BlackButton class="oformzakaza-backToCard" msg="Назад в корзину"/>
+        <GreenButton class="MobHide greenButtonStyled" msg="Далее"/>
       </div>
     </div>
     <FooterDesk/>

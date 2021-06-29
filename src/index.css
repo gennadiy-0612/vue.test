@@ -1243,7 +1243,7 @@ html {
     }
 
     .HeadOfZak-OtherSB {
-        margin: 122px 32% 110px 0;
+        margin: 122px 41% 110px 0;
     }
 
     .bigButtonStyled > :first-child {
@@ -1256,18 +1256,18 @@ html {
         color: #ffffff;
         margin: 0;
     }
+
     .Order__setButtons .OrderMore-add-to-card-black {
         margin: 20px 0 0;
-    }
-
-    .greenButtonStyled {
-        background-color: #009200;
-        color: #ffffff;
     }
 
     .whiteButtonStyled > :first-child {
         color: #000000;
         background-color: #FFFFFF;
+    }
+
+    .oformzakaza .oformzakaza-backToCard {
+        font-size: 25px;
     }
 
     .SeeOnMap {
@@ -1415,8 +1415,17 @@ html {
         max-width: 400px;
     }
 
-    .oformZakaza .Order__setButtons button {
-        max-width: 400px;
+    .HeadOfZak-OtherSB button.OrderActCash {
+        max-width: 277px;
+        font-size: 22px;
+    }
+
+    .HeadOfZak-OtherSB1 button.greenButtonStyled ,
+    .HeadOfZak-OtherSB button.greenButtonStyled {
+        max-width: 170px;
+        font-size: 22px;
+        background-color: #009200;
+        color: #ffffff;
     }
 
     /*oformzakaza page*/

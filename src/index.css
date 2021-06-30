@@ -770,7 +770,7 @@ html {
     /*Vibor Rest Page*/
     .DeskTopMap {
         min-width: 1080px;
-        min-height: 610px;
+        max-height: 610px;
     }
 
     .MapDescDesK,

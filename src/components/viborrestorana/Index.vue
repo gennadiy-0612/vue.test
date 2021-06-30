@@ -1,6 +1,6 @@
 <template>
-  <div class="DeskMapPage xl:h-full xl:w-full xl:flex xl:justify-center back-05">
-    <div class="DeskTopMap xl:flex xl:align-center xl:overflow-hidden bg-white">
+  <div class="DeskMapPage xl:h-full xl:w-full flex justify-center back-05">
+    <div class="DeskTopMap xl:flex self-center xl:overflow-hidden bg-white">
       <div class="MapDescDesK">
         <div class="popUpFrame bg-white choseCity">
           <router-link to="/">
@@ -102,11 +102,6 @@
 
 .itemCity {
   margin: 3px 0 20px;
-}
-
-.map {
-  width: calc(100% + 32px);
-  margin: 0 16px -16px -16px;
 }
 </style>
 <script>

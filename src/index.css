@@ -777,25 +777,12 @@ html {
 
     /*MainPage Finish!*/
     /*Vibor Rest Page*/
-    .DeskMapPage {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
     .DeskTopMap {
         min-width: 1080px;
         min-height: 610px;
-        display: flex;
-        align-self: center;
-        overflow: hidden;
     }
 
-    .MapDescDesK {
-        flex: 1 1 50%;
-    }
-
+    .MapDescDesK,
     .MapDesK {
         flex: 1 1 50%;
     }

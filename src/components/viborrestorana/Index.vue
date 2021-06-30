@@ -1,6 +1,6 @@
 <template>
-  <div class="DeskMapPage back-05">
-    <div class="DeskTopMap bg-white">
+  <div class="DeskMapPage xl:h-full xl:w-full xl:flex xl:justify-center back-05">
+    <div class="DeskTopMap xl:flex xl:align-center xl:overflow-hidden bg-white">
       <div class="MapDescDesK">
         <div class="popUpFrame bg-white choseCity">
           <router-link to="/">

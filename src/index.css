@@ -821,10 +821,6 @@ html {
         font-weight: 500;
     }
 
-    .whatCityDesk__h3-act {
-        font-weight: 700;
-    }
-
     .DeskMapPage .addressOfCity {
         margin: 0 23px;
     }
@@ -1837,7 +1833,6 @@ html {
     .ContactList__link {
         font-size: 30px;
         line-height: 37px;
-        font-weight: 700;
     }
 
     .Contacts .HeadSet {
@@ -2280,11 +2275,6 @@ html {
         margin: 1vh 2vw 1vh 1vh;
     }
 
-    .mainItemCombo {
-        width: 9vw;
-        max-width: initial;
-    }
-
     .LoadBar {
         height: 45px;
         margin: 0 0 11px;
@@ -2325,8 +2315,9 @@ html {
     }
 
     .mainItemCombo {
+        width: 9vw;
+        max-width: initial;
         font-size: 2.3vh;
-        font-weight: 700;
     }
 
     .InfoGraphics {
@@ -2587,7 +2578,6 @@ html {
 
     .CardInfoAssort__price {
         font-size: 24px;
-        font-weight: 700;
         line-height: 21px;
         margin-top: 14px;
     }

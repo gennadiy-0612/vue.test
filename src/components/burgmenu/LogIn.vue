@@ -1,6 +1,6 @@
 <template>
   <ul class="logCard flex MobHide justify-between items-end">
-    <li class="logCard__li flex justify-start">
+    <li class="Header xl:flex-auto flex justify-start">
       <a class="block logCard__a" href="lkmobdannie">
         <svg class="LogIcon" viewBox="-42 0 512 512.002" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -10,7 +10,7 @@
         </svg>
       </a>
     </li>
-    <li class="logCard__li flex justify-end">
+    <li class="Header xl:flex-auto flex justify-end">
       <a class="block logCard__a relative" href="cardmob">
         <svg class="LogIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 589.84 512">
           <g id="Layer_2" data-name="Layer 2">

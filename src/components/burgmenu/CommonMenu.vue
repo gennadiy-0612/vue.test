@@ -2,23 +2,23 @@
   <div id="MenuContent"
        class="MenuContent w-full h-full CommonMenu hidden flex flex-wrap items-start justify-items-start absolute xl:static top-0 left-0 xl:m-auto bg-white xl:bg-opacity-0 xl:bg-white">
     <router-link to="#" class="DescHide closeX fixed right-2 z-2 block top-0 MenuContent__x">
-      <X/>
+      <X class="XMenuContentJS"/>
     </router-link>
     <MainLinkLogo/>
-    <ol class="MenuContent__ol relative flex items-center justify-end flex-row justify-end justify-center text-center w-full h-full z-1">
-      <li class="MenuContent__li flex-auto">
-        <router-link to="#" class="Ag6001417 MenuContent__a xl:font-normal xl:font-normal text-white text-white MenuContentJS">Меню</router-link>
-      <li class="MenuContent__li flex-auto">
-        <router-link to="/events" class="Ag6001417 MenuContent__a xl:font-normal text-white">Акции</router-link>
+    <ol class="MenuContent__ol relative flex items-center justify-end flex-col xl:flex-row justify-end xl:justify-around text-center w-full h-full z-1">
+      <li class="MenuContent__li">
+        <router-link to="#" class="Ag6001417 MenuContent__a xl:font-normal xl:font-normal text-black xl:text-white MenuContentJS">Меню</router-link>
+      <li class="MenuContent__li">
+        <router-link to="/events" class="Ag6001417 MenuContent__a xl:font-normal text-black xl:text-white">Акции</router-link>
       </li>
-      <li class="MenuContent__li flex-auto">
-        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a xl:font-normal text-white">Доставка и оплата</router-link>
+      <li class="MenuContent__li">
+        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a xl:font-normal text-black xl:text-white">Доставка и оплата</router-link>
       </li>
-      <li class="MenuContent__li flex-auto">
-        <router-link to="/contacts" class="Ag6001417 MenuContent__a xl:font-normal text-white">Контакты</router-link>
+      <li class="MenuContent__li">
+        <router-link to="/contacts" class="Ag6001417 MenuContent__a xl:font-normal text-black xl:text-white">Контакты</router-link>
       </li>
-      <li class="MenuContent__li flex-auto">
-        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a xl:font-normal text-white">Имя пользователя</router-link>
+      <li class="MenuContent__li">
+        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a xl:font-normal text-black xl:text-white">Имя пользователя</router-link>
       </li>
     </ol>
     <LogIn/>
@@ -58,7 +58,6 @@ export default {
   }
 }
 
-
 function shch(Select, add, whoIsClosed) {
   this.takeTag = function () {
     if (whoIsClosed) document.querySelector(whoIsClosed).classList.toggle(add);
@@ -72,8 +71,8 @@ function shch(Select, add, whoIsClosed) {
   };
 }
 
-let AllMenu = new shch('.MenuContentJS', 'menuJs', '#ContentMenuBottom');
+let AllMenu = new shch('.MenuContentJS', 'MenuContentJSOpen', '#ContentMenuBottom');
 window.addEventListener('load', AllMenu.addE.bind(AllMenu))
-let AllMenuX = new shch('.X', '', '#ContentMenuBottom');
+let AllMenuX = new shch('.closeMenuBottom', 'MenuContentJSClose', '#ContentMenuBottom');
 window.addEventListener('load', AllMenuX.addE.bind(AllMenuX))
 </script>

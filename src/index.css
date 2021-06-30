@@ -550,20 +550,13 @@ html {
     }
 
     .mainPage {
-        background: url("./assets/img/mainpage/main.png") center center no-repeat;
-        background-size: cover;
+        background-image: url("./assets/img/mainpage/main.png");
         max-width: 1920px;
-        margin: auto;
         min-height: 768px;
     }
 
     .mainPage .Header {
         padding: 0;
-    }
-
-    .mainBack {
-        background-image: none;
-        height: auto;
     }
 
     .MenuContent {
@@ -655,7 +648,7 @@ html {
     .mainPage__addresses {
         padding: 0 1.5vw 0 7.5vw;
         top: 0;
-        margin: -0.3vh 0 3.1vh;
+        margin: 6vh 0 3.1vh;
     }
 
     .AddressesList__li {
@@ -2775,15 +2768,17 @@ html {
         margin: 0 0 32px;
     }
 
-    .menuJs {
+
+    #ContentMenuBottom.MenuContentJSOpen.MenuContentJSOpen {
         display: flex;
         opacity: 1;
         position: fixed;
         z-index: 1;
         top: 0;
+        left: 0;
         width: 100%;
-        background-color: #535353;
         align-items: center;
+        background-color: #535353;
         height: 100%;
         padding: 20px 0;
     }
@@ -2792,6 +2787,16 @@ html {
 }
 
 @media (min-width: 1280px) and (max-width: 1800px) {
+    .ButtonMain {
+        display: flex;
+        flex: 1 1 12%;
+        justify-content: flex-end;
+    }
+
+    .logCard {
+        margin-right: 30px;
+    }
+
     .mainPage__addresses {
         padding: 0;
         margin: 5.6vh 0;

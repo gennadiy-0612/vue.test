@@ -1,6 +1,6 @@
 <template>
-  <div class="mainPage w-full h-full">
-    <div class="mainBack bg-no-repeat bg-cover bg-center">
+  <div class="mainPage xl:bg-cover xl:bg-no-repeat xl:bg-center xl:bg-cover xl:m-auto w-full h-full">
+    <div class="mainBack bg-no-repeat bg-cover bg-center xl:bg-none xl:h-auto">
       <MenuTop/>
     </div>
     <div class="CenteringOneItem xl:items-center xl:h-full flex flex-col justify-center items-center xl:items-start">

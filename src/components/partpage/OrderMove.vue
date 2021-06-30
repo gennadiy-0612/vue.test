@@ -1,5 +1,5 @@
 <template>
-  <div class="MobHide flex flex-wrap justify-between afterLine afterLine-PersonData OrderMoving">
+  <div class="MobHide flex flex-wrap justify-between afterLine afterLine-PersonData OrderMoving xl:mr-auto xl:ml-0">
     <router-link to="#" class="MobHide Ag-text14-to-1070 switchOpt1 showIt afterLine block Option changeDataPerson relative">
       <span class="DeskLimit bloc text-centerk">Корзина</span>
     </router-link>

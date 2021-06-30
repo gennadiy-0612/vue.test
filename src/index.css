@@ -584,7 +584,6 @@ html {
 
     .mainItem {
         font-size: 2.3vh;
-        font-weight: 500;
         text-align: initial;
         line-height: 2.8vh;
         max-width: 138px;
@@ -617,7 +616,6 @@ html {
 
     .CarryMenu {
         font-size: 30px;
-        font-weight: 500;
         margin: -0.8vh auto 3.7vh 0;
         letter-spacing: -0.5px;
         text-indent: 2vw;
@@ -674,7 +672,6 @@ html {
 
     .iconsThemes {
         flex-direction: row;
-        justify-content: space-between;
         width: 98.3%;
         margin-right: auto;
         padding: 1.45vh 0;
@@ -802,7 +799,6 @@ html {
     .whatCityDesk__h3 {
         line-height: 24px;
         font-size: 24px;
-        font-weight: 500;
     }
 
     .DeskMapPage .addressOfCity {
@@ -908,7 +904,6 @@ html {
 
     .ChoicePopUp .letters__items {
         display: flex;
-        justify-content: space-between;
     }
 
     .ChoicePopUp .afterLine::after {
@@ -975,14 +970,7 @@ html {
         font-size: 26px;
     }
 
-    .changeDataSet {
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-    }
-
     .getNews {
-        align-items: center;
         padding: 0 0 0 20px;
         margin: 79px 0 0 48px;
     }
@@ -1017,7 +1005,6 @@ html {
     .DataItem,
     .ChangePD__where {
         max-width: 1660px;
-        margin: auto;
         padding: 0 35.5% 0 30px;
     }
 
@@ -1027,12 +1014,7 @@ html {
 
     .ButtonFrame {
         max-width: 1640px;
-        margin: auto;
         padding: 0 20px;
-    }
-
-    .BlackButtonDesk {
-        width: auto;
     }
 
     .ButtonFrame {
@@ -1060,7 +1042,7 @@ html {
     }
 
     .ChangePD .Option {
-        margin: 0 0 0;
+        margin: 0;
     }
 
     .ChangePD .raw {
@@ -1078,7 +1060,7 @@ html {
     }
 
     .DataItem-point {
-        margin: 0 0 0;
+        margin: 0;
     }
 
     .ChangePD.Order .DataItem__setting {
@@ -1107,8 +1089,6 @@ html {
 
     .OrderMoving {
         max-width: 950px;
-        margin-right: auto;
-        margin-left: 0;
     }
 
     .AddressesList__li {
@@ -1148,7 +1128,6 @@ html {
         max-width: 160px;
         font-size: 17px;
         letter-spacing: 1px;
-        font-weight: 500;
     }
 
     .time, .day {
@@ -1193,7 +1172,6 @@ html {
     }
 
     .oformZakaz {
-        justify-content: space-around;
         max-width: 850px;
         margin: 70px 0 auto;
     }
@@ -1218,13 +1196,11 @@ html {
     .whereTake {
         margin: 47px auto 30px;
         font-size: 23px;
-        text-align: center;
     }
 
     .whereTake__graph {
         margin: 0 auto 0;
         max-width: 360px;
-        justify-content: center;
     }
 
     .whereTake__address {
@@ -1269,7 +1245,6 @@ html {
     .Order__setButtons {
         max-width: 956px;
         margin: 170px auto 0;
-        justify-content: space-between;
         align-items: center;
     }
 
@@ -1496,7 +1471,6 @@ html {
     .OrderAllPrice__sumName,
     .OrderAllPrice__sumDigit {
         font-size: 28px;
-        font-weight: 500;
     }
 
     .OrderAllPrice__sumDigit {
@@ -1511,12 +1485,10 @@ html {
         line-height: 20px;
         font-size: 27px;
         max-width: 230px;
-        font-weight: 500;
     }
 
     .OrderAllPrice__count {
         font-size: 25px;
-        font-weight: 500;
         line-height: 18px;
         min-width: 16%;
     }
@@ -1936,7 +1908,6 @@ html {
     .SeeMore {
         margin: 40px 0 0;
         font-size: 36px;
-        font-weight: 500;
     }
 
     .PresentsLi {
@@ -2267,7 +2238,6 @@ html {
     .CommonMenu {
         display: flex;
         height: auto;
-        align-items: center;
     }
 
     .CardPage-discount {
@@ -2330,13 +2300,6 @@ html {
         margin: 25px 0.3% 0;
         padding: 11px 3.8% 0;
         border: 1px solid #000000;
-    }
-
-    .ComboPage-Load {
-        max-width: 410px;
-        margin: 6px -10px 0 3px;
-        align-items: center;
-        height: 35px;
     }
 
     .Card__more {
@@ -2500,7 +2463,6 @@ html {
 
     .BLudoPrice__digit {
         font-size: 24px;
-        font-weight: 500;
         line-height: 25px;
     }
 

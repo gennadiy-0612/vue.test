@@ -24,7 +24,7 @@
             пиццы из основного меню. Сертификат
             активируется при заказе от 1000 рублей.</p>
           <h3 class="MobHide">
-            <router-link class="SeeMore block" to="/">Посмотреть</router-link>
+            <router-link class="SeeMore xl:font-medium block" to="/">Посмотреть</router-link>
           </h3>
         </div>
       </div>
@@ -38,7 +38,7 @@
             *Акция действует только на доставке
             из ресторана "Перчини". Акции не суммируются.</p>
           <h3 class="MobHide">
-            <router-link class="SeeMore block" to="/">Посмотреть</router-link>
+            <router-link class="SeeMore xl:font-medium block" to="/">Посмотреть</router-link>
           </h3>
         </div>
       </div>
@@ -53,7 +53,7 @@
             Акции не суммируются.
           </p>
           <h3 class="MobHide">
-            <router-link class="SeeMore block" to="/">Посмотреть</router-link>
+            <router-link class="SeeMore xl:font-medium block" to="/">Посмотреть</router-link>
           </h3>
         </div>
       </div>
@@ -71,7 +71,7 @@
             <li class="PresentsP PresentsLi">Вы можете забрать заказ в выбранном вами ресторане Перчини.</li>
           </ol>
           <h3 class="MobHide">
-            <router-link class="SeeMore block" to="/">Посмотреть</router-link>
+            <router-link class="SeeMore xl:font-medium block" to="/">Посмотреть</router-link>
           </h3>
         </div>
       </div>

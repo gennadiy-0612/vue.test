@@ -1,7 +1,7 @@
 <template>
   <div class="ChoicePopUp h-full w-full flex justify-center items-center back-05">
     <div class="poiskTop popUpFrame bg-white h-full">
-      <h2 class="MobHide ChoiceIt">Выберете город, в котором вы хотите сделать заказ</h2>
+      <h2 class="MobHide ChoiceIt xl:font-medium">Выберете город, в котором вы хотите сделать заказ</h2>
       <a class="DescHide" href="/">
         <X/>
       </a>
@@ -368,7 +368,6 @@
 .ChoiceIt {
   font-size: 28px;
   line-height: 26px;
-  font-weight: 500;
   margin-bottom: 4px;
 }
 

@@ -15,14 +15,14 @@
     <div class="OrderMoveFrame">
       <OrderMove/>
     </div>
-    <div class="flex oformZakaz ofZak1 xl:items-center">
+    <div class="flex oformZakaz xl:justify-around ofZak1 xl:items-center">
       <GreenButton class="ofZak1_green" msg="Доставка"/>
       <GreyButton msg="Самовывоз"/>
     </div>
-    <div><h3 class="inline xl:block Ag-h3-to-1070 whereTake">Ваш заказ можете забрать по адресу</h3>
+    <div><h3 class="inline xl:block Ag-h3-to-1070 whereTake xl:text-center">Ваш заказ можете забрать по адресу</h3>
       <div class="addressPoint">
-        <p class="inline Ag-h3-to-1070 whereTake where-h3 PointFlat">Красный проспект, 25/1</p>
-        <p class="BackM whereTake__graph xl:inline-block">
+        <p class="inline Ag-h3-to-1070 whereTake xl:text-center where-h3 PointFlat">Красный проспект, 25/1</p>
+        <p class="BackM whereTake__graph xl:justify-center xl:inline-block">
           <span class="Ag-h3-to-1070 whereTake__address where-h3">Площадь ленина</span>
         </p>
       </div>

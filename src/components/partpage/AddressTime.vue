@@ -2,12 +2,12 @@
   <ul class="AddressesList xl:m-0 xl:relative xl:w-full AddressLCombo MobHide">
     <li class="AddressesList__li AddressesList__main leading-8 relative">Красный проспект, 25/1
     </li>
-    <li class="AddressesList__li flex justify-between times"><span class="day">Пн-Чс</span><span class="time">10.00 - 01.00</span>
+    <li class="AddressesList__li flex justify-between times"><span class="day">Пн-Чс</span><span class="time xl:font-medium">10.00 - 01.00</span>
     </li>
-    <li class="AddressesList__li flex justify-between times"><span class="day">Пт-Сб</span><span class="time">10.00 - 02.00</span>
+    <li class="AddressesList__li flex justify-between times"><span class="day">Пт-Сб</span><span class="time xl:font-medium">10.00 - 02.00</span>
     </li>
     <li class="AddressesList__li flex justify-between times"><span class="day">Вс</span><span
-        class="time">10.00 - 01.00</span></li>
+        class="time xl:font-medium">10.00 - 01.00</span></li>
     <li class="AddressesList__li flex justify-between">Бизнес-ланч в будни 10.00 -16.00</li>
     <li class="AddressesList__li flex justify-between AddressesList__phone xl:pr-0">8 (383) 325-35-25</li>
   </ul>

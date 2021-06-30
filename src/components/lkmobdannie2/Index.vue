@@ -6,14 +6,14 @@
     </div>
     <ChangePersonalData class="lkmobdannie2"/>
     <div class="myAddress ChangePD__address">
-      <div class="DataItem">
+      <div class="DataItem xl:m-auto">
         <p class="Ag-text14-to-1070 fs14px DataItem__address DataItem-point">Мой адрес</p>
         <div class="itemCity relative flex justify-between ">
           <p class="Ag-text14-to-1070 line-h17px fs14px block DataItem__address">г. Новосибирск, ул. Улица...</p>
           <a class="block Option activeOption DataItem__setting text-center">Изменить</a>
         </div>
       </div>
-      <div class="DataItem">
+      <div class="DataItem xl:m-auto">
         <p class="Ag-text14-to-1070 fs14px DataItem__address DataItem-point">Мой адрес</p>
         <div class="itemCity relative flex justify-between ">
           <p class="Ag-text14-to-1070 line-h17px fs14px block DataItem__address">г. Новосибирск, ул. Улица...</p>
@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-    <form class="ChangePD__where">
+    <form class="ChangePD__where xl:m-auto">
       <div class="raw flex">
         <input class="searchButton bg-E4E4E4 border-solid border-0 w-full block" placeholder="Город" type="text"
                id="city"
@@ -54,8 +54,8 @@
                type="text" id="detail" name="detail">
       </div>
     </form>
-    <div class="ButtonFrame">
-      <BlackButton class="lkmobdannie__setButtons lkm2B BlackButtonDesk" msg="Добавить"/>
+    <div class="ButtonFrame xl:m-auto">
+      <BlackButton class="lkmobdannie__setButtons lkm2B BlackButtonDesk xl:m-auto" msg="Добавить"/>
       <MenuBottom/>
     </div>
     <FooterDesk/>

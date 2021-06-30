@@ -6,7 +6,7 @@
     </div>
     <ChangePersonalData class="lkmobdannie1"/>
     <div class="OptionLK">
-      <form action="/" class="relative flex flex-wrap items-center changeDataSet">
+      <form action="/" class="relative flex flex-wrap items-center changeDataSet xl:flex xl:flex-col xl:align-baseline">
         <div class="optSet">
           <input placeholder="Пётр" type="text" id="name1" name="name1"
                  class="searchButton bg-E4E4E4 changeName">
@@ -28,7 +28,7 @@
           <a class="toChange Ag-text12-to-1070" href="#" for="name4">Изменить</a>
         </div>
       </form>
-      <div class="getNews relative flex">
+      <div class="getNews xl:items-center relative flex">
         <input type="radio" id="address1" name="address1" value="Bike" class="checkIt opacity-0">
         <label for="address1" id="GetInfoAboutOrder"
                class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать

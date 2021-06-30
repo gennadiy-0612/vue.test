@@ -28,7 +28,7 @@
           </li>
         </ul>
         <div class="BLudoPrice flex flex-wrap justify-between items-center">
-          <p class="BLudoPrice__digit"> 610.-</p>
+          <p class="BLudoPrice__digit xl:font-medium"> 610.-</p>
           <button class="text-center bg-black text-white GoOut xl:font-semibold">Добавить в корзину</button>
         </div>
         <p class="propagate">В месте с этем также покупают</p>

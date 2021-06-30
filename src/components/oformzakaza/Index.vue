@@ -16,7 +16,7 @@
     <div class="OrderMoveFrame">
       <OrderMove/>
     </div>
-    <div class="flex oformZakaz ofZak1">
+    <div class="flex oformZakaz xl:justify-around ofZak1">
       <GreenButton class="ofZak1_green" msg="Доставка"/>
       <GreyButton msg="Самовывоз"/>
     </div>

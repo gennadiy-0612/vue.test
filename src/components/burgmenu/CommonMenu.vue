@@ -1,11 +1,11 @@
 <template>
   <div id="MenuContent"
-       class="MenuContent hidden xl:flex w-full h-full CommonMenu xl:pl-0 xl:pr-0 xl:h-auto xl:items-center flex flex-wrap items-start justify-items-start top-0 left-0 xl:m-auto bg-white xl:bg-opacity-0 xl:bg-white">
+       class="MenuContent hidden fixed xl:static xl:flex w-full h-full CommonMenu xl:pl-0 xl:pr-0 xl:h-auto xl:items-center flex flex-wrap items-start justify-items-start top-0 left-0 xl:m-auto bg-white xl:bg-opacity-0 xl:bg-white">
     <router-link to="#" class="closeX fixed right-2 z-2 block top-0 MenuContent__x">
       <X class="XMenuContentJS"/>
     </router-link>
     <MainLinkLogo/>
-    <ol class="MenuContent__ol bg-white relative flex items-center flex-col xl:flex-row justify-center xl:justify-around text-center w-full h-full z-1">
+    <ol class="MenuContent__ol bg-white xl:bg-transparent relative flex items-center flex-col xl:flex-row justify-center xl:justify-around text-center w-full h-full z-1">
       <li class="MenuContent__li">
         <router-link to="#" class="Ag6001417 MenuContent__a xl:font-normal xl:font-normal text-black xl:text-white MenuContentJS">Меню</router-link>
       <li class="MenuContent__li">

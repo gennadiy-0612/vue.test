@@ -2,7 +2,7 @@
   <div class="Events FrameDesk xl:m-auto FrameMob">
     <MenuTop/>
     <div
-        class="OrderMoveAddresses float-left bg-white xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+        class="OrderMoveAddresses float-left bg-white xl:items-end xl:flex-col CenteringOneItem xl:h-full xl:h-auto flex flex-col justify-center items-center xl:items-start">
       <AddressTime/>
     </div>
     <h2 class="Ag-h2-to-1070 underHead EventsName">Акции</h2>

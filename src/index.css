@@ -506,7 +506,10 @@ html {
     padding: 0 0 7px;
     margin: 0;
 }
-
+  /*Events*/
+.EventsName {
+    margin-top: 30px;
+}
 @media (max-width: 1279px) {
     .MobHide {
         display: none;
@@ -574,6 +577,9 @@ html {
         margin: -13vh auto 0 0;
         background-color: #f5f4f4db;
         padding-top: 7vh;
+    }
+
+    .mainPage .CenteringOneItem {
         height: 99.2vh;
     }
 
@@ -1838,7 +1844,7 @@ html {
     }
 
     /*Contacts page*/
-    /*Events__set*/
+    /*Events*/
     .EventsName {
         margin: 213px 0 0 20px;
         font-size: 32px;

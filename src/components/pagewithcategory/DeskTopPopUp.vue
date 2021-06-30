@@ -34,21 +34,21 @@
         <p class="propagate">В месте с этем также покупают</p>
         <div class="CardInfoAssort flex flex-wrap">
           <div class="CardInfoAssort__li flex flex-wrap">
-            <img class="CardInfoAssort__img" src="../../assets/img/Photo.svg">
+            <img class="CardInfoAssort__img xl:object-cover" src="../../assets/img/Photo.svg">
             <div class="CardInfoAssort__description">
               <p class="CardInfoAssort__head">Морс<br/> в ассортименте</p>
               <p class="CardInfoAssort__price xl:font-bold">610.-</p>
             </div>
           </div>
           <div class="CardInfoAssort__li flex flex-wrap">
-            <img class="CardInfoAssort__img" src="../../assets/img/Photo.svg">
+            <img class="CardInfoAssort__img xl:object-cover" src="../../assets/img/Photo.svg">
             <div class="CardInfoAssort__description">
               <p class="CardInfoAssort__head">Морс<br/> в ассортименте</p>
               <p class="CardInfoAssort__price xl:font-bold">610.-</p>
             </div>
           </div>
           <div class="CardInfoAssort__li flex flex-wrap">
-            <img class="CardInfoAssort__img" src="../../assets/img/Photo.svg">
+            <img class="CardInfoAssort__img xl:object-cover" src="../../assets/img/Photo.svg">
             <div class="CardInfoAssort__description">
               <p class="CardInfoAssort__head">Морс<br/> в ассортименте</p>
               <p class="CardInfoAssort__price xl:font-bold">610.-</p>

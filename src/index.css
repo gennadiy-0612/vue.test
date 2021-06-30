@@ -1245,7 +1245,6 @@ html {
     .Order__setButtons {
         max-width: 956px;
         margin: 170px auto 0;
-        align-items: center;
     }
 
     .HeadOfZak-OtherSB {
@@ -2059,7 +2058,6 @@ html {
     .Card__more-discount {
         flex: 2 1 1%;
         position: relative;
-        left: -2%;
     }
 
     .Card__more {
@@ -2314,10 +2312,6 @@ html {
         max-width: 74%;
     }
 
-    .Card__more-discount {
-        left: 0;
-    }
-
     .vision {
         margin: 15px 0;
         padding: 15px 0 0;
@@ -2327,7 +2321,6 @@ html {
     .PresentPizza {
         width: 100%;
         height: 130px;
-        object-fit: cover;
     }
 
     .PresentText {
@@ -2364,8 +2357,7 @@ html {
     .comboSet-img {
         height: 92.7%;
         width: 95.7%;
-        margin: 20px 0 0 20px;
-        object-fit: cover;
+        margin: 0 0 0 20px;
     }
 
     .DescriptionItem__h3,
@@ -2509,7 +2501,6 @@ html {
     .CardInfoAssort__img {
         width: 86px;
         height: 80px;
-        object-fit: cover;
     }
 
     .CardInfoAssort__description {

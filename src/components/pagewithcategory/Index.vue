@@ -40,7 +40,7 @@
         <MyOrder/>
         <AddToCardGreen msg="Оформить заказ"/>
         <div class="ComboAdd">
-          <div class="Card__more-discount">
+          <div class="Card__more-discount xl:left-0">
             <p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
             <div class="CatsPage-Load flex items-center">
               <LoadBar/>
@@ -48,7 +48,7 @@
             </div>
           </div>
           <div class="MobHide vision">
-            <img class="PresentPizza" alt="alt" src="../../assets/img/photo86x59px.svg">
+            <img class="PresentPizza xl:object-cover" alt="alt" src="../../assets/img/photo86x59px.svg">
             <p class="PresentText text-center">Пицца Вулкан в подаок!</p>
           </div>
         </div>

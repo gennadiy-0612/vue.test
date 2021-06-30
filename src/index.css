@@ -628,10 +628,7 @@ html {
     }
 
     .AddressesList {
-        position: relative;
         top: 2.8%;
-        width: 100%;
-        margin: 0;
     }
 
     .mainPage__addresses {
@@ -2786,7 +2783,7 @@ html {
         margin-right: 30px;
     }
 
-    .mainPage__addresses {
+    .mainPage__addresses{
         padding: 0;
         margin: 5.6vh 0;
     }

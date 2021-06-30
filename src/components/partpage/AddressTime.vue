@@ -1,5 +1,5 @@
 <template>
-  <ul class="AddressesList AddressLCombo MobHide">
+  <ul class="AddressesList xl:m-0 xl:relative xl:w-full AddressLCombo MobHide">
     <li class="AddressesList__li AddressesList__main leading-8 relative">Красный проспект, 25/1
     </li>
     <li class="AddressesList__li flex justify-between times"><span class="day">Пн-Чс</span><span class="time">10.00 - 01.00</span>

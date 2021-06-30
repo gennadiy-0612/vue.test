@@ -4,7 +4,7 @@
       <MenuTop/>
     </div>
     <div class="xl:items-end xl:flex-col CenteringOneItem xl:items-center xl:h-full flex flex-col justify-center items-center xl:items-start">
-      <AddressesList class="MobHide mainPage__addresses"/>
+      <AddressesList xl:m-0 xl:relative xl:w-full class="MobHide mainPage__addresses xl:top-0"/>
       <p class="MobHide CarryMenu Ag-text14-to-1070 Ag700 w-full text-center">Меню доставки</p>
       <div class="flex justify-between flex-wrap mainPage__icons">
         <div class="iconsThemes flex flex-col items-center justify-between self-center">

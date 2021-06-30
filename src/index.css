@@ -1159,9 +1159,7 @@ html {
     }
 
     .OrderMoveAddresses {
-        float: left;
         margin: -4px 0 0;
-        height: auto;
         background-color: transparent;
         padding: 0;
         max-width: 346px;
@@ -2189,11 +2187,6 @@ html {
         display: block;
     }
 
-    .CommonMenu {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     .CenterContent__left {
         margin-top: 3.2vh;
     }
@@ -2231,11 +2224,6 @@ html {
     .LoadBar {
         height: 45px;
         margin: 0 0 11px;
-    }
-
-    .CommonMenu {
-        display: flex;
-        height: auto;
     }
 
     .CardPage-discount {

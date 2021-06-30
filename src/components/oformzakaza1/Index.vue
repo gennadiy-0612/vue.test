@@ -4,7 +4,7 @@
       <Address/>
       <BurgMenu/>
     </div>
-    <div class="MobHide OrderMoveAddresses bg-white xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+    <div class="MobHide OrderMoveAddresses xl:h-auto float-left bg-white xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressTime/>
     </div>
     <div class="OrderMove__head">

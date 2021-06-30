@@ -20,17 +20,6 @@
   width: 27px;
   height: 18px;
 }
-
-.topnav a {
-  color: #000000;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-  width: 50px;
-  margin: 0 0 0 auto;
-}
-
 </style>
 <script>
 import BurgMenu from '../burgmenu/Index'

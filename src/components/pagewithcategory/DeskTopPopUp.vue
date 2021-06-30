@@ -37,21 +37,21 @@
             <img class="CardInfoAssort__img" src="../../assets/img/Photo.svg">
             <div class="CardInfoAssort__description">
               <p class="CardInfoAssort__head">Морс<br/> в ассортименте</p>
-              <p class="CardInfoAssort__price">610.-</p>
+              <p class="CardInfoAssort__price xl:font-bold">610.-</p>
             </div>
           </div>
           <div class="CardInfoAssort__li flex flex-wrap">
             <img class="CardInfoAssort__img" src="../../assets/img/Photo.svg">
             <div class="CardInfoAssort__description">
               <p class="CardInfoAssort__head">Морс<br/> в ассортименте</p>
-              <p class="CardInfoAssort__price">610.-</p>
+              <p class="CardInfoAssort__price xl:font-bold">610.-</p>
             </div>
           </div>
           <div class="CardInfoAssort__li flex flex-wrap">
             <img class="CardInfoAssort__img" src="../../assets/img/Photo.svg">
             <div class="CardInfoAssort__description">
               <p class="CardInfoAssort__head">Морс<br/> в ассортименте</p>
-              <p class="CardInfoAssort__price">610.-</p>
+              <p class="CardInfoAssort__price xl:font-bold">610.-</p>
             </div>
           </div>
         </div>

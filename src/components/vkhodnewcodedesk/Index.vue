@@ -24,7 +24,7 @@
           <p class="Ag-text14-to-1070 font-normal newCode">Получить новый код</p>
         </div>
       </div>
-      <router-link to="/" class="Ag-text14-to-1070 font-normal closeLog">Закрыть</router-link>
+      <router-link to="/" class="Ag-text14-to-1070 font-normal closeLog font-normal block">Закрыть</router-link>
     </div>
   </div>
 </template>
@@ -85,7 +85,6 @@
 }
 
 .closeLog {
-  display: block;
   margin-top: 36px;
   font-size: 1.5rem;
   font-weight: 400;

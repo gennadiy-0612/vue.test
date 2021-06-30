@@ -354,7 +354,7 @@
           </div>
         </div>
         <div class="MobHide GradDecor sticky z-10 left-0 right-0 h-32 bg-gradient-to-t from-white pointer-events-none">
-          <router-link to="/" class="Pop2 poiskClose closeLog-popup Ag-text14-to-1070 font-normal closeLog router-link-active">Закрыть</router-link>
+          <router-link to="/" class="Pop2 poiskClose closeLog-popup Ag-text14-to-1070 font-normal closeLog font-normal block router-link-active">Закрыть</router-link>
         </div>
       </div>
     </div>

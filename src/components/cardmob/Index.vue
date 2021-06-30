@@ -30,7 +30,7 @@
       <div class="tryIt tryIt-second">
         <h3 class="Ag-h3-to-1070 Card__title DescHide">Корзина</h3>
         <div class="DeskTopAfterLine xl:relative CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative">
-          <Photo class="CardPage__photo"/>
+          <Photo class="CardPage__photo xl:justify-start"/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
             <p class="Ag-text12-to-1070 Card__detail xl:text-center">С запеченым картофелем</p>
@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="DeskTopAfterLine xl:relative CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative">
-          <Photo class="CardPage__photo"/>
+          <Photo class="CardPage__photo xl:justify-start"/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
             <p class="Ag-text12-to-1070 Card__detail xl:text-center">С запеченым картофелем</p>
@@ -62,7 +62,7 @@
           </div>
         </div>
         <div class="DeskTopAfterLine xl:relative CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative MobHide">
-          <Photo class="CardPage__photo"/>
+          <Photo class="CardPage__photo xl:justify-start"/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
             <p class="Ag-text12-to-1070 Card__detail xl:text-center">С запеченым картофелем</p>
@@ -80,12 +80,12 @@
         <div class="recommend CardPage__recommend afterLine">
           <h3 class="recommend__head Ag-text18-to-1070 font-semibold">Ваш подарок к заказу</h3>
           <div class="YoursPresent flex flex-wrap">
-            <Photo class="CardPage__photo"/>
+            <Photo class="CardPage__photo xl:justify-start"/>
             <div class="WhatAndHow">
               <p class="Ag6001624 Card__add">Пицца с лососем</p>
               <p class="Ag-text14-to-1070 CardWith">Со сливочным сыром и ломтиками слабосоленого лосося</p>
             </div>
-            <div class="CardPage-discount">
+            <div class="CardPage-discount xl:relative">
               <p class="Ag6001624 CardPage__more">Закажи еще и заберите подарок</p>
               <div class="Card__load flex items-center">
                 <LoadBar class="CardPage__load"/>

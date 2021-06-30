@@ -89,7 +89,7 @@
               курьеру</label>
           </div>
         </form>
-        <div class="whatRest">
+        <div class="whatRest xl:flex">
           <label class="Ag-text12-to-1070 whatRest__how">С какой суммы подготовить сдачу?</label>
           <div class="whatRestDetails flex justify-center items-center">
             <input type="text" id="moneyPart" name="level"
@@ -168,7 +168,7 @@
   margin: 4px 0 31px;
 }
 
-.oformZakaz .OrderMore-add-to-card-green, .oformZakaz .OrderMore-add-to-card-black {
+.oformZakaz .OrderMore-add-to-card-green xl:block, .oformZakaz .OrderMore-add-to-card-black {
   flex: 1 1 50%;
 }
 

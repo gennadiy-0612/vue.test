@@ -683,12 +683,6 @@ html {
         flex: 1 1 20%;
     }
 
-    .desc {
-        text-align: inherit;
-        flex: 1 1 80%;
-        padding-left: 2.6vw;
-    }
-
     .TimeShow::after,
     .AddressesList__main::after {
         content: '\25BC';
@@ -953,7 +947,6 @@ html {
     }
 
     .OptionLK {
-        display: flex;
         max-width: 1600px;
         margin: 18px auto 30px;
     }
@@ -1617,7 +1610,6 @@ html {
     /*oformsamovivoza page*/
     /*oformdostavki page*/
     .whatRest {
-        display: flex;
         margin: -11px 0 -20px;
         min-width: 1000px;
     }
@@ -1693,7 +1685,6 @@ html {
     .OrderMore-add-to-card-green {
         max-width: 276px;
         margin: 14px auto 0;
-        display: block;
         line-height: 41px;
     }
 
@@ -1778,7 +1769,6 @@ html {
     .ContactList__h1 {
         font-size: 30px;
         line-height: 30px;
-        font-weight: 300;
     }
 
     .ContactList__link {
@@ -1968,7 +1958,6 @@ html {
 
     .CardPage__photo {
         flex: 1 1 19%;
-        justify-content: flex-start;
         max-width: 19%;
     }
 
@@ -2053,7 +2042,6 @@ html {
 
     .Card__more-discount {
         flex: 2 1 1%;
-        position: relative;
     }
 
     .Card__more {
@@ -2130,6 +2118,7 @@ html {
         font-size: 28px;
         min-width: 320px;
         padding: 3px 0;
+        letter-spacing: 1.2px;
     }
 
     .Card__line {
@@ -2177,8 +2166,6 @@ html {
         background-color: #d41a1a;
         padding: 10px 0;
         font-size: 24px;
-        font-style: italic;
-        display: none;
     }
 
     :first-child > .hit {
@@ -2189,29 +2176,15 @@ html {
         margin-top: 3.2vh;
     }
 
-    .ComboPage__icons {
-        width: 100%;
-    }
-
     .AddressLCombo {
         margin-top: -5.2vh;
     }
 
     .ComboPage__icons {
-        padding: 0;
         margin: 6vh 0 0;
-    }
-
-    .iconsThemes {
         width: 100%;
-        margin-right: 0;
         max-width: 100%;
         padding: 1.6vh 0;
-    }
-
-    .desc {
-        flex: 0 0 auto;
-        padding: 0;
     }
 
     .imgIcon {
@@ -2225,7 +2198,6 @@ html {
     }
 
     .CardPage-discount {
-        position: relative;
         flex: 2 1 1%;
         margin-top: 10px;
     }
@@ -2314,9 +2286,6 @@ html {
         line-height: 14px;
     }
 
-    .OrderMore-add-to-card-green {
-        letter-spacing: 1.2px;
-    }
 
     .OrderAllPrice__plus {
         font-size: 25px;
@@ -2385,14 +2354,6 @@ html {
         font-size: 24px;
         margin: 0 0 0 10px;
         top: 0;
-    }
-
-    .OrderMoreComboNabori {
-        display: none;
-    }
-
-    .LoadBar {
-        display: none;
     }
 
     /*popupBludoDesktop*/

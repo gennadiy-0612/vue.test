@@ -1,5 +1,5 @@
 <template>
-  <div class="OrderMore CategoryPage OrderMoreComboNabori">
+  <div class="OrderMore CategoryPage OrderMoreComboNabori xl:hidden">
     <div class="flex justify-between  justify-items-end toOrderPrice">
       <h3 class="Ag-h3-to-1070">Закажите ещё и получите подарок</h3>
       <h3 class="Ag-h3-to-1070">301.-</h3>

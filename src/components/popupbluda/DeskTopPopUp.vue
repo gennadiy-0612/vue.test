@@ -55,7 +55,7 @@
             </div>
           </div>
         </div>
-        <router-link to="#" class="closeLog-popup Ag-text14-to-1070 font-normal closeLog router-link-active">Закрыть
+        <router-link to="#" class="closeLog-popup Ag-text14-to-1070 font-normal closeLog font-normal block router-link-active">Закрыть
         </router-link>
       </div>
       <img alt="alt" class="object-cover" src="../../assets/img/Photo.svg">

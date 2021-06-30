@@ -41,7 +41,7 @@
         <MyOrder/>
         <AddToCardGreen msg="Оформить заказ"/>
         <div class="ComboAdd">
-          <div class="Card__more-discount xl:left-0">
+          <div class="Card__more-discount xl:relative xl:left-0">
             <p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
             <div class="CatsPage-Load flex items-center">
               <LoadBar/>

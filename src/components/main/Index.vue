@@ -3,7 +3,7 @@
     <div class="mainBack bg-no-repeat bg-cover bg-center xl:bg-none xl:h-auto">
       <MenuTop/>
     </div>
-    <div class="CenteringOneItem xl:items-center xl:h-full flex flex-col justify-center items-center xl:items-start">
+    <div class="xl:items-end xl:flex-col CenteringOneItem xl:items-center xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressesList class="MobHide mainPage__addresses"/>
       <p class="MobHide CarryMenu Ag-text14-to-1070 Ag700 w-full text-center">Меню доставки</p>
       <div class="flex justify-between flex-wrap mainPage__icons">

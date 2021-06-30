@@ -579,12 +579,10 @@ html {
     }
 
     .CenteringOneItem {
-        align-items: flex-end;
         width: 26.8%;
         margin: -13vh auto 0 0;
         background-color: #f5f4f4db;
         padding-top: 7vh;
-        flex-direction: column;
         height: 99.2vh;
     }
 

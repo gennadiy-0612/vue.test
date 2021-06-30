@@ -696,10 +696,6 @@ html {
         padding-left: 2.6vw;
     }
 
-    .TimeShow {
-        position: relative;
-    }
-
     .TimeShow::after,
     .AddressesList__main::after {
         content: '\25BC';

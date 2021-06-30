@@ -31,7 +31,7 @@
       <div class="setTime timeButton Ag-text14-to-1070 line-h17px choiceTimeT text-center">Выберите время <span
           class="MobHide TwoDots">:</span></div>
       <div
-          class="choiceTimeT TimeShow w-full flex justify-center items-center nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">
+          class="choiceTimeT TimeShow xl:relative w-full flex justify-center items-center nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">
         Ближайшее
         <div class="MobHide oformZakaz1 absolute m-t15px">
           <div class="Time max-w-max m-auto absolute m-auto overflow-y-scroll left-0 top-0 h-auto right-0">

@@ -29,7 +29,7 @@
       </div>
       <div class="tryIt tryIt-second">
         <h3 class="Ag-h3-to-1070 Card__title DescHide">Корзина</h3>
-        <div class="DeskTopAfterLine CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative">
+        <div class="DeskTopAfterLine xl:relative CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative">
           <Photo class="CardPage__photo"/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
@@ -45,7 +45,7 @@
             <img alt="alt" class="CardImg xl:relative xl:order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
-        <div class="DeskTopAfterLine CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative">
+        <div class="DeskTopAfterLine xl:relative CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative">
           <Photo class="CardPage__photo"/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>
@@ -61,7 +61,7 @@
             <img alt="alt" class="CardImg xl:relative xl:order-3" src="../../assets/img/trashbin.svg">
           </div>
         </div>
-        <div class="DeskTopAfterLine CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative MobHide">
+        <div class="DeskTopAfterLine xl:relative CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative MobHide">
           <Photo class="CardPage__photo"/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
             <p class="Ag6001624 Card__item xl:text-center">Стейк из свиннины</p>

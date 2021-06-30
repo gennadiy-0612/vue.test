@@ -528,10 +528,6 @@ html {
         margin: 1.6vh 0 1.1vh 1.1vw;
     }
 
-    .DeskTopAfterLine {
-        position: relative;
-    }
-
     .CardPage .Card_description::after,
     .DeskTopAfterLine::after {
         content: '';
@@ -546,7 +542,6 @@ html {
     .FrameDesk {
         padding: 0 30px;
         max-width: 1700px;
-        margin: auto;
     }
 
     .mainPage {

@@ -1,5 +1,5 @@
 <template>
-  <div class="ComboPage FrameDesk FrameMob FrameMob">
+  <div class="ComboPage FrameDesk xl:m-auto FrameMob FrameMob">
     <div class="Header flex justify-between">
       <BackButton/>
       <BurgMenu/>

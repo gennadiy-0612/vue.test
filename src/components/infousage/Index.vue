@@ -1,5 +1,5 @@
 <template>
-  <div class="infousageFrameDesk">
+  <div class="infousageFrameDesk xl:m-auto">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>

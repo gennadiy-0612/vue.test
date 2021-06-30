@@ -1,5 +1,5 @@
 <template>
-  <div class="Events FrameDesk FrameMob">
+  <div class="Events FrameDesk xl:m-auto FrameMob">
     <MenuTop/>
     <div
         class="OrderMoveAddresses bg-white xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">

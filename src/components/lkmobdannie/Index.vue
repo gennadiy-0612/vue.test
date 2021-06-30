@@ -1,5 +1,5 @@
 <template>
-  <div class="lkmPage Order ChangePersonData FrameDesk FrameMob">
+  <div class="lkmPage Order ChangePersonData FrameDesk xl:m-auto FrameMob">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>

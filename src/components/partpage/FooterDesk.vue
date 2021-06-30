@@ -1,5 +1,5 @@
 <template>
-  <footer class="foot MobHide">
+  <footer class="foot xl:m-auto MobHide">
     <router-link to="/" class="block MobHide bg-contain bg-center bg-no-repeat">
       <svg class="svgLogoBottom mx-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
            width="179" height="46"

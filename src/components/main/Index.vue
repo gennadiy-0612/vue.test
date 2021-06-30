@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="MainEat MobHide">
-      <div class="MainEat__item MainEat__item-1">
+      <div class="MainEat__item MainEat__item-1 xl:ml-auto">
         <h4 class="MainEat__head">КОМБО-НАБОРЫ</h4>
         <a class="MainEat__link block" href="#" title="Посмотреть">Посмотреть</a>
       </div>

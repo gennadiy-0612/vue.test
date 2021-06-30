@@ -5,7 +5,7 @@
       <BurgMenu/>
     </div>
     <ChangePersonalData class="lkmobdannie1"/>
-    <div class="OptionLK">
+    <div class="OptionLK xl:flex">
       <form action="/" class="relative flex flex-wrap items-center changeDataSet xl:flex xl:flex-col xl:align-baseline">
         <div class="optSet">
           <input placeholder="Пётр" type="text" id="name1" name="name1"

@@ -14,7 +14,7 @@
     <div class="OrderMoveFrame">
       <OrderMove/>
     </div>
-    <div class="oformZakSam">
+    <div class="oformZakSam xl:m-auto">
       <div class="CenterContent xl:flex xl:justify-between">
         <div class="CenterContent__right">
           <div class="OrderAct-two">

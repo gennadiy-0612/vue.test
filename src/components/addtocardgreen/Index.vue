@@ -1,10 +1,9 @@
 <template>
-  <button class="OrderMore-add-to-card-green Ag-text18-to-1070 w-full text-center">{{ msg }}</button>
+  <button class="OrderMore-add-to-card-green text-white Ag-text18-to-1070 w-full text-center">{{ msg }}</button>
 </template>
 <style scoped>
 .OrderMore-add-to-card-green {
   background-color: #009200;
-  color: #ffffff;
   line-height: 45px;
   font-weight: 600;
   transition-property: color, background-color;

@@ -11,7 +11,7 @@
       <div class="flex justify-between mt5-mb8 DescriptionItemInfo">
         <h3 class="Ag-text14-to-1070 DescriptionItem__price xl:font-semibold">{{ price }}.-</h3>
         <button
-            class="MobHide ComboNabButton xl:font-semibold OrderMore-add-to-card-black OrderActCash bg-black text-white Ag-text18-to-1070 w-full text-center">
+            class="MobHide ComboNabButton xl:font-semibold OrderMore-add-to-card-black bg-black OrderActCash bg-black text-white Ag-text18-to-1070 w-full text-center">
           Добавить в корзину
         </button>
         <img class="DescHide AddsIMG" alt="alt" src="../../assets/img/alsobuy.svg"/>

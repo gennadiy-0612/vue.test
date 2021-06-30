@@ -756,13 +756,11 @@ html {
 
     .foot {
         padding: 0 0 2%;
-        margin: auto;
         min-width: 950px;
     }
 
     .LogoBottom {
         max-width: 200px;
-        margin: auto;
     }
 
     .svgLogoBottom {
@@ -771,7 +769,6 @@ html {
 
     .h2Papa__h2 {
         font-size: 2rem;
-        width: 100%;
     }
 
     .foot__a {

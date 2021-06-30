@@ -2,7 +2,7 @@
   <div class="LogFrameGet fixed top-0 LogInDesc back-05 h-full w-full flex flex-wrap justify-center">
     <div class="LogFrameGet__item LogFrameGet__itemDesc self-center">
       <div class="h2Papa text-left flex justify-center items-center">
-        <h2 class="h2Papa__h2 text-left Ag-h2-to-1070">
+        <h2 class="h2Papa__h2 xl:w-full text-left Ag-h2-to-1070">
           Вход на сайт</h2>
       </div>
       <div class="InputPhone">

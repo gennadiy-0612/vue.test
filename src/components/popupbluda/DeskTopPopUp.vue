@@ -2,8 +2,8 @@
   <div class="MobHide CardInfoBack fixed bottom-0 left-0 top-0 bottom-0 h-full w-full flex justify-center items-center">
     <div class="CardInfoBanner CardInfoDeskTop bg-white flex">
       <div class="CardInfo">
-        <h3 class="CardInfo__head">Пицца Филадельфия</h3>
-        <p class="CardInfo__para">Нежная пицца со сливочным сыром и ломтиками слабосоленого лосося, с сыром Моцарелла,
+        <h3 class="CardInfo__para xl:font-semibold">Пицца Филадельфия</h3>
+        <p class="CardInfo__para xl:font-semibold">Нежная пицца со сливочным сыром и ломтиками слабосоленого лосося, с сыром Моцарелла,
           сырным соусом и салатом Руккола.</p>
         <ul class="CardInfo__descriptor flex flex-wrap">
           <li class="CardInfo__li flex">
@@ -29,7 +29,7 @@
         </ul>
         <div class="BLudoPrice flex flex-wrap justify-between items-center">
           <p class="BLudoPrice__digit"> 610.-</p>
-          <button class="text-center bg-black text-white GoOut">Добавить в корзину</button>
+          <button class="text-center bg-black text-white GoOut xl:font-semibold">Добавить в корзину</button>
         </div>
         <p class="propagate">В месте с этем также покупают</p>
         <div class="CardInfoAssort flex flex-wrap">

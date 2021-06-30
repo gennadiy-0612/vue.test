@@ -1288,7 +1288,6 @@ html {
 
     .choiceTimeT {
         font-size: 29px;
-        font-weight: 600;
         background-color: transparent;
     }
 
@@ -2445,7 +2444,6 @@ html {
     .DescriptionItem__p {
         font-size: 15px;
         line-height: 15px;
-        font-weight: 600;
         margin: 20px 0 0 10px;
     }
 
@@ -2457,6 +2455,8 @@ html {
     .ComboNabButton {
         margin-bottom: 0;
         min-width: 230px;
+        max-width: 220px;
+        line-height: 30px;
     }
 
     .DescriptionItemInfo {
@@ -2472,15 +2472,8 @@ html {
     .DescriptionItem__price,
     .DescriptionItem__head3 {
         font-size: 24px;
-        font-weight: 600;
         margin: 0 0 0 10px;
         top: 0;
-    }
-
-    .ComboNabButton {
-        max-width: 220px;
-        font-weight: 600;
-        line-height: 30px;
     }
 
     .OrderMoreComboNabori {
@@ -2506,7 +2499,6 @@ html {
         margin: 30px 0 20px 40px;
         font-size: 27px;
         letter-spacing: .4px;
-        font-weight: 600;
     }
 
     .CardInfo__para {
@@ -2514,7 +2506,6 @@ html {
         max-width: 367px;
         font-size: 19px;
         line-height: 21px;
-        font-weight: 600;
     }
 
     .CardInfo {
@@ -2548,7 +2539,6 @@ html {
         line-height: 6px;
         height: 30px;
         padding: 0 26px 0;
-        font-weight: 600;
     }
 
     .closeLog-popup {

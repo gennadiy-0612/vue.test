@@ -668,10 +668,6 @@ html {
         margin-bottom: -5px;
     }
 
-    .AddressesList__phone {
-        padding-right: 0;
-    }
-
     .mainPage__icons {
         flex-direction: column;
         flex-wrap: initial;

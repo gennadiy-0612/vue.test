@@ -1,7 +1,7 @@
 <template>
   <div class="popUpFrame popUpFrame1 popUpFrame2 popUpReady flex justify-center items-center h-full w-full">
     <div class="popUpFrameInner">
-      <div class="DescHide">
+      <div class="xl:hidden">
         <router-link to="/">
           <X/>
         </router-link>
@@ -10,7 +10,7 @@
       <div class="popUpFrame__pSet">
         <ParaGraph msg="Позиции добавленные корзину будут удалены."/>
       </div>
-      <div class="DescHide">
+      <div class="xl:hidden">
         <GreenButton msg="Готово"/>
       </div>
       <div class="DeskButtonsSet MobHide flex justify-between">

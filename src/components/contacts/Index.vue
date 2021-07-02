@@ -4,7 +4,7 @@
       <Address/>
       <BurgMenu/>
     </div>
-    <div class="DescHide">
+    <div class="xl:hidden">
       <HeadTwo msg="Контакты"/>
     </div>
     <div class="HeadSet">

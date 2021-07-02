@@ -1,5 +1,5 @@
 <template>
-  <div class="Ag-back-to-1070 backButton relative DescHide">
+  <div class="Ag-back-to-1070 backButton relative xl:hidden">
     Назад
   </div>
 </template>

@@ -8,7 +8,7 @@
       <AddressTime/>
     </div>
     <div class="OrderMove__head">
-      <div class="DescHide">
+      <div class="xl:hidden">
         <HeaderThree msg="Оформление заказа"/>
       </div>
     </div>
@@ -36,7 +36,7 @@
         <div class="MobHide oformZakaz1 absolute m-t15px">
           <div class="Time max-w-max m-auto absolute m-auto overflow-y-scroll left-0 top-0 h-auto right-0">
             <router-link to="/">
-              <div class="DescHide">
+              <div class="xl:hidden">
                 <X/>
               </div>
             </router-link>
@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="Order__setButtons flex flex-col xl:flex-row justify-between xl:items-center">
-        <GreenButton class="DescHide" msg="Перейти к подтверждению"/>
+        <GreenButton class="xl:hidden" msg="Перейти к подтверждению"/>
       <div class="blackButtonStyled bigButtonStyled BackToCard">
         <BlackButton msg="Назад в корзину"/>
       </div>
@@ -66,7 +66,7 @@
         <BlackButton msg="Посмотреть на карте"/>
       </div>
     </div>
-    <a class="DescHide Ag4001624 text-center SeeMap block">Посмотреть на карте</a>
+    <a class="xl:hidden Ag4001624 text-center SeeMap block">Посмотреть на карте</a>
     <MenuBottom/>
     <FooterDesk/>
   </div>

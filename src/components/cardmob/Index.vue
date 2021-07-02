@@ -28,7 +28,7 @@
         <div class="arrow arrow-left MobHide absolute"></div>
       </div>
       <div class="tryIt tryIt-second">
-        <h3 class="Ag-h3-to-1070 Card__title DescHide">Корзина</h3>
+        <h3 class="Ag-h3-to-1070 Card__title xl:hidden">Корзина</h3>
         <div class="DeskTopAfterLine xl:relative CardPage__choice xl:flex xl:flex-wrap xl:justify-between xl:relative">
           <Photo class="CardPage__photo xl:justify-start"/>
           <div class="tryIt-second__descriptor xl:flex xl:flex-wrap xl:flex-col">
@@ -39,7 +39,7 @@
             <p class="Ag-text1421-to-1070 SetControl__price xl:order-2">600р</p>
             <div class="control flex justify-between xl:order-1">
               <p class="countEat Ag-text14-to-1070 sign">-</p>
-              <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
+              <p class="countEat Ag-text14-to-1070">1 <span class="xl:hidden">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
             <img alt="alt" class="CardImg xl:relative xl:order-3" src="../../assets/img/trashbin.svg">
@@ -55,7 +55,7 @@
             <p class="Ag-text1421-to-1070 SetControl__price xl:order-2">600р</p>
             <div class="control flex justify-between xl:order-1">
               <p class="countEat Ag-text14-to-1070 sign">-</p>
-              <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
+              <p class="countEat Ag-text14-to-1070">1 <span class="xl:hidden">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
             <img alt="alt" class="CardImg xl:relative xl:order-3" src="../../assets/img/trashbin.svg">
@@ -71,7 +71,7 @@
             <p class="Ag-text1421-to-1070 SetControl__price xl:order-2">600р</p>
             <div class="control flex justify-between xl:order-1">
               <p class="countEat Ag-text14-to-1070 sign">-</p>
-              <p class="countEat Ag-text14-to-1070">1 <span class="DescHide">шт</span></p>
+              <p class="countEat Ag-text14-to-1070">1 <span class="xl:hidden">шт</span></p>
               <p class="countEat Ag-text14-to-1070 sign">+</p>
             </div>
             <img alt="alt" class="CardImg xl:relative xl:order-3" src="../../assets/img/trashbin.svg">

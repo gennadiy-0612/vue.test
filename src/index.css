@@ -385,10 +385,6 @@ html {
 }
 
 .ComboSetsBottom {
-    padding-top: 28px;
-}
-
-.ComboSetsBottom {
     padding-top: 0;
 }
 
@@ -554,6 +550,12 @@ html {
         max-width: 1700px;
     }
 
+    .Events .MenuContent,
+    .infocompany .MenuContent {
+        padding-left:  0;
+        padding-right: 0;
+    }
+
     .mainPage {
         background-image: url("./assets/img/mainpage/main.png");
         max-width: 1920px;
@@ -567,6 +569,11 @@ html {
     .MenuContent {
         max-width: 1680px;
         padding: 1vh 20px 0;
+    }
+
+    .ComboPage .MenuContent {
+        max-width: 1680px;
+        padding: 1vh 0 0;
     }
 
     .MenuContent__ol {
@@ -689,10 +696,8 @@ html {
 
     .iconsThemes {
         flex-direction: row;
-        width: 98.3%;
         margin-right: auto;
         padding: 1.45vh 0;
-        max-width: 300px;
     }
 
     .descImg {
@@ -1175,6 +1180,10 @@ html {
         max-width: 346px;
     }
 
+    .OrderMoveAddresses-e {
+        margin: 6.1vh 0 0;
+    }
+
     .OrderMoveFrame {
         margin-top: 48px;
     }
@@ -1248,6 +1257,12 @@ html {
     .choiceTimeT {
         font-size: 29px;
         background-color: transparent;
+    }
+
+    .ComboPage .choiceTimeT {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 20px 0 0 10px;
     }
 
     .Order__setButtons {
@@ -1748,11 +1763,6 @@ html {
     }
 
     /*popUpFrame2 page*/
-    .DescHide,
-    .oformsamovivoza .DescHide {
-        display: none;
-    }
-
     /*popUpFrame2 page*/
     /*Contacts page*/
     .Contacts {
@@ -2068,6 +2078,10 @@ html {
         margin: 9px 0 0 auto;
     }
 
+    .LoadPrice {
+        font-size: 20px;
+    }
+
     .Card__load {
         margin: 7px 0 0 auto;
         max-width: 446px;
@@ -2198,7 +2212,7 @@ html {
     }
 
     .ComboPage__icons {
-        margin: 6vh 0 0;
+        margin: 3.5vh 0 0;
         width: 100%;
         max-width: 100%;
         padding: 1.6vh 0;
@@ -2210,8 +2224,8 @@ html {
     }
 
     .LoadBar {
-        height: 45px;
-        margin: 0 0 11px;
+        height: 31px;
+        margin: 10px 15px 0 0;
     }
 
     .CardPage-discount {
@@ -2237,10 +2251,6 @@ html {
         margin-top: 10px;
     }
 
-    .AddressLCombo {
-        margin-top: 1.3vh;
-    }
-
     .mainItemCombo {
         width: 9vw;
         max-width: initial;
@@ -2254,6 +2264,7 @@ html {
 
     .ComboSetsBottom {
         flex: 1 1 50%;
+        padding-top: 35px;
     }
 
     .comboNabori__detail {
@@ -2309,8 +2320,8 @@ html {
     }
 
     .OrderAllPrice__minus {
-        margin: 0 5px 0 -18px;
-        font-size: 47px;
+        margin: 0 0.7vw 0 -18px;
+        font-size: 29px;
         line-height: 1px;
     }
 
@@ -2327,7 +2338,7 @@ html {
     }
 
     .comboSet-img {
-        height: 92.7%;
+        height: 97.4%;
         width: 95.7%;
         margin: 0 0 0 20px;
     }
@@ -2335,7 +2346,7 @@ html {
     .DescriptionItem__h3,
     .DescriptionItem__head1 {
         font-size: 25px;
-        margin: 20px 0 0 10px;
+        margin: 8px 0 0 10px;
     }
 
     .DescriptionItem__p {
@@ -2359,7 +2370,7 @@ html {
     .DescriptionItemInfo {
         max-width: 393px;
         padding-left: 0.5vw;
-        margin: 19px 0 -4px;
+        margin: 19px 0 16px;
     }
 
     .comboNabori__price {

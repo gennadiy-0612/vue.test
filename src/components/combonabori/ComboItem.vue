@@ -8,7 +8,7 @@
       </div>
       <div class="flex justify-between mt5-mb10 comboNabori__price xl:flex">
         <h3 class="Ag-h3-to-1070 DescriptionItem__head3 xl:font-semibold t100-14 relative">{{ price }}.-</h3>
-        <img class="DescHide" alt="alt" src="../../assets/img/alsobuy.svg"/>
+        <img class="xl:hidden" alt="alt" src="../../assets/img/alsobuy.svg"/>
       </div>
     </div>
   </div>

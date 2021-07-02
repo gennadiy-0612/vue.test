@@ -4,7 +4,7 @@
       <BackButton/>
       <BurgMenu/>
     </div>
-    <ol class="DescHide flex categorySet swipe">
+    <ol class="xl:hidden flex categorySet swipe">
       <li>
         <CatItem msg="Пицца"/>
       </li>
@@ -42,8 +42,8 @@
         <div class="ComboAdd">
           <div class="Card__more-discount xl:relative xl:left-0">
             <p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
-            <div class="CatsPage-Load flex items-center">
-              <LoadBar/>
+            <div class="flex items-center">
+              <LoadBar class="xl:hidden"/>
               <p class="Ag4001624 font-semibold LoadPrice relative">301.-</p>
             </div>
           </div>

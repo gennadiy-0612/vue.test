@@ -2,7 +2,7 @@
   <div id="MenuContent"
        class="MenuContent hidden fixed xl:static xl:flex w-full h-full CommonMenu xl:pl-0 xl:pr-0 xl:h-auto xl:items-center flex flex-wrap items-start justify-items-start top-0 left-0 xl:m-auto bg-white xl:bg-opacity-0 xl:bg-white">
     <router-link to="#" class="closeX fixed right-2 z-2 block top-0 MenuContent__x">
-      <X class="XMenuContentJS"/>
+      <X class="XMenuContentJS xl:hidden"/>
     </router-link>
     <MainLinkLogo/>
     <ol class="MenuContent__ol bg-white xl:bg-transparent relative flex items-center flex-col xl:flex-row justify-center xl:justify-around text-center w-full h-full z-1">

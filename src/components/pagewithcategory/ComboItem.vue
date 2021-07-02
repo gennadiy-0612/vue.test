@@ -14,7 +14,7 @@
             class="MobHide ComboNabButton xl:font-semibold OrderMore-add-to-card-black bg-black OrderActCash bg-black text-white Ag-text18-to-1070 w-full text-center">
           Добавить в корзину
         </button>
-        <img class="DescHide AddsIMG" alt="alt" src="../../assets/img/alsobuy.svg"/>
+        <img class="xl:hidden AddsIMG" alt="alt" src="../../assets/img/alsobuy.svg"/>
       </div>
     </div>
   </div>

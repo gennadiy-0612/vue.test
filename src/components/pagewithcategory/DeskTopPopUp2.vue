@@ -2,7 +2,7 @@
   <div class="CardPop2 MobHide CardInfoBack fixed bottom-0 left-0 top-0 bottom-0 h-full w-full flex justify-center items-center">
     <div class="CardInfoBanner CardInfoDeskTop fixed bg-white flex">
       <div class="CardInfo">
-        <h3 class="CardInfo_H3 xl:font-semibold">Pop2 Пицца Филадельфия</h3>
+        <h3 class="CardInfo__H3 xl:font-semibold">Pop2 Пицца Филадельфия</h3>
         <p class="CardInfo__para xl:font-semibold">Нежная пицца со сливочным сыром и ломтиками слабосоленого лосося, с сыром Моцарелла,
           сырным соусом и салатом Руккола.</p>
         <ul class="CardInfo__descriptor flex flex-wrap">

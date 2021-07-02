@@ -1,7 +1,7 @@
 <template>
   <div class="popUpFrame popUpFrame1 popUpReady flex justify-center items-center h-full w-full">
     <div class="popUpFrameInner">
-      <div class="DescHide">
+      <div class="xl:hidden">
         <router-link to="/">
           <X/>
         </router-link>

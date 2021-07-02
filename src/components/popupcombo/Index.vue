@@ -1,7 +1,7 @@
 <template>
   <div class="popUpComboDesk xl:fixed xl:flex xl:h-full xl:w-full xl:justify-between xl:items-center">
     <div class="popUpCombo popUpComboDesk__inner xl:bg-white xl:flex xl:mx-auto xl:p-0">
-      <router-link class="DescHide" to="/">
+      <router-link class="xl:hidden" to="/">
         <X/>
       </router-link>
       <Photo class="xl:order-2 xl:h-auto" msg="Photo"/>

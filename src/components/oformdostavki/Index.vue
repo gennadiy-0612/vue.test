@@ -8,7 +8,7 @@
         class="OrderMoveAddresses float-left bg-white xl:h-auto xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressTime/>
     </div>
-    <div class="DescHide">
+    <div class="xl:hidden">
       <HeaderThree msg="Подтверждение"/>
     </div>
     <div class="OrderMoveFrame">
@@ -32,7 +32,7 @@
             <div class="OrderAct__line flex items-center flex-wrap justify-between">
               <p class="OrderAct__item1 Ag-text14-to-1070 oformsamovivoza__Oreder">Адрес самовывоза</p>
               <p class="OrderAct__item2 Ag-text1421-to-1070 text-right OrderAct__data oformsamovivoza__Oreder">Улица
-                Военная,<br class="DescHide"/> 5, ТРЦ “Аура”</p>
+                Военная,<br class="xl:hidden"/> 5, ТРЦ “Аура”</p>
             </div>
             <div class="OrderAct__line flex justify-between oformZakSam__set">
               <p class="Ag-text14-to-1070 oformZakSam__button">Время самовывоза</p>
@@ -100,7 +100,7 @@
             </div>
           </div>
         </div>
-        <div class="Order__setButtons DescHide flex flex-col xl:flex-row justify-between xl:items-center">
+        <div class="Order__setButtons xl:hidden flex flex-col xl:flex-row justify-between xl:items-center">
           <GreenButton msg="Подтвердить заказ на 2000р"/>
           <BlackButton msg="Назад к оформлению заказа"/>
         </div>

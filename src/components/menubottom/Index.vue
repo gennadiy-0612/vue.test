@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="closeContentMenu" class="DescHide closeContentMenuBottom fixed bottom-0 w-full left-0 bg-white">
+    <div id="closeContentMenu" class="xl:hidden closeContentMenuBottom fixed bottom-0 w-full left-0 bg-white">
       <ul class="BottomMenu flex justify-between">
         <li class="BottomMenu__item menu">
           <a class="BottomMenu__a menu flex justify-between flex-col" href="#ContentMenuBottom">
@@ -34,7 +34,7 @@
         </li>
       </ul>
     </div>
-    <ol class="ContentMenu DescHide flex-col" id="ContentMenuBottom">
+    <ol class="ContentMenu xl:hidden flex-col" id="ContentMenuBottom">
       <a href="#closeContentMenu" class="closeMenuBottom absolute top-0 right-0 block m-r16">
         <X/>
       </a>

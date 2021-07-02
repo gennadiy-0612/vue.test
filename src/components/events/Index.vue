@@ -2,7 +2,7 @@
   <div class="Events FrameDesk xl:m-auto FrameMob">
     <MenuTop/>
     <div
-        class="OrderMoveAddresses float-left bg-white xl:items-end xl:flex-col CenteringOneItem xl:h-full xl:h-auto flex flex-col justify-center items-center xl:items-start">
+        class="OrderMoveAddresses OrderMoveAddresses-e float-left bg-white xl:items-end xl:flex-col CenteringOneItem xl:h-full xl:h-auto flex flex-col justify-center items-center xl:items-start">
       <AddressTime/>
     </div>
     <h2 class="Ag-h2-to-1070 underHead EventsName">Акции</h2>
@@ -46,7 +46,7 @@
         <Photo/>
         <h3 class="Ag-h3-to-1070 Presents">1 литр натурального морса в подарок</h3>
         <div class="PresentsTo afterLine">
-          <p class="Ag-text14-to-1070 PresentsP">При сумме заказа отЮООр вы получаете
+          <p class="Ag-text14-to-1070 PresentsP">При сумме заказа от 1000 р вы получаете
             1 литр натурального морса в подарок!
             Если вы хотите принять участие в этой акции, то при оформлении заказа нажмите на кнопку "Получить подарок".
             *Акция действует только на доставке из ресторана "Перчини".

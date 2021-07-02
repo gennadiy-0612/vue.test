@@ -9,7 +9,7 @@
       <AddressTime/>
     </div>
     <div class="OrderMove__head">
-      <div class="DescHide">
+      <div class="xl:hidden">
         <HeaderThree msg="Оформление заказа"/>
       </div>
     </div>
@@ -77,7 +77,7 @@
         </div>
       </div>
       <div class="Order__setButtons HeadOfZak-OtherSB flex flex-col xl:flex-row justify-between xl:items-center">
-        <GreenButton class="DescHide" msg="Перейти к подтверждению"/>
+        <GreenButton class="xl:hidden" msg="Перейти к подтверждению"/>
         <BlackButton class="oformzakaza-backToCard" msg="Назад в корзину"/>
         <GreenButton class="MobHide greenButtonStyled" msg="Далее"/>
       </div>

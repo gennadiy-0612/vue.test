@@ -54,11 +54,6 @@
   transition-property: color;
   transition-duration: .7s;
 }
-
-.MenuContent__ol .MenuContent__a {
-  display: block;
-  line-height: 37px;
-}
 </style>
 <script>
 import X from '../popupbluda/X'

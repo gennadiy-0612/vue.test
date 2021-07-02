@@ -5,7 +5,7 @@
       <BurgMenu/>
     </div>
     <div
-        class="OrderMoveAddresses float-left bg-white xl:h-auto xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+        class="OrderMoveAddresses OrderMoveAddresses-e float-left bg-white xl:h-auto xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressTime/>
     </div>
     <div class="xl:hidden">

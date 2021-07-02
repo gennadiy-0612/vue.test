@@ -1,5 +1,5 @@
 <template>
-  <div class="Order lkmob2ChangePD ChangePD">
+  <div class="Order lkmob2ChangePD ChangePD FrameMob">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>

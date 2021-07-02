@@ -1,6 +1,6 @@
 <template>
   <div class="popUpFrame popUpFrame1 popUpReady flex justify-center items-center h-full w-full">
-    <div class="popUpFrameInner">
+    <div class="popUpFrameInner Alldone">
       <div class="xl:hidden">
         <router-link to="/">
           <X/>
@@ -8,13 +8,13 @@
       </div>
       <HeaderPopUp msg="Ваш заказ успешно оплачен!"/>
       <div class="popUpFrame__pSet">
-        <ParaGraph msg="Заказ № 000000 Ваш заказ будет доставлен по адресу: г. Новосибирск,"/>
+        <ParaGraph class="OrderNumber" msg="Заказ № 000000 Ваш заказ будет доставлен по адресу: г. Новосибирск,"/>
         <div class="details">
           <ParaGraph msg="ул. Ленина, 5, квартира 4. Время "/>
           <ParaGraph msg="доставки 10:00 - 12:00."/>
         </div>
       </div>
-      <GreenButton msg="Готово"/>
+      <GreenButton class="Alldone__Complete" msg="Готово"/>
     </div>
   </div>
 </template>
@@ -23,19 +23,8 @@
   content: none;
 }
 
-.popUpReady .PopUpHeader {
-  width: 200px;
-  text-align: center;
-  margin: 0;
-}
-
 .popUpFrame__pSet {
   padding: 6px 0 30px;
-}
-
-.popUpFrame1 .popUpFrame__pSet .PopUpHead {
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .details .PopUpHead {

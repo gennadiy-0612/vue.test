@@ -25,19 +25,8 @@
   content: none;
 }
 
-.popUpReady .PopUpHeader {
-  width: 200px;
-  text-align: center;
-  margin: 0;
-}
-
 .popUpFrame__pSet {
   padding: 6px 0 30px;
-}
-
-.popUpFrame1 .popUpFrame__pSet .PopUpHead {
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .details .PopUpHead {

@@ -1,5 +1,5 @@
 <template>
-  <div class="Time max-w-max m-auto absolute m-auto overflow-y-scroll left-0 top-0 h-auto right-0">
+  <div class="Time xl:w-auto max-w-max m-auto absolute m-auto overflow-y-scroll left-0 top-0 bottom-0 h-auto right-0">
     <router-link to="/">
       <X/>
     </router-link>

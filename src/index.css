@@ -513,6 +513,11 @@ html {
     width: 50%;
 }
 
+.lkmPage .OptLi {
+    width: 43.3%;
+    padding-bottom: 4px;
+}
+
 .DescriptionItem {
     padding: 0 0 7px;
     margin: 0;
@@ -521,6 +526,24 @@ html {
 /*Events*/
 .EventsName {
     margin-top: 30px;
+}
+
+.checkIt + .toChange::after {
+    height: 20px;
+    width: 20px;
+}
+
+.checkIt:checked + .addressGost::before {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 2px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    position: absolute;
+    background-color: #009200;
 }
 
 @media (max-width: 1279px) {
@@ -661,10 +684,18 @@ html {
         top: 2.8%;
     }
 
+    .mainPage .mainPage__addresses {
+        top: 3vh;
+    }
+
+    .mainPage .iconsThemes {
+        padding: 0;
+    }
+
     .mainPage__addresses {
-        padding: 0 1.5vw 0 7.5vw;
         top: 0;
-        margin: 6vh 0 3.1vh;
+        padding: 0;
+        margin: 5.6vh 0;
     }
 
     .AddressesList__li {
@@ -882,21 +913,18 @@ html {
         padding: 42px 16px 16px;
     }
 
-    .checkIt:checked + .addressGost::before {
-        height: 16px;
-        width: 16px;
-        border-radius: 50%;
-        left: 5px;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        content: '';
-        position: absolute;
-        background-color: #009200;
+    .checkIt + .toChange::after,
+    .checkIt + label::after {
+        height: 26px;
+        width: 26px;
+        left: 0;
     }
 
+    .checkIt + label::before,
     .LKD0:checked + .addressGost::before {
-        left: 4px;
+        left: 3px;
+        height: 20px;
+        width: 20px;
     }
 
     .checkIt + label::after {
@@ -2711,11 +2739,6 @@ html {
 
     .logCard {
         margin-right: 30px;
-    }
-
-    .mainPage__addresses {
-        padding: 0;
-        margin: 5.6vh 0;
     }
 
     .mainPage__icons {

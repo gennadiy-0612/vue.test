@@ -78,11 +78,6 @@
   padding: 14px 0;
 }
 
-.checkIt + .toChange::after {
-  height: 24px;
-  width: 24px;
-}
-
 .showIt + .toChange::before {
   left: 4px;
   height: 12px;

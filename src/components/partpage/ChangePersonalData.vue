@@ -1,9 +1,9 @@
 <template>
   <ol class="flex flex-wrap justify-between afterLine afterLine-PersonData">
-    <li class="Ag-text14-to-1070 activeOption afterLine block Option changeDataPerson relative w-1/2">
+    <li class="Ag-text14-to-1070 activeOption afterLine block Option OptLi changeDataPerson relative">
       <router-link to="#" class="DeskLimit xl:text-center block">Личные данные</router-link>
     </li>
-    <li class="Ag-text14-to-1070 block Option afterLine-change changeDataAddress relative w-1/2">
+    <li class="Ag-text14-to-1070 block Option OptLi afterLine-change changeDataAddress relative">
       <router-link to="#" class="DeskLimit text-right xl:text-center block">Адреса доставки</router-link>
     </li>
   </ol>

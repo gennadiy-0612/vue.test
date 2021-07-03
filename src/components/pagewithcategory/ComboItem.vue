@@ -1,7 +1,7 @@
 <template>
   <div class="DescriptionItem flex relative justify-center relative xl:flex xl:flex-col">
     <p class="MobHide hit xl:italic xl:hidden absolute left-0 right-0 text-center text-white">Хит</p>
-    <router-link to="#"><img alt="alt" class="comboSet-img xl:object-cover width-full" src="../../assets/img/photo86x59px.svg">
+    <router-link to="#"><img alt="alt" class="comboSet-img xl:object-cover " src="../../assets/img/photo86x59px.svg">
     </router-link>
     <div class="flex flex-col h-full justify-between">
       <div class="flex flex-col p-l7px">

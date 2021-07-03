@@ -1,6 +1,6 @@
 <template>
   <div class="DescriptionItem comboNabori__all m-t10px combo flex xl:flex-col justify-center relative">
-    <img alt="alt" class="comboSet-img xl:object-cover width-full" src="../../assets/img/photo86x59px.svg">
+    <img alt="alt" class="comboSet-img xl:object-cover " src="../../assets/img/photo86x59px.svg">
     <div class="flex flex-col">
       <div class="flex flex-col p-l7px">
         <h3 class="Ag-h3-to-1070 m-t-3px DescriptionItem__head1">{{ heads }}</h3>

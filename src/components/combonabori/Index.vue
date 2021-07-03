@@ -28,7 +28,7 @@
       </li>
     </ol>
     <div
-        class="OrderMoveAddresses OrderMoveAddresses-e float-left bg-white xl:items-end xl:flex-col CenteringOneItem MobHide xl:h-full flex flex-col justify-center items-center xl:items-start">
+        class="OrderMoveAddresses float-left bg-white xl:items-end xl:flex-col CenteringOneItem MobHide xl:h-full flex flex-col justify-center items-center xl:items-start">
     </div>
     <div class="mainEat xl:flex xl:flex-wrap">
       <div class="MobHide InfoGraphics">

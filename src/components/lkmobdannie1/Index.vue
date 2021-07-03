@@ -1,10 +1,10 @@
 <template>
-  <div class="Order ChangePersonData FrameDesk xl:m-auto FrameMob">
+  <div class="lkmPage Order ChangePersonData FrameDesk xl:m-auto FrameMob">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
     </div>
-    <ChangePersonalData class="lkmobdannie1"/>
+    <ChangePersonalData class="lkmobdannie"/>
     <div class="OptionLK xl:flex">
       <form action="/" class="relative flex flex-wrap items-center changeDataSet xl:flex xl:flex-col xl:align-baseline">
         <div class="optSet">
@@ -29,13 +29,12 @@
         </div>
       </form>
       <div class="getNews xl:items-center relative flex">
-        <input type="radio" id="address1" name="address1" value="Bike" class="checkIt opacity-0 LKD0">
-        <label for="address1" id="GetInfoAboutOrder"
-               class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
+        <input type="radio" id="GetInfoAboutOrder" name="GetInfoAboutOrder" value="Bike" class="checkIt opacity-0 LKD0">
+        <label for="GetInfoAboutOrder" class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
           информацию о заказе</label>
       </div>
     </div>
-    <BlackButton class="lkmobdannie__setButtons" msg="Выйти"/>
+      <BlackButton class="lkmobdannie__setButtons" msg="Выйти"/>
     <FooterDesk/>
     <MenuBottom/>
   </div>
@@ -58,7 +57,8 @@
   margin: 3px 0 21px;
 }
 
-.oformZakaz .OrderMore-add-to-card-green, .oformZakaz .OrderMore-add-to-card-black {
+.oformZakaz .OrderMore-add-to-card-green,
+.oformZakaz .OrderMore-add-to-card-black {
   flex: 1 1 50%;
 }
 
@@ -96,6 +96,7 @@
   margin-top: 20px;
 }
 </style>
+
 <script>
 import BurgMenu from '../burgmenu/Index'
 import Address from '../partpage/Address'
@@ -114,21 +115,5 @@ export default {
     FooterDesk,
     MenuBottom
   }
-}
-
-function shch(Select) {
-  this.takeTag = function () {
-    this.TagEl.classList.toggle('showIt');
-    console.log(this)
-  };
-  this.addE = function () {
-    this.TagEl = document.querySelector(Select);
-    this.TagEl.addEventListener('click', this.takeTag.bind(this));
-  };
-}
-
-if (window.location.pathname === '/lkmobdannie1') {
-  let cardSwitcher1 = new shch('#GetInfoAboutOrder');
-  window.addEventListener('load', cardSwitcher1.addE.bind(cardSwitcher1));
 }
 </script>

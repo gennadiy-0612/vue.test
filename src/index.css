@@ -418,8 +418,7 @@ html {
     padding: 26px 0;
 }
 
-.lkmobdannie,
-.lkmobdannie1 {
+.lkmobdannie{
     margin-top: 30px;
 }
 
@@ -985,7 +984,6 @@ html {
     /*Search page*/
     /*lkmobdannie page*/
     .lkmobdannie,
-    .lkmobdannie1,
     .lkmobdannie2 {
         max-width: 630px;
         margin: 42px auto 0;

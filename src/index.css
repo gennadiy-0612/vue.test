@@ -1503,8 +1503,9 @@ html {
     .CenterContent__left {
         flex: 1 1 50%;
         max-width: 21.4%;
-        top: -28px;
-        left: 35px;
+        top: 0;
+        left: 1.8vw;
+        margin-top: -2.6vh;
     }
 
     .OrderAllPrice__h2,
@@ -2246,10 +2247,6 @@ html {
 
     :first-child > .hit {
         display: block;
-    }
-
-    .CenterContent__left {
-        margin-top: 3.2vh;
     }
 
     .AddressLCombo {

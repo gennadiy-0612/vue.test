@@ -29,7 +29,7 @@
         </div>
       </form>
       <div class="getNews xl:items-center relative flex">
-        <input type="radio" id="address1" name="address1" value="Bike" class="checkIt opacity-0">
+        <input type="radio" id="address1" name="address1" value="Bike" class="checkIt opacity-0 LKD0">
         <label for="address1" id="GetInfoAboutOrder"
                class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
           информацию о заказе</label>
@@ -79,8 +79,8 @@
 }
 
 .checkIt + .toChange::after {
-  height: 20px;
-  width: 20px;
+  height: 24px;
+  width: 24px;
 }
 
 .showIt + .toChange::before {

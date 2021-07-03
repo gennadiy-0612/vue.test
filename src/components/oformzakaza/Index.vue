@@ -24,13 +24,13 @@
       <p class="Ag-text14-to-1070 fs14px MyAddress">Мой адрес</p>
       <form class="myAddress" action="/action_page.php">
         <div class="itemCity relative flex">
-          <input class="checkIt checkIt1 opacity-0" type="radio" id="address1" name="address1" value="Bike">
+          <input class="checkIt checkIt1 opacity-0" type="radio" id="address1" name="address" value="Bike">
           <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address1">г. Новосибирск, ул.
             Улица, дом
             123, квартира 45, подъезд 6 , этаж 7</label>
         </div>
         <div class="itemCity relative flex">
-          <input class="checkIt checkIt2 opacity-0" type="radio" id="address2" name="address2" value="Car">
+          <input class="checkIt checkIt2 opacity-0" type="radio" id="address2" name="address" value="Car">
           <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address2">Добавить новый
             адрес</label>
         </div>
@@ -157,22 +157,5 @@ export default {
     FooterDesk,
     MenuBottom
   }
-}
-
-function shch(Select, add) {
-  this.takeTag = function () {
-    this.TagEl.classList.toggle(add);
-  };
-  this.addE = function () {
-    this.TagEl = document.querySelector(Select);
-    this.TagEl.addEventListener('click', this.takeTag.bind(this));
-  };
-}
-
-if (window.location.pathname === '/oformzakaza') {
-  let cardOfform = new shch('.checkIt1', 'showIt');
-  window.addEventListener('load', cardOfform.addE.bind(cardOfform));
-  let cardOfform1 = new shch('.checkIt2', 'showIt');
-  window.addEventListener('load', cardOfform1.addE.bind(cardOfform1));
 }
 </script>

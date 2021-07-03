@@ -882,15 +882,26 @@ html {
         padding: 42px 16px 16px;
     }
 
-    .showIt:checked + .addressGost::before {
-        height: 14px;
-        width: 14px;
+    .checkIt:checked + .addressGost::before {
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        left: 5px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        content: '';
+        position: absolute;
+        background-color: #009200;
+    }
+
+    .LKD0:checked + .addressGost::before {
         left: 4px;
     }
 
     .checkIt + label::after {
-        height: 24px;
-        width: 24px;
+        height: 26px;
+        width: 26px;
         left: 0;
     }
 
@@ -1467,6 +1478,10 @@ html {
         font-size: 22px;
     }
 
+    .OrderActCash {
+        margin-bottom: 20px;
+    }
+
     .HeadOfZak-OtherSB1 button.greenButtonStyled,
     .HeadOfZak-OtherSB button.greenButtonStyled {
         max-width: 170px;
@@ -1633,8 +1648,7 @@ html {
 
     .oformsamovivoza .Order__setButtons {
         max-width: 700px;
-        margin: 50px 0 0;
-        display: flex;
+        margin: 0;
         min-width: 612px;
     }
 
@@ -2674,14 +2688,14 @@ html {
     #ContentMenuBottom.MenuContentJSOpen.MenuContentJSOpen {
         display: flex;
         opacity: 1;
-        position: fixed;
+        position: absolute;
         z-index: 1;
         top: 0;
         left: 0;
         width: 100%;
         align-items: center;
         background-color: #535353;
-        height: 100%;
+        height: auto;
         padding: 20px 0;
     }
 

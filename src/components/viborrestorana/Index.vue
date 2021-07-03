@@ -13,21 +13,21 @@
           </div>
           <form class="addressOfCity" action="/action_page.php">
             <div class="itemCity relative flex afterLine">
-              <input class="checkIt opacity-0" type="radio" id="address1" name="address1" value="Bike">
+              <input class="checkIt opacity-0" type="radio" id="address1" name="address" value="Bike">
               <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address1">Ул. Красный Проспект, 25/1</label>
             </div>
             <div class="itemCity relative flex afterLine">
-              <input class="checkIt opacity-0" type="radio" id="address2" name="address2" value="Car">
+              <input class="checkIt opacity-0" type="radio" id="address2" name="address" value="Car">
               <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address2">Ул. Военная, 5, ТРЦ “Аура”</label>
             </div>
             <div class="itemCity relative flex afterLine">
-              <input class="checkIt opacity-0" type="radio" id="address3" name="address3" value="Boat">
+              <input class="checkIt opacity-0" type="radio" id="address3" name="address" value="Boat">
               <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address3">Ул. Красный Проспект, 101, ТРЦ
                 “Роял
                 Парк”</label>
             </div>
             <div class="itemCity relative flex afterLine">
-              <input class="checkIt opacity-0" type="radio" id="address4" name="address4" value="Boat">
+              <input class="checkIt opacity-0" type="radio" id="address4" name="address" value="Boat">
               <label class="addressGost Ag-text14-to-1070 fs17px flex" for="address4">Ул. Гоголя, 13, ТРЦ
                 “Галерея”</label>
             </div>
@@ -129,13 +129,5 @@ function shch(Select, add) {
 if (window.location.pathname === '/viborrest') {
   let cardSwitcherE = new shch('.AddressesList__main', 'showIt');
   window.addEventListener('load', cardSwitcherE.addE.bind(cardSwitcherE));
-  let cardSwitcher1 = new shch('#address1', 'showIt');
-  window.addEventListener('load', cardSwitcher1.addE.bind(cardSwitcher1));
-  let cardSwitcher2 = new shch('#address2', 'showIt');
-  window.addEventListener('load', cardSwitcher2.addE.bind(cardSwitcher2));
-  let cardSwitcher3 = new shch('#address3', 'showIt');
-  window.addEventListener('load', cardSwitcher3.addE.bind(cardSwitcher3));
-  let cardSwitcher4 = new shch('#address4', 'showIt');
-  window.addEventListener('load', cardSwitcher4.addE.bind(cardSwitcher4));
 }
 </script>

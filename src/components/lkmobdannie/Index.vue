@@ -29,7 +29,7 @@
         </div>
       </form>
       <div class="getNews xl:items-center relative flex">
-        <input type="radio" id="GetInfoAboutOrder" name="GetInfoAboutOrder" value="Bike" class="checkIt opacity-0">
+        <input type="radio" id="GetInfoAboutOrder" name="GetInfoAboutOrder" value="Bike" class="checkIt opacity-0 LKD0">
         <label for="GetInfoAboutOrder" class="addressGost toChange flex Ag-text14-to-1070 line-h17px fs14px block">Получать
           информацию о заказе</label>
       </div>
@@ -79,8 +79,8 @@
 }
 
 .checkIt + .toChange::after {
-  height: 20px;
-  width: 20px;
+  height: 24px;
+  width: 24px;
 }
 
 .showIt + .toChange::before {
@@ -120,21 +120,5 @@ export default {
     FooterDesk,
     MenuBottom
   }
-}
-
-function shch(Select) {
-  this.takeTag = function () {
-    this.TagEl.classList.toggle('showIt');
-    console.log(this)
-  };
-  this.addE = function () {
-    this.TagEl = document.querySelector(Select);
-    this.TagEl.addEventListener('click', this.takeTag.bind(this));
-  };
-}
-
-if (window.location.pathname === '/lkmobdannie') {
-  let cardSwitcher = new shch('#GetInfoAboutOrder');
-  window.addEventListener('load', cardSwitcher.addE.bind(cardSwitcher));
 }
 </script>

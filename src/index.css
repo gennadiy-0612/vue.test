@@ -693,9 +693,9 @@ html {
     }
 
     .mainPage .iconsThemes {
-        padding: 0;
+        width: 90%;
+        padding: 1vh 0;
     }
-
     .mainPage__addresses {
         top: 0;
         padding: 0;
@@ -2761,11 +2761,6 @@ html {
         max-width: none;
     }
 
-    .mainPage .iconsThemes {
-        width: 90%;
-        padding: 1vh 0;
-    }
-
     .mainPage .desc {
         justify-content: flex-end;
     }
@@ -2790,7 +2785,6 @@ html {
 
     .mainPage .iconsThemes {
         padding: 1.45vh 0;
-        width: 100%;
     }
 
     .mainPage .CarryMenu {

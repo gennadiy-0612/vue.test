@@ -127,13 +127,15 @@ function shch(Select, add, whoIsClosed) {
 if (window.location.pathname === '/pagewithcategory') {
   let AddressesList__main = new shch('.AddressesList__main', 'showIt');
   window.addEventListener('load', AddressesList__main.addE.bind(AddressesList__main));
+
   let closeLog = new shch('.Pop', 'hideIt', '.CardPop');
   window.addEventListener('load', closeLog.addE.bind(closeLog));
   let closeLog2 = new shch('.Pop2', 'hideIt', '.CardPop2');
   window.addEventListener('load', closeLog2.addE.bind(closeLog2));
-  let showEat = new shch('.DescriptionItem', 'hideIt', '.CardPop');
+
+  let showEat = new shch('.DescriptionItem:nth-child(2)', 'hideIt', '.CardPop');
   window.addEventListener('load', showEat.addE.bind(showEat));
-  let showEat1 = new shch('.DescriptionItem:nth-child(2)', 'hideIt', '.CardPop2');
+  let showEat1 = new shch('.DescriptionItem:nth-child(4)', 'hideIt', '.CardPop2');
   window.addEventListener('load', showEat1.addE.bind(showEat1));
 }
 </script>

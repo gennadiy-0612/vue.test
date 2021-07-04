@@ -1,3 +1,3 @@
 <template>
-  <div class="LoadBar  relative"></div>
+  <div class="LoadBar relative"></div>
 </template>

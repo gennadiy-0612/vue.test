@@ -696,6 +696,7 @@ html {
         width: 90%;
         padding: 1vh 0;
     }
+
     .mainPage__addresses {
         top: 0;
         padding: 0;
@@ -2346,6 +2347,10 @@ html {
     .InfoGraphics {
         flex: 1 1 11%;
         max-width: 325px;
+    }
+
+    .ComboPage .LoadBar {
+        display: none;
     }
 
     .ComboSetsBottom {

@@ -367,6 +367,10 @@ html {
     padding: 30px 0 0;
 }
 
+.forming {
+    margin-top: 29px;
+}
+
 .infousageHdiv {
     margin: 30px 0 0;
 }
@@ -418,7 +422,7 @@ html {
     padding: 26px 0;
 }
 
-.lkmobdannie{
+.lkmobdannie {
     margin-top: 30px;
 }
 
@@ -484,7 +488,8 @@ html {
 }
 
 .LoadBar {
-    height: 47px;
+    margin: 24px 0 10px;
+    height: 5px;
     background: #009200;
     border-right: solid 50px #C4C4C4;
     width: 100%;
@@ -528,15 +533,15 @@ html {
 }
 
 .checkIt + .toChange::after {
-    height: 20px;
-    width: 20px;
+    height: 16px;
+    width: 16px;
 }
 
 .checkIt:checked + .addressGost::before {
-    height: 16px;
-    width: 16px;
+    height: 8px;
+    width: 8px;
     border-radius: 50%;
-    left: 2px;
+    left: 3px;
     top: 0;
     bottom: 0;
     margin: auto;
@@ -1156,6 +1161,12 @@ html {
     /*oformzakaza1 page*/
     .HeadOfZak {
         margin: 0 -20px;
+    }
+
+    .checkIt:checked + .addressGost::before {
+        height: 16px;
+        width: 16px;
+        left: 5px;
     }
 
     .OrderMoving {
@@ -2670,6 +2681,11 @@ html {
     .popUpComboDesk .AddCard__P {
         flex: 1 1 50%;
         font-size: 23px;
+        min-width: 65px;
+    }
+
+    .PUPC {
+        padding: 0;
     }
 
     .popUpComboDesk .OrderMore-add-to-card-black {
@@ -2728,7 +2744,7 @@ html {
     /*infousageHdiv*/
 }
 
-@media (min-width: 1280px) and (max-width: 1800px) {
+@media (min-width: 1280px) and (max-width: 1900px) {
     .ButtonMain {
         display: flex;
         flex: 1 1 12%;
@@ -2745,8 +2761,63 @@ html {
         margin: 0 auto auto;
     }
 
+    .mainPage .mainPage__icons {
+        width: 100%;
+    }
+
+    .mainPage .mainItem {
+        max-width: none;
+    }
+
+    .mainPage .iconsThemes {
+        width: 90%;
+        padding: 1vh 0;
+    }
+
+    .mainPage .desc {
+        justify-content: flex-end;
+    }
+
     .AddressesList__main::after {
         top: auto;
         bottom: 3px;
+    }
+
+}
+
+@media (min-width: 1600px) {
+    .mainPage .mainPage__addresses {
+        top: 8.3vh;
+        margin: 0 auto 0 7.4vw;
+        width: 66%;
+    }
+
+    .imgIcon {
+        width: 3.2vw;
+    }
+
+    .mainPage .iconsThemes {
+        padding: 1.45vh 0;
+        width: 100%;
+    }
+
+    .mainPage .CarryMenu {
+        margin: 10.8vh 0 0;
+    }
+
+    .mainPage .mainPage__icons {
+        margin: 1.1vh 0 0;
+    }
+
+    .mainPag .desc {
+        width: 100%;
+    }
+
+    .mainPag .mainItem {
+        margin-left: .6vw;
+    }
+
+    .MainEat__item-1 {
+        margin-left: 42%;
     }
 }

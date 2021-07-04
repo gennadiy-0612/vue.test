@@ -38,38 +38,105 @@
       <a href="#closeContentMenu" class="closeMenuBottom absolute top-0 right-0 block m-r16">
         <X/>
       </a>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/poisk">Выберите город</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/viborrest">Выберите ресторан</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/events">Акции</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/main">Главная</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/infocompany">Информация о компании</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/vkhodoldcode">Вход на сайт</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/vkhodoldcodedesc">Вход на сайт  Desk</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/vkhodnewcode">Вход на сайт новый</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/vkhodnewcodedesc">Вход на сайт новый Desk</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/main">Главная</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/combonabori">Комбо-наборы</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/contacts">Контакты</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/cardmob">Корзина</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/lkmobdannie">ЛК Изменить данные</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/lkmobdannie1">ЛК Изменить данные 1</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/lkmobdannie2">ЛК Изменить данные 2</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/oformzakaza1">Оформление заказа1</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/oformzakaza">Оформление заказа</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/oformsamovivoza">Оформление самовывоза</router-link>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/oformdostavki">Оформление доставки</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/popupbluda">Поп-ап блюда</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/popupcombo">Поп-ап комбо</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/popuptime">Попап выбор времени</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/popupchangeshippingaddress">Изменить адрес доставки</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/popupchangeshippingaddress1">Изменить адрес доставки1</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/popupchangeshippingaddress2">Изменить адрес доставки2</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/popupchangeshippingaddress3">Изменить адрес доставки3</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/pagewithcategory">Страница с категориями</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/card">Шаблон</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/search">search</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/vkhodnewcode">vkhodnewcode</router-link></li>
-      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a" to="/infousage">Условия использования</router-link></li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/poisk">Выберите город</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/viborrest">Выберите ресторан</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/events">Акции</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/main">Главная</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/infocompany">Информация о компании</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/vkhodoldcode">Вход на сайт</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/vkhodoldcodedesc">Вход на сайт Desk</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/vkhodnewcode">Вход на сайт новый</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/vkhodnewcodedesc">Вход на сайт новый Desk</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/main">Главная</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/combonabori">Комбо-наборы</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/contacts">Контакты</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/cardmob">Корзина</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/lkmobdannie">ЛК Изменить данные</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/lkmobdannie1">ЛК Изменить данные 1</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/lkmobdannie2">ЛК Изменить данные 2</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/oformzakaza1">Оформление заказа1</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/oformzakaza">Оформление заказа</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/oformsamovivoza">Оформление самовывоза</router-link>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/oformdostavki">Оформление доставки</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/popupbluda">Поп-ап блюда</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/popupcombo">Поп-ап комбо</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/popuptime">Попап выбор времени</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/popupchangeshippingaddress">Изменить адрес доставки
+        </router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/popupchangeshippingaddress1">Изменить адрес доставки1
+        </router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/popupchangeshippingaddress2">Изменить адрес доставки2
+        </router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/popupchangeshippingaddress3">Изменить адрес доставки3
+        </router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/pagewithcategory">Страница с категориями</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/card">Шаблон</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/search">search</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/vkhodnewcode">vkhodnewcode</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/infousage">Условия использования</router-link>
+      </li>
 
       <router-view></router-view>
     </ol>
@@ -101,13 +168,13 @@
   left: 0;
   right: 0;
   position: fixed;
-  flex-wrap: wrap;
   align-items: center;
   background-color: #FFFFFF;
   margin: auto;
   z-index: 1;
   height: 100%;
-  justify-content: center;
+  justify-content: flex-start;
+  overflow-y: scroll;
 }
 
 .closeContentMenu__text {

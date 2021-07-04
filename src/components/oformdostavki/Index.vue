@@ -9,7 +9,7 @@
       <AddressTime/>
     </div>
     <div class="xl:hidden">
-      <HeaderThree msg="Подтверждение"/>
+      <HeaderThree class="forming" msg="Подтверждение"/>
     </div>
     <div class="OrderMoveFrame">
       <OrderMove/>
@@ -74,7 +74,7 @@
         </div>
         <form class="myAddress OrderActCash" action="/action_page.php">
           <div class="itemCity relative flex">
-            <input class="checkIt opacity-0" type="radio" id="address1" name="address1" value="Bike">
+            <input class="checkIt opacity-0" type="radio" id="address1" name="address2" value="Bike">
             <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address1">Картой на
               сайте</label>
           </div>
@@ -168,7 +168,7 @@
   margin: 4px 0 31px;
 }
 
-.oformZakaz .OrderMore-add-to-card-green xl:block, .oformZakaz .OrderMore-add-to-card-black {
+.oformZakaz .OrderMore-add-to-card-green, .oformZakaz .OrderMore-add-to-card-black {
   flex: 1 1 50%;
 }
 

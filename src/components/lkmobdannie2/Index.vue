@@ -76,10 +76,6 @@
   z-index: 0;
 }
 
-.ChangePD .activeOption::after {
-  height: 0;
-}
-
 .ChangePD .changeDataPerson {
   font-weight: 400;
 }

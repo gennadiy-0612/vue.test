@@ -35,7 +35,7 @@
     </div>
     <form class="myAddress OrderActCash" action="/action_page.php">
       <div class="itemCity relative flex">
-        <input class="checkIt opacity-0" type="radio" id="address1" name="address1" value="Bike">
+        <input class="checkIt opacity-0" type="radio" id="address1" name="address2" value="Bike">
         <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address1">Картой на сайте</label>
       </div>
       <div class="itemCity relative flex">

@@ -22,6 +22,10 @@
   background-color: #465502;
 }
 
+.activeOption.afterLine::after {
+  background-color: #465502;
+}
+
 .afterLine-change::after {
   height: 2px;
   background: #E4E4E4;

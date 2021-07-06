@@ -1,7 +1,7 @@
 <template>
-  <div class="ComboPage CatsPage FrameDesk xl:m-auto FrameMob FrameMob">
-    <div class="Header flex justify-between">
-      <BackButton/>
+  <div class="ComboPage ComboSetPage CatsPage FrameDesk xl:m-auto FrameMob FrameMob">
+    <div class="Header ComboPageContent flex justify-between">
+      <BackTopButton/>
       <BurgMenu/>
     </div>
     <ol class="xl:hidden flex categorySet swipe">
@@ -61,7 +61,7 @@
 </template>
 <script>
 import BurgMenu from '../burgmenu/Index'
-import BackButton from '../partpage/Address'
+import BackTopButton from '../backtopbutton/Index'
 import CatItem from '../pagewithcategory/CategoryItem'
 import ComboSetsBottom from '../pagewithcategory/ComboSetsBottom'
 import AddreesTime from "@/components/partpage/AddressTime";
@@ -77,7 +77,7 @@ export default {
   name: 'App',
   components: {
     BurgMenu,
-    BackButton,
+    BackTopButton,
     CatItem,
     MyOrder,
     LoadBar,

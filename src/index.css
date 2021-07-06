@@ -1500,7 +1500,8 @@ html {
     }
 
     .oformzakaza .Order__setButtons button {
-        max-width: 400px;
+        max-width: 270px;
+        padding: 0;
     }
 
     .HeadOfZak-OtherSB button.OrderActCash {
@@ -2300,10 +2301,6 @@ html {
 
     :first-child > .hit {
         display: block;
-    }
-
-    .AddressLCombo {
-        margin-top: -5.2vh;
     }
 
     .ComboPage__icons {

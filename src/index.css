@@ -1516,7 +1516,7 @@ html {
     .HeadOfZak-OtherSB button.greenButtonStyled {
         max-width: 170px;
         font-size: 22px;
-        background-color: #009200;
+        background-color: #4c5600;
         color: #ffffff;
     }
 
@@ -1561,6 +1561,7 @@ html {
 
     .OrderAllPrice__sumDigit {
         min-width: 24%;
+        font-weight: 700;
     }
 
     .OrderAllPrice__li {
@@ -1571,6 +1572,7 @@ html {
         line-height: 20px;
         font-size: 27px;
         max-width: 230px;
+        font-family: "Montserrat";
     }
 
     .OrderAllPrice__count {
@@ -1610,6 +1612,7 @@ html {
 
     .oformsamovivoza__Oreder {
         font-size: 25px;
+        font-weight: 600;
     }
 
     .oformsamovivoza .OrderAct__item1 {
@@ -1626,8 +1629,8 @@ html {
     }
 
     .PromoDetail {
-        max-width: 450px;
-        margin: 27px 0 0;
+        max-width: 514px;
+        margin: 63px 0 0;
         min-width: 507px;
     }
 
@@ -1638,7 +1641,7 @@ html {
     .oformsamovivoza .OrderMore-add-to-card-black {
         max-width: 218px;
         line-height: 40px;
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .oformsamovivoza .Promo__Head,
@@ -1676,6 +1679,7 @@ html {
         padding: 11px 0 0;
     }
 
+    .oformdostavki .Order__setButtons,
     .oformsamovivoza .Order__setButtons {
         max-width: 700px;
         margin: 0;
@@ -1694,7 +1698,7 @@ html {
     }
 
     .oformsamovivoza .Order__setButtons .OrderMore-add-to-card-green {
-        background-color: #009200;
+        background-color: #4c5600;
         color: #ffffff;
         max-width: 39.3%;
     }
@@ -1706,8 +1710,13 @@ html {
     /*oformsamovivoza page*/
     /*oformdostavki page*/
     .whatRest {
-        margin: -11px 0 -20px;
+        margin: 0 0 -8px;
         min-width: 1000px;
+    }
+
+    .Order.OrderGive .oformDostSum {
+        min-width: 300px;
+        margin-right: 4%;
     }
 
     .whatRest__how {
@@ -1798,7 +1807,7 @@ html {
         display: block;
         font-size: 25px;
         line-height: 41px;
-        background-color: #465500;
+        background-color: #4c5600;
     }
 
     /*popUpReadyDesk page*/
@@ -1822,7 +1831,7 @@ html {
         min-width: auto;
         line-height: 34px;
         font-size: 23px;
-        background-color: #465500;
+        background-color: #4c5600;
     }
 
     /*popUpFrame1 page*/
@@ -2414,10 +2423,6 @@ html {
         margin: 0 0.7vw 0 -18px;
         font-size: 29px;
         line-height: 1px;
-    }
-
-    .OrderAllPrice__sum {
-        margin: 150px 0 0;
     }
 
     .DescriptionItem {

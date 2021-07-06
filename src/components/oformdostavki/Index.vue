@@ -93,7 +93,7 @@
           <label class="Ag-text12-to-1070 whatRest__how">С какой суммы подготовить сдачу?</label>
           <div class="whatRestDetails flex justify-center items-center">
             <input type="text" id="moneyPart" name="level"
-                   class="searchButton moneyRest bg-E4E4E4 border-solid border-0 w-full block text-center">
+                   class="searchButton moneyRest oformDostSum bg-E4E4E4 border-solid border-0 w-full block text-center">
             <div class="itemCity relative flex moneyRestIs items-center">
               <input class="checkIt opacity-0" type="radio" id="address4" name="address2" value="Car">
               <label class="addressGost flex Ag-text12-to-1070 line-h17px block" for="address4">Без сдачи</label>
@@ -104,7 +104,7 @@
           <GreenButton msg="Подтвердить заказ на 2000р"/>
           <BlackButton msg="Назад к оформлению заказа"/>
         </div>
-        <div class="Order__setButtons xl:items-center MobHide">
+        <div class="Order__setButtons xl:flex xl:justify-between xl:items-center MobHide">
           <BlackButton msg="Назад в корзину"/>
           <GreenButton msg="Оформить заказ"/>
         </div>

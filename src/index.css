@@ -645,6 +645,7 @@ html {
 
     .mainPage .CenteringOneItem {
         height: 101.2vh;
+        min-height: 768px;
     }
 
     .imgIcon {
@@ -2882,5 +2883,24 @@ html {
 
     .MainEat__item-1 {
         margin-left: 42%;
+    }
+}
+
+@media (max-height: 900px) {
+    .mainPage .mainPage__icons{
+        max-width: 370px;
+        margin-left: auto;
+    }
+    .mainPage .mainPage__addresses {
+        top: 0;
+    }
+
+    .mainPage .iconsThemes {
+        padding: 0;
+    }
+
+    .imgIcon {
+        width: 2.2vw;
+        margin: .2vh 2vw .2vh 1vh;
     }
 }

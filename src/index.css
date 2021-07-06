@@ -563,7 +563,8 @@ html {
 
 @media (min-width: 1280px) {
     .PhoneNumber {
-        font-family: "Montserrat", serif, regular;
+        font-family: "Montserrat", serif;
+        font-weight: 300
     }
 
     .ButtonMain__logo {
@@ -627,6 +628,7 @@ html {
     .mainPage .MenuContent__a {
         line-height: 37px;
         color: #FFFFFF;
+        font-weight: 300;
     }
 
     .MenuContent__a {
@@ -642,7 +644,7 @@ html {
     }
 
     .mainPage .CenteringOneItem {
-        height: 99.2vh;
+        height: 101.2vh;
     }
 
     .imgIcon {
@@ -699,7 +701,7 @@ html {
 
     .mainPage .iconsThemes {
         width: 90%;
-        padding: 1vh 0;
+        padding: .5vh 0;
     }
 
     .mainPage__addresses {
@@ -874,7 +876,8 @@ html {
         line-height: 24px;
         font-size: 24px;
         color: #797979;
-        font-family: "Montserrat", sans-serif, regular;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
     }
 
     .DeskMapPage .addressOfCity {
@@ -2572,7 +2575,11 @@ html {
 
     .CardInfo__descriptor {
         padding: 25px 0 0 40px;
-        max-width: 490px;
+        max-width: 540px;
+    }
+
+    .CardInfo__li {
+        padding-right: 15px;
     }
 
     .CardInfo__text {
@@ -2641,8 +2648,10 @@ html {
     }
 
     .CardInfoAssort__head {
-        font-size: 21px;
+        font-size: 18px;
         line-height: 21px;
+        font-weight: 600;
+        font-family: "Montserrat", serif;
     }
 
     .CardInfoAssort__price {
@@ -2715,7 +2724,7 @@ html {
 
     .popUpComboDesk .DescP {
         margin: 20px 0 0 11px;
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .popUpComboDesk .photo86x59px {
@@ -2738,7 +2747,7 @@ html {
 
     .popUpComboDesk .AddCard__P {
         flex: 1 1 50%;
-        font-size: 23px;
+        font-size: 24px;
         min-width: 65px;
     }
 
@@ -2835,10 +2844,16 @@ html {
         top: auto;
         bottom: 3px;
     }
-
 }
 
 @media (min-width: 1600px) {
+    .mainPage .MenuContent__a {
+        line-height: 37px;
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: 26px;
+    }
+
     .mainPage .mainPage__addresses {
         top: 8.3vh;
         margin: 0 auto 0 7.4vw;
@@ -2847,10 +2862,6 @@ html {
 
     .imgIcon {
         width: 3.2vw;
-    }
-
-    .mainPage .iconsThemes {
-        padding: 1.45vh 0;
     }
 
     .mainPage .CarryMenu {

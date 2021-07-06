@@ -31,7 +31,7 @@
           <p class="BLudoPrice__digit xl:font-medium"> 610.-</p>
           <button class="text-center bg-black text-white GoOut xl:font-semibold">Добавить в корзину</button>
         </div>
-        <p class="propagate">В месте с этем также покупают</p>
+        <p class="propagate">Вместе с этим также покупают</p>
         <div class="CardInfoAssort flex flex-wrap">
           <div class="CardInfoAssort__li flex flex-wrap">
             <img class="CardInfoAssort__img xl:object-cover" src="../../assets/img/Photo.svg">

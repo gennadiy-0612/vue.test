@@ -7,18 +7,18 @@
     <MainLinkLogo/>
     <ol class="MenuContent__ol bg-white xl:bg-transparent relative flex items-center flex-col xl:flex-row justify-center xl:justify-around text-center w-full h-full z-1">
       <li class="MenuContent__li">
-        <router-link to="#" class="Ag6001417 MenuContent__a xl:font-normal xl:font-normal text-black MenuContentJS">Меню</router-link>
+        <router-link to="#" class="Ag6001417 MenuContent__a xl:font-normal text-black MenuContentJS">Меню</router-link>
       <li class="MenuContent__li">
         <router-link to="/events" class="Ag6001417 MenuContent__a xl:font-normal text-black">Акции</router-link>
       </li>
       <li class="MenuContent__li">
-        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a xl:font-normal text-black">Доставка и оплата</router-link>
+        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a text-black">Доставка и оплата</router-link>
       </li>
       <li class="MenuContent__li">
-        <router-link to="/contacts" class="Ag6001417 MenuContent__a xl:font-normal text-black">Контакты</router-link>
+        <router-link to="/contacts" class="Ag6001417 MenuContent__a text-black">Контакты</router-link>
       </li>
       <li class="MenuContent__li">
-        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a xl:font-normal text-black">Имя пользователя</router-link>
+        <router-link to="/vkhodoldcode" class="Ag6001417 MenuContent__a text-black">Имя пользователя</router-link>
       </li>
     </ol>
     <LogIn/>

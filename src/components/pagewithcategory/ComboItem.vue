@@ -3,8 +3,8 @@
     <p class="MobHide hit xl:italic xl:hidden absolute left-0 right-0 text-center text-white">Хит</p>
     <router-link to="#"><img alt="alt" class="comboSet-img xl:object-cover " src="../../assets/img/photo86x59px.svg">
     </router-link>
-    <div class="flex flex-col h-full justify-between">
-      <div class="flex flex-col p-l7px">
+    <div class="flex flex-col h-full justify-between DescriptionItem__text">
+      <div class="flex flex-col p-l7px DescriptionItem__one">
         <h3 class="Ag-h3-to-1070 DescriptionItem__h3">{{ heads }}</h3>
         <p class="Ag-text12-to-1070 choiceTimeT xl:font-semibold">{{ descriptionitem }}</p>
       </div>

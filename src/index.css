@@ -685,6 +685,27 @@ html {
         width: 100%;
         max-width: none;
     }
+
+
+    .DescriptionItem {
+        justify-content: space-between;
+    }
+
+    .DescriptionItem__text {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex: 2 1 10%;
+        height: auto;
+    }
+
+    .DescriptionItem__one {
+        flex: 0 0 auto;
+    }
+
+    .DescriptionItemInfo {
+        flex: 1 1 50%;
+    }
 }
 
 @media (max-width: 1279px) {

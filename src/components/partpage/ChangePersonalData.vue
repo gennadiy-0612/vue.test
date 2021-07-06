@@ -15,6 +15,7 @@
 }
 
 .showIt.afterLine::after,
+.router-link-active::after,
 .activeOption.afterLine::after {
   background-color: #465502;
 }

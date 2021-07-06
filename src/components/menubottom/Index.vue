@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed">
+  <div class="fixed z-10">
     <div id="closeContentMenu" class="xl:hidden closeContentMenuBottom fixed bottom-0 w-full left-0 bg-white">
       <ul class="BottomMenu flex justify-between">
         <li class="BottomMenu__item menu">

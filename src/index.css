@@ -334,6 +334,7 @@ html {
 }
 
 /*.swipe */
+.router-link-active::after,
 .afterLine {
     transition-property: color, background-color;
     transition-duration: .7s;
@@ -341,6 +342,7 @@ html {
 }
 
 .lkmob2ChangePD .changeDataAddress::after,
+.router-link-active::after,
 .afterLine::after {
     content: '';
     height: 1px;
@@ -677,7 +679,9 @@ html {
 .DescriptionItem {
     padding: 0 0 20px;
 }
-
+.no-underlineMy.router-link-active{
+    text-decoration: none;
+}
 /*oformzakaza page*/
 @media (min-width: 321px) and (max-height: 1279px) {
     .CardPage .YoursPresent .Photo__img,
@@ -1212,12 +1216,8 @@ html {
 
     .lkmob2ChangePD .changeDataAddress::after,
     .showIt.Option::after,
-    .activeOption.afterLine::after {
+    .router-link-active::after {
         height: 7px;
-    }
-
-    .lkmob2ChangePD .activeOption.afterLine::after {
-        background-color: transparent;
     }
 
     .lkmob2ChangePD .activeOption .DeskLimit {

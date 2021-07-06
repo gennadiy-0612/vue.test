@@ -1,14 +1,17 @@
 <template>
-  <div class="Ag-back-to-1070 backButton relative xl:hidden">Назад</div>
+  <div class="Ag-back-to-1070 backButton relative xl:hidden">
+    <router-link class="no-underlineMy" to="/">Назад</router-link>
+  </div>
 </template>
 <style>
-.backButton{
+.backButton {
   text-indent: 26px;
 }
-.backButton::after{
+
+.backButton::after {
   content: '';
   position: absolute;
-  background:url("../../assets/img/backarrow.svg") center center no-repeat;
+  background: url("../../assets/img/backarrow.svg") center center no-repeat;
   height: 20px;
   width: 20px;
   left: 0;

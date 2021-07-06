@@ -562,6 +562,10 @@ html {
 }
 
 @media (min-width: 1280px) {
+    .PhoneNumber {
+        font-family: "Montserrat", serif, regular;
+    }
+
     .ButtonMain__logo {
         height: 8.1vh;
         width: 15.9vw;
@@ -869,6 +873,8 @@ html {
     .whatCityDesk__h3 {
         line-height: 24px;
         font-size: 24px;
+        color: #797979;
+        font-family: "Montserrat", sans-serif, regular;
     }
 
     .DeskMapPage .addressOfCity {
@@ -2062,11 +2068,13 @@ html {
     .SeeMore {
         margin: 40px 0 0;
         font-size: 36px;
+        font-weight: 700;
     }
 
     .PresentsLi {
         list-style-type: auto;
         list-style-position: inside;
+        font-family: "Montserrat", serif;
     }
 
     .CardPage .AddressesList {
@@ -2591,7 +2599,7 @@ html {
     }
 
     .closeLog-popup {
-        font-size: 1.5rem;
+        font-size: 24px;
         font-weight: 400;
         color: #8D8D8D;
         position: absolute;

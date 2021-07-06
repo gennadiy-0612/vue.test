@@ -8,7 +8,7 @@
       <HeadTwo msg="Контакты"/>
     </div>
     <div class="HeadSet">
-      <HeaderPopUp class="Contacts__h3" msg="Новосибирск"/>
+      <HeaderPopUp class="Contacts__h3 font-semibold" msg="Новосибирск"/>
     </div>
     <ul class="MobHide ContactList">
       <li class="ContactList__Item">

@@ -8,7 +8,7 @@
     <h2 class="Ag-h2-to-1070 underHead EventsName">Акции</h2>
     <div class="Events__set xl:flex xl:flex-wrap xl:justify-between">
       <div class="Events__item">
-        <Photo/>
+        <Photo class="EnentsPre"/>
         <h3 class="Ag-h3-to-1070 Presents">Подарки именинникам</h3>
         <div class="PresentsTo afterLine">
           <p class="Ag-text14-to-1070 PresentsP">Дарим в День рождения скидку 10% на весь

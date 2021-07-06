@@ -17,8 +17,8 @@
       <OrderMove/>
     </div>
     <div class="flex oformZakaz xl:justify-around ofZak1 xl:items-center">
-      <GreenButton class="ofZak1_green" msg="Доставка"/>
-      <GreyButton msg="Самовывоз"/>
+      <GreyButton class="ofZak1_green" msg="Доставка"/>
+      <GreenButton msg="Самовывоз"/>
     </div>
     <div><h3 class="inline xl:block Ag-h3-to-1070 whereTake xl:text-center">Ваш заказ можете забрать по адресу</h3>
       <div class="addressPoint">

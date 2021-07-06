@@ -1057,6 +1057,7 @@ html {
 
     .Order .toChange {
         font-size: 26px;
+        font-family: "Montserrat";
     }
 
     .ChangePersonData .OrderMore-add-to-card-black {
@@ -1148,6 +1149,7 @@ html {
         top: -31px;
         left: -12px;
         color: #000;
+        font-family: "Montserrat";
     }
 
     .Flat__Street {
@@ -1241,7 +1243,7 @@ html {
     }
 
     .OrderMoveAddresses-e {
-        margin: 6.1vh 0 0;
+        margin: 1vh 0 0;
     }
 
     .OrderMoveFrame {
@@ -1263,7 +1265,7 @@ html {
     .oformZakaz .OrderMore-add-to-card-black {
         max-width: 180px;
         line-height: 39px;
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .ofZak1 .ofZak1_green {
@@ -1312,6 +1314,10 @@ html {
     .choiceTime {
         max-width: 600px;
         margin: 41px auto 0;
+    }
+
+    .oformzakaza2 .choiceTime {
+        max-width: 400px;
     }
 
     .choiceTimeT {
@@ -1373,6 +1379,7 @@ html {
 
     .SeeOnMap.SeeMap > :first-child {
         padding: 0;
+        min-width: 280px;
     }
 
     .Order__setButtons .OrderMore-add-to-card-green {
@@ -1499,9 +1506,24 @@ html {
         line-height: 25px;
     }
 
+    .oformzakaza1 .timeButton,
+    .oformzakaza2 .timeButton {
+        font-size: 29px;
+        line-height: 19px;
+        font-weight: 600;
+    }
+
+    .oformzakaza2 .timeButtonHide {
+        margin: 0 55px 0 auto;
+    }
+
     .oformzakaza .Order__setButtons button {
         max-width: 270px;
         padding: 0;
+    }
+
+    .oformzakaza1 .BackToCard button {
+        min-width: 280px;
     }
 
     .HeadOfZak-OtherSB button.OrderActCash {
@@ -1687,6 +1709,10 @@ html {
         min-width: 612px;
     }
 
+    .oformzakaza2 .Order__setButtons {
+        margin-top: 130px;
+    }
+
     .oformsamovivoza .Order__setButtons .OrderMore-add-to-card-green,
     .oformsamovivoza .Order__setButtons .OrderMore-add-to-card-black {
         font-size: 24px;
@@ -1811,6 +1837,10 @@ html {
         background-color: #4c5600;
     }
 
+    .CardPage .OrderMore-add-to-card-green {
+        background-color: #4c5600;
+    }
+
     /*popUpReadyDesk page*/
     /*popUpFrame1 page*/
     .popUpFrame1 {
@@ -1873,7 +1903,7 @@ html {
     .Contacts__h3 .h3 {
         margin: 14px 0 0 40px;
         font-size: 32px;
-        font-weight: 600;
+        font-weight: 700;
     }
 
     .ContactsItem {
@@ -1916,6 +1946,7 @@ html {
         font-size: 30px;
         padding: 0 0 30px;
         letter-spacing: 1.3px;
+        font-weight: 600;
     }
 
     .BackM__p {
@@ -2042,6 +2073,7 @@ html {
     .CardPage .DeskH2 {
         font-size: 32px;
         margin-left: 20px;
+        font-weight: 700;
     }
 
     .SeeItItems {
@@ -2068,7 +2100,6 @@ html {
     .SeeItItems__price {
         font-size: 21px;
         line-height: 40px;
-        font-weight: 400;
     }
 
     .CardPage__choice {
@@ -2141,6 +2172,7 @@ html {
     .recommend__head {
         font-size: 33px;
         margin: 0 0 20px 0;
+        font-weight: 700;
     }
 
     .CardPage .recommend .Photo {

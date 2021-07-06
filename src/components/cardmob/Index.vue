@@ -117,7 +117,7 @@
           <div class="CompleteIt__do xl:flex xl:flex-wrap flex-col">
             <div class="Card__all">
               <div class="Card__line flex justify-end text-right">
-                <p class="Ag-h3-to-1070 CompleteIt__all uppercase ">Итого</p>
+                <p class="Ag-h3-to-1070 CompleteIt__all">Итого</p>
                 <p class="Ag-h3-to-1070 Digit CompleteIt__all-digit">3400p</p>
               </div>
               <div class="Card__line Card__line2 flex justify-end text-right">

@@ -1,11 +1,10 @@
 <template>
-  <div class="Order OrderMove FrameDesk xl:m-auto FrameMob oformzakaza oformzakaza1">
+  <div class="Order OrderMove FrameDesk xl:m-auto FrameMob oformzakaza oformzakaza2">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
     </div>
-    <div
-        class="MobHide OrderMoveAddresses OrderMoveAddresses-e float-left bg-white xl:h-auto xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+    <div class="MobHide OrderMoveAddresses OrderMoveAddresses-e float-left bg-white xl:h-auto xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressTime/>
     </div>
     <div class="OrderMove__head">
@@ -29,35 +28,13 @@
       </div>
     </div>
     <div class="choiceTime flex flex-wrap justify-between">
-      <div class="setTime timeButton Ag-text14-to-1070 line-h17px choiceTimeT xl:font-semibold text-center">Выберите
-        время <span
-            class="MobHide TwoDots">:</span></div>
+      <div class="setTime timeButton timeButtonHide Ag-text14-to-1070 line-h17px choiceTimeT xl:font-semibold text-center">Выберите время</div>
       <div
-          class="choiceTimeT xl:font-semibold TimeShow xl:relative w-full flex justify-center items-center nearTime timeButton Ag-text14-to-1070 line-h17px E4E4E4 text-center">
-        Ближайшее
-        <div class="MobHide oformZakaz1 absolute m-t15px">
-          <div class="Time xl:w-auto max-w-max m-auto absolute m-auto overflow-y-scroll left-0 top-0 h-auto right-0">
-            <router-link to="/">
-              <div class="xl:hidden">
-                <X/>
-              </div>
-            </router-link>
-            <div class="Header__when afterLine flex justify-center">
-              <HeaderPopUp msg="Ближайшее"/>
-            </div>
-            <Time from="00:00" to="00:30"/>
-            <Time from="03:00" to="01:00"/>
-            <Time from="01:00" to="01:30"/>
-            <Time from="01:30" to="02:00"/>
-            <Time from="02:00" to="02:30"/>
-            <Time from="02:30" to="03:00"/>
-            <Time from="03:00" to="03:30"/>
-          </div>
-        </div>
+          class="choiceTimeT TimeShow xl:relative">
       </div>
     </div>
     <div class="Order__setButtons flex flex-col xl:flex-row justify-between xl:items-center">
-      <GreenButton class="xl:hidden" msg="Перейти к подтверждению"/>
+        <GreenButton class="xl:hidden" msg="Перейти к подтверждению"/>
       <div class="blackButtonStyled bigButtonStyled BackToCard">
         <BlackButton msg="Назад в корзину"/>
       </div>
@@ -138,9 +115,6 @@ import GreyButton from '../addtocardgrey/Index'
 import BlackButton from '../addtocardblack/Index'
 import MenuBottom from '../menubottom/Index'
 
-import X from '../popupbluda/X'
-import HeaderPopUp from "../partpage/HeaderPopUp"
-import Time from "../popuptime/Time"
 import FooterDesk from '../partpage/FooterDesk'
 
 export default {
@@ -155,33 +129,8 @@ export default {
     GreyButton,
     BlackButton,
     MenuBottom,
-    X,
-    HeaderPopUp,
-    Time,
     FooterDesk
   }
 }
 
-function shch(Select, add) {
-  this.takeTag = function () {
-    this.TagEl.classList.toggle(add);
-  };
-  this.addE = function () {
-    this.TagEl = document.querySelector(Select);
-    this.TagEl.addEventListener('click', this.takeTag.bind(this));
-  };
-}
-
-if (window.location.pathname === '/oformzakaza' || window.location.pathname === '/oformzakaza1') {
-  let cardSwitcher = new shch('.switchOpt1', 'showIt');
-  window.addEventListener('load', cardSwitcher.addE.bind(cardSwitcher));
-  let cardSwitcher2 = new shch('.switchOpt2', 'showIt');
-  window.addEventListener('load', cardSwitcher2.addE.bind(cardSwitcher2));
-  let cardSwitcher3 = new shch('.switchOpt3', 'showIt');
-  window.addEventListener('load', cardSwitcher3.addE.bind(cardSwitcher3));
-  let AddressesListMain = new shch('.AddressesList__main', 'showIt');
-  window.addEventListener('load', AddressesListMain.addE.bind(AddressesListMain));
-  let TimeShow = new shch('.TimeShow', 'showIt');
-  window.addEventListener('load', TimeShow.addE.bind(TimeShow));
-}
 </script>

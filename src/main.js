@@ -21,6 +21,7 @@ import Contacts from '/src/components/contacts/Index'
 import CardMob from '/src/components/cardmob/Index'
 import OffZak from '/src/components/oformzakaza/Index'
 import OffZak1 from '/src/components/oformzakaza1/Index'
+import OffZak2 from '/src/components/oformzakaza2/Index'
 import PopUpTime from '/src/components/popuptime/Index'
 import ChangeAddressShip from '/src/components/popupchangeshippingaddress/Index'
 import ChangeAddressShip1 from '/src/components/popupchangeshippingaddress1/Index'
@@ -62,6 +63,7 @@ const routes = [
     {path: '/cardmob', component: CardMob},
     {path: '/oformzakaza', component: OffZak},
     {path: '/oformzakaza1', component: OffZak1},
+    {path: '/oformzakaza2', component: OffZak2},
     {path: '/popuptime', component: PopUpTime},
     {path: '/popupchangeshippingaddress', component: ChangeAddressShip},
     {path: '/popupchangeshippingaddress1', component: ChangeAddressShip1},

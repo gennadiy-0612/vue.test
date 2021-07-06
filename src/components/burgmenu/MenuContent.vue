@@ -22,6 +22,7 @@
       <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a xl:font-normal" to="/lkmobdannie1">ЛК Изменить данные 1</router-link></li>
       <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a xl:font-normal" to="/lkmobdannie2">ЛК Изменить данные 2</router-link></li>
       <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a xl:font-normal" to="/oformzakaza1">Оформление заказа1</router-link></li>
+      <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a xl:font-normal" to="/oformzakaza2">Оформление заказа2</router-link></li>
       <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a xl:font-normal" to="/oformzakaza">Оформление заказа</router-link></li>
       <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a xl:font-normal" to="/oformsamovivoza">Оформление самовывоза</router-link>
       <li class="MenuContent__li"><router-link class="Ag6001417 MenuContent__a xl:font-normal" to="/oformdostavki">Оформление доставки</router-link></li>

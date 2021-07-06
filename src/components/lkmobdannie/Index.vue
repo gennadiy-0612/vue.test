@@ -18,7 +18,7 @@
           <a class="toChange Ag-text12-to-1070" href="#" for="name2">Изменить</a>
         </div>
         <div class="optSet">
-          <input placeholder="Email" type="text" id="name3" name="name3"
+          <input placeholder="Эл.почта" type="text" id="name3" name="name3"
                  class="searchButton bg-E4E4E4 changeName">
           <a class="toChange Ag-text12-to-1070" href="#" for="name3">Изменить</a>
         </div>

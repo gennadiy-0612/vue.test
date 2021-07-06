@@ -13,11 +13,11 @@
     <ul class="MobHide ContactList">
       <li class="ContactList__Item">
         <p class="ContactList__h1 xl:font-light">Телефон</p>
-        <p class=" ContactList__link xl:font-bold">8 800 383-55-51</p>
+        <p class=" ContactList__link xl:font-semibold">8 800 383-55-51</p>
       </li>
       <li class="ContactList__Item">
         <p class="ContactList__h1 xl:font-light">Вопросы и предложения</p>
-        <p class=" ContactList__link xl:font-bold">feedback@perchini.com</p>
+        <p class=" ContactList__link xl:font-semibold">feedback@perchini.com</p>
       </li>
     </ul>
     <div class="overflow-hidden">

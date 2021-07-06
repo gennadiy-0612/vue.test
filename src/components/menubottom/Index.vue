@@ -87,10 +87,13 @@
         <router-link class="Ag6001417 MenuContent__a" to="/lkmobdannie2">ЛК Изменить данные 2</router-link>
       </li>
       <li class="MenuContent__li">
-        <router-link class="Ag6001417 MenuContent__a" to="/oformzakaza1">Оформление заказа1</router-link>
+        <router-link class="Ag6001417 MenuContent__a" to="/oformzakaza">Оформление заказа</router-link>
       </li>
       <li class="MenuContent__li">
-        <router-link class="Ag6001417 MenuContent__a" to="/oformzakaza">Оформление заказа</router-link>
+        <router-link class="Ag6001417 MenuContent__a" to="/oformzakaza2">Оформление заказа1</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link class="Ag6001417 MenuContent__a" to="/oformzakaza2">Оформление заказа2</router-link>
       </li>
       <li class="MenuContent__li">
         <router-link class="Ag6001417 MenuContent__a" to="/oformsamovivoza">Оформление самовывоза</router-link>

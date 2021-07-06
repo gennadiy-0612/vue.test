@@ -700,11 +700,19 @@ html {
     }
 
     .DescriptionItem__one {
-        flex: 0 0 auto;
+        flex: 3 1 10%;
     }
 
     .DescriptionItemInfo {
-        flex: 1 1 50%;
+        flex: 0 0 auto;
+    }
+
+    .DescriptionItem::after {
+        bottom: 10px;
+    }
+
+    .DescriptionItem {
+        padding: 0 0 20px;
     }
 }
 

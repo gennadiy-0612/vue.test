@@ -4,7 +4,8 @@
       <Address/>
       <BurgMenu/>
     </div>
-    <div class="MobHide OrderMoveAddresses OrderMoveAddresses-e float-left bg-white xl:h-auto xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+    <div
+        class="MobHide OrderMoveAddresses OrderMoveAddresses-e float-left bg-white xl:h-auto xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressTime/>
     </div>
     <div class="OrderMove__head">
@@ -28,13 +29,16 @@
       </div>
     </div>
     <div class="choiceTime flex flex-wrap justify-between">
-      <div class="setTime timeButton timeButtonHide Ag-text14-to-1070 line-h17px choiceTimeT xl:font-semibold text-center">Выберите время</div>
+      <div
+          class="setTime timeButton timeButtonHide Ag-text14-to-1070 line-h17px choiceTimeT xl:font-semibold text-center">
+        Выберите время
+      </div>
       <div
           class="choiceTimeT TimeShow xl:relative">
       </div>
     </div>
     <div class="Order__setButtons flex flex-col xl:flex-row justify-between xl:items-center">
-        <GreenButton class="xl:hidden" msg="Перейти к подтверждению"/>
+      <GreenButton class="xl:hidden" msg="Перейти к подтверждению"/>
       <div class="blackButtonStyled bigButtonStyled BackToCard">
         <BlackButton msg="Назад в корзину"/>
       </div>

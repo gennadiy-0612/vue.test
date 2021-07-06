@@ -335,6 +335,7 @@ html {
     position: relative;
 }
 
+.lkmob2ChangePD .changeDataAddress::after,
 .afterLine::after {
     content: '';
     height: 1px;
@@ -1016,9 +1017,19 @@ html {
         padding: 30px 0 45px;
     }
 
+    .lkmob2ChangePD .changeDataAddress::after,
     .showIt.Option::after,
     .activeOption.afterLine::after {
         height: 7px;
+    }
+
+    .lkmob2ChangePD .activeOption.afterLine::after {
+        background-color: transparent;
+    }
+
+    .lkmob2ChangePD .activeOption .DeskLimit {
+        font-weight: 500;
+        color: #7E7E7E;
     }
 
     .CardPage .Option,

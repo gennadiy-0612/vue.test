@@ -578,17 +578,25 @@ html {
     font-family: "Montserrat", serif;
 }
 
-.tryIt .H2Papa {
-    margin: 28px auto 14px;
+.CardPage .tryIt {
+    margin-top: 28px;
 }
 
 .CardPage .LoadBar {
     height: 47px;
-    margin: 0 auto 11px;
+    margin: 0 auto 11px 0;
 }
 
 .CardPage .swipe {
-    margin: 15px auto 29px;
+    margin: 15px -16px 29px auto;
+}
+
+.CardPage .promoCode {
+    background-color: transparent;
+}
+
+.CardPage .recommend::after {
+    content: none;
 }
 
 .CardPage .afterLine::after {
@@ -621,7 +629,17 @@ html {
     width: 100%;
 }
 
-@media (min-height: 320px) and (max-height: 1279px) {
+/*oformzakaza page*/
+.oformZakaz .OrderMore-add-to-card-black {
+    font-weight: 600;
+}
+
+.Order .searchButton {
+    font-size: 14px;
+}
+
+/*oformzakaza page*/
+@media (min-width: 321px) and (max-height: 1279px) {
     .CardPage .YoursPresent .Photo__img,
     .CardPage .tryIt .Photo__img {
         height: 80%;
@@ -633,10 +651,11 @@ html {
         content: none;
     }
 
-.YoursPresent{
-    display: flex;
-    flex-direction: column;
-}
+    .CardPage .YoursPresent {
+        display: flex;
+        flex-direction: column;
+    }
+
     .MobHide {
         display: none;
     }
@@ -2208,6 +2227,19 @@ html {
     .SeeItItems__price {
         font-size: 21px;
         line-height: 40px;
+    }
+
+    .CardPage .tryIt {
+        margin: 68px 0 0;
+    }
+
+    .CardPage .DeskH2 {
+        margin: 0 0 30px 20px;
+    }
+
+    .CardPage .swipe {
+        margin: 14px auto 0;
+        padding-bottom: 0;
     }
 
     .CardPage__choice {

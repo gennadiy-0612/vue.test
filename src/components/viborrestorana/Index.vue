@@ -72,8 +72,8 @@
   bottom: 0;
   margin: auto;
   left: 0;
-  height: 14px;
-  width: 14px;
+  height: 16px;
+  width: 16px;
   border-radius: 50%;
   border: 1px solid #8D8D8D;
 }

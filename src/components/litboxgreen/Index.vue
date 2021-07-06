@@ -1,15 +1,30 @@
 <template>
   <div id="info" class="LightBoxGreen">
-    <router-link to="#" class="closePopUp block absolute right-0"></router-link>
+    <router-link to="#app" class="closePopUp block absolute right-0"></router-link>
     <p class="Ag-h3-to-1070 text-white">Пепперони</p>
     <p class="Ag-text12-to-1070 color7E7E7E p-tb5">Пищевая ценность на 100 г</p>
-      <table class="w-full">
-        <tr><td class="text-white Ag-text14-to-1070 line-h">Энерг. ценность</td><td class="text-white text-right">253,4 ккал</td></tr>
-        <tr><td class="text-white Ag-text14-to-1070 line-h">Белки</td><td class="text-white text-right">9,4 г</td></tr>
-        <tr><td class="text-white Ag-text14-to-1070 line-h">Жиры</td><td class="text-white text-right">7,1 г</td></tr>
-        <tr><td class="text-white Ag-text14-to-1070 line-h">Углеводы</td><td class="text-white text-right">36,3 г</td></tr>
-        <tr><td class="text-white Ag-text14-to-1070 line-h">Вес</td><td class="text-white text-right">700 г</td></tr>
-      </table>
+    <table class="w-full">
+      <tr>
+        <td class="text-white Ag-text14-to-1070 line-h">Энерг. ценность</td>
+        <td class="text-white text-right PopUppValue">253,4 ккал</td>
+      </tr>
+      <tr>
+        <td class="text-white Ag-text14-to-1070 line-h">Белки</td>
+        <td class="text-white text-right PopUppValue">9,4 г</td>
+      </tr>
+      <tr>
+        <td class="text-white Ag-text14-to-1070 line-h">Жиры</td>
+        <td class="text-white text-right PopUppValue">7,1 г</td>
+      </tr>
+      <tr>
+        <td class="text-white Ag-text14-to-1070 line-h">Углеводы</td>
+        <td class="text-white text-right PopUppValue">36,3 г</td>
+      </tr>
+      <tr>
+        <td class="text-white Ag-text14-to-1070 line-h">Вес</td>
+        <td class="text-white text-right PopUppValue">700 г</td>
+      </tr>
+    </table>
   </div>
 </template>
 
@@ -39,5 +54,10 @@
   align-items: center;
   justify-content: center;
   background-color: #465500;
+}
+
+.PopUppValue {
+  font-family: "Montserrat", serif;
+  font-weight: 700;
 }
 </style>

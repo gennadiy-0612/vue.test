@@ -3,7 +3,7 @@
 </template>
 <style scoped>
 .OrderMore-add-to-card-green {
-  background-color: #009200;
+  background-color: #465500;
   line-height: 45px;
   font-weight: 600;
   transition-property: color, background-color;
@@ -11,7 +11,7 @@
 }
 
 .OrderMore-add-to-card-green:hover {
-  color: #009200;
+  color: #465500;
   background-color: #E6E6E6;
 }
 </style>

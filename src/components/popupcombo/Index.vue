@@ -28,7 +28,9 @@
 }
 
 .popUpCombo .Photo__img {
-  height: 167px;
+  min-height: 167px;
+  height: auto;
+  width: 100%;
   margin-top: 7px;
 }
 

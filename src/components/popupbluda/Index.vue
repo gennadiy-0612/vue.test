@@ -28,7 +28,9 @@
 }
 
 .popUpBluda .Photo__img {
-  height: 179px;
+  min-height: 179px;
+  height: auto;
+  width: 100%;
 }
 .popUpBluda .commonPrice{
   font-size: 20px;

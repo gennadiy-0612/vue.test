@@ -2458,6 +2458,14 @@ html {
         line-height: 30px;
     }
 
+    .ComboPage .ComboNabButton {
+        font-weight: 600;
+    }
+
+    .ComboPage .DescriptionItem__price {
+        font-weight: 700;
+    }
+
     .DescriptionItemInfo {
         max-width: 393px;
         padding-left: 0.5vw;

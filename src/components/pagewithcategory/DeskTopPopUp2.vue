@@ -1,5 +1,5 @@
 <template>
-  <div class="CardPop2 MobHide CardInfoBack fixed bottom-0 left-0 top-0 bottom-0 h-full w-full flex justify-center items-center">
+  <div class="CardPop2 MobHide CardInfoBack fixed bottom-0 left-0 top-0 bottom-0 h-full w-full flex justify-center items-center hideIt">
     <div class="CardInfoBanner CardInfoDeskTop fixed bg-white flex">
       <div class="CardInfo">
         <h3 class="CardInfo__H3 xl:font-semibold">Pop2 Пицца Филадельфия</h3>

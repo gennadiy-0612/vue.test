@@ -1,5 +1,5 @@
 <template>
-  <div class="popUpFrame popUpFrame1 popUpFrame2 popUpReady flex justify-center items-center h-full w-full">
+  <div class="popUpFrame popUpFrame1 popUpFrame2 DeskPopUp2 popUpReady flex justify-center items-center h-full w-full">
     <div class="popUpFrameInner">
       <div class="xl:hidden">
         <router-link to="/">

@@ -814,8 +814,9 @@ html {
     }
 
     .MenuContent__a {
-        font-size: 2.5vh;
         letter-spacing: -0.6px;
+        font-weight: 300;
+        font-size: 26px;
     }
 
     .CenteringOneItem {
@@ -2085,6 +2086,10 @@ html {
         text-align: left;
         line-height: 38px;
         margin-top: -8px;
+    }
+
+    .DeskPopUp2 .DeskButtonsSet button {
+        max-width: 34%;
     }
 
     .popUpFrame2 .popUpFrame__pSet .PopUpHead {

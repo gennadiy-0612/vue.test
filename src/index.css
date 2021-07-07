@@ -810,6 +810,9 @@ html {
 }
 
 @media (min-width: 1280px) {
+    .DeskHide {
+        display: none;
+    }
 
     .bgE4E4E4 {
         background-color: transparent;

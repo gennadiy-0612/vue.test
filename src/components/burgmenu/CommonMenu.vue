@@ -7,12 +7,27 @@
     <MainLinkLogo/>
     <ol class="MenuContent__ol bgE4E4E4 bg-white xl:bg-transparent relative flex items-center flex-col xl:flex-row justify-center xl:justify-around text-center w-full h-full z-1">
       <li class="MenuContent__li">
-        <router-link to="infocompany" class="Ag6001417 MenuContent__a xl:font-normal text-black MenuContentJS">Информация о компании</router-link>
+        <router-link to="#" class="MobHide Ag6001417 MenuContent__a xl:font-normal text-black MenuContentJS">Меню</router-link>
       <li class="MenuContent__li">
-        <router-link to="infousage" class="Ag6001417 MenuContent__a xl:font-normal text-black">Условия использования</router-link>
+        <router-link to="/events" class="MobHide Ag6001417 MenuContent__a xl:font-normal text-black">Акции</router-link>
       </li>
       <li class="MenuContent__li">
-        <router-link to="/contacts" class="Ag6001417 MenuContent__a text-black">Контакты</router-link>
+        <router-link to="/vkhodoldcode" class="MobHide Ag6001417 MenuContent__a text-black">Доставка и оплата</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link to="/contacts" class="MobHide Ag6001417 MenuContent__a text-black">Контакты</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link to="/vkhodoldcode" class="MobHide Ag6001417 MenuContent__a text-black">Имя пользователя</router-link>
+      </li>
+
+      <li class="MenuContent__li DeskHide">
+        <router-link to="infocompany" class="DeskHide Ag6001417 MenuContent__a xl:font-normal text-black MenuContentJS">Информация о компании</router-link>
+      <li class="MenuContent__li">
+        <router-link to="infousage" class="DeskHide Ag6001417 MenuContent__a xl:font-normal text-black">Условия использования</router-link>
+      </li>
+      <li class="MenuContent__li">
+        <router-link to="/contacts" class="DeskHide Ag6001417 MenuContent__a text-black">Контакты</router-link>
       </li>
     </ol>
     <LogIn/>

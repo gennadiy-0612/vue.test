@@ -31,8 +31,7 @@
         </div>
         <div class="itemCity relative flex">
           <input class="checkIt checkIt2 opacity-0" type="radio" id="address2" name="address" value="Car">
-          <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address2">Добавить новый
-            адрес</label>
+          <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address2">Добавить новый адрес</label>
         </div>
       </form>
       <form class="where">

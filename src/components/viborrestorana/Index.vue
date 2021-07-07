@@ -8,7 +8,7 @@
           </router-link>
           <HeaderTwo msg="Выберите ресторан, где вы хотите сделать заказ"/>
           <div class="whatCity whatCityDesk flex flex-wrap justify-between">
-            <h3 class="Ag-h3-to-1070 whatCityDesk__h3 xl:font-medium whatCityDesk__h3 xl:font-medium-act xl:font-bold">
+            <h3 class="Ag-h3-to-1070 whatCityDesk__h3 whatCity__name xl:font-medium whatCityDesk__h3 xl:font-medium-act xl:font-bold">
               Новосибирск</h3>
             <h3 class="Ag-green-to-1070 whatCityDesk__h3 xl:font-medium">Сменить город</h3>
           </div>

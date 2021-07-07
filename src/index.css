@@ -405,6 +405,10 @@ html {
     margin-top: -14vh;
 }
 
+.ComboPage .mainPage__icons {
+    width: 100%;
+}
+
 .ComboSetsBottom {
     padding-top: 0;
 }
@@ -701,6 +705,10 @@ html {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #465500;
+}
+
+.whatCity__name {
+    color: #000000;
 }
 
 .actPage.router-link-active::after {

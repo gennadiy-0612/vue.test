@@ -340,11 +340,13 @@ html {
     transition-duration: .7s;
     position: relative;
 }
+
 .oformzakaza2 .switchOpt2::after,
 .actPage.router-link-active {
     font-weight: 700;
     color: #465502;
 }
+
 .oformzakaza2 .switchOpt2::after,
 .actPage.router-link-active::after,
 .lkmob2ChangePD .changeDataAddress::after,
@@ -594,7 +596,7 @@ html {
 }
 
 .Contacts .BackM__p {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Montserrat", serif;
 }
 
@@ -704,7 +706,11 @@ html {
 .whatCityDesk__h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    color: #465500;
+    color: #000000;
+}
+
+.whatCityDesk__h3-bold {
+    font-weight: 700;
 }
 
 .actPage.router-link-active::after {
@@ -840,6 +846,7 @@ html {
         max-width: initial;
         height: 40px;
     }
+
     .oformzakaza2 .switchOpt2::after,
     .actPage.router-link-active::after {
         height: 7px;
@@ -898,6 +905,11 @@ html {
         padding: 1vh 20px 0;
     }
 
+    .mainPage .MenuContent {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .oformzakaza .MenuContent,
     .ComboPage .MenuContent {
         max-width: 1680px;
@@ -905,7 +917,7 @@ html {
     }
 
     .MenuContent__ol {
-        flex: 1 1 57%;
+        flex: 1 1 56%;
         margin: 0 -1.3vw 0 5.9vw;
     }
 
@@ -1161,10 +1173,6 @@ html {
     .whatCityDesk__h3 {
         line-height: 24px;
         font-size: 24px;
-        color: #797979;
-    }
-
-    .whatCity__name {
         color: #000000;
     }
 
@@ -1479,7 +1487,8 @@ html {
         width: 16px;
         left: 5px;
     }
-    .OFD .afterLine-PersonData.afterLine::after{
+
+    .OFD .afterLine-PersonData.afterLine::after {
         background-color: #465500;
     }
 
@@ -3177,7 +3186,7 @@ html {
     }
 
     .logCard {
-        margin-right: 30px;
+        margin-right: 20px;
     }
 
     .mainPage__icons {

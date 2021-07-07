@@ -3077,7 +3077,7 @@ html {
     }
 
     .mainPage .mainPage__icons {
-        padding-left: 30%;
+        padding-left: 0;
     }
 
     .mainPage .CarryMenu {
@@ -3087,10 +3087,11 @@ html {
     .mainPage .imgIcon {
         margin: 1vh 3vw 1vh 1vh;
     }
+
     /*infousageHdiv*/
 }
 
-@media (min-width: 1280px) and (max-width: 1900px) {
+@media (min-width: 1280px) and (max-width: 1920px) {
     .ButtonMain {
         display: flex;
         flex: 1 1 12%;
@@ -3108,7 +3109,7 @@ html {
     }
 
     .mainPage .mainPage__icons {
-        width: 100%;
+        width: 90%;
     }
 
     .mainPage .mainItem {
@@ -3164,6 +3165,32 @@ html {
     }
 }
 
+@media (min-width: 1900px) {
+    .mainPage .mainPage__icons {
+        width: 90%;
+    }
+
+    .mainPage .mainPage__addresses {
+        top: -4.8vh;
+
+    }
+
+    .mainPage .CarryMenu {
+        margin-top: -3vh;
+        margin-bottom: 1vh;
+    }
+
+    .mainPage .mainPage__icons {
+        width: 60%;
+        margin-left: auto;
+        margin-right: 11%;
+    }
+
+    .mainPage .desc {
+        justify-content: flex-start;
+    }
+}
+
 @media (max-height: 900px) and (min-width: 1280px) {
     .mainPage .mainPage__icons {
         max-width: 370px;
@@ -3187,6 +3214,11 @@ html {
 @media (min-width: 1280px) and (max-width: 1800px) {
     .mainPage__icons {
         width: 100%;
+    }
+
+    .mainPage .CenteringOneItem {
+        height: 100vh;
+        min-height: 768px;
     }
 
     .AddressesList__main::after {

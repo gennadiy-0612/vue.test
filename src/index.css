@@ -3045,7 +3045,7 @@ html {
 
     .ClosePopUp {
         padding: 0 0 30px 40px;
-        font-size: 27px;
+        font-size: 24px;
         line-height: 27px;
         color: #989898;
     }
@@ -3100,7 +3100,10 @@ html {
     .mainPage .imgIcon {
         margin: 1vh 3vw 1vh 1vh;
     }
-
+    .desc {
+        display: flex;
+        align-items: center;
+    }
     /*infousageHdiv*/
 }
 

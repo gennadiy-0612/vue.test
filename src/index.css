@@ -341,7 +341,7 @@ html {
     position: relative;
 }
 
-.router-link-active {
+.actPage.router-link-active {
     font-weight: 700;
     color: #465502;
 }
@@ -777,11 +777,17 @@ html {
 }
 
 @media (min-width: 1280px) {
+    .DeskPopUp2 .PopUpHeader {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .DeskPopUp2 .OrderMore-add-to-card-green.changeContinue {
         width: 278px;
         min-width: initial;
         max-width: initial;
         height: 40px;
+        line-height: 32px;
     }
 
     .DeskPopUp2 .OrderMore-add-to-card-black.changeCancel {
@@ -3070,6 +3076,17 @@ html {
         padding: 20px 0;
     }
 
+    .mainPage .mainPage__icons {
+        padding-left: 30%;
+    }
+
+    .mainPage .CarryMenu {
+        margin: -3vh 0 1vh;
+    }
+
+    .mainPage .imgIcon {
+        margin: 1vh 3vw 1vh 1vh;
+    }
     /*infousageHdiv*/
 }
 

@@ -17,8 +17,8 @@
       <OrderMove/>
     </div>
     <div class="flex oformZakaz xl:justify-around ofZak1">
-      <GreenButton class="ofZak1_green" msg="Доставка"/>
-      <GreyButton msg="Самовывоз"/>
+      <GreenButtonA class="samAct samLink" msg="Доставка"/>
+      <GreyButtonA class="samAct samLink" msg="Самовывоз"/>
     </div>
     <div class="OrderForms">
       <p class="Ag-text14-to-1070 fs14px MyAddress">Мой адрес</p>
@@ -137,7 +137,8 @@ import AddressTime from '../partpage/AddressTime'
 import HeaderThree from '../partpage/HeaderThree'
 import OrderMove from '../partpage/OrderMove'
 import GreenButton from '../addtocardgreen/Index'
-import GreyButton from '../addtocardgrey/Index'
+import GreenButtonA from '../addtocardgreen/ButtonA'
+import GreyButtonA from '../addtocardgrey/ButtonA'
 import BlackButton from '../addtocardblack/Index'
 import FooterDesk from '../partpage/FooterDesk'
 import MenuBottom from '../menubottom/Index'
@@ -151,7 +152,8 @@ export default {
     HeaderThree,
     OrderMove,
     GreenButton,
-    GreyButton,
+    GreenButtonA,
+    GreyButtonA,
     BlackButton,
     FooterDesk,
     MenuBottom

@@ -725,10 +725,21 @@ html {
     text-align: left;
 }
 
-.bgE4E4E4{
+.bgE4E4E4 {
     background-color: #E4E4E4;
 }
+
 /*oformzakaza page*/
+
+.samAct.samLink {
+    color: #000000;
+    background-color: #E6E6E6;
+}
+
+.samAct.router-link-active {
+    color: #FFFFFF;
+    background-color: #465500;
+}
 
 @media (min-width: 321px) and (max-width: 1279px) {
     .CardPage .YoursPresent .Photo__img,
@@ -802,6 +813,7 @@ html {
     .oformzakaza .setTime {
         text-align: center;
     }
+
     .DeskPopUp2 .PopUpHeader {
         margin-left: 0;
         margin-right: 0;

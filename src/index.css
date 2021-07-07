@@ -340,12 +340,12 @@ html {
     transition-duration: .7s;
     position: relative;
 }
-
+.oformzakaza2 .switchOpt2::after,
 .actPage.router-link-active {
     font-weight: 700;
     color: #465502;
 }
-
+.oformzakaza2 .switchOpt2::after,
 .actPage.router-link-active::after,
 .lkmob2ChangePD .changeDataAddress::after,
 .afterLine::after {
@@ -764,7 +764,6 @@ html {
         max-width: none;
     }
 
-
     .DescriptionItem {
         justify-content: space-between;
     }
@@ -841,7 +840,7 @@ html {
         max-width: initial;
         height: 40px;
     }
-
+    .oformzakaza2 .switchOpt2::after,
     .actPage.router-link-active::after {
         height: 7px;
         background-color: #465500;
@@ -1364,6 +1363,11 @@ html {
         font-family: "Montserrat";
     }
 
+    .lkmPage .searchButton {
+        font-size: 26px;
+        font-family: "Montserrat", serif;
+    }
+
     .ChangePersonData .OrderMore-add-to-card-black {
         margin: 100px 0 0 0;
         max-width: 110px;
@@ -1475,6 +1479,9 @@ html {
         width: 16px;
         left: 5px;
     }
+    .OFD .afterLine-PersonData.afterLine::after{
+        background-color: #465500;
+    }
 
     .OrderMoving {
         max-width: 950px;
@@ -1546,6 +1553,10 @@ html {
         max-width: 346px;
     }
 
+    .oformzakazaAddress {
+        margin-top: 9px;
+    }
+
     .OrderMoveAddresses-e {
         margin: 1vh 0 0;
     }
@@ -1557,6 +1568,20 @@ html {
     .oformZakaz {
         max-width: 850px;
         margin: 70px 0 auto;
+    }
+
+    .oformZakaz .OrderMore-add-to-card-green {
+        margin: 0;
+    }
+
+    .oformZakaz .samAct.router-link-active {
+        color: #000000;
+        background-color: #FFFFFF;
+    }
+
+    .oformZakaz .samAct {
+        background-color: #000000;
+        color: #FFFFFF;
     }
 
     .ofZak1 {

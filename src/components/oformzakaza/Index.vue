@@ -1,11 +1,11 @@
 <template>
-  <div class="oformzakaza Order FrameDesk xl:m-auto FrameMob">
+  <div class="oformzakaza OFD Order FrameDesk xl:m-auto FrameMob">
     <div class="Header HeadOfZak flex justify-between">
       <Address/>
       <BurgMenu/>
     </div>
     <div
-        class="OrderMoveAddresses float-left MobHide OMAddZak bg-white xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
+        class="OrderMoveAddresses oformzakazaAddress float-left MobHide OMAddZak bg-white xl:items-end xl:flex-col CenteringOneItem xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressTime/>
     </div>
     <div class="OrderMove__head">
@@ -16,7 +16,7 @@
     <div class="OrderMoveFrame">
       <OrderMove/>
     </div>
-    <div class="flex oformZakaz xl:justify-around ofZak1">
+    <div class="flex oformZakaz xl:justify-around ofZak1 xl:items-center">
       <GreenButtonA class="samAct samLink" msg="Доставка"/>
       <GreyButtonA class="samAct samLink" msg="Самовывоз"/>
     </div>

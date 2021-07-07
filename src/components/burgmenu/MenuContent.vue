@@ -1,6 +1,6 @@
 <template>
   <div id="MenuContent"
-       class="MenuContent hidden flex flex-wrap items-start justify-items-start absolute top-0 left-0 w-full">
+       class="MenuContent bgE4E4E4 hidden flex flex-wrap items-start justify-items-start absolute top-0 left-0 w-full">
     <a to="#" class="closeX fixed right-2 z-2 block top-0 MenuContent__x">
       <X/>
     </a>

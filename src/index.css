@@ -458,7 +458,6 @@ html {
 }
 
 .choiceTime {
-    max-width: 600px;
     margin: 13px auto 10px;
 }
 
@@ -722,6 +721,13 @@ html {
     padding: 0;
 }
 
+.oformzakaza .setTime {
+    text-align: left;
+}
+
+.bgE4E4E4{
+    background-color: #E4E4E4;
+}
 /*oformzakaza page*/
 
 @media (min-width: 321px) and (max-width: 1279px) {
@@ -793,6 +799,9 @@ html {
 }
 
 @media (min-width: 1280px) {
+    .oformzakaza .setTime {
+        text-align: center;
+    }
     .DeskPopUp2 .PopUpHeader {
         margin-left: 0;
         margin-right: 0;
@@ -1135,9 +1144,11 @@ html {
         font-size: 24px;
         color: #797979;
     }
+
     .whatCity__name {
         color: #000000;
     }
+
     .DeskMapPage .addressOfCity {
         margin: 0 23px;
     }

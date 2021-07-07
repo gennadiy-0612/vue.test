@@ -80,11 +80,6 @@
   font-weight: 400;
 }
 
-.router-link-active {
-  font-weight: 700;
-  color: #465502;
-}
-
 .ChangePD .raw {
   margin: 0 -5px -1px;
 }

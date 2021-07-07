@@ -41,9 +41,9 @@
         <AddToCardGreen msg="Оформить заказ"/>
         <div class="ComboAdd">
           <div class="Card__more-discount xl:relative xl:left-0">
-            <p class="Ag6001624 Card__more">Закажи еще и заберите подарок</p>
+            <p class="Ag6001624 Card__more">Закажите еще и заберите подарок</p>
             <div class="flex items-center">
-              <LoadBar class="xl:hidden"/>
+              <LoadBar class="LoadPresent"/>
               <p class="Ag4001624 font-semibold LoadPrice relative">301.-</p>
             </div>
           </div>

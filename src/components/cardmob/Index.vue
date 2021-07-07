@@ -86,7 +86,7 @@
               <p class="Ag-text14-to-1070 CardWith">Со сливочным сыром и ломтиками слабосоленого лосося</p>
             </div>
             <div class="CardPage-discount xl:relative">
-              <p class="Ag6001624 CardPage__more">Закажи еще и заберите подарок</p>
+              <p class="Ag6001624 CardPage__more">Закажите еще и заберите подарок</p>
               <div class="Card__load flex items-center">
                 <LoadBar class="CardPage__load"/>
                 <p class="Ag4001624 font-semibold Card__LoadPrice relative">301.-</p></div>

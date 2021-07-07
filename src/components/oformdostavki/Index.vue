@@ -22,21 +22,21 @@
           </div>
           <div class="dataPerson">
             <div class="OrderAct__line flex justify-between">
-              <p class="Ag-text14-to-1070 oformsamovivoza__Oreder">Имя</p>
+              <p class="Ag-text14-to-1070 oformsamovivoza__Oreder f300">Имя</p>
               <p class="Ag-text1421-to-1070 OrderAct__data oformsamovivoza__Oreder">Виктор</p>
             </div>
             <div class="OrderAct__line flex justify-between">
-              <p class="Ag-text14-to-1070 oformsamovivoza__Oreder">Телефон</p>
+              <p class="Ag-text14-to-1070 oformsamovivoza__Oreder f300">Телефон</p>
               <p class="Ag-text1421-to-1070 OrderAct__data oformsamovivoza__Oreder">+79998889778</p>
             </div>
             <div class="OrderAct__line flex items-center flex-wrap justify-between">
-              <p class="OrderAct__item1 Ag-text14-to-1070 oformsamovivoza__Oreder">Адрес самовывоза</p>
+              <p class="OrderAct__item1 Ag-text14-to-1070 oformsamovivoza__Oreder f300">Адрес самовывоза</p>
               <p class="OrderAct__item2 Ag-text1421-to-1070 text-right OrderAct__data oformsamovivoza__Oreder">Улица
                 Военная,<br class="xl:hidden"/> 5, ТРЦ “Аура”</p>
             </div>
             <div class="OrderAct__line flex justify-between oformZakSam__set">
-              <p class="Ag-text14-to-1070 oformZakSam__button">Время самовывоза</p>
-              <p class="Ag-text1421-to-1070 flex justify-center items-center OrderAct__data oformZakSam__button">
+              <p class="Ag-text14-to-1070 oformZakSam__button f300">Время самовывоза</p>
+              <p class="Ag-text1421-to-1070 flex justify-center items-center OrderAct__data oformZakSam__button nearTimeNeed">
                 Ближайшее</p>
             </div>
           </div>

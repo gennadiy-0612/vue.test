@@ -81,14 +81,12 @@
       <p class="Ag-text14-to-1070 infousageP">3.3. Служба доставки Перчини защищает Данные, которые автоматически
         передаются в процессе просмотра рекламных
         блоков и при посещении страниц, на которых установлен статистический скрипт системы ("пиксель"):</p>
-      <ul>
-        <li class="infousageP">IP адрес;</li>
-        <li class="infousageP">информация из cookies;</li>
-        <li class="infousageP">информация о браузере (или иной программе, которая осуществляет доступ к показу рекламы);</li>
-        <li class="infousageP">время доступа;</li>
-        <li class="infousageP">адрес страницы, на которой расположен рекламный блок;</li>
-        <li class="infousageP">реферер (адрес предыдущей страницы).</li>
-      </ul>
+        <p class="infousageP fontMontserrat">IP адрес;</p>
+        <p class="infousageP fontMontserrat">информация из cookies;</p>
+        <p class="infousageP fontMontserrat">информация о браузере (или иной программе, которая осуществляет доступ к показу рекламы);</p>
+        <p class="infousageP fontMontserrat">время доступа;</p>
+        <p class="infousageP fontMontserrat">адрес страницы, на которой расположен рекламный блок;</p>
+        <p class="infousageP fontMontserrat">реферер (адрес предыдущей страницы).</p>
       <p class="Ag-text14-to-1070 infousageP">3.3.1. Отключение cookies может повлечь невозможность доступа к частям сайта
         Службы доставки Перчини, требующим
         авторизации.</p>

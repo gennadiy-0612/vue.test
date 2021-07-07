@@ -6,7 +6,7 @@
           <X/>
         </router-link>
       </div>
-      <HeaderPopUp msg="Вы собираетесь изменить адрес доставки"/>
+      <HeaderPopUp  msg="Вы собираетесь изменить адрес доставки"/>
       <div class="popUpFrame__pSet">
         <ParaGraph msg="Позиции добавленные корзину будут удалены."/>
       </div>
@@ -14,8 +14,8 @@
         <GreenButton msg="Готово"/>
       </div>
       <div class="DeskButtonsSet MobHide flex justify-between">
-        <GreenButton msg="Продолжить"/>
-        <BlackButton msg="Отменить"/>
+        <GreenButton class="changeContinue" msg="Продолжить"/>
+        <BlackButton class="changeCancel" msg="Отменить"/>
       </div>
     </div>
   </div>

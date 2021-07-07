@@ -49,7 +49,7 @@
           </div>
           <div class="MobHide vision">
             <img class="PresentPizza xl:object-cover xl:z-1" alt="alt" src="../../assets/img/photo86x59px.svg">
-            <p class="PresentText text-center">Пицца Вулкан в подаок!</p>
+            <p class="PresentText text-center">Пицца Вулкан в подарок!</p>
           </div>
         </div>
       </div>

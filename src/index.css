@@ -30,6 +30,11 @@ html {
     padding: 16px;
 }
 
+.oformzakaza1 .OrderMore-add-to-card-black,
+.oformzakaza1 .OrderMore-add-to-card-green {
+    line-height: 45px;
+}
+
 .FrameMob {
     padding: 35px 16px 90px;
 }
@@ -341,12 +346,14 @@ html {
     position: relative;
 }
 
-.oformzakaza2 .switchOpt2::after,
+.oformzakaza1 .switchOpt2,
+.oformzakaza2 .switchOpt2,
 .actPage.router-link-active {
     font-weight: 700;
     color: #465502;
 }
 
+.oformzakaza1 .switchOpt2::after,
 .oformzakaza2 .switchOpt2::after,
 .actPage.router-link-active::after,
 .lkmob2ChangePD .changeDataAddress::after,
@@ -742,6 +749,7 @@ html {
     background-color: #E6E6E6;
 }
 
+.oformzakaza1 .OrderMore-add-to-card-black,
 .samAct.router-link-active {
     color: #FFFFFF;
     background-color: #465500;
@@ -847,6 +855,7 @@ html {
         height: 40px;
     }
 
+    .oformzakaza1 .switchOpt2::after,
     .oformzakaza2 .switchOpt2::after,
     .actPage.router-link-active::after {
         height: 7px;
@@ -1056,6 +1065,7 @@ html {
     .iconsThemes:hover .imgIcon {
         fill: #465500;
     }
+
     .ITInner {
         margin-right: 0;
         width: 100%;
@@ -1314,6 +1324,10 @@ html {
 
     .DeskLimit {
         max-width: 200px;
+    }
+
+    .oformzakaza2 .switchOpt2 .DeskLimit {
+        font-weight: 700;
     }
 
     .Order .Option {
@@ -1596,6 +1610,11 @@ html {
         color: #FFFFFF;
     }
 
+    .oformzakaza1 .OrderMore-add-to-card-black {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+
     .ofZak1 {
         max-width: 704px;
         margin: 65px auto 0;
@@ -1773,10 +1792,6 @@ html {
 
     .p-oformZakaz1.afterLine::after {
         bottom: 6px;
-    }
-
-    .oformZakaz1 {
-        visibility: collapse;
     }
 
     .showIt .oformZakaz1 {
@@ -2645,10 +2660,6 @@ html {
 
     .CompleteIt__discount-digit {
         font-size: 25px;
-    }
-
-    .OrderMore-add-to-card-gree {
-        font-size: 28px;
     }
 
     .CompleteIt__do {

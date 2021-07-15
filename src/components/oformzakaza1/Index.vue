@@ -1,5 +1,5 @@
 <template>
-  <div class="Order OrderMove FrameDesk xl:m-auto FrameMob oformzakaza oformzakaza1">
+  <div class="Order OFD OrderMove FrameDesk xl:m-auto FrameMob oformzakaza oformzakaza1">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
@@ -17,8 +17,12 @@
       <OrderMove/>
     </div>
     <div class="flex oformZakaz xl:justify-around ofZak1 xl:items-center">
-      <GreyButton class="ofZak1_green" msg="Доставка"/>
-      <GreenButton msg="Самовывоз"/>
+      <router-link to="/oformzakaza" class="OrderMore-add-to-card-green xl:block text-white Ag-text18-to-1070 w-full text-center samAct samLink">
+        Доставка
+      </router-link>
+      <router-link to="/oformzakaza2" class="OrderMore-add-to-card-black bg-black font-semibold Ag-text18-to-1070 E4E4E4 text-center samAct samLink">
+        Самовывоз
+      </router-link>
     </div>
     <div><h3 class="inline xl:block Ag-h3-to-1070 whereTake xl:text-center">Ваш заказ можете забрать по адресу</h3>
       <div class="addressPoint">
@@ -134,7 +138,6 @@ import AddressTime from '../partpage/AddressTime'
 import HeaderThree from '../partpage/HeaderThree'
 import OrderMove from '../partpage/OrderMove'
 import GreenButton from '../addtocardgreen/Index'
-import GreyButton from '../addtocardgrey/Index'
 import BlackButton from '../addtocardblack/Index'
 import MenuBottom from '../menubottom/Index'
 
@@ -152,7 +155,6 @@ export default {
     HeaderThree,
     OrderMove,
     GreenButton,
-    GreyButton,
     BlackButton,
     MenuBottom,
     X,
@@ -181,7 +183,5 @@ if (window.location.pathname === '/oformzakaza' || window.location.pathname === 
   window.addEventListener('load', cardSwitcher3.addE.bind(cardSwitcher3));
   let AddressesListMain = new shch('.AddressesList__main', 'showIt');
   window.addEventListener('load', AddressesListMain.addE.bind(AddressesListMain));
-  let TimeShow = new shch('.TimeShow', 'showIt');
-  window.addEventListener('load', TimeShow.addE.bind(TimeShow));
 }
 </script>

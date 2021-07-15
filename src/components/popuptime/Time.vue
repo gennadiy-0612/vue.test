@@ -1,9 +1,9 @@
 <template>
-  <div class="timeRow flex justify-between items-center afterLine relative padd-lr-5px">
+  <router-link to="/" class="block timeRow flex justify-between items-center afterLine relative padd-lr-5px">
     <p class="Ag-text18-to-1070 p-oformZakaz1">{{ from }}</p>
     <p>-</p>
     <p class="Ag-text18-to-1070 p-oformZakaz1">{{ to }}</p>
-  </div>
+  </router-link>
 </template>
 <style>
 .padd-lr-5px {

@@ -1,5 +1,5 @@
 <template>
-  <div class="Order OrderMove OPD FrameDesk xl:m-auto FrameMob oformzakaza oformzakaza2">
+  <div class="Order OFD OrderMove OPD FrameDesk xl:m-auto FrameMob oformzakaza oformzakaza2">
     <div class="Header flex justify-between">
       <Address/>
       <BurgMenu/>
@@ -29,10 +29,9 @@
       </div>
     </div>
     <div class="choiceTime flex flex-wrap justify-between">
-      <div
-          class="setTime timeButton timeButtonHide Ag-text14-to-1070 line-h17px choiceTimeT xl:font-semibold text-center">
+      <router-link to="oformzakaza1" class="block setTime timeButton timeButtonHide Ag-text14-to-1070 line-h17px choiceTimeT xl:font-semibold text-center">
         Выберите время
-      </div>
+      </router-link>
       <div
           class="choiceTimeT TimeShow xl:relative">
       </div>

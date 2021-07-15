@@ -3278,7 +3278,6 @@ html {
 
     .mainPage .mainPage__addresses {
         top: -4.8vh;
-
     }
 
     .mainPage .CarryMenu {
@@ -3323,11 +3322,14 @@ html {
     }
 
     .mainPage .CenteringOneItem {
-        height: 100vh;
         min-height: 768px;
     }
 
     .AddressesList__main::after {
         right: 0;
+    }
+
+    .ButtonMain__logo {
+        margin: 0.5vh auto 1vh auto;
     }
 }

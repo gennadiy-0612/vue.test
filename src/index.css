@@ -3333,4 +3333,7 @@ html {
     .ButtonMain__logo {
         margin: 0.5vh auto 1vh auto;
     }
+    .mainPage{
+        padding:0 30px;
+    }
 }

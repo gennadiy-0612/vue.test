@@ -856,6 +856,7 @@ html {
         height: 40px;
     }
 
+    .oformsamovivoza .changeDataPerson::after,
     .oformzakaza1 .switchOpt2::after,
     .oformzakaza2 .switchOpt2::after,
     .actPage.router-link-active::after {

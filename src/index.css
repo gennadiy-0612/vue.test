@@ -910,12 +910,6 @@ html {
         padding-right: 0;
     }
 
-    .oformzakaza .MenuContent,
-    .ComboPage .MenuContent {
-        max-width: 1680px;
-        padding: 1vh 0 0;
-    }
-
     .MenuContent__ol {
         flex: 1 1 42.5%;
         padding: 0 1.3vw 0 0;
@@ -961,6 +955,7 @@ html {
         max-width: 119px;
         flex: 1 1 5%;
         height: 58px;
+        margin-top: -7px;
     }
 
     .logCard__li {

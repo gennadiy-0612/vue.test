@@ -3,9 +3,11 @@
     <div class="mainBack bg-no-repeat bg-cover bg-center xl:bg-none xl:h-auto">
       <MenuTop/>
     </div>
-    <div class="xl:items-end xl:flex-col CenteringOneItem xl:items-center xl:h-full flex flex-col justify-center items-center xl:items-start">
+    <div
+        class="xl:items-end xl:flex-col CenteringOneItem xl:items-center xl:h-full flex flex-col justify-center items-center xl:items-start">
       <AddressesList xl:m-0 xl:relative xl:w-full class="MobHide mainPage__addresses xl:top-0"/>
-      <p class="MobHide CarryMenu xl:flex xl:flex-col xl:align-baseline Ag-text14-to-1070 font-bold w-full text-center">Меню доставки</p>
+      <p class="MobHide CarryMenu xl:flex xl:flex-col xl:align-baseline Ag-text14-to-1070 font-bold w-full text-center">
+        Меню доставки</p>
       <div class="flex justify-between flex-wrap mainPage__icons">
         <div class="iconsThemes flex flex-col items-center justify-between self-center">
           <div class="descImg flex justify-center items-center">
@@ -66,7 +68,8 @@
         <h4 class="MainEat__head xl:font-semibold MainEat__head-2">
           <router-link to="/events">АКЦИИ</router-link>
         </h4>
-        <a class="MainEat__link xl:font-bold MainEat__link xl:font-bold-2 block" href="#" title="Посмотреть">Посмотреть</a>
+        <a class="MainEat__link xl:font-bold MainEat__link xl:font-bold-2 block" href="#"
+           title="Посмотреть">Посмотреть</a>
       </div>
     </div>
     <FooterDesk/>
@@ -107,6 +110,14 @@
 .iconsThemes {
   flex: 1 1 33%;
   height: 112px;
+}
+
+.iconsThemes:hover .imgIcon {
+  fill: #465500;
+}
+
+.iconsThemes:hover .mainItem {
+  color: #465500;
 }
 
 .descImg {

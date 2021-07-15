@@ -46,6 +46,7 @@
 }
 
 .LogIcon {
+  height: 80%;
   fill: #000000;
 }
 

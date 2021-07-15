@@ -5,7 +5,7 @@
       <X class="XMenuContentJS xl:hidden"/>
     </router-link>
     <MainLinkLogo/>
-    <ol class="MenuContent__ol bgE4E4E4 bg-white xl:bg-transparent relative flex items-center flex-col xl:flex-row justify-center xl:justify-around text-center w-full h-full z-1">
+    <ol class="MenuContent__ol bgE4E4E4 bg-white xl:bg-transparent relative flex items-center flex-col xl:flex-row justify-center xl:justify-between text-center w-full h-full z-1">
       <li class="MenuContent__li">
         <router-link to="#" class="MobHide Ag6001417 MenuContent__a xl:font-normal text-black MenuContentJS">Меню</router-link>
       <li class="MenuContent__li">
@@ -23,11 +23,11 @@
 
       <li class="MenuContent__li DeskHide">
         <router-link to="infocompany" class="DeskHide Ag6001417 MenuContent__a xl:font-normal text-black MenuContentJS">Информация о компании</router-link>
-      <li class="MenuContent__li">
-        <router-link to="infousage" class="DeskHide Ag6001417 MenuContent__a xl:font-normal text-black">Условия использования</router-link>
+      <li class="DeskHide MenuContent__li">
+        <router-link to="infousage" class="Ag6001417 MenuContent__a xl:font-normal text-black">Условия использования</router-link>
       </li>
-      <li class="MenuContent__li">
-        <router-link to="/contacts" class="DeskHide Ag6001417 MenuContent__a text-black">Контакты</router-link>
+      <li class="DeskHide MenuContent__li">
+        <router-link to="/contacts" class="Ag6001417 MenuContent__a text-black">Контакты</router-link>
       </li>
     </ol>
     <LogIn/>

@@ -78,7 +78,7 @@
       <div class="Order__setButtons HeadOfZak-OtherSB flex flex-col xl:flex-row justify-between xl:items-center">
         <GreenButton class="xl:hidden" msg="Перейти к подтверждению"/>
         <BlackButton class="oformzakaza-backToCard" msg="Назад в корзину"/>
-        <button class="OrderMore-add-to-card-green xl:block text-white Ag-text18-to-1070 w-full text-center greenButtonStyled">Далее</button>
+        <GreenButton class="MobHide greenButtonStyled" msg="Далее"/>
       </div>
     </div>
     <FooterDesk/>

@@ -346,6 +346,7 @@ html {
     transition-duration: .7s;
     position: relative;
 }
+
 .oformsamovivoza .switchOpt3,
 .oformzakaza1 .switchOpt2,
 .oformzakaza2 .switchOpt2,
@@ -354,6 +355,7 @@ html {
     color: #465502;
 }
 
+.oformsamovivoza .afterLine-PersonData.afterLine::after,
 .oformsamovivoza .switchOpt3::after,
 .oformzakaza1 .switchOpt2::after,
 .oformzakaza2 .switchOpt2::after,

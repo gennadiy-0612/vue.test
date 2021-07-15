@@ -1602,13 +1602,13 @@ html {
     }
 
     .oformZakaz .samAct.router-link-active {
-        color: #000000;
-        background-color: #FFFFFF;
+        background-color: #000000;
+        color: #FFFFFF;
     }
 
     .oformZakaz .samAct {
-        background-color: #000000;
-        color: #FFFFFF;
+        color: #000000;
+        background-color: #FFFFFF;
     }
 
     .oformzakaza1 .OrderMore-add-to-card-black {

@@ -78,11 +78,11 @@
           </div>
           <div class="itemCity relative flex">
             <input class="checkIt opacity-0" type="radio" id="address2" name="address2" value="Car">
-            <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address2">Картой курьеру</label>
+            <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address2">Картой в ресторане</label>
           </div>
           <div class="itemCity relative flex">
             <input class="checkIt opacity-0" type="radio" id="address3" name="address2" value="Car">
-            <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address3">Наличными курьеру</label>
+            <label class="addressGost flex Ag-text14-to-1070 line-h17px fs14px block" for="address3">Наличными в ресторане</label>
           </div>
         </form>
         <div class="Order__setButtons xl:hidden flex flex-col xl:flex-row justify-between xl:items-center">

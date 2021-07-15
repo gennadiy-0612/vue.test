@@ -62,7 +62,7 @@
 }
 
 .addressGost {
-  margin-left: 5px;
+  margin-left: 10px;
   line-height: 20px;
 }
 

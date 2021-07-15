@@ -346,7 +346,7 @@ html {
     transition-duration: .7s;
     position: relative;
 }
-
+.oformsamovivoza .switchOpt3,
 .oformzakaza1 .switchOpt2,
 .oformzakaza2 .switchOpt2,
 .actPage.router-link-active {
@@ -354,6 +354,7 @@ html {
     color: #465502;
 }
 
+.oformsamovivoza .switchOpt3::after,
 .oformzakaza1 .switchOpt2::after,
 .oformzakaza2 .switchOpt2::after,
 .actPage.router-link-active::after,
@@ -488,10 +489,6 @@ html {
     padding: 23px 12px;
     flex: 1 1 60%;
     background-color: transparent;
-}
-
-.addressGost {
-    margin: 0 0 0 10px;
 }
 
 .Order__setButtons .BackToOrder {
@@ -1214,6 +1211,10 @@ html {
 
     .DeskMapPage .afterLine::after {
         content: none;
+    }
+
+    .addressGost {
+        margin-left: 0;
     }
 
     .DeskMapPage .addressGost {
@@ -3333,7 +3334,8 @@ html {
     .ButtonMain__logo {
         margin: 0.5vh auto 1vh auto;
     }
-    .mainPage{
-        padding:0 30px;
+
+    .mainPage {
+        padding: 0 30px;
     }
 }

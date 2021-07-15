@@ -1053,6 +1053,14 @@ html {
         padding: 1.45vh 0;
     }
 
+    .imgIcon {
+        transition-property: fill;
+        transition-duration: .7s;
+    }
+
+    .iconsThemes:hover .imgIcon {
+        fill: #465500;
+    }
     .ITInner {
         margin-right: 0;
         width: 100%;

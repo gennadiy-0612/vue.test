@@ -229,19 +229,13 @@
   height: 112px;
 }
 
-.iconsThemes:hover .imgIcon {
-  fill: #465500;
-}
-
 .iconsThemes:hover .mainItem {
   color: #465500;
 }
 
-.iconsThemes {
-  flex: 1 1 33%;
-  height: 112px;
-  transition-property: fill;
-  transition-duration: .7s;
+.mainItem {
+  transition-property: color;
+  transition-duration: .7s
 }
 
 .descImg {
